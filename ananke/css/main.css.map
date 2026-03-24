@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/runner/work/overwatch-fan-blog/overwatch-fan-blog",
+	"sourceRoot": "/home/runner/work/GenAI-news-site/GenAI-news-site",
 	"sources": [
 		"ananke/css/main.css"
 	],
