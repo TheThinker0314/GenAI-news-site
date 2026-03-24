@@ -7,3 +7,13 @@ theme = 'ananke'
   description = 'Your daily source for the latest news and trends in Generative AI.'
   custom_css = ["css/custom.css"]
   background_color_class = "bg-black"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "News"
+    url = "/posts/"
+    weight = 2
