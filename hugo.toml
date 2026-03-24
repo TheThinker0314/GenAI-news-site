@@ -1,4 +1,5 @@
-baseURL = 'https://TheThinker0314.github.io/overwatch-fan-blog/'
+baseURL = 'https://TheThinker0314.github.io/GenAI-news-site/'
 languageCode = 'en-us'
-title = 'Overwatch Fan Blog'
+title = 'GenAI News Site'
 theme = 'ananke'
+description = 'Your daily source for the latest news and trends in Generative AI.'
