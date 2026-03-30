@@ -5,10 +5,16 @@ theme = 'ananke'
 enableRobotsTXT = true
 
 [params]
-  description = 'Your daily source for the latest news and trends in Generative AI. Stay updated with AI models, tools, and breakthroughs.'
+  description = 'The GenAI News Hub is your daily source for the latest breakthroughs, trends, models, and analysis in the world of Generative Artificial Intelligence. Explore AI news, ChatGPT updates, LLM developments, and tech advancements.'
   custom_css = ["css/custom.css"]
   background_color_class = "bg-black"
+  author = "GenAI News Team"
+  site_logo = ""
+  favicon = ""
   env = "production"
+  # SEO Enhancements
+  images = ["images/og-image.jpg"]
+  twitter_card = "summary_large_image"
 
 [menu]
   [[menu.main]]
@@ -19,3 +25,17 @@ enableRobotsTXT = true
     name = "News"
     url = "/posts/"
     weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.8
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
