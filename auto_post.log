@@ -2353,3 +2353,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: we-dont-let-babies-play-with-electricity--why-are-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c967a9c] feat: Auto-post uk-watchdog-issues-first-guidance-on-generative-ai.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/uk-watchdog-issues-first-guidance-on-generative-ai.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c967a9c4d8bd5a233e406c594d58db8c501bb174 but expected 95a1a5bfac8eebcd011002a8334929037180bca4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: uk-watchdog-issues-first-guidance-on-generative-ai.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
