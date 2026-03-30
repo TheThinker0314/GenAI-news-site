@@ -2403,3 +2403,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: audiio-loudly-rejects-ai-generated-music-in-lieu-o.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1acc1ed] feat: Auto-post ai-budgets-soar-roi-still-elusive---computerworldc.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-budgets-soar-roi-still-elusive---computerworldc.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1acc1ed448e222f7fad776e63ab09e44187eaaa1 but expected 6cd4ddc54b6cd260289d898c0a21436eb0dd2253)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-budgets-soar-roi-still-elusive---computerworldc.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
