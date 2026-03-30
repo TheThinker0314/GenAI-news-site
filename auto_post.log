@@ -2216,3 +2216,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: fujitsu-launches-generative-ai-service---electroni.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 44cc19f] feat: Auto-post navi-ai-bags-6-million-in-funding---the-saas-news.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/navi-ai-bags-6-million-in-funding---the-saas-news.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 44cc19fe29b7d8b2a879ab3e41de52d98d470991 but expected 7dd77cffe0485eb9142634c7ccedeedae3023951)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: navi-ai-bags-6-million-in-funding---the-saas-news.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
