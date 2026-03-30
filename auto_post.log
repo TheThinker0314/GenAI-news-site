@@ -2453,3 +2453,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: the-hidden-inflation-of-ai-why-model-collapse-is-a.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d32c242] feat: Auto-post this-photographer-created-40-unreal-landscapes-and.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/this-photographer-created-40-unreal-landscapes-and.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d32c2421e9db85f7b94c458849501c0cd4d50613 but expected 7c3052c0e6a7a60210791b5bb2bb72d9051b0c56)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: this-photographer-created-40-unreal-landscapes-and.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
