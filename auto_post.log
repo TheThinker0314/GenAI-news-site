@@ -2599,3 +2599,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: insilico-medicine-and-eli-lilly-form-275b-ai-drug-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main abf1f0b] feat: Auto-post wikipedia-bans-ai-generated-articles---iaacsorgau.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/wikipedia-bans-ai-generated-articles---iaacsorgau.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at abf1f0b4e33721bb3d6a0d922560f985035fd366 but expected fe21de987bca1cb4ddde7c3bb0517d98cd54d107)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: wikipedia-bans-ai-generated-articles---iaacsorgau.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
