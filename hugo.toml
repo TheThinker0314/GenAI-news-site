@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = 'GenAI News Hub | Latest in Generative AI'
+title = 'GenAI News Hub: Daily Breakthroughs & Trends in Generative AI'
 theme = 'ananke'
 enableRobotsTXT = true
 
