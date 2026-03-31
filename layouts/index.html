@@ -1,73 +1,51 @@
-<!-- SEO Update 20260330083001 -->
-<!-- SEO Update 20260330090001 -->
-<!-- SEO Update 20260330093001 -->
-<!-- SEO Update 20260330100001 -->
-<!-- SEO Update 20260330103001 -->
-<!-- SEO Update 20260330110001 -->
-<!-- SEO Update 20260330113001 -->
-<!-- SEO Update 20260330120001 -->
-<!-- SEO Update 20260330123001 -->
-<!-- SEO Update 20260330130001 -->
-<!-- SEO Update 20260330133001 -->
-<!-- SEO Update 20260330140001 -->
-<!-- SEO Update 20260330143001 -->
-<!-- SEO Update 20260330150002 -->
-<!-- SEO Update 20260330153001 -->
-<!-- SEO Update 20260330160001 -->
-<!-- SEO Update 20260330163001 -->
-<!-- SEO Update 20260330170001 -->
-<!-- SEO Update 20260330173001 -->
-<!-- SEO Update 20260330180001 -->
-<!-- SEO Update 20260330183001 -->
-<!-- SEO Update 20260330190001 -->
-<!-- SEO Update 20260330193001 -->
-<!-- SEO Update 20260330200001 -->
-<!-- SEO Update 20260330203001 -->
-<!-- SEO Update 20260330210001 -->
-<!-- SEO Update 20260330213001 -->
-<!-- SEO Update 20260330220001 -->
-<!-- SEO Update 20260330223001 -->
-<!-- SEO Update 20260330230002 -->
-<!-- SEO Update 20260330233001 -->
-<!-- SEO Update 20260331000002 -->
-<!-- SEO Update 20260331003001 -->
-<!-- SEO Update 20260331010001 -->
-<!-- SEO Update 20260331013001 -->
-<!-- SEO Update 20260331020001 -->
-<!-- SEO Update 20260331023001 -->
-<!-- SEO Update 20260331030001 -->
-<!-- SEO Update 20260331033001 -->
-<!-- SEO Update 20260331040001 -->
-<!-- SEO Update 20260331043001 -->
-<!-- SEO Update 20260331050001 -->
-<!-- SEO Update 20260331053001 -->
-<!-- SEO Update 20260331060001 -->
-<!-- SEO Update 20260331063001 -->
-<!-- SEO Update 20260331070001 -->
-<!-- SEO Update 20260331073001 -->
-<!-- SEO Update 20260331080001 -->
-<!-- SEO Update 20260331083001 -->
-<!-- SEO Update 20260331090001 -->
-<!-- SEO Update 20260331093001 -->
-<!-- SEO Update 20260331100001 -->
-<!-- SEO Update 20260331103001 -->
-<!-- SEO Update 20260331110001 -->
-<!-- SEO Update 20260331113001 -->
-<!-- SEO Update 20260331120001 -->
-<!-- SEO Update 20260331123001 -->
-<!-- SEO Update 20260331130001 -->
-<!-- SEO Update 20260331133001 -->
-<!-- SEO Update 20260331140001 -->
-<!-- SEO Update 20260331143001 -->
-<!-- SEO Update 20260331150001 -->
-<!-- SEO Update 20260331153001 -->
-<!-- SEO Update 20260331160001 -->
-<!-- SEO Update 20260331163001 -->
-<!-- SEO Update 20260331170001 -->
-<!-- SEO Update 20260331173001 -->
-<!-- SEO Update 20260331180001 -->
-<!-- SEO Update 20260331183001 -->
-<!-- SEO Update 20260331190001 -->
-<!-- SEO Update 20260331193001 -->
-<!-- SEO Update 20260331200001 -->
-<!-- SEO Update 20260331203001 -->
+{{ define "main" }}
+
+  {{- $config := site.Params.ananke.home -}}
+  {{- $text_alignment := "tc-l" -}}
+  {{- if eq $config.content_alignment "left" -}}
+    {{- $text_alignment = "tl-l" -}}
+  {{- else if eq $config.content_alignment "right" -}}
+    {{- $text_alignment = "tr-l" -}}
+  {{- end -}}
+
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 {{ $text_alignment }} center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+    {{ .Content }}
+  </article>
+
+  {{/* Define a section to pull recent posts from. For Hugo 0.20 this will default to the section with the most number of pages. */}}
+  {{ $mainSections := site.Params.mainSections | compare.Default (collections.Slice "post") }}
+  {{ $show_recent_posts := site.Params.ananke.show_recent_posts }}
+  {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+
+  {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
+    <div class="pa3 pa4-ns w-100 w-70-ns center">
+      {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
+
+      <section class="w-100 mw8">
+        {{/* Range through the first $n_posts items of the section */}}
+        {{ range (collections.First $n_posts $section) }}
+          <div class="w-100 mb4 relative">
+            {{ .Render "summary-with-image" }}
+          </div>
+        {{ end }}
+      </section>
+
+      {{ if compare.Ge $section_count (math.Add $n_posts 1) }}
+        <section class="w-100">
+          <h1 class="f3">{{ lang.Translate "more" }}</h1>
+          {{/* Now, range through the next four after the initial $n_posts items. Nest the requirements, "after" then "first" on the outside */}}
+          {{ range (collections.First 4 (collections.After $n_posts $section))  }}
+            <h2 class="f5 fw4 mb4 dib {{ compare.Conditional (compare.Eq $.Site.Language.LanguageDirection "rtl") "ml3" "mr3" }}">
+              <a href="{{ .RelPermalink }}" class="link black dim">
+                {{ .Title }}
+              </a>
+            </h2>
+          {{ end }}
+        </section>
+      {{ end }}
+
+    </div>
+  {{ end }}
+{{ end }}
+
