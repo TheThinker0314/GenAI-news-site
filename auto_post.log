@@ -2670,3 +2670,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    01f465d..d8a219d  main -> main
 Created post: rbc-prepares-for-the-ai-era---traders-magazine.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2779956] feat: Auto-post rbc-prepares-for-the-ai-era---tradersmagazinecom.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/rbc-prepares-for-the-ai-era---tradersmagazinecom.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 27799565cd186971dc2f3f6fba32aafd7f694404 but expected d8a219db74b43c01e56320fe55465515a2338831)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: rbc-prepares-for-the-ai-era---tradersmagazinecom.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
