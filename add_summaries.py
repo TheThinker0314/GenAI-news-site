@@ -36,21 +36,23 @@ def add_summaries_to_posts(posts_dir):
             link = link_match.group(1)
 
             # Spawn a sub-agent to summarize the article
-            task = f"Please summarize the article at this URL: {link}"
+            task = f"Please generate a concise, engaging, and SEO-friendly summary of the article at this URL: {link}. The summary should be around 150-160 characters and include the main keywords of the article."
             summary_process = subprocess.run(
-                ['./summarize.sh', link],
+                ['./summarize.sh', link, task],
                 capture_output=True,
                 text=True,
                 check=True
             )
             summary = summary_process.stdout.strip()
+            summary = summary.replace('"', '\\"') # escape quotes
+            cta = "Read the full story to learn more."
+            full_summary = f"{summary} {cta}"
 
-
-            # Add summary to the post
-            new_body = f"{summary}\n\n{body}"
+            # Add summary to front matter
+            new_front_matter = f"{front_matter_str.strip()}\nsummary: \"{full_summary}\"\n"
             
             # Write back to file
-            new_content = f'---\n{front_matter_str.strip()}\n---\n{new_body}'
+            new_content = f'---\n{new_front_matter}---\n\n{body}\n'
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             
