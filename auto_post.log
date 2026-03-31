@@ -2802,3 +2802,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: eli-lilly--insilico-how-generative-ai-can-transfor.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 862aed6] feat: Auto-post nebius-to-build-one-of-europes-largest-ai-factorie.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/nebius-to-build-one-of-europes-largest-ai-factorie.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 862aed6e6bb495e012130ed0df2bb7d3ad2592e3 but expected 2138a1edc2c640981048567a85a0f865921a606a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: nebius-to-build-one-of-europes-largest-ai-factorie.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
