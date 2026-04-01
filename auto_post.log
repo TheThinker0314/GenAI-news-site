@@ -3137,3 +3137,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
  create mode 100644 content/posts/generative-ai-in-chemical-market-expected-to-witne.md
 Everything up-to-date
 Created post: generative-ai-in-chemical-market-expected-to-witne.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 369a446e] feat: Auto-post asus-announces-ugen300-usb-ai-accelerator---asus-p.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/asus-announces-ugen300-usb-ai-accelerator---asus-p.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 369a446e53991d3dd1640489ef0ee3b35dc31c6f but expected d1be23d2873040e947d3c757fc296760d77ee2d4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: asus-announces-ugen300-usb-ai-accelerator---asus-p.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
