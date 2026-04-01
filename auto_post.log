@@ -3280,3 +3280,13 @@ Created post: generative-ai-is-the-future-of-traffic-engineering.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    66b428d0..0e6a76fe  main -> main
 Created post: criteo-go-uses-generative-ai-to-scale-wider-ad-bas.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 0e35eec5] feat: Auto-post eu-staff-banned-from-using-ai-generated-content-in.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/eu-staff-banned-from-using-ai-generated-content-in.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 0e35eec58a5e0ce655e62fcdf0403cdb17053e9d but expected 0e6a76fed5c13f2afe10dd865c8f1c498dc1a9c7)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: eu-staff-banned-from-using-ai-generated-content-in.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
