@@ -3400,3 +3400,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    122b8ea4..403a9c25  main -> main
 Created post: waternsw-adopts-generative-ai-for-applications---l.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 90d99705] feat: Auto-post progress-software-delivers-sitefinity-generative-c.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/progress-software-delivers-sitefinity-generative-c.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 90d997057f39dad359071757ec5e793212867dd5 but expected 5d65dd8bd846600edea92f7f6a026dcc07e07d4c)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: progress-software-delivers-sitefinity-generative-c.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
