@@ -42,3 +42,22 @@ img {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
     padding: 1rem 0;
 }
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  .nav-bar {
+    background-color: #1a1a1a;
+  }
+  a {
+    color: #60a5fa;
+  }
+  a:hover {
+    color: #93c5fd;
+  }
+}
