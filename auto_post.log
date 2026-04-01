@@ -3240,3 +3240,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: microsoft-commits-1b-to-thailands-ai-future---aibu.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 077bcb1d] feat: Auto-post dont-let-ai-destroy-the-skills-that-make-your-comp.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/dont-let-ai-destroy-the-skills-that-make-your-comp.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6f8b9f84..077bcb1d  main -> main
+Created post: dont-let-ai-destroy-the-skills-that-make-your-comp.md

@@ -4,6 +4,6 @@
     &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
     Contact: github @TheThinker0314 all rights reserved
   </a>
-    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
+    <div>{{ partial "social-follow.html" . }}</div>
   </div>
 </footer>
