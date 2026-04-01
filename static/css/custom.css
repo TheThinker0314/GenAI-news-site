@@ -1,81 +1,62 @@
-/* static/css/custom.css - Enhanced Design */
-:root {
-  --bg-color: #0f172a; /* Tailwind Slate 900 */
-  --text-color: #e2e8f0; /* Tailwind Slate 200 */
-  --accent-color: #38bdf8; /* Tailwind Sky 400 */
-  --accent-hover: #0284c7; /* Tailwind Sky 600 */
-  --article-bg: #1e293b; /* Tailwind Slate 800 */
-  --border-color: #334155; /* Tailwind Slate 700 */
+body.bg-black {
+    background-color: #0b0f19 !important;
+    color: #e2e8f0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+h1, h2, h3, h4, h5, h6, .lh-title, .lh-copy {
+    color: #f8fafc !important;
+    letter-spacing: -0.02em;
 }
 
 a {
-    color: var(--accent-color);
-    text-decoration: none;
-    transition: color 0.2s ease;
+    color: #38bdf8;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 a:hover {
-    color: var(--accent-hover);
-    text-decoration: underline;
+    color: #7dd3fc;
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.5);
+}
+
+.bg-primary-color {
+    background: linear-gradient(135deg, #1e1b4b, #312e81) !important;
+    border-bottom: 1px solid #4338ca;
+}
+
+.article-body {
+    font-size: 1.125rem;
+    line-height: 1.75;
+}
+
+.article-body img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+}
+
+.ph3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 article {
-    background-color: var(--article-bg);
-    padding: 2.5em;
+    background: #111827;
+    border: 1px solid #1f2937;
     border-radius: 12px;
-    margin-bottom: 2.5em;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #f8fafc; /* Slate 50 */
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-    line-height: 1.2;
-}
-
-h1 { font-size: 2.5rem; font-weight: 700; }
-h2 { font-size: 2rem; font-weight: 600; border-bottom: 1px solid var(--border-color); padding-bottom: 0.3em; }
-
-blockquote {
-    border-left: 4px solid var(--accent-color);
-    color: #cbd5e1; /* Slate 300 */
-    background-color: rgba(56, 189, 248, 0.05);
-    padding: 1em 1.5em;
-    margin: 1.5em 0;
-    border-radius: 0 8px 8px 0;
-    font-style: italic;
-}
-
-pre {
-    background-color: #0f172a;
-    padding: 1.25em;
-    border-radius: 8px;
-    overflow-x: auto;
-    border: 1px solid var(--border-color);
-}
-
-code {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #f8fafc;
-    padding: 0.2em 0.4em;
-    border-radius: 4px;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.9em;
-}
-
-/* Make images responsive inside articles */
-article img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin: 1em 0;
+.f4.fw6.dib {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: -webkit-linear-gradient(45deg, #38bdf8, #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
