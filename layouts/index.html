@@ -1,31 +1,38 @@
 {{ define "main" }}
-<section class="hero ph3 ph5-l pv5-l bg-dark-gray">
+<section class="hero ph3 ph5-l pv5-l bg-primary-color">
   <div class="measure-wide center tc-l">
-    <h1 class="f1-l f2-m f3 fw7 white">Welcome to the GenAI News Hub</h1>
-    <p class="f4-l f5-m f6 white-80 lh-copy">Your daily source for the latest breakthroughs and trends in Generative AI.</p>
+    <h1 class="f1-l f2-m f3 fw7 white">Generative AI News, Trends & Breakthroughs</h1>
+    <p class="f4-l f5-m f6 white-80 lh-copy mt3">Your daily source for the latest breakthroughs, models, and comprehensive analysis in Generative AI.</p>
   </div>
 </section>
 
-<section class="content-grid pa3 pa4-ns">
-  <h2 class="f2-l f3-m f4 tc-l white mb4">Latest News</h2>
-  <div class="posts-grid flex flex-wrap justify-center">
+<section class="content-grid pa3 pa5-ns">
+  <h2 class="f2-l f3-m f4 tc-l white mb5">Latest AI News</h2>
+  <div class="modern-grid">
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ range first 6 $pages }}
-      <article class="post-card w-100 w-50-m w-33-l pa3 no-underline grow">
-        <a href="{{ .Permalink }}" class="db no-underline ba b--black-10 br3 shadow-1 bg-white black-80 hover-bg-near-white h-100">
+      <article class="post-card grow">
+        <a href="{{ .Permalink }}" class="db no-underline ba b--black-10 br3 shadow-4 bg-near-black white hover-bg-dark-gray h-100 flex flex-column overflow-hidden" aria-label="Read more about {{ .Title }}">
           {{ with .Params.images }}
-            <img src="{{ index . 0 }}" alt="{{ .Title }}" class="w-100 br3 br--top db object-cover h5">
+            <div class="card-image-wrapper">
+              <img src="{{ index . 0 }}" alt="Cover image for {{ $.Title }}" class="w-100 db object-cover h5" loading="lazy" width="800" height="450">
+            </div>
+          {{ else }}
+            <div class="card-image-wrapper bg-dark-gray flex items-center justify-center h5">
+              <span class="white-50">No Image</span>
+            </div>
           {{ end }}
-          <div class="pa3">
-            <h3 class="f5 f4-ns mb2 black-90">{{ .Title }}</h3>
-            <p class="f6 black-70 lh-copy measure">{{ .Summary }}</p>
+          <div class="pa4 flex-auto flex flex-column">
+            <h3 class="f4 fw6 mb3 white-90 lh-title">{{ .Title }}</h3>
+            <p class="f6 white-60 lh-copy measure-wide flex-auto">{{ .Summary }}</p>
+            <div class="mt4 f6 fw6 db white-50 text-transform-uppercase">Read article &rarr;</div>
           </div>
         </a>
       </article>
     {{ end }}
   </div>
-  <div class="tc mt4">
-    <a href="/posts/" class="f5-l f6-m f7 no-underline dib pa3 ph4-l br-pill bg-blue white hover-bg-dark-blue">View All News</a>
+  <div class="tc mt5">
+    <a href="/posts/" class="f4 no-underline dib pv3 ph4 br-pill bg-blue white hover-bg-dark-blue shadow-3" aria-label="View all news posts">View All News</a>
   </div>
 </section>
 {{ end }}
