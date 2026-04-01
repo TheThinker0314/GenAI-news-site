@@ -38,4 +38,4 @@ enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
-  tag = "tags"
+  tag = "tags"googleAnalytics = "G-XXXXXXXXXX"
