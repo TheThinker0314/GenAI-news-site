@@ -3527,3 +3527,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    3113998cd..e422e5bb7  main -> main
 Created post: in-order-for-generative-artificial-intelligence-ai.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1cde1a236] feat: Auto-post reply-signs-strategic-collaboration-agreement-with.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/reply-signs-strategic-collaboration-agreement-with.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6b3e0f072..1cde1a236  main -> main
+Created post: reply-signs-strategic-collaboration-agreement-with.md
