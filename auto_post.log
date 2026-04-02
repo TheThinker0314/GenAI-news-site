@@ -3479,3 +3479,17 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: asanas-chief-product-officer-why-enterprise-ai-age.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[detached HEAD 6179143f0] feat: Auto-post ai-uptake-across-italian-firms-remains-patchy-stud.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-uptake-across-italian-firms-remains-patchy-stud.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [rejected]            main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+hint: Updates were rejected because a pushed branch tip is behind its remote
+hint: counterpart. If you want to integrate the remote changes, use 'git pull'
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Created post: ai-uptake-across-italian-firms-remains-patchy-stud.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
