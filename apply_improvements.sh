@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd ~/.openclaw/workspace/GenAI-news-site
+cd ~/GenAI-news-site
 
 # Improve CSS
 cat << 'EOF' >> static/css/custom.css
