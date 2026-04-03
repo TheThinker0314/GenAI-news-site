@@ -3829,3 +3829,11 @@ Created post: is-netanyahu-real-or-ai--generative-ai-warps-truth.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    a252f5664..4e34f01fa  main -> main
 Created post: generative-ai-a-legal-framework-in-development---g.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c57c3e5dd] feat: Auto-post k-pop-has-an-ai-problem---dazeddigitalcom.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/k-pop-has-an-ai-problem---dazeddigitalcom.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   405d95489..c57c3e5dd  main -> main
+Created post: k-pop-has-an-ai-problem---dazeddigitalcom.md
