@@ -4087,3 +4087,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: how-5-colleges-are-approaching-ai---insidehighered.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ba846967a] feat: Auto-post internet-watch-foundation-finds-260-fold-increase-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/internet-watch-foundation-finds-260-fold-increase-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at ba846967a1d32db429757e2c0d778fc24ef04bfb but expected e72a585a91a5aa2305ce6ccb27dd8e3deaab67eb)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: internet-watch-foundation-finds-260-fold-increase-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
