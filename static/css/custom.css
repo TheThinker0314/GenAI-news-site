@@ -47,3 +47,31 @@ a:hover {
   border-top: 1px solid #eaeaea;
   text-align: center;
 }
+
+/* SEO & Design improvements added below */
+blockquote {
+  border-left: 4px solid #0056b3;
+  margin: 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #f4f6f9;
+  font-style: italic;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0056b3;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #003d82;
+  text-decoration: none;
+  transform: translateY(-2px);
+  color: white;
+}
