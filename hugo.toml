@@ -1,15 +1,15 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = 'GenAI News Hub: Daily Breakthroughs & Trends in Generative AI'
+title = 'GenAI News Hub: Daily Breakthroughs, Trends & Analysis in Generative AI'
 theme = 'ananke'
 enableRobotsTXT = true
 
 [params]
-  description = 'The GenAI News Hub is your daily source for the latest breakthroughs, trends, models, and analysis in the world of Generative Artificial Intelligence. Explore AI news, ChatGPT updates, LLM developments, and tech advancements.'
-  keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends"]
+  description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, LLMs, and ChatGPT updates.'
+  keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence"]
   custom_css = ["css/custom.css"]
-  background_color_class = "bg-black"
-  author = "GenAI News Team"
+  background_color_class = "bg-near-black"
+  author = "GenAI News Editorial Team"
   site_logo = ""
   favicon = ""
   env = "production"
@@ -24,7 +24,7 @@ enableRobotsTXT = true
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "News"
+    name = "News & Updates"
     url = "/posts/"
     weight = 2
 
@@ -36,7 +36,7 @@ enableRobotsTXT = true
 [sitemap]
   changefreq = "daily"
   filename = "sitemap.xml"
-  priority = 0.8
+  priority = 1.0
 
 [taxonomies]
   category = "categories"
