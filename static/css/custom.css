@@ -5,15 +5,17 @@
   --bg-color: #fafafa;
   --text-color: #333333;
   --card-bg: #ffffff;
+  --border-color: rgba(128,128,128,0.2);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #3b82f6;
-    --primary-hover: #60a5fa;
+    --primary-color: #60a5fa;
+    --primary-hover: #93c5fd;
     --bg-color: #121212;
     --text-color: #e4e4e7;
     --card-bg: #1e1e1e;
+    --border-color: #333;
   }
 }
 
@@ -27,10 +29,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     letter-spacing: -0.02em;
+    color: var(--text-color);
 }
 
 h1 { font-size: 2.5rem; letter-spacing: -0.03em; }
-h2 { font-size: 2rem; border-bottom: 1px solid rgba(128,128,128,0.2); padding-bottom: 0.5rem; }
+h2 { font-size: 2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.5rem; }
 
 .article-content {
     font-size: 1.15rem;

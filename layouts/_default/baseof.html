@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#1e3a8a">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ site.Title }} - Latest AI News and Updates{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     {{ partial "seo.html" . }}
     {{ partial "head-additions.html" . }}
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
@@ -23,7 +23,7 @@
       </div>
     </header>
 
-    <main class="flex-grow max-w-6xl mx-auto px-4 py-10 w-full">
+    <main id="main-content" class="flex-grow max-w-6xl mx-auto px-4 py-10 w-full">
       <div class="bg-slate-800 shadow-xl rounded-xl border border-slate-700 p-6 md:p-10">
         {{ block "main" . }}{{ end }}
       </div>
@@ -35,6 +35,13 @@
         <div class="space-x-4 font-medium">
           <a href="#" class="hover:text-blue-400 transition-colors">Privacy Policy</a>
           <a href="#" class="hover:text-blue-400 transition-colors">Terms of Service</a>
+          <a href="#" class="hover:text-blue-400 transition-colors">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+>Terms of Service</a>
           <a href="#" class="hover:text-blue-400 transition-colors">Contact Us</a>
         </div>
       </div>
