@@ -4484,3 +4484,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: italys-search-habits-are-shifting-faster-than-bran.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4f271dafb] feat: Auto-post evaluating-alignment-of-behavioral-dispositions-in.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/evaluating-alignment-of-behavioral-dispositions-in.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 4f271dafb4b3d8ebd6e27bc8321bb5c31eab3484 but expected 4bb1b5f8ca8da472283556279f6aefa45054ec26)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: evaluating-alignment-of-behavioral-dispositions-in.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
