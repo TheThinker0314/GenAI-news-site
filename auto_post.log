@@ -4434,3 +4434,13 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: wonder-3d-generative-ai-model-launches---adsknewsa.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 44e1a9431] feat: Auto-post physics-forums-admits-using-ai-to-post-replies---l.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/physics-forums-admits-using-ai-to-post-replies---l.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 638efb6cfdec92c35992fece163ee1bc13b6998e but expected 000381f8955ccbf7c15a89477cb9b6dd1230716a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: physics-forums-admits-using-ai-to-post-replies---l.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
