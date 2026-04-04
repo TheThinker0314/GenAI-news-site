@@ -4532,3 +4532,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ai-deskilling-we-warned-you---planetearthandbeyond.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4b1e8720d] feat: Auto-post why-ai-leaders-are-so-focused-on-image-generation-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-ai-leaders-are-so-focused-on-image-generation-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   5f17cd86e..4b1e8720d  main -> main
+Created post: why-ai-leaders-are-so-focused-on-image-generation-.md
