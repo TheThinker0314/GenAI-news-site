@@ -4132,3 +4132,10 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: take-two-laid-off-the-head-its-ai-division-and-an-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 59736296d] feat: Auto-post playstation-acquires-generative-ai-vfx-company-cin.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/playstation-acquires-generative-ai-vfx-company-cin.md
+Everything up-to-date
+Created post: playstation-acquires-generative-ai-vfx-company-cin.md
