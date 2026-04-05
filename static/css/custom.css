@@ -114,4 +114,4 @@ header {
 
 article {
   animation: fadeIn 0.5s ease-out forwards;
-}
+}body { font-family: 'Inter', sans-serif; }

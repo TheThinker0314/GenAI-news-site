@@ -4831,3 +4831,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    0eddf0df4..1071f1a39  main -> main
 Created post: silent-killers-how-ai-start-ups-are-trying-to-solv.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 42bc7727e] feat: Auto-post googles-gemma-4-ai-can-run-on-smartphones-no-inter.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/googles-gemma-4-ai-can-run-on-smartphones-no-inter.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f7c73b0ebf25ff53149549fabd553ac366000b7f but expected 1772acfb3921f49d678f9c15ebd2d4545e6df0b5)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: googles-gemma-4-ai-can-run-on-smartphones-no-inter.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
