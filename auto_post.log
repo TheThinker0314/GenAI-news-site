@@ -4659,3 +4659,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: take-two-has-seemingly-laid-off-an-unspecified-por.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7a4f06628] feat: Auto-post alphabet-turboquant-ai-algorithm-reduces-memory-ne.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/alphabet-turboquant-ai-algorithm-reduces-memory-ne.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   a8816a1f0..7a4f06628  main -> main
+Created post: alphabet-turboquant-ai-algorithm-reduces-memory-ne.md
