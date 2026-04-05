@@ -4805,3 +4805,11 @@ Created post: how-ai-is-reshaping-the-security-handbook---cybers.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    18a8c7b66..0d8a6325d  main -> main
 Created post: waternsw-to-move-on-generative-ai---itnewscomau.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5a9b6552e] feat: Auto-post generative-ai-in-retail-7-use-cases--examples---ai.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-in-retail-7-use-cases--examples---ai.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   abe56ac5d..5a9b6552e  main -> main
+Created post: generative-ai-in-retail-7-use-cases--examples---ai.md
