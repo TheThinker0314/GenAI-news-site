@@ -3,37 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/</loc>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
-    <lastmod>2026-04-05T09:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/student-generative-artificial-intelligence-survey-/</loc>
+    <lastmod>2026-04-05T10:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
