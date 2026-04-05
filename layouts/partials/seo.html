@@ -27,3 +27,16 @@
 {{ with .Params.images }}
 <meta name="twitter:image" content="{{ index . 0 | absURL }}">
 {{ end }}
+
+<!-- JSON-LD Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsPage }}NewsArticle{{ else }}WebSite{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}"
+}
+</script>
