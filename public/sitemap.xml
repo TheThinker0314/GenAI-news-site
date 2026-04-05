@@ -3,41 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/navigating-recent-developments-in-generative-ai-an/</loc>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/</loc>
-    <lastmod>2026-04-05T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-05T16:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/how-iran-uses-ai-to-fake-war-victories---abacusnew/</loc>
+    <lastmod>2026-04-05T16:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/googles-gemma-4-ai-can-run-on-smartphones-no-inter/</loc>
+    <lastmod>2026-04-05T15:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/silent-killers-how-ai-start-ups-are-trying-to-solv/</loc>
+    <lastmod>2026-04-05T15:00:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/gta-vi-maker-take-two-lays-off-entire-ai-team-mont/</loc>
+    <lastmod>2026-04-05T14:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-in-retail-7-use-cases--examples---ai/</loc>
+    <lastmod>2026-04-05T14:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/waternsw-to-move-on-generative-ai---itnewscomau/</loc>
+    <lastmod>2026-04-05T13:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/how-ai-is-reshaping-the-security-handbook---cybers/</loc>
+    <lastmod>2026-04-05T13:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/heres-how-generative-ai-affects-creativity-accordi/</loc>
+    <lastmod>2026-04-05T12:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/top-10-best-ai-companies-in-florida-usa-2026-led-b/</loc>
+    <lastmod>2026-04-05T12:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-driven-strategy-outlined-at-mobile-world-congre/</loc>
+    <lastmod>2026-04-05T11:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/waternsw-to-move-on-generative-ai---itnews/</loc>
+    <lastmod>2026-04-05T11:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/</loc>
     <lastmod>2026-04-05T10:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
@@ -2819,10 +2879,6 @@
   </url><url>
     <loc>https://genai-news.com/tags/trends/</loc>
     <lastmod>2026-03-24T12:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/g-genainews123/</loc>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url>
