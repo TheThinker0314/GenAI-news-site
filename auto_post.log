@@ -4857,3 +4857,13 @@ Created post: how-iran-uses-ai-to-fake-war-victories---abacusnew.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    a92c8c4aa..8c140fd0f  main -> main
 Created post: navigating-recent-developments-in-generative-ai-an.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 796a2a49c] feat: Auto-post generative-ai-in-business-schools-friend-or-foe---.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-in-business-schools-friend-or-foe---.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   d21831bd3..796a2a49c  main -> main
+Created post: generative-ai-in-business-schools-friend-or-foe---.md
