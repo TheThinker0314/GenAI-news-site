@@ -1,26 +1,50 @@
-/* Modern design improvements */
+/* Responsive design tweaks and improvements */
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: #333;
 }
-.bg-near-black {
-    background-color: #1a1a1a !important;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    color: #111;
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
 }
-a {
-    color: #2563eb;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-a:hover {
-    color: #1d4ed8;
-    text-decoration: underline;
-}
-.article-content {
+
+article p {
     font-size: 1.125rem;
+    margin-bottom: 1.5em;
+}
+
+/* Improve link visibility */
+a {
+    color: #0056b3;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #003d82;
+}
+
+/* Better blockquotes */
+blockquote {
+    border-left: 5px solid #ccc;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    font-style: italic;
 }
