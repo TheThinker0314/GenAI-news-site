@@ -3,41 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/fujitsu-unveils-document-automation-ai-cutting-leg/</loc>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/making-generative-ai-work-well-tackling-effectiven/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-06T00:00:02+00:00</lastmod>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-06T03:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/with-ai-finishing-your-sentences-what-will-happen-/</loc>
+    <lastmod>2026-04-06T02:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/report-says-minnesota-workers-face-highest-generat/</loc>
+    <lastmod>2026-04-06T02:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/validating-generative-ai-based-social-science---no/</loc>
+    <lastmod>2026-04-06T01:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/gs-ec-deploys-generative-ai-to-elevate-housing-sal/</loc>
+    <lastmod>2026-04-06T01:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/legora-hits-usd-100-million-arr-as-legal-ai-demand/</loc>
+    <lastmod>2026-04-06T00:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/making-generative-ai-work-well-tackling-effectiven/</loc>
     <lastmod>2026-04-06T00:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
