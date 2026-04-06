@@ -5343,3 +5343,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: your-ai-hype-man-might-be-quietly-ruining-your-peo.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f367777f9] feat: Auto-post querygpt--natural-language-to-sql-using-generative.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/querygpt--natural-language-to-sql-using-generative.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f367777f91e153ebaaf535d888948e2ce25174f8 but expected c14d4bd93d66cee05b639f15073e0e26c5d69421)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: querygpt--natural-language-to-sql-using-generative.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
