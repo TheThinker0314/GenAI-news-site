@@ -5246,3 +5246,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: how-ai-helps-scale-qualitative-customer-research--.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d1f5d3854] feat: Auto-post ai-in-law-why-human-oversight-remains-essential---.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-in-law-why-human-oversight-remains-essential---.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at d1f5d3854f61ba0fd11edb92c73c59ad99a6d9ae but expected 931a66ed205a41f97e1be6b65560c5cf47f974c6)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-in-law-why-human-oversight-remains-essential---.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
