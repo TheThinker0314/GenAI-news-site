@@ -5122,3 +5122,11 @@ Created post: the-truth-about-ai-in-media---radioinfo.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    1370e2347..5650122bd  main -> main
 Created post: method-teaches-generative-ai-models-to-locate-pers.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 02d11b4bf] feat: Auto-post generative-ai-in-insurance---deloitte.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-in-insurance---deloitte.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   274b358cd..02d11b4bf  main -> main
+Created post: generative-ai-in-insurance---deloitte.md
