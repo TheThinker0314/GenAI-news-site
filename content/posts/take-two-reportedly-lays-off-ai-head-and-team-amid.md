@@ -1,0 +1,9 @@
+---
+title: "Take-Two Reportedly Lays Off AI Head and Team Amid GenAI Strategy | Outlook Respawn - Outlook Respawn"
+date: 2026-04-06T08:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR05JT1g1c0tLRDREbU1jRk42TEtYdXN4NEQxakdCWnVIekxlQ1ZXaXJjYkR0bjFlWlpSQ0ZTUWhkU25rUnVvUktRWC1hTlhRdXRfZnM1ekZqLXptMHE1VUNHTFE3cGhHNVpsMDZGanNWM0pWeDE1cHNva1BKVGN3WkRSUG1kTk1QUVU2T2xBRlJ6Z2ZseEpkbkpmLXZ0X25QZ3dTNm5yNVM1MElrZjJJcXdrMEJvRHpI0gHGAUFVX3lxTE5iSU80RWFZX1R6a3dBUFBJbG1VSV9FYjBfRWlvaFVnVjhPQXVxNnYzejBnSzBaTlBRZGJLWFhYcGVMX045eTh2ZEtFVWxyN29Kd1RxQWdSdGp4aDk5RjVMd1FsajZOVXRac2p0NlU0UXRRbDllVzc5NVMwNUc3QllKYS1MZjdwN21TZGJpb1g3QzJLaThUeFpjbGFqSk9ZbGctLXNORDZ2ZWFYYVcyX3hHMWlnV3JpTjhzR3J4MnNvSlFieURxUQ?oc=5)
