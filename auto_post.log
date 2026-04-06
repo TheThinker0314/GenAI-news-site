@@ -5263,3 +5263,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
  create mode 100644 content/posts/marine-corps-base-quantico-hosts-generative-ai-wor.md
 Everything up-to-date
 Created post: marine-corps-base-quantico-hosts-generative-ai-wor.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 040c71229] feat: Auto-post generative-ai-academic-integrity-and-introductory-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-academic-integrity-and-introductory-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 040c71229aa20d7d803286bfbd6cffec76e65213 but expected 16e7c29fd993e2ba0cead4a2ef0bfee127135b79)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-academic-integrity-and-introductory-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
