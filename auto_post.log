@@ -5296,3 +5296,13 @@ Created post: us-supreme-court-narrows-isp-copyright-liability-s.md
  create mode 100644 content/posts/ai-may-replace-your-financial-advisor-mit-professo.md
 Everything up-to-date
 Created post: ai-may-replace-your-financial-advisor-mit-professo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 60bf2d02f] feat: Auto-post warframe-community-director-affirms-nothing-in-our.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/warframe-community-director-affirms-nothing-in-our.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 60bf2d02fadef0de39accbfd7adb2f425810e0ac but expected b529e9e2351bab1b490df88d8f7b868019cd15f9)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: warframe-community-director-affirms-nothing-in-our.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
