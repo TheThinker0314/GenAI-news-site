@@ -67,3 +67,33 @@ img {
     display: block;
     margin: 1.5rem 0;
 }
+
+/* Additional SEO/Accessibility & Design Enhancements */
+:root {
+  --primary-color: #38bdf8;
+  --bg-color: #0f172a;
+  --text-main: #e4e4e7;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Improve link contrast for accessibility */
+a {
+  color: #7dd3fc;
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: #bae6fd;
+  text-decoration: none;
+}
+
+/* Improve readability of main content */
+.article-content {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #f1f5f9;
+}
+
