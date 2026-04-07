@@ -5589,3 +5589,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    25fed115a..151408134  main -> main
 Created post: take-two-interactive-is-said-to-have-laid-off-its-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 892daed3b] feat: Auto-post mondelez-overhauls-its-35-billion-digital-commerce.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/mondelez-overhauls-its-35-billion-digital-commerce.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   14132af2a..892daed3b  main -> main
+Created post: mondelez-overhauls-its-35-billion-digital-commerce.md
