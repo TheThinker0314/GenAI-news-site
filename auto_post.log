@@ -5660,3 +5660,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: redefining-development-in-the-age-of-agentic-ai---.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f4bc96c3d] feat: Auto-post navigating-the-ai-era---grand-forks-herald.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/navigating-the-ai-era---grand-forks-herald.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f4bc96c3d7b037fda31a1290ab9c6964f8e8ce9b but expected 1c01e5ab82cbf2e994847b2efcf42e2c29d78fd5)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: navigating-the-ai-era---grand-forks-herald.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
