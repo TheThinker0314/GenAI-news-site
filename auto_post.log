@@ -5642,3 +5642,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
    517a86739..d48aad660  main -> main
 Created post: why-cios-must-integrate-governance-into-enterprise.md
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 24ed7c1ee] feat: Auto-post ten-lives-in-chinas-age-of-ai---sixth-tone.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ten-lives-in-chinas-age-of-ai---sixth-tone.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6b12706b7..24ed7c1ee  main -> main
+Created post: ten-lives-in-chinas-age-of-ai---sixth-tone.md
