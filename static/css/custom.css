@@ -7,21 +7,29 @@ body {
 a {
     color: #38bdf8;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 a:hover {
     color: #7dd3fc;
+    text-decoration: underline;
 }
 .title, h1, h2, h3, h4, h5, h6 {
     color: #f8fafc;
     font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
 }
 article {
     background: #1e293b;
-    border-radius: 8px;
-    padding: 2rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    margin-bottom: 2rem;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-bottom: 2.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 .header-logo {
     font-weight: 800;
@@ -29,4 +37,9 @@ article {
     background: linear-gradient(to right, #38bdf8, #818cf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
