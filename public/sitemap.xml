@@ -3,41 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/stretto-introduces-next-evolution-of-ai-powered-pr/</loc>
-    <lastmod>2026-04-07T20:30:01+00:00</lastmod>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/tcai-bill-guide-sb-1142-californias-digital-dignit/</loc>
+    <lastmod>2026-04-07T22:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/anthropic-forges-chip-deals-to-accelerate-claudes-/</loc>
+    <lastmod>2026-04-07T21:30:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/this-novel-anticipates-todays-ai-generated-book-pu/</loc>
+    <lastmod>2026-04-07T21:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/stretto-introduces-next-evolution-of-ai-powered-pr/</loc>
     <lastmod>2026-04-07T20:30:01+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>

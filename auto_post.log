@@ -5838,3 +5838,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: anthropic-forges-chip-deals-to-accelerate-claudes-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5f2078ecb] feat: Auto-post tcai-bill-guide-sb-1142-californias-digital-dignit.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/tcai-bill-guide-sb-1142-californias-digital-dignit.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 5f2078ecbacb7e6df0798404ed527433b951613b but expected efe1e5f57e6a3388744c48e9cb30af0e7104dba1)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: tcai-bill-guide-sb-1142-californias-digital-dignit.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
