@@ -3,6 +3,10 @@
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
   "headline": "{{ .Title }}",
   "image": [
     "{{ if .Params.images }}{{ index .Params.images 0 | absURL }}{{ else }}{{ index site.Params.images 0 | absURL }}{{ end }}"
@@ -12,7 +16,15 @@
   "author": [{
       "@type": "Person",
       "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}"
-  }]
+  }],
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ with site.Params.site_logo }}{{ . | absURL }}{{ else }}{{ site.BaseURL }}favicon.ico{{ end }}"
+    }
+  }
 }
 </script>
 <article class="max-w-4xl mx-auto bg-slate-800 rounded-2xl shadow-lg overflow-hidden my-8 border border-slate-700">
