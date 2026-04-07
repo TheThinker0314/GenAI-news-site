@@ -1,0 +1,4 @@
+<!-- SEO and Metadata -->
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
+<meta name="robots" content="index, follow">

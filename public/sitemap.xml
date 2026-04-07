@@ -3,41 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/enterprise-adoption-of-agentic-and-gen-ai---fast-c/</loc>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/navigating-the-ai-era---grand-forks-herald/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-07T13:30:02+00:00</lastmod>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-07T18:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-productivity-is-finally-hitting-the-real-econom/</loc>
+    <lastmod>2026-04-07T18:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/were-asking-the-wrong-question-about-ai-in-educati/</loc>
+    <lastmod>2026-04-07T17:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/phasing-out-generative-ai---hercampuscom/</loc>
+    <lastmod>2026-04-07T17:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/spanish-startup-xoople-lands-130m-to-build-satelli/</loc>
+    <lastmod>2026-04-07T16:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-builds-dual-action-cancer-drug-targeting-pkmyt1/</loc>
+    <lastmod>2026-04-07T16:00:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/this-is-how-we-use-generative-ai-on-forum-stories-/</loc>
+    <lastmod>2026-04-07T15:30:02+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-is-describing-your-competitors-better-than-you-/</loc>
+    <lastmod>2026-04-07T15:00:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/navigating-the-ai-era---grandforksheraldcom/</loc>
+    <lastmod>2026-04-07T14:30:03+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/advancing-healthcare-with-generative-ai-from-promi/</loc>
+    <lastmod>2026-04-07T14:00:01+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/navigating-the-ai-era---grand-forks-herald/</loc>
     <lastmod>2026-04-07T13:30:02+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
