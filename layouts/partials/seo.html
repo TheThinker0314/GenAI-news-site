@@ -1,34 +1,46 @@
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
-<meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}" />
-<meta name="author" content="{{ .Params.author | default .Site.Params.author }}" />
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-{{ if .Params.images }}
-<meta property="og:image" content="{{ index .Params.images 0 | absURL }}" />
-{{ else if .Site.Params.images }}
-<meta property="og:image" content="{{ index .Site.Params.images 0 | absURL }}" />
-{{ end }}
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
-{{ if .Params.images }}
-<meta name="twitter:image" content="{{ index .Params.images 0 | absURL }}" />
-{{ else if .Site.Params.images }}
-<meta name="twitter:image" content="{{ index .Site.Params.images 0 | absURL }}" />
-{{ end }}
-<link rel="canonical" href="{{ .Permalink }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta name="keywords" content="{{ if .Params.tags }}{{ delimit .Params.tags ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
+<meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}">
+<meta name="theme-color" content="#1e3a8a">
+<link rel="canonical" href="{{ .Permalink }}">
 
+<!-- Open Graph -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - Latest AI News and Updates{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ if .Params.image }}
+<meta property="og:image" content="{{ .Params.image | absURL }}">
+{{ else if .Params.images }}
+<meta property="og:image" content="{{ index .Params.images 0 | absURL }}">
+{{ else if .Site.Params.images }}
+<meta property="og:image" content="{{ index .Site.Params.images 0 | absURL }}">
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }} - Latest AI News and Updates{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+{{ if .Params.image }}
+<meta name="twitter:image" content="{{ .Params.image | absURL }}">
+{{ else if .Params.images }}
+<meta name="twitter:image" content="{{ index .Params.images 0 | absURL }}">
+{{ else if .Site.Params.images }}
+<meta name="twitter:image" content="{{ index .Site.Params.images 0 | absURL }}">
+{{ end }}
+
+<!-- JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
   "headline": "{{ .Title }}",
-  {{ if .IsPage }}"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  {{ if .IsPage }}"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
   "author": {
     "@type": "Person",
-    "name": "{{ .Params.author | default .Site.Params.author }}"
+    "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }}"
   },
   "publisher": {
     "@type": "Organization",
@@ -38,7 +50,7 @@
       "url": "{{ "images/logo.png" | absURL }}"
     }
   },
-  "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary | plainify }}{{ end }}"
+  "description": "{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}"
 }
 </script>
 
