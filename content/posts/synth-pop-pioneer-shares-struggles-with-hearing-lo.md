@@ -1,0 +1,9 @@
+---
+title: "Synth-pop pioneer shares struggles with hearing loss, rejects AI music - SILive.com"
+date: 2026-04-07T03:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYlVsUEFJakRTUE9aTmhoT1FhT3ZQTVFxSFk3Tm5QY0VobVZuVm95cDdMd0p1Y2pnT2trNDZXUE1qV2tVeERqNlhiUjRmTjdjRHJlVUlKMXhkVkZVSVdZZHdzazRZZ0VKOVpYRFE2V0hKaUp0Vzd4bVpiWXpJYWF3V0tkUUJpdVlGZXFFaWZhTnZta1p5TUIzT1NFV3h0Y3QxSnZEd0pLd0ZtTnJ1OXdQcnZGd1ZsaGdwaExN0gHPAUFVX3lxTE5KOVZFbXY5eWdlLU56dzY4STJPOGN3VDk2dlA2MTlkXzh3RDNsZFJHV19zSFNBQVBhOGkzSGc3ZDBFZmNPTm5Cb3FtU0lta19vR2VUR3E1ZFh3b2NiUGJTZ1BMRERLQ01OYmZUbW5tZUpYb3F0S2VtWThnNnhPdktoWG9VV3Z5d1RQZmVlN2t0UTJZMjlUYXZtaFZWZjJNdnhUNFdNQlFUa01uSURNZjdWbmVhR0pNcDIxTGEyUFZCWFZfeDZxQ0N2RlhQd2wxQQ?oc=5)
