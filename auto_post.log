@@ -5497,3 +5497,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: synth-pop-pioneer-shares-struggles-with-hearing-lo.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e00f7a527] feat: Auto-post generative-ai-server-market---marketsandmarkets.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-server-market---marketsandmarkets.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at e00f7a5271bb57242fc6927c92ae15c3e0fbcdcc but expected 8b3641417b09f61d3242449ac219238339f243b2)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-server-market---marketsandmarkets.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
