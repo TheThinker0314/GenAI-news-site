@@ -5471,3 +5471,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    d96936527..66dd87339  main -> main
 Created post: californias-lost-creative-job-losses-arent-ai-casu.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 127f17374] feat: Auto-post californias-creative-job-losses-arent-ai-casualtie.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/californias-creative-job-losses-arent-ai-casualtie.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   3f24c07be..127f17374  main -> main
+Created post: californias-creative-job-losses-arent-ai-casualtie.md
