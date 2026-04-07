@@ -2,14 +2,14 @@
 :root {
   --primary-color: #007bff;
   --primary-hover: #0056b3;
-  --bg-color: #f8f9fa;
-  --text-color: #343a40;
-  --heading-color: #212529;
-  --card-bg: #ffffff;
-  --border-color: #dee2e6;
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
-  --shadow-hover: 0 10px 20px rgba(0,0,0,0.15);
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --heading-color: #ffffff;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.5);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.7);
+  --shadow-hover: 0 10px 20px rgba(0,0,0,0.9);
 }
 
 body {
@@ -33,13 +33,13 @@ h2 { font-size: 2.25rem; border-bottom: 2px solid var(--border-color); padding-b
 h3 { font-size: 1.75rem; }
 
 a {
-  color: var(--primary-color);
+  color: #bb86fc;
   text-decoration: none;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 a:hover, a:focus {
-  color: var(--primary-hover);
+  color: #3700b3;
   text-decoration: underline;
 }
 
@@ -50,6 +50,13 @@ img {
   box-shadow: var(--shadow-md);
   display: block;
   margin: 1.5rem auto;
+}
+
+article {
+    background-color: var(--card-bg);
+    padding: 2em;
+    border-radius: 8px;
+    margin-bottom: 2em;
 }
 
 /* Cards & Layout */
@@ -77,36 +84,29 @@ img {
 }
 
 blockquote {
-  border-left: 4px solid var(--primary-color);
-  padding: 1rem 1.5rem;
+  border-left: 5px solid #bb86fc;
+  color: #cfcfcf;
+  background-color: #2a2a2a;
+  padding: 1em;
   margin: 2rem 0;
-  background-color: rgba(0, 123, 255, 0.05);
   font-style: italic;
-  color: #555;
   border-radius: 0 8px 8px 0;
+}
+
+pre {
+    background-color: #2a2a2a;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+code {
+    background-color: #2a2a2a;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
 }
 
 @media (max-width: 768px) {
   h1 { font-size: 2.25rem; }
   h2 { font-size: 1.75rem; }
   .card { margin-bottom: 1.5rem; }
-}
-/* Additional Design Improvements */
-body {
-  line-height: 1.8;
-  color: #e4e4e7;
-}
-h1 { font-size: 2.5rem; letter-spacing: -0.03em; }
-h2 { font-size: 2rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
-.card {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-}
-.article-content { font-size: 1.15rem; }
-img {
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
