@@ -41,6 +41,8 @@ a {
 a:hover, a:focus {
   color: #3700b3;
   text-decoration: underline;
+  outline: 2px solid #bb86fc;
+  outline-offset: 2px;
 }
 
 img {
