@@ -5650,3 +5650,13 @@ No new items.
 To https://github.com/TheThinker0314/GenAI-news-site.git
    6b12706b7..24ed7c1ee  main -> main
 Created post: ten-lives-in-chinas-age-of-ai---sixth-tone.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1c01e5ab8] feat: Auto-post redefining-development-in-the-age-of-agentic-ai---.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/redefining-development-in-the-age-of-agentic-ai---.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 1c01e5ab82cbf2e994847b2efcf42e2c29d78fd5 but expected 0b274205b5e8d2a735415b7bfa7641d7899c930d)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: redefining-development-in-the-age-of-agentic-ai---.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
