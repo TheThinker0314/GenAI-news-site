@@ -27,7 +27,7 @@
   }
 }
 </script>
-<article class="max-w-4xl mx-auto bg-slate-800 rounded-2xl shadow-lg overflow-hidden my-8 border border-slate-700">
+<article aria-labelledby="article-title" class="max-w-4xl mx-auto bg-slate-800 rounded-2xl shadow-lg overflow-hidden my-8 border border-slate-700">
   <header class="mb-8 relative">
     {{ if .Params.images }}
     <div class="w-full h-64 md:h-96 relative overflow-hidden">
@@ -35,7 +35,7 @@
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
     </div>
     <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
-      <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight drop-shadow-md">{{ .Title }}</h1>
+      <h1 id="article-title" class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight drop-shadow-md">{{ .Title }}</h1>
       <div class="flex items-center space-x-4 text-sm font-medium">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="bg-blue-600/80 px-3 py-1 rounded-full backdrop-blur-sm shadow-sm">{{ .Date.Format "January 2, 2006" }}</time>
         {{ with .Params.author | default site.Params.author }}
@@ -45,7 +45,7 @@
     </div>
     {{ else }}
     <div class="p-8 pb-4 bg-slate-900/50 border-b border-slate-700">
-      <h1 class="text-3xl md:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight leading-tight">{{ .Title }}</h1>
+      <h1 id="article-title" class="text-3xl md:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight leading-tight">{{ .Title }}</h1>
       <div class="flex items-center space-x-4 text-sm text-slate-400 font-medium">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time>
         {{ with .Params.author | default site.Params.author }}
