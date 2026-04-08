@@ -61,6 +61,11 @@ a:focus {
     outline-offset: 4px;
 }
 
+:focus-visible {
+    outline: 3px solid #f87171;
+    outline-offset: 4px;
+}
+
 button, .btn {
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
