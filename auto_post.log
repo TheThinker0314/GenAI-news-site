@@ -6068,3 +6068,13 @@ Created post: ai-adopters-arent-cutting-jobs-theyre-creating-the.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    4c09d0413..9c501f76e  main -> main
 Created post: flik-unveils-breakthrough-generative-ai-agent-with.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6af47e9ca] feat: Auto-post defining-the-ethical-use-of-generative-tools-to-au.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/defining-the-ethical-use-of-generative-tools-to-au.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 757aedd3fe219280677f55493426c55d582bca32 but expected 9df60da86ef5f9972d2571331575228e0008028e)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: defining-the-ethical-use-of-generative-tools-to-au.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
