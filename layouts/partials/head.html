@@ -28,8 +28,9 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:locale" content="{{ .Site.Language.Lang | default "en_US" }}">
-{{ $image := "" }}
-{{ if .Params.image }}{{ $image = .Params.image }}{{ else if .Params.images }}{{ $image = index .Params.images 0 }}{{ else if .Site.Params.images }}{{ $image = index .Site.Params.images 0 }}{{ end }}
+{{ $image := .Params.image }}
+{{ if and (not $image) .Params.images }}{{ $image = index .Params.images 0 }}{{ end }}
+{{ if and (not $image) .Site.Params.images }}{{ $image = index .Site.Params.images 0 }}{{ end }}
 {{ with $image }}
 <meta property="og:image" content="{{ . | absURL }}">
 <meta property="og:image:alt" content="{{ $title }}">
