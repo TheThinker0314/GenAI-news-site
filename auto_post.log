@@ -5991,3 +5991,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    5474b7ae8..ddd384781  main -> main
 Created post: learning-to-think-in-the-ai-era---unesco.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 901c6961f] feat: Auto-post nvidia-moves-to-build-us10b-ai-empire-one-acquisit.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/nvidia-moves-to-build-us10b-ai-empire-one-acquisit.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   3268feff2..901c6961f  main -> main
+Created post: nvidia-moves-to-build-us10b-ai-empire-one-acquisit.md
