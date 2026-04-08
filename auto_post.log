@@ -6272,3 +6272,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: extracting-insights-from-video-using-oci-generativ.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 175b9d7b6] feat: Auto-post supreme-court-ruling-strengthens-legal-shield-for-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/supreme-court-ruling-strengthens-legal-shield-for-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 8ac7dc6a5d6ad817ceaa30dfd2bcf5667a8b9875 but expected 7a25cf9a787110a397f0692e0f24fb5d82d95dc3)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: supreme-court-ruling-strengthens-legal-shield-for-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
