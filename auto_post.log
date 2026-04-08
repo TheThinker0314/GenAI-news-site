@@ -5953,3 +5953,15 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: the-gen-ai-playbook-for-organizations-wins-2025-hb.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[main 45d3e2d7a] feat: Auto-post amazon-sued-by-youtubers-for-allegedly-scraping-th.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/amazon-sued-by-youtubers-for-allegedly-scraping-th.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 45d3e2d7a9f0537d284e91178c226b55b4fb10e0 but expected 4267f2e58f74a5585ed03c260f12a9b19245244c)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: amazon-sued-by-youtubers-for-allegedly-scraping-th.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
