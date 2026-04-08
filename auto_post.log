@@ -6118,3 +6118,11 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: managers-and-executives-disagree-on-aiand-its-cost.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7c7cb296b] feat: Auto-post uber-expands-aws-partnership-to-build-ai-capabilit.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/uber-expands-aws-partnership-to-build-ai-capabilit.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   a87fd3bfe..7c7cb296b  main -> main
+Created post: uber-expands-aws-partnership-to-build-ai-capabilit.md
