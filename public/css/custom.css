@@ -50,6 +50,19 @@ img {
   line-height: 1.75;
 }
 
+/* Accessibility and contrast enhancements */
+.btn-primary {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: bold;
+}
+.btn-primary:focus, .btn-primary:hover {
+  background-color: #2563eb;
+  outline: 2px solid #93c5fd;
+}
+
 /* Additional Design Improvements */
 body {
   line-height: 1.8;
