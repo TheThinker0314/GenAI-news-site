@@ -34,7 +34,7 @@
       <article class="bg-slate-800 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full border border-slate-700 overflow-hidden group">
         {{ if .Params.images }}
         <a href="{{ .Permalink }}" class="block aspect-video overflow-hidden relative" aria-label="Read more about {{ .Title }}">
-          <img src="{{ index .Params.images 0 }}" alt="{{ .Title }} - Generative AI News" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
+          <img src="{{ index .Params.images 0 }}" alt="{{ .Params.image_alt | default .Title }}" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" loading="lazy">
           <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </a>
         {{ else }}

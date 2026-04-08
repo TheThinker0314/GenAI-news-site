@@ -2,10 +2,11 @@ import os
 import re
 from pathlib import Path
 
-def add_descriptions_to_posts(posts_dir):
+def add_descriptions_and_alt_text_to_posts(posts_dir):
     """
-    Adds a 'description' field to the front matter of Markdown posts if it's missing.
+    Adds a 'description' and 'image_alt' field to the front matter of Markdown posts if they are missing.
     The description is generated from the first 160 characters of the post's content.
+    The image_alt is generated from the title if not present.
     """
     for filepath in Path(posts_dir).rglob('*.md'):
         try:
@@ -20,31 +21,36 @@ def add_descriptions_to_posts(posts_dir):
 
             front_matter_str = parts[1]
             body = parts[2].strip()
-
-            # Check if description exists
-            if 'description:' in front_matter_str:
-                continue
-
-            # Create description
-            # Remove markdown and newlines for a cleaner description
-            clean_body = re.sub(r'#+\s*', '', body)  # Remove headers
-            clean_body = re.sub(r'!?\[.*?\]\(.*?\)', '', clean_body) # Remove links and images
-            clean_body = clean_body.replace('\n', ' ')
-            description = (clean_body[:157] + '...') if len(clean_body) > 160 else clean_body
-
-            # Add description to front matter
-            new_front_matter_str = front_matter_str.strip() + f'\ndescription: "{description}"\n'
             
-            # Write back to file
-            new_content = f'---\n{new_front_matter_str}---\n{body}'
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(new_content)
+            new_front_matter_str = front_matter_str.strip()
             
-            print(f"Added description to {filepath}")
+            # Add description if it doesn't exist
+            if 'description:' not in front_matter_str:
+                # Create description
+                # Remove markdown and newlines for a cleaner description
+                clean_body = re.sub(r'#+\s*', '', body)  # Remove headers
+                clean_body = re.sub(r'!?\[.*?\]\(.*?\)', '', clean_body) # Remove links and images
+                clean_body = clean_body.replace('\n', ' ')
+                description = (clean_body[:157] + '...') if len(clean_body) > 160 else clean_body
+                new_front_matter_str += f'\ndescription: "{description}"'
+
+            # Add image_alt if it doesn't exist
+            if 'image_alt:' not in front_matter_str:
+                title_match = re.search(r'title:\s*"(.*?)"', front_matter_str)
+                if title_match:
+                    title = title_match.group(1)
+                    new_front_matter_str += f'\nimage_alt: "{title} - Generative AI News"'
+
+            # Write back to file if changed
+            if new_front_matter_str != front_matter_str.strip():
+                new_content = f'---\n{new_front_matter_str}\n---\n{body}'
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                print(f"Updated front matter for {filepath}")
 
         except Exception as e:
             print(f"Error processing {filepath}: {e}")
 
 if __name__ == '__main__':
     posts_directory = 'content/posts'
-    add_descriptions_to_posts(posts_directory)
+    add_descriptions_and_alt_text_to_posts(posts_directory)
