@@ -5891,3 +5891,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    3b5948bcd..3a5b439f8  main -> main
 Created post: take-two-interactive-apparently-laid-off-ai-devs-a.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cf3b7b283] feat: Auto-post ret-ventures-launches-ai-accelerator-program-to-su.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ret-ventures-launches-ai-accelerator-program-to-su.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   dacfc0e98..cf3b7b283  main -> main
+Created post: ret-ventures-launches-ai-accelerator-program-to-su.md
