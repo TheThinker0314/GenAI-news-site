@@ -5873,3 +5873,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    a8b718883..ef4c23e6b  main -> main
 Created post: should-states-treat-ai-incidents-like-aviation-acc.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main bea183d80] feat: Auto-post the-ai-roi-reset-a-deep-dive-into-microsoft-msft-i.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-ai-roi-reset-a-deep-dive-into-microsoft-msft-i.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at bea183d808d14b0c3990be337ccc126e4f9d86ca but expected 021e6ecfca8e3a95e0d07488155ebf8c259427ee)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: the-ai-roi-reset-a-deep-dive-into-microsoft-msft-i.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
