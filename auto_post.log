@@ -6134,3 +6134,11 @@ Created post: uber-expands-aws-partnership-to-build-ai-capabilit.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    d45973351..2c98c664d  main -> main
 Created post: seedance-20-is-now-on-runway-as-the-viral-ai-model.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c16adcdc3] feat: Auto-post ai-is-rewriting-history--with-outdated-neanderthal.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-is-rewriting-history--with-outdated-neanderthal.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   d2e00679c..c16adcdc3  main -> main
+Created post: ai-is-rewriting-history--with-outdated-neanderthal.md
