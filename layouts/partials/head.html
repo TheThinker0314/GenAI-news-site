@@ -6,7 +6,7 @@
 {{ $desc := .Description | default (.Summary | default .Site.Params.description) }}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 
-<meta name="description" content="{{ $desc }}">
+<meta name="description" content="{{ $desc | truncate 160 }}">
 <meta name="author" content="{{ .Params.author | default .Site.Params.author }}">
 <meta name="theme-color" content="#1e3a8a">
 <link rel="canonical" href="{{ .Permalink }}">
@@ -14,7 +14,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relURL }}">
 <link rel="manifest" href="{{ "/site.webmanifest" | relURL }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 {{ with .Params.keywords | or .Site.Params.keywords }}
 <meta name="keywords" content="{{ delimit . ", " }}">
@@ -22,7 +22,7 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ $title }}">
-<meta property="og:description" content="{{ $desc }}">
+<meta property="og:description" content="{{ $desc | truncate 200 }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
@@ -30,6 +30,7 @@
 {{ $image := .Params.image | or (.Params.images | index 0) | or (.Site.Params.images | index 0) }}
 {{ with $image }}
 <meta property="og:image" content="{{ . | absURL }}">
+<meta property="og:image:alt" content="{{ $title }}">
 {{ end }}
 {{ if .IsPage }}
 <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
@@ -44,20 +45,22 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
-<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:description" content="{{ $desc | truncate 200 }}">
 {{ with .Site.Params.social.twitter }}
 <meta name="twitter:site" content="@{{ . }}">
+<meta name="twitter:creator" content="@{{ . }}">
 {{ end }}
 {{ with $image }}
 <meta name="twitter:image" content="{{ . | absURL }}">
+<meta name="twitter:image:alt" content="{{ $title }}">
 {{ end }}
 
 <!-- JSON-LD Schema.org -->
 {{ $ld := dict "@context" "https://schema.org" }}
 {{ if .IsPage }}
-  {{ $ld = merge $ld (dict "@type" "Article" "headline" .Title "url" .Permalink "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "description" $desc "author" (dict "@type" "Person" "name" (.Params.author | default .Site.Params.author))) }}
+  {{ $ld = merge $ld (dict "@type" "NewsArticle" "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink) "headline" .Title "image" (slice ($image | absURL)) "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00") "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00") "description" ($desc | truncate 160) "author" (dict "@type" "Person" "name" (.Params.author | default .Site.Params.author))) }}
 {{ else if .IsHome }}
-  {{ $ld = merge $ld (dict "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL "description" $desc) }}
+  {{ $ld = merge $ld (dict "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL "description" ($desc | truncate 160)) }}
 {{ end }}
 {{ $ld = merge $ld (dict "publisher" (dict "@type" "Organization" "name" .Site.Title "logo" (dict "@type" "ImageObject" "url" ( .Site.Params.site_logo | absURL)))) }}
 <script type="application/ld+json">
