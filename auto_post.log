@@ -5983,3 +5983,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: comptia-launches-ai-agent-essentials-course-for-wo.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ddd384781] feat: Auto-post learning-to-think-in-the-ai-era---unesco.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/learning-to-think-in-the-ai-era---unesco.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   5474b7ae8..ddd384781  main -> main
+Created post: learning-to-think-in-the-ai-era---unesco.md
