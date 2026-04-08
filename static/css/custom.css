@@ -162,3 +162,22 @@ img {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+/* Responsive and SEO enhancements */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .post-title {
+        font-size: 2rem;
+    }
+    .post-content {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
