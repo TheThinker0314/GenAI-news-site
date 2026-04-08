@@ -39,3 +39,13 @@ img {
 }
 .nav-link { color: #f4f4f5; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em; }
 .nav-link:hover { color: #60a5fa; }
+/* SEO and Design Improvements */
+.text-gradient {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.article-content {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
