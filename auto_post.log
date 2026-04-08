@@ -6126,3 +6126,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    a87fd3bfe..7c7cb296b  main -> main
 Created post: uber-expands-aws-partnership-to-build-ai-capabilit.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2c98c664d] feat: Auto-post seedance-20-is-now-on-runway-as-the-viral-ai-model.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/seedance-20-is-now-on-runway-as-the-viral-ai-model.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   d45973351..2c98c664d  main -> main
+Created post: seedance-20-is-now-on-runway-as-the-viral-ai-model.md
