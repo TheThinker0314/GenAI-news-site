@@ -6556,3 +6556,11 @@ See "git help gc" for manual housekeeping.
 To https://github.com/TheThinker0314/GenAI-news-site.git
    3ffbff4da..e11318bdb  main -> main
 Created post: 4-reasons-your-writing-accidentally-sounds-ai-gene.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ac936adc9] feat: Auto-post art-awakens-fremantles-imaginae-studios-lands-ai-s.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/art-awakens-fremantles-imaginae-studios-lands-ai-s.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   9ef63d7be..ac936adc9  main -> main
+Created post: art-awakens-fremantles-imaginae-studios-lands-ai-s.md
