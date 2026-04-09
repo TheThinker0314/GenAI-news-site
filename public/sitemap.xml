@@ -2,42 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://genai-news.com/posts/united-states-v-heppner-generative-ai-and-its-pitf/</loc>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/report-finds-ai-will-reshape-work-more-than-replac/</loc>
-    <lastmod>2026-04-09T04:30:01+00:00</lastmod>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/fremantle-unveils-first-native-ai-project-art-awak/</loc>
+    <lastmod>2026-04-09T10:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/from-generation-to-simulation-world-models-in-vide/</loc>
+    <lastmod>2026-04-09T10:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/the-top-5-ai-marketing-activations-to-know-about-r/</loc>
+    <lastmod>2026-04-09T09:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-as-a-weapon-of-war-in-iran---brookin/</loc>
+    <lastmod>2026-04-09T09:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-for-semiconductor-design-market-to-e/</loc>
+    <lastmod>2026-04-09T08:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-adobe-photoshop-3---benzinga-espaa/</loc>
+    <lastmod>2026-04-09T08:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/subgen-ai-adds-ai-quality-and-compliance-layer-to-/</loc>
+    <lastmod>2026-04-09T07:30:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/no-team-required-as-ai-powered-one-person-companie/</loc>
+    <lastmod>2026-04-09T07:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/agentic-ai-vs-generative-ai-in-australia-strategy-/</loc>
+    <lastmod>2026-04-09T06:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/improving-the-academic-workflow-introducing-two-ai/</loc>
+    <lastmod>2026-04-09T06:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/a-regulatory-framework-for-ai-that-balances-innova/</loc>
+    <lastmod>2026-04-09T05:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/prompt-injection-tags-along-as-genai-enters-daily-/</loc>
+    <lastmod>2026-04-09T05:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/report-finds-ai-will-reshape-work-more-than-replac/</loc>
     <lastmod>2026-04-09T04:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
