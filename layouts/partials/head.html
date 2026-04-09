@@ -7,30 +7,11 @@
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="/css/custom.css">
     {{ hugo.Generator }}
-</INNER_EOF>
-
-echo "Updating hugo.toml with SEO params"
-if ! grep -q "description = " hugo.toml; then
-    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
-fi
-
-echo "Adding some CSS for UI improvement"
-mkdir -p static/css
-cat << 'INNER_EOF' > static/css/custom.css
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-h1, h2, h3 {
-    color: #111;
-}
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+</head>
