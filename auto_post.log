@@ -6392,3 +6392,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: women-are-getting-left-behind-in-ai-this-is-what-w.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 36a4a2057] feat: Auto-post meta-unveils-muse-spark-ai-model-to-compete-in-gen.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/meta-unveils-muse-spark-ai-model-to-compete-in-gen.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   8f271374c..36a4a2057  main -> main
+Created post: meta-unveils-muse-spark-ai-model-to-compete-in-gen.md
