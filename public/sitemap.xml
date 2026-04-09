@@ -2,42 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://genai-news.com/posts/united-states-v-heppner-generative-ai-and-its-pitf/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/how-we-use-ai-on-forum-stories---the-world-economi/</loc>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-09T11:00:02+00:00</lastmod>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-09T16:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/trinity-launches-insightsedge-digital-twins--gener/</loc>
+    <lastmod>2026-04-09T15:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/new-anthropic-tool-speeds-up-ai-agent-development-/</loc>
+    <lastmod>2026-04-09T15:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/fraudsters-are-exploiting-generative-ai-faster-tha/</loc>
+    <lastmod>2026-04-09T14:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ex-apple-engineers-create-an-ai-button-that-looks-/</loc>
+    <lastmod>2026-04-09T14:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-sopra-steria-next-sets-out-the-bluep/</loc>
+    <lastmod>2026-04-09T13:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/how-agile-practices-ensure-quality-in-genai-assist/</loc>
+    <lastmod>2026-04-09T13:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/gen-ai-shows-promise-and-peril-in-patient-centered/</loc>
+    <lastmod>2026-04-09T12:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/art-awakens-fremantles-imaginae-studios-lands-ai-s/</loc>
+    <lastmod>2026-04-09T12:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/4-reasons-your-writing-accidentally-sounds-ai-gene/</loc>
+    <lastmod>2026-04-09T11:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/united-states-v-heppner-generative-ai-and-its-pitf/</loc>
     <lastmod>2026-04-09T11:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
