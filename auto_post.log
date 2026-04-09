@@ -6473,3 +6473,13 @@ Created post: subgen-ai-adds-ai-quality-and-compliance-layer-to-.md
  create mode 100644 content/posts/generative-ai-adobe-photoshop-3---benzinga-espaa.md
 Everything up-to-date
 Created post: generative-ai-adobe-photoshop-3---benzinga-espaa.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a8ec9f92f] feat: Auto-post generative-ai-for-semiconductor-design-market-to-e.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-for-semiconductor-design-market-to-e.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at a8ec9f92f868055d2a4c7264c7f8965d8eeff8dd but expected 052f0a78c3d9a304cb7c3c18b296098c3a12d8e6)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-for-semiconductor-design-market-to-e.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
