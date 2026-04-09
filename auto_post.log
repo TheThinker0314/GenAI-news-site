@@ -6420,3 +6420,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: prompt-injection-tags-along-as-genai-enters-daily-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 52ed25de8] feat: Auto-post a-regulatory-framework-for-ai-that-balances-innova.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/a-regulatory-framework-for-ai-that-balances-innova.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 97ed2fa759dda94bf10b2cfaf590762f6645d95b but expected 60c738ec552e57742f669dc86178f0f26938ea5a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: a-regulatory-framework-for-ai-that-balances-innova.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
