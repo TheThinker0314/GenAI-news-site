@@ -6400,3 +6400,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    8f271374c..36a4a2057  main -> main
 Created post: meta-unveils-muse-spark-ai-model-to-compete-in-gen.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4d62e831e] feat: Auto-post report-finds-ai-will-reshape-work-more-than-replac.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/report-finds-ai-will-reshape-work-more-than-replac.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 4d62e831e65623eb03f02ef7dbf0d7f1cf021d51 but expected 0fd3d6cf04e0ed8f5d418103b20dbd6bc0170470)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: report-finds-ai-will-reshape-work-more-than-replac.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
