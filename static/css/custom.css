@@ -1,15 +1,64 @@
+:root {
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --text-main: #1f2937;
+    --text-muted: #4b5563;
+    --bg-main: #ffffff;
+    --bg-off: #f3f4f6;
+    --border: #e5e7eb;
+}
+
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.7;
+    color: var(--text-main);
+    background-color: var(--bg-main);
+    margin: 0;
+    padding: 0;
 }
-h1, h2, h3 {
-    color: #111;
+
+h1, h2, h3, h4 {
+    color: #111827;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
 }
+
 a {
-    color: #0056b3;
+    color: var(--primary);
     text-decoration: none;
+    transition: color 0.2s ease;
 }
+
 a:hover {
+    color: var(--primary-hover);
     text-decoration: underline;
+}
+
+/* Card Design Improvements */
+.article-card, .post-summary {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.article-card:hover, .post-summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.nav-header {
+    background-color: #111827;
+    color: #fff;
+    padding: 1rem;
 }

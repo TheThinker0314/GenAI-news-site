@@ -6682,3 +6682,13 @@ Created post: meta-coreweave-in-21b-deal-to-expand-ai-partnershi.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    9f2bcaf4c..1b5b4ab00  main -> main
 Created post: measure-twice-cut-once-ai-for-e-discovery-in-publi.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c1dcffec9] feat: Auto-post generative-ai-adobe-photoshop-3---benzinga-france.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-adobe-photoshop-3---benzinga-france.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at c1dcffec9f798708da5f38ab51d9da9470a5b9af but expected 5fc6a970e1f71d50d0e541507016c1fa5634759e)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-adobe-photoshop-3---benzinga-france.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
