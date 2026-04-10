@@ -9,28 +9,5 @@
     <meta property="og:type" content="article">
     <link rel="canonical" href="{{ .Permalink }}">
     {{ hugo.Generator }}
-</INNER_EOF>
-
-echo "Updating hugo.toml with SEO params"
-if ! grep -q "description = " hugo.toml; then
-    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
-fi
-
-echo "Adding some CSS for UI improvement"
-mkdir -p static/css
-cat << 'INNER_EOF' > static/css/custom.css
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-h1, h2, h3 {
-    color: #111;
-}
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+    {{ partial "head-additions.html" . }}
+</head>
