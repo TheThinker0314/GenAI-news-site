@@ -2,42 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://genai-news.com/posts/bria-highlights-artist-focused-generative-ai-platf/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/googles-new-ai-app-is-a-glimpse-of-the-future---co/</loc>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-10T01:00:01+00:00</lastmod>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-is-the-new-front-door-to-government-the-bots-ne/</loc>
+    <lastmod>2026-04-10T10:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/hidden-impact-of-generative-ai-on-student-trust-an/</loc>
+    <lastmod>2026-04-10T07:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/tubi-provokes-backlash-over-ai-recommendation-push/</loc>
+    <lastmod>2026-04-10T07:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/the-vibe-coding-crisis-why-you-need-a-dual-track-e/</loc>
+    <lastmod>2026-04-10T06:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/cia-to-integrate-ai-co-workers-to-process-intellig/</loc>
+    <lastmod>2026-04-10T06:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/the-ai-sanction-wave-145k-in-q1-penalties-signals-/</loc>
+    <lastmod>2026-04-10T05:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/moving-towards-new-frontiers-with-generative-ai---/</loc>
+    <lastmod>2026-04-10T05:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/why-pfizer-and-other-blue-chip-brands-are-building/</loc>
+    <lastmod>2026-04-10T04:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/anthropic-rolls-out-claude-managed-agents---infowo/</loc>
+    <lastmod>2026-04-10T04:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/gen-zs-ai-adoption-steady-but-skepticism-climbs---/</loc>
+    <lastmod>2026-04-10T03:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/when-ai-borrows-public-figures-faces-creative-expe/</loc>
+    <lastmod>2026-04-10T03:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/concerns-grow-about-generative-ai-used-to-create-n/</loc>
+    <lastmod>2026-04-10T02:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/eu-advances-ai-continent-strategy-with-progress-ac/</loc>
+    <lastmod>2026-04-10T02:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/the-more-commodified-your-job-the-more-likely-ai-c/</loc>
+    <lastmod>2026-04-10T01:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/bria-highlights-artist-focused-generative-ai-platf/</loc>
     <lastmod>2026-04-10T01:00:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
