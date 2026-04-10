@@ -2,42 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <loc>https://genai-news.com/posts/anthropics-glasswing-highlights-ais-security-parad/</loc>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/cia-is-trusting-ai-to-help-analyze-intel-from-huma/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <loc>https://genai-news.com/categories/</loc>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-10T17:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/masterpieces-brought-to-life-using-generative-ai--/</loc>
+    <lastmod>2026-04-10T17:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/insilico-announces-ism6200-ai-designed-drug-candid/</loc>
+    <lastmod>2026-04-10T16:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/intel-secures-new-ai-infrastructure-deal-with-goog/</loc>
+    <lastmod>2026-04-10T16:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/wit-studio-apologizes-after-being-caught-using-gen/</loc>
+    <lastmod>2026-04-10T15:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/pharmaai-spring-kickoff-2026-drive-the-future-of-p/</loc>
+    <lastmod>2026-04-10T15:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/south-korean-chipmaker-partners-with-skt-arm-for-s/</loc>
+    <lastmod>2026-04-10T14:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/cia-is-trusting-ai-to-help-analyze-intel-from-huma/</loc>
     <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
