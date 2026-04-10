@@ -3,41 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/cia-is-trusting-ai-to-help-analyze-intel-from-huma/</loc>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/googles-new-ai-app-is-a-glimpse-of-the-future---co/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-10T10:30:02+00:00</lastmod>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-10T14:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-could-vastly-streamline-policing-skeptics-urge-/</loc>
+    <lastmod>2026-04-10T13:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/attack-on-titan-studio-confirms-generative-ai-was-/</loc>
+    <lastmod>2026-04-10T13:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/colleges-ban-generative-ai-in-writing-classes-stud/</loc>
+    <lastmod>2026-04-10T12:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/new-study-from-striped-explores-how-generative-ai-/</loc>
+    <lastmod>2026-04-10T12:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/s-game-rejects-generative-ai-for-phantom-blade-zer/</loc>
+    <lastmod>2026-04-10T11:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/this-problem-might-not-need-a-solution-customer-se/</loc>
+    <lastmod>2026-04-10T11:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/googles-new-ai-app-is-a-glimpse-of-the-future---co/</loc>
     <lastmod>2026-04-10T10:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
