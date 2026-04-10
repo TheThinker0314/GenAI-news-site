@@ -3,34 +3,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="robots" content="index, follow">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta property="og:locale" content="en_US">
-    {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}">{{ else if .Site.Params.images }}<meta property="og:image" content="{{ index .Site.Params.images 0 | absURL }}">{{ end }}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    {{ if .Params.image }}<meta name="twitter:image" content="{{ .Params.image | absURL }}">{{ else if .Site.Params.images }}<meta name="twitter:image" content="{{ index .Site.Params.images 0 | absURL }}">{{ end }}
+    <meta property="og:type" content="article">
     <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="stylesheet" href="/css/custom.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{{ if .IsPage }}NewsArticle{{ else }}WebSite{{ end }}",
-      "headline": "{{ .Title }}",
-      "url": "{{ .Permalink }}",
-      "datePublished": "{{ if .IsPage }}{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}",
-      "dateModified": "{{ if .IsPage }}{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}{{ end }}",
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{ .Site.Title }}"
-      }
-    }
-    </script>
     {{ hugo.Generator }}
-</head>
+</INNER_EOF>
+
+echo "Updating hugo.toml with SEO params"
+if ! grep -q "description = " hugo.toml; then
+    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
+fi
+
+echo "Adding some CSS for UI improvement"
+mkdir -p static/css
+cat << 'INNER_EOF' > static/css/custom.css
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
