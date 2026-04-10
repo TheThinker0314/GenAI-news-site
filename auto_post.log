@@ -7014,3 +7014,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    e7325f206..0c1ffac4a  main -> main
 Created post: south-korean-chipmaker-partners-with-skt-arm-for-s.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 162392c65] feat: Auto-post pharmaai-spring-kickoff-2026-drive-the-future-of-p.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/pharmaai-spring-kickoff-2026-drive-the-future-of-p.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   8b23320fb..162392c65  main -> main
+Created post: pharmaai-spring-kickoff-2026-drive-the-future-of-p.md
