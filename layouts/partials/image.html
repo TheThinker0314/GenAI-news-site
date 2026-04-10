@@ -1,0 +1,19 @@
+{{ $image := .image }}
+{{ $alt := .alt }}
+{{ $loading := .loading | default "lazy" }}
+{{ $decoding := .decoding | default "async" }}
+
+{{ if $image }}
+  {{ $src := $image.Permalink }}
+  {{ $small := $image.Resize "500x" }}
+  {{ $medium := $image.Resize "800x" }}
+  {{ $large := $image.Resize "1200x" }}
+
+  <img src="{{ $src }}"
+       srcset="{{ $small.Permalink }} 500w, {{ $medium.Permalink }} 800w, {{ $large.Permalink }} 1200w"
+       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+       alt="{{ $alt }}"
+       class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+       loading="{{ $loading }}"
+       decoding="{{ $decoding }}">
+{{ end }}
