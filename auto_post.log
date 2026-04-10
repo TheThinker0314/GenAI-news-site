@@ -6818,3 +6818,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    e2399dcf5..aeff73f46  main -> main
 Created post: eu-advances-ai-continent-strategy-with-progress-ac.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4fec713fb] feat: Auto-post concerns-grow-about-generative-ai-used-to-create-n.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/concerns-grow-about-generative-ai-used-to-create-n.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 4fec713fb4c65965d9596d7fd3e65edd609eed40 but expected aeff73f46657351d49dba4354edd54d64865f17d)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: concerns-grow-about-generative-ai-used-to-create-n.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
