@@ -1,0 +1,9 @@
+---
+title: "Hidden impact of generative AI on student trust and learning behavior - Devdiscourse"
+date: 2026-04-10T07:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTUdPQ1I1R3YyR0ZjMUJZNTVXNmxONXhpSFc3VEM2bTVWUzZXUEhjR09mNGJnSXowN0VYMTZEc01OTk5DRHRBbHpzcFlobzI0SW5mZzhjdjRPdDNrajNGcU1QWGdyZjgxa0NMVkRZWk0xR2FCcmFTMGZmU3llY3JIWXAwellvM1lCRmZJUmt2N09yU29MMER6dlVjaXg2WExNUWx4SlF6RmladU40TExRNlJJanRmYkZhSldmZ0xCTnFtRmvSAcgBQVVfeXFMTlBTTGY4aFZFVGM2NUEwR0JGdklrTFV2b0pxR2tVeldQOHFRenZXT3FUS2dFSTVoZUhkODBrTjg3dnhNM2N0QUJwckJWZjh6WGZaeUl2c25rOGtMVDBXZGc3dUk5SEF0RHhjWXRpZDAxWXNiVDVFT0ZvTFg5bjFpOHJQZ2tPeVJSTmZvb3Z2bi1KS3JvUzluS1lmSzlCRXVsMzdJOGtieVpKR3d1YktTS1ZTNjBYdE9lZDNSdE1qdEJaLU83OGp1c3I?oc=5)
