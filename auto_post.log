@@ -6958,3 +6958,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    2f85667d7..458e07ce6  main -> main
 Created post: s-game-rejects-generative-ai-for-phantom-blade-zer.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 70f24fe22] feat: Auto-post new-study-from-striped-explores-how-generative-ai-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/new-study-from-striped-explores-how-generative-ai-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   ce80083a6..70f24fe22  main -> main
+Created post: new-study-from-striped-explores-how-generative-ai-.md
