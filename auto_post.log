@@ -6912,3 +6912,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: the-vibe-coding-crisis-why-you-need-a-dual-track-e.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b41369197] feat: Auto-post tubi-provokes-backlash-over-ai-recommendation-push.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/tubi-provokes-backlash-over-ai-recommendation-push.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at b4136919714b109c0ae6914af60e14fbee5998cc but expected d0b553c05cc8eed0b69eaaeb47d37bdc25e9137d)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: tubi-provokes-backlash-over-ai-recommendation-push.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
