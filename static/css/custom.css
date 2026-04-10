@@ -8,3 +8,11 @@ header { border-bottom: 1px solid #eaeaea; background-color: #f8f9fa; }
 h1, h2, h3 { font-weight: 700; color: #111; letter-spacing: -0.02em; }
 .article-title { font-size: 2.5rem; margin-bottom: 0.5rem; }
 .post-meta { font-size: 0.9rem; color: #666; margin-bottom: 2rem; }
+
+/* SEO and Design Improvements */
+img { max-width: 100%; height: auto; border-radius: 8px; }
+.content-wrapper { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+blockquote { border-left: 4px solid #0066cc; margin: 1.5em 10px; padding: 0.5em 10px; color: #555; background: #f9f9f9; }
+.btn-primary { background-color: #0066cc; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block; font-weight: bold; }
+.btn-primary:hover { background-color: #004499; color: white; }
+.seo-hidden { position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden; }
