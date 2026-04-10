@@ -7084,3 +7084,11 @@ Created post: teens-say-they-are-turning-to-ai-for-friendship---.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    edf4f4a76..7f550c119  main -> main
 Created post: the-quantum-computing-etf-that-could-be-bigger-tha.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 906b0c392] feat: Auto-post blooms-taxonomy-needs-an-update-for-the-ai-age-opi.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/blooms-taxonomy-needs-an-update-for-the-ai-age-opi.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6b95f8793..906b0c392  main -> main
+Created post: blooms-taxonomy-needs-an-update-for-the-ai-age-opi.md
