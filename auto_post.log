@@ -7092,3 +7092,13 @@ Created post: the-quantum-computing-etf-that-could-be-bigger-tha.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    6b95f8793..906b0c392  main -> main
 Created post: blooms-taxonomy-needs-an-update-for-the-ai-age-opi.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2c6d7048f] feat: Auto-post attack-on-titan-studio-apologizes-and-heads-back-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/attack-on-titan-studio-apologizes-and-heads-back-t.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 2c6d7048f0bf5514bbb3c89e679b09e0a250931b but expected 906b0c39235df0ca2228991f1bc4ba297ea5af63)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: attack-on-titan-studio-apologizes-and-heads-back-t.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
