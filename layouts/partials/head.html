@@ -1,36 +1,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="{{ .Title }}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:type" content="article">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    {{ with .Params.images }}
+    <meta property="og:image" content="{{ index . 0 | absURL }}">
+    {{ else }}
+    <meta property="og:image" content="{{ "images/og-image.jpg" | absURL }}">
+    {{ end }}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
     {{ hugo.Generator }}
-</INNER_EOF>
-
-echo "Updating hugo.toml with SEO params"
-if ! grep -q "description = " hugo.toml; then
-    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
-fi
-
-echo "Adding some CSS for UI improvement"
-mkdir -p static/css
-cat << 'INNER_EOF' > static/css/custom.css
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-h1, h2, h3 {
-    color: #111;
-}
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+    {{ if .Site.Params.custom_css }}
+      {{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | relURL }}">
+      {{ end }}
+    {{ end }}
+</head>
