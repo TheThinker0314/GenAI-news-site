@@ -7361,3 +7361,11 @@ Created post: scammers-supercharged-by-ai-are-coming-for-your-pa.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    f572e1874..e7b5df933  main -> main
 Created post: why-generative-ai-needs-to-be-trained-on-more-lang.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7d656b216] feat: Auto-post japan-generative-ai-market-size-trends-and-growth-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-generative-ai-market-size-trends-and-growth-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   4aae32f97..7d656b216  main -> main
+Created post: japan-generative-ai-market-size-trends-and-growth-.md
