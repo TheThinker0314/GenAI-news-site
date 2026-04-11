@@ -7421,3 +7421,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: vanguard-launches-ai-powered-portfolio-analysis-to.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5645ffaa5] feat: Auto-post vanderbilt-launches-amplify-generative-ai-innovati.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/vanderbilt-launches-amplify-generative-ai-innovati.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f3f1e496179e62509e96dc3bc7105413ceb8af84 but expected 387226415d9038c5d1dfca9f2961198ef31dc16a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: vanderbilt-launches-amplify-generative-ai-innovati.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
