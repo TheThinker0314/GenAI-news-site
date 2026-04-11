@@ -7369,3 +7369,11 @@ Created post: why-generative-ai-needs-to-be-trained-on-more-lang.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    4aae32f97..7d656b216  main -> main
 Created post: japan-generative-ai-market-size-trends-and-growth-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ce6235138] feat: Auto-post after-crimson-desert-apology-the-boss-of-pubg-says.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/after-crimson-desert-apology-the-boss-of-pubg-says.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   cb7fd0f42..ce6235138  main -> main
+Created post: after-crimson-desert-apology-the-boss-of-pubg-says.md
