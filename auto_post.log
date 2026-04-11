@@ -7393,3 +7393,11 @@ Created post: arm-ceo-on-ai-chip-demand-and-market-shift---start.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    f848e2dc4..62c2ac8d7  main -> main
 Created post: generative-ai-to-reshape-the-future-of-health-care.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 0bb4b202c] feat: Auto-post seo-in-2026-how-ai-is-reshaping-the-fundamentals-o.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/seo-in-2026-how-ai-is-reshaping-the-fundamentals-o.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   45642a1e5..0bb4b202c  main -> main
+Created post: seo-in-2026-how-ai-is-reshaping-the-fundamentals-o.md
