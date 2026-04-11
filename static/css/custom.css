@@ -10,3 +10,22 @@ a:hover { color: #2b6cb0; text-decoration: underline; }
 .pv4 { padding-top: 2rem; padding-bottom: 2rem; }
 img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
 .content-wrapper { padding: 2rem 1rem; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); border-radius: 8px; }
+/* Additional Design Improvements */
+body {
+  line-height: 1.8;
+  color: #e4e4e7;
+}
+h1 { font-size: 2.5rem; letter-spacing: -0.03em; }
+h2 { font-size: 2rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.article-content { font-size: 1.15rem; }
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
