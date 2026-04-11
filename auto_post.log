@@ -7208,3 +7208,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    fa2256d78..bb537a13e  main -> main
 Created post: understanding-tokenization-and-consumption-in-llms.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ea8cfd4be] feat: Auto-post olivia-moore-media-narratives-distort-public-perce.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/olivia-moore-media-narratives-distort-public-perce.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at ea8cfd4be392e029501033fd8509522f8bc69a6f but expected bb537a13ece3e0a0264b2061f229c2ab52929f43)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: olivia-moore-media-narratives-distort-public-perce.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
