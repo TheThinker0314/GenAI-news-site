@@ -7490,3 +7490,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: tyler-calkin-explores-generative-ai-and-creativity.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7d9b8dc91] feat: Auto-post google-io-2026-announced-gemini-ai--android-17-rev.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/google-io-2026-announced-gemini-ai--android-17-rev.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 7d9b8dc914232a23fa29a3fccbfc9f6a94795ef4 but expected fc3f7d9058357e7c3da3d9b0482d137d0b279a8a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: google-io-2026-announced-gemini-ai--android-17-rev.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.

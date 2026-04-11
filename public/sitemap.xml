@@ -3,32 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/google-io-2026-announced-gemini-ai--android-17-rev/</loc>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
-    <lastmod>2026-04-11T15:30:02+00:00</lastmod>
+    <lastmod>2026-04-11T18:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/tyler-calkin-explores-generative-ai-and-creativity/</loc>
+    <lastmod>2026-04-11T18:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/buy-boost-or-build-choose-your-path-to-generative-/</loc>
+    <lastmod>2026-04-11T17:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-illuminates-invisible-wounds-of-israeli-trauma-/</loc>
+    <lastmod>2026-04-11T17:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/your-article-about-ai-doesnt-need-ai-art---the-ver/</loc>
+    <lastmod>2026-04-11T16:30:03+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
