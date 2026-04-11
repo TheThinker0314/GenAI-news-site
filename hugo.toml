@@ -1,15 +1,15 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = 'GenAI News Hub | Daily Generative AI Breakthroughs & LLM Trends'
+title = 'GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends & ChatGPT Updates'
 theme = 'ananke'
 enableRobotsTXT = true
 enableGitInfo = true
-summaryLength = 40
+summaryLength = 50
 
 [params]
-  description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more.'
-  theme_color = '#3498db'
-  keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence", "AI Ethics", "Neural Networks", "AI Research", "Generative Models", "AI Startups", "Prompt Engineering", "OpenAI", "Anthropic", "Claude", "Gemini", "AI Business", "Future of Work", "AI Tools"]
+  description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.'
+  theme_color = '#2980b9'
+  keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence", "AI Ethics", "Neural Networks", "AI Research", "Generative Models", "AI Startups", "Prompt Engineering", "OpenAI", "Anthropic", "Claude", "Gemini", "AI Business", "Future of Work", "AI Tools", "AI Tutorials", "AI Development"]
   custom_css = ["css/custom.css"]
   background_color_class = "bg-near-black"
   author = "GenAI News Editorial Team"
@@ -19,13 +19,13 @@ summaryLength = 40
   # SEO Enhancements
   images = ["images/og-image.jpg"]
   twitter_card = "summary_large_image"
-  robots = "index, follow"
+  robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
   opengraph = true
   schema = true
   canonicalUrl = true
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
-  rssLimit = 20
+  rssLimit = 30
   [params.social]
     twitter = "GenAINews"
     linkedin = "genai-news"
@@ -39,6 +39,10 @@ summaryLength = 40
     name = "News & Updates"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "Guides & Tutorials"
+    url = "/guides/"
+    weight = 3
 
 [markup]
   [markup.goldmark]
@@ -53,3 +57,4 @@ summaryLength = 40
 [taxonomies]
   category = "categories"
   tag = "tags"
+
