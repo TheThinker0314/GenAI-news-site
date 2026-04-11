@@ -7256,3 +7256,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    f20f3bb90..236ab5721  main -> main
 Created post: convapparel-measuring-and-bridging-the-realism-gap.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f6c0b9241] feat: Auto-post insilico-medicine-launches-pharma-ai-spring-kickof.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/insilico-medicine-launches-pharma-ai-spring-kickof.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f6c0b9241566d7ebe8c8957ba1b0fab368e9746b but expected 7b52b8e169528ffa7aeb612ef9c86bba284477c4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: insilico-medicine-launches-pharma-ai-spring-kickof.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
