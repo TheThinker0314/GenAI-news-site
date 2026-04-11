@@ -7385,3 +7385,11 @@ Created post: after-crimson-desert-apology-the-boss-of-pubg-says.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    e197a4e07..e24404791  main -> main
 Created post: arm-ceo-on-ai-chip-demand-and-market-shift---start.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 62c2ac8d7] feat: Auto-post generative-ai-to-reshape-the-future-of-health-care.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-to-reshape-the-future-of-health-care.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   f848e2dc4..62c2ac8d7  main -> main
+Created post: generative-ai-to-reshape-the-future-of-health-care.md
