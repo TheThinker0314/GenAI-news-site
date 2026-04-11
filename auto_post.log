@@ -7543,3 +7543,13 @@ Created post: anime-faces-first-major-ai-controversy-as-attack-o.md
  create mode 100644 content/posts/the-search-everywhere-playbook-a-holistic-strategy.md
 Everything up-to-date
 Created post: the-search-everywhere-playbook-a-holistic-strategy.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d7fb14eaf] feat: Auto-post most-downloaded-ai-chatbot-mobile-apps-in-japan-as.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/most-downloaded-ai-chatbot-mobile-apps-in-japan-as.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at d7fb14eafa378448cf715d306b29293c453c4779 but expected 2ddbf8426bd2c24a143a9c795ee03b4b7543aef0)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: most-downloaded-ai-chatbot-mobile-apps-in-japan-as.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
