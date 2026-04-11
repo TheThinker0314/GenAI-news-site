@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'GenAI News Hub | Daily Generative AI Breakthroughs & LLM Trends'
 theme = 'ananke'
 enableRobotsTXT = true
+enableGitInfo = true
+summaryLength = 40
 
 [params]
   description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more.'
