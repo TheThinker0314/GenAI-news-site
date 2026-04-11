@@ -7345,3 +7345,11 @@ Created post: wit-studio-addresses-ai-art-usage-in-new-ascendanc.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    8a9c58a88..aea2802cb  main -> main
 Created post: the-top-priority-for-adobes-next-ceo-prepping-for-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 788511391] feat: Auto-post scammers-supercharged-by-ai-are-coming-for-your-pa.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/scammers-supercharged-by-ai-are-coming-for-your-pa.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   e6fa46ec0..788511391  main -> main
+Created post: scammers-supercharged-by-ai-are-coming-for-your-pa.md
