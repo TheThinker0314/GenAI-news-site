@@ -180,3 +180,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    2e86a9604..77c03fad6  main -> main
 Created post: the-best-ai-etf-to-invest-2000-in-right-now---aolc.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2d14d6540] feat: Auto-post ai-job-market-2025-losses-gains-and-how-to-adapt--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-job-market-2025-losses-gains-and-how-to-adapt--.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   0659c2c2b..2d14d6540  main -> main
+Created post: ai-job-market-2025-losses-gains-and-how-to-adapt--.md
