@@ -2,64 +2,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-<link rel="canonical" href="{{ .Permalink }}">
-<meta name="robots" content="index, follow">
-{{ partial "seo.html" . }}
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="author" content="{{ site.Params.author }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta property="og:type" content="website">
 <style>
-    :root {
-        --bg-color: #f9f9f9;
-        --text-color: #333;
-        --heading-color: #2c3e50;
-        --link-color: #3498db;
-        --link-hover: #2980b9;
-        --border-color: #eee;
-        --card-bg: #fff;
-        --card-shadow: rgba(0,0,0,0.1);
-        --meta-color: #7f8c8d;
-    }
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --bg-color: #1a1a1a;
-            --text-color: #e0e0e0;
-            --heading-color: #ffffff;
-            --link-color: #64b5f6;
-            --link-hover: #90caf9;
-            --border-color: #333;
-            --card-bg: #2a2a2a;
-            --card-shadow: rgba(0,0,0,0.5);
-            --meta-color: #aaa;
-        }
-    }
-    body { 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-        line-height: 1.6; 
-        color: var(--text-color); 
-        background-color: var(--bg-color);
-        max-width: 1200px; 
-        margin: 0 auto; 
-        padding: 20px; 
-    }
-    h1, h2, h3 { color: var(--heading-color); }
-    a { color: var(--link-color); text-decoration: none; transition: color 0.3s; }
-    a:hover { color: var(--link-hover); text-decoration: underline; }
-    header { 
-        border-bottom: 2px solid var(--border-color); 
-        padding-bottom: 20px; 
-        margin-bottom: 30px; 
-    }
-    .post { 
-        background: var(--card-bg);
-        border-radius: 8px;
-        padding: 20px;
-        margin-bottom: 40px; 
-        box-shadow: 0 4px 6px var(--card-shadow);
-        transition: transform 0.2s;
-    }
-    .post:hover {
-        transform: translateY(-2px);
-    }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
+    h1, h2, h3 { color: #2c3e50; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    .post { margin-bottom: 40px; }
     .post-title { font-size: 1.5em; margin-bottom: 10px; }
-    .post-title a { color: var(--heading-color); }
-    .post-meta { color: var(--meta-color); font-size: 0.9em; margin-bottom: 15px; }
+    .post-meta { color: #7f8c8d; font-size: 0.9em; }
 </style>
