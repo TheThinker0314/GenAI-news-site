@@ -1,10 +1,7 @@
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #333;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
     background-color: #fcfcfc;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -14,30 +11,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #0056b3;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom-color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 a:hover {
-    border-bottom-color: #0056b3;
+    color: #004080;
+    text-decoration: underline;
 }
-article {
-    background: #fff;
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    margin-bottom: 24px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-header, footer {
-    text-align: center;
-    margin-bottom: 32px;
-}
-footer {
-    margin-top: 48px;
-    font-size: 0.9em;
-    color: #666;
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
