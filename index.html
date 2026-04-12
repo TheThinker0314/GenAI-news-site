@@ -25,29 +25,25 @@
 
     <style>
         :root {
-            --primary-color: #0056b3;
-            --text-color: #222;
-            --bg-color: #fafafa;
+            --primary-color: #0ea5e9;
+            --secondary-color: #0f172a;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
             --card-bg: #ffffff;
-            --header-text: white;
+            --header-text: #ffffff;
         }
         @media (prefers-color-scheme: dark) {
             :root {
-                --primary-color: #66b0ff;
-                --text-color: #e0e0e0;
-                --bg-color: #121212;
-                --card-bg: #1e1e1e;
+                --primary-color: #38bdf8;
+                --secondary-color: #020617;
+                --text-color: #e2e8f0;
+                --bg-color: #0f172a;
+                --card-bg: #1e293b;
                 --header-text: #ffffff;
-            }
-            body {
-                background: var(--bg-color);
-            }
-            p {
-                color: #bbb;
             }
         }
         body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
             background: var(--bg-color); 
             color: var(--text-color); 
             line-height: 1.6; 
@@ -55,42 +51,53 @@
             margin: 0; 
         }
         header {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 2rem 1rem;
+            background-color: var(--secondary-color);
+            color: var(--header-text);
+            padding: 3rem 1rem;
             text-align: center;
+            border-bottom: 4px solid var(--primary-color);
         }
         main {
-            padding: 2rem; 
+            padding: 2.5rem; 
             max-width: 900px; 
             margin: 2rem auto; 
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
-            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+            border-radius: 16px;
             background: var(--card-bg);
-            transition: box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         main:hover {
-            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
         }
         h1 { 
             margin: 0;
-            font-weight: 600; 
+            font-size: 2.5rem;
+            font-weight: 800; 
+            letter-spacing: -0.025em;
         }
         h2 {
             color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-top: 0;
         }
         p { 
-            font-size: 1.1em; 
-            color: #555; 
+            font-size: 1.125rem; 
         }
         footer {
             text-align: center;
             padding: 2rem;
-            color: #666;
+            color: #64748b;
             margin-top: 2rem;
+            border-top: 1px solid #e2e8f0;
         }
-        a { color: var(--primary-color); text-decoration: none; transition: color 0.3s; }
-        a:hover { color: #003d82; text-decoration: underline; }
+        @media (prefers-color-scheme: dark) {
+            footer {
+                border-top: 1px solid #334155;
+            }
+        }
+        a { color: var(--primary-color); text-decoration: none; font-weight: 500; transition: color 0.3s; }
+        a:hover { color: #0284c7; text-decoration: underline; }
     </style>
     
     <!-- Schema.org Markup -->
@@ -109,11 +116,11 @@
     </script>
 </head>
 <body>
-    <header>
+    <header role="banner">
         <h1>GenAI News</h1>
-        <p style="color: white; margin-top: 0.5rem;">Your daily source for Generative AI breakthroughs</p>
+        <p style="color: #cbd5e1; margin-top: 0.75rem; font-size: 1.2rem;">Your daily source for Generative AI breakthroughs</p>
     </header>
-    <main>
+    <main role="main">
         <article>
             <header>
                 <h2>Welcome to the Future of AI</h2>
@@ -124,7 +131,7 @@
             </section>
         </article>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>&copy; 2026 GenAI News. All rights reserved.</p>
     </footer>
 </body>
