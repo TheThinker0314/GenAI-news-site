@@ -29,6 +29,22 @@
             --text-color: #222;
             --bg-color: #fafafa;
             --card-bg: #ffffff;
+            --header-text: white;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary-color: #66b0ff;
+                --text-color: #e0e0e0;
+                --bg-color: #121212;
+                --card-bg: #1e1e1e;
+                --header-text: #ffffff;
+            }
+            body {
+                background: var(--bg-color);
+            }
+            p {
+                color: #bbb;
+            }
         }
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
