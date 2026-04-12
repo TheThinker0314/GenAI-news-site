@@ -172,3 +172,11 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: californias-ab-2013-requires-generative-ai-data-di.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 77c03fad6] feat: Auto-post the-best-ai-etf-to-invest-2000-in-right-now---aolc.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-best-ai-etf-to-invest-2000-in-right-now---aolc.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   2e86a9604..77c03fad6  main -> main
+Created post: the-best-ai-etf-to-invest-2000-in-right-now---aolc.md
