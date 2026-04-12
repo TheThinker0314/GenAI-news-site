@@ -147,3 +147,13 @@ No new items.
 To https://github.com/TheThinker0314/GenAI-news-site.git
    6345217ef..a4e2f113c  main -> main
 Created post: openais-gpt-53-instant-mini-does-faster-ai-mean-sm.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 500d1153a] feat: Auto-post openai-sora-discontinuation-what-the-end-of-a-plat.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/openai-sora-discontinuation-what-the-end-of-a-plat.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 500d1153a4770b37102350097bdae69717668b50 but expected a4e2f113cf62821646697a4539e18c6d15e0d63a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: openai-sora-discontinuation-what-the-end-of-a-plat.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
