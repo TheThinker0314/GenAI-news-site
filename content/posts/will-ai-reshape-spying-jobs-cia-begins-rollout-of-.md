@@ -1,0 +1,9 @@
+---
+title: "Will AI reshape spying jobs? CIA begins rollout of AI assistants - Storyboard18"
+date: 2026-04-12T07:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUdrZTJQSVVVRXNyYndQNkxTeEtrSkZJT1g1ODBLM3BSS292bHhYTVpRaHJPbklabnBWeDhHbWhKcE5EWV9uRWl6VkNvYmRab1dRNVZNOWw4ODRMLUVMQ2I0V1RsU2RaVmhfc25xNl9POE1McHBFLW1CMG5rN1dMdGpWSDEwTmVqTDQxMlV4VklLVWNlX3UyeFcxTlpETG0zRS11bmU2YnVGSGF4bVhRNUhPUW9FZ9IBuwFBVV95cUxPYldITGR2akhpZG5VZVJHVjhpelJWWEhuQlBmQ3Vhc1cxei1jamZfVUlfMENwTGpVNWFxT0lnclE2LW80NGR3U09UNDRUaXo0V3FYd3g5YWFfU040YkFCdVU1UFBpb2F2eW96Rl9jUlNsWkhXdzU0bnYxWjJBcWtKd2hiOExDdWVOX1hOUklFQkhiS09pcUZvNEdOc1VzZVl6Mkl2UFd0bUowSTluc1hfYXh2R0c5c1hXN0Nv?oc=5)
