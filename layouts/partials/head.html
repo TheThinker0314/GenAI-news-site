@@ -4,6 +4,7 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta name="author" content="{{ site.Params.author }}">
+<meta name="keywords" content="Generative AI, LLMs, Machine Learning, AI News, Artificial Intelligence">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta property="og:type" content="website">
