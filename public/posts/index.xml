@@ -1,13 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on GenAI News Hub | Daily Generative AI Breakthroughs &amp; LLM Trends</title>
+    <title>Posts on GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
     <link>https://genai-news.com/posts/</link>
-    <description>Recent content in Posts on GenAI News Hub | Daily Generative AI Breakthroughs &amp; LLM Trends</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Posts on GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Apr 2026 21:30:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 08:30:02 +0000</lastBuildDate>
     <atom:link href="https://genai-news.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A novelist was accused of using AI. Why the literary world is still grappling with guardrails - CBC</title>
+      <link>https://genai-news.com/posts/a-novelist-was-accused-of-using-ai-why-the-literar/</link>
+      <pubDate>Sun, 12 Apr 2026 08:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/a-novelist-was-accused-of-using-ai-why-the-literar/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AMD&#39;s GAIA Now Allows Building Custom AI Agents Via Chat, Becomes True Desktop App - Phoronix</title>
+      <link>https://genai-news.com/posts/amds-gaia-now-allows-building-custom-ai-agents-via/</link>
+      <pubDate>Sun, 12 Apr 2026 08:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/amds-gaia-now-allows-building-custom-ai-agents-via/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>IDEO U Curates Top AI Design Thinking Resources - Let&#39;s Data Science</title>
+      <link>https://genai-news.com/posts/ideo-u-curates-top-ai-design-thinking-resources---/</link>
+      <pubDate>Sun, 12 Apr 2026 07:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/ideo-u-curates-top-ai-design-thinking-resources---/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Will AI reshape spying jobs? CIA begins rollout of AI assistants - Storyboard18</title>
+      <link>https://genai-news.com/posts/will-ai-reshape-spying-jobs-cia-begins-rollout-of-/</link>
+      <pubDate>Sun, 12 Apr 2026 07:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/will-ai-reshape-spying-jobs-cia-begins-rollout-of-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>South Korea&#39;s Medical AI Approvals Surge 2.5-Fold - 조선일보</title>
+      <link>https://genai-news.com/posts/south-koreas-medical-ai-approvals-surge-25-fold--/</link>
+      <pubDate>Sun, 12 Apr 2026 06:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/south-koreas-medical-ai-approvals-surge-25-fold--/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Is the politicization of generative AI inevitable? - Brookings</title>
+      <link>https://genai-news.com/posts/is-the-politicization-of-generative-ai-inevitable-/</link>
+      <pubDate>Sun, 12 Apr 2026 06:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/is-the-politicization-of-generative-ai-inevitable-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Sun Peaks Independent News AI Policy - Sun Peaks Independent News</title>
+      <link>https://genai-news.com/posts/sun-peaks-independent-news-ai-policy---sun-peaks-i/</link>
+      <pubDate>Sun, 12 Apr 2026 05:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/sun-peaks-independent-news-ai-policy---sun-peaks-i/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>IBM&#39;s Consulting Edge Faces AI Disruption—Will Defensive AI Reverse the Trend? - Bitget</title>
+      <link>https://genai-news.com/posts/ibms-consulting-edge-faces-ai-disruptionwill-defen/</link>
+      <pubDate>Sun, 12 Apr 2026 04:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/ibms-consulting-edge-faces-ai-disruptionwill-defen/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Netflix’s One Piece Anime Remake Studio Officially Confirms AI Use in Latest Release - Comic Book Resources</title>
+      <link>https://genai-news.com/posts/netflixs-one-piece-anime-remake-studio-officially-/</link>
+      <pubDate>Sun, 12 Apr 2026 04:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/netflixs-one-piece-anime-remake-studio-officially-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Federal Court Rules Client’s Use of Generative AI Is Not Privileged - Perkins Coie</title>
+      <link>https://genai-news.com/posts/federal-court-rules-clients-use-of-generative-ai-i/</link>
+      <pubDate>Sun, 12 Apr 2026 03:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/federal-court-rules-clients-use-of-generative-ai-i/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Indonesia Debuts AI-Animated Series Legenda Bertuah - Let&#39;s Data Science</title>
+      <link>https://genai-news.com/posts/indonesia-debuts-ai-animated-series-legenda-bertua/</link>
+      <pubDate>Sun, 12 Apr 2026 03:00:01 +0000</pubDate>
+      <guid>https://genai-news.com/posts/indonesia-debuts-ai-animated-series-legenda-bertua/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Generative AI tool helps 3D print personal items that sustain daily use - MIT News</title>
+      <link>https://genai-news.com/posts/generative-ai-tool-helps-3d-print-personal-items-t/</link>
+      <pubDate>Sun, 12 Apr 2026 02:00:01 +0000</pubDate>
+      <guid>https://genai-news.com/posts/generative-ai-tool-helps-3d-print-personal-items-t/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Medical AI Approvals Surge 2.5-Fold in 3 Years, Now Generating Text-Based Preliminary Reports - Seoul Economic Daily</title>
+      <link>https://genai-news.com/posts/medical-ai-approvals-surge-25-fold-in-3-years-now-/</link>
+      <pubDate>Sun, 12 Apr 2026 01:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/medical-ai-approvals-surge-25-fold-in-3-years-now-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>RET Ventures: AI Accelerator Program Launched To Support Early-Stage Rental Technology Startups - Pulse 2.0</title>
+      <link>https://genai-news.com/posts/ret-ventures-ai-accelerator-program-launched-to-su/</link>
+      <pubDate>Sun, 12 Apr 2026 00:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/ret-ventures-ai-accelerator-program-launched-to-su/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>The Transformative Potential and Ethical Challenges of Generative AI in Science - National Today</title>
+      <link>https://genai-news.com/posts/the-transformative-potential-and-ethical-challenge/</link>
+      <pubDate>Sat, 11 Apr 2026 23:30:01 +0000</pubDate>
+      <guid>https://genai-news.com/posts/the-transformative-potential-and-ethical-challenge/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>CDTI promotes the application of generative artificial intelligence to children’s learning at Smartick - Capital-Riesgo.es</title>
+      <link>https://genai-news.com/posts/cdti-promotes-the-application-of-generative-artifi/</link>
+      <pubDate>Sat, 11 Apr 2026 23:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/cdti-promotes-the-application-of-generative-artifi/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Securing Generative AI: The Generative AI Security Scoping Matrix - Amazon Web Services</title>
+      <link>https://genai-news.com/posts/securing-generative-ai-the-generative-ai-security-/</link>
+      <pubDate>Sat, 11 Apr 2026 22:30:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/securing-generative-ai-the-generative-ai-security-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Amazon (AMZN) Poised for AI Dominance Despite Short-Term Challenges - National Today</title>
+      <link>https://genai-news.com/posts/amazon-amzn-poised-for-ai-dominance-despite-short-/</link>
+      <pubDate>Sat, 11 Apr 2026 22:00:02 +0000</pubDate>
+      <guid>https://genai-news.com/posts/amazon-amzn-poised-for-ai-dominance-despite-short-/</guid>
+      <description>Read the full article here</description>
+    </item>
     <item>
       <title>Most downloaded AI chatbot mobile apps in Japan as of April 2026 - Statista</title>
       <link>https://genai-news.com/posts/most-downloaded-ai-chatbot-mobile-apps-in-japan-as/</link>
@@ -3989,7 +4115,7 @@
       <link>https://genai-news.com/posts/welcome-to-genai-news/</link>
       <pubDate>Mon, 30 Mar 2026 11:21:00 +0000</pubDate>
       <guid>https://genai-news.com/posts/welcome-to-genai-news/</guid>
-      <description>Welcome to the GenAI News Hub!&#xA;This is your new central source for everything happening in the exciting world of Generative AI. From groundbreaking research and new model releases to practical applications and ethical discussions, we&amp;rsquo;ll be covering it all.</description>
+      <description>Welcome to the GenAI News Hub!&#xA;This is your new central source for everything happening in the exciting world of Generative AI. From groundbreaking research and new model releases to practical applications and ethical discussions, we&amp;rsquo;ll be covering it all.&#xA;Our mission is to provide clear, concise, and timely information to help you stay informed in this rapidly evolving field.</description>
     </item>
     <item>
       <title>How Gen Z can win in the AI era - cio.com</title>
@@ -5977,7 +6103,7 @@
       <link>https://genai-news.com/posts/open-source-llm-2026/</link>
       <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
       <guid>https://genai-news.com/posts/open-source-llm-2026/</guid>
-      <description>The landscape of Generative AI is shifting rapidly. With the release of smaller, highly optimized open-source models, the community is seeing performance that rivals massive proprietary systems.&#xA;Key Trends Efficiency on the Edge: Models are being optimized to run on local hardware, reducing cloud dependency.</description>
+      <description>The landscape of Generative AI is shifting rapidly. With the release of smaller, highly optimized open-source models, the community is seeing performance that rivals massive proprietary systems.&#xA;Key Trends Efficiency on the Edge: Models are being optimized to run on local hardware, reducing cloud dependency. Multimodal Capabilities: Text is no longer enough.</description>
     </item>
   </channel>
 </rss>
