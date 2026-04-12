@@ -127,3 +127,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: is-ai-the-greatest-art-heist-in-history---the-guar.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 04853a05d] feat: Auto-post using-generative-ai-researchers-design-compounds-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/using-generative-ai-researchers-design-compounds-t.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 04853a05d2b4b67987ac9da93c4b255356cd1b4b but expected a4721f7defd6ea4451553a4d5c24b38ff5150de4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: using-generative-ai-researchers-design-compounds-t.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
