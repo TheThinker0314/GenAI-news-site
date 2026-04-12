@@ -139,3 +139,11 @@ Created post: using-generative-ai-researchers-design-compounds-t.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
 No new items.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a4e2f113c] feat: Auto-post openais-gpt-53-instant-mini-does-faster-ai-mean-sm.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/openais-gpt-53-instant-mini-does-faster-ai-mean-sm.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6345217ef..a4e2f113c  main -> main
+Created post: openais-gpt-53-instant-mini-does-faster-ai-mean-sm.md
