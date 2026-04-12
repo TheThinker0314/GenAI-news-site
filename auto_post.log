@@ -1,0 +1,10 @@
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1a6db3d33] feat: Auto-post ibms-consulting-edge-faces-ai-disruptionwill-defen.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ibms-consulting-edge-faces-ai-disruptionwill-defen.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at a45853aa2173030d5f52a8b3d64ac506d47a1e47 but expected eb8cf9020980836360dcccdb396ff7a63b31e81c)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ibms-consulting-edge-faces-ai-disruptionwill-defen.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
