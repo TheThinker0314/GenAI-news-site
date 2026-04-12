@@ -9,6 +9,7 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
     <!-- Open Graph / Facebook -->
+    <link rel="canonical" href="https://genai-news.com/" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://genai-news.com/">
     <meta property="og:title" content="GenAI News | Latest AI & LLM Updates">
@@ -47,9 +48,13 @@
             padding: 2rem; 
             max-width: 900px; 
             margin: 2rem auto; 
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
-            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+            border-radius: 12px;
             background: var(--card-bg);
+            transition: box-shadow 0.3s ease;
+        }
+        main:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
         }
         h1 { 
             margin: 0;
@@ -68,6 +73,8 @@
             color: #666;
             margin-top: 2rem;
         }
+        a { color: var(--primary-color); text-decoration: none; transition: color 0.3s; }
+        a:hover { color: #003d82; text-decoration: underline; }
     </style>
     
     <!-- Schema.org Markup -->
