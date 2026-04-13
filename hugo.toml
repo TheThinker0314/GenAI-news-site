@@ -58,5 +58,5 @@ summaryLength = 50
   category = "categories"
   tag = "tags"
 
-seo_improvement='done'
-Adding SEO improvements to config
+# seo_improvement='done'
+# Adding SEO improvements to config
