@@ -1,0 +1,9 @@
+---
+title: "The Evolution of Artificial Intelligence: From Handwritten Rules to Generative and Agentic Machines - Wccftech"
+date: 2026-04-13T22:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMisAFBVV95cUxNakY1VGZuRkVWQU5raXVWVmRWVEgtU2VQeEdLODRuSUFIU3UzTnVMOXhReV82ZnRHbU81Y3lNTENVcjJNYmQzUzVLSnNhV05sN2h4TFZvejBxRExIdmR2cGpZajVSWXFyZjN4U3o0OG1HMno5eVFqcXRaQ25hY1VxZzE1TnR0U2lXTi1FdkxXUHpINXRxUGEtNDBROFhndVJfZUFEd1kwTDFaU0lSU1Z0Z9IBtgFBVV95cUxQTmV5aHFTamU4N2ZqLWRQWVdlN0lwMUlCMlhvdUtvSW9zVHpMZXVzb2hlQnJGejVoUzU4VzJxcWtFTFB0SlhmbjQ2Yjk1Zy1rUDFMX3lseVNGbVlzM2s0eThjSEtmZHJtbVROVHRsUzdsb29QMVd1RkdJTTZ6ZEU5N3VWdlJZdTBWSE9BM2JpOFJKOXdiX2Zrajk3Rk02S0E3OGJpMTQ5VXBfRThPNE81STAzN0xUZw?oc=5)
