@@ -1,31 +1,56 @@
 {{ define "main" }}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ .Permalink }}"
-  },
-  "headline": "{{ .Title }}",
-  "image": [
-    "{{ if .Params.images }}{{ index .Params.images 0 | absURL }}{{ else }}{{ index site.Params.images 0 | absURL }}{{ end }}"
-   ],
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-  "author": [{
-      "@type": "Person",
-      "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}"
-  }],
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.Title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ with site.Params.site_logo }}{{ . | absURL }}{{ else }}{{ site.BaseURL }}favicon.ico{{ end }}"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ .Permalink }}"
+    },
+    "headline": "{{ .Title }}",
+    "image": [
+      "{{ if .Params.images }}{{ index .Params.images 0 | absURL }}{{ else }}{{ index site.Params.images 0 | absURL }}{{ end }}"
+     ],
+    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+    "author": [{
+        "@type": "Person",
+        "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ site.Params.author }}{{ end }}"
+    }],
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.Title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ with site.Params.site_logo }}{{ . | absURL }}{{ else }}{{ site.BaseURL }}favicon.ico{{ end }}"
+      }
     }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.BaseURL }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Posts",
+        "item": "{{ site.BaseURL }}posts/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{ .Title }}"
+      }
+    ]
   }
-}
+]
 </script>
 <article aria-labelledby="article-title" class="max-w-4xl mx-auto bg-slate-800 rounded-2xl shadow-lg overflow-hidden my-8 border border-slate-700">
   
