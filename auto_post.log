@@ -351,3 +351,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: homture-magic-frame-smart-photo-display-integrates.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c19e034c4] feat: Auto-post high-court-publishes-names-of-brothers-indicted-ov.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/high-court-publishes-names-of-brothers-indicted-ov.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at c19e034c43f4196c98d096042b56c59fe761b692 but expected 1f058c6bfee40eaacbff35054119ebe935d4d061)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: high-court-publishes-names-of-brothers-indicted-ov.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
