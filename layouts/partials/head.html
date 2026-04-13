@@ -1,8 +1,12 @@
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="theme-color" content="{{ site.Params.theme_color | default "#1a5276" }}">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
 {{ partial "seo.html" . }}
 <style>
     :root {
@@ -13,7 +17,7 @@
         --card-bg: #ffffff;
     }
     body { 
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
         line-height: 1.6; 
         color: var(--text-color); 
         background-color: var(--bg-color);
@@ -30,7 +34,7 @@
         text-align: center;
     }
     header h1 { margin: 0; color: var(--primary-color); }
-    h1, h2, h3 { color: #111827; margin-top: 1.5em; margin-bottom: 0.5em; }
+    h1, h2, h3 { color: #111827; margin-top: 1.5em; margin-bottom: 0.5em; font-weight: 700; }
     a { color: var(--primary-color); text-decoration: none; transition: color 0.2s; }
     a:hover { color: var(--secondary-color); text-decoration: underline; }
     .post { 
@@ -42,7 +46,7 @@
         transition: transform 0.2s;
     }
     .post:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    .post-title { font-size: 1.75em; margin-top: 0; margin-bottom: 12px; }
+    .post-title { font-size: 1.75em; font-weight: 900; margin-top: 0; margin-bottom: 12px; }
     .post-meta { color: #6b7280; font-size: 0.9em; margin-bottom: 16px; }
     img { max-width: 100%; height: auto; border-radius: 4px; }
     @media (max-width: 768px) {
