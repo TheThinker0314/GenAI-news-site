@@ -469,3 +469,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
  create mode 100644 content/posts/report-warns-of-surge-in-ai-generated-holocaust-de.md
 Everything up-to-date
 Created post: report-warns-of-surge-in-ai-generated-holocaust-de.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2424d57e0] feat: Auto-post 4-major-firms-jointly-establish-domestic-ai-creati.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/4-major-firms-jointly-establish-domestic-ai-creati.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   52b957782..2424d57e0  main -> main
+Created post: 4-major-firms-jointly-establish-domestic-ai-creati.md
