@@ -412,3 +412,13 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: lead-with-people-not-technology-one-beauty-brand-o.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 9f5f85c80] feat: Auto-post softcamp-showcases-generative-ai-security-to-court.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/softcamp-showcases-generative-ai-security-to-court.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 9f5f85c80db88764e61f35c1098cda8184d52e47 but expected 90448deeb871640cca5092650dabf781c52ce853)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: softcamp-showcases-generative-ai-security-to-court.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
