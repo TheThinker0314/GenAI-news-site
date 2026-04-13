@@ -477,3 +477,11 @@ Created post: report-warns-of-surge-in-ai-generated-holocaust-de.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    52b957782..2424d57e0  main -> main
 Created post: 4-major-firms-jointly-establish-domestic-ai-creati.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e0ad93d43] feat: Auto-post generative-ai-in-healthcare-market-poised-for-tenf.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-in-healthcare-market-poised-for-tenf.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   f9d878eeb..e0ad93d43  main -> main
+Created post: generative-ai-in-healthcare-market-poised-for-tenf.md
