@@ -29,3 +29,13 @@
 {{ else if site.Params.images }}
 <meta name="twitter:image" content="{{ index site.Params.images 0 | absURL }}">
 {{ end }}
+
+<!-- JSON-LD SEO Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.Title }}",
+  "url": "{{ .Site.BaseURL }}"
+}
+</script>
