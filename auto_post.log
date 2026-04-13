@@ -566,3 +566,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    0d4205bff..045bc8cc0  main -> main
 Created post: 3-ways-pr-teams-can-understand-how-ai-sees-their-b.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 695c10a2d] feat: Auto-post opinion-weighing-ais-impact-on-trust-in-profession.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/opinion-weighing-ais-impact-on-trust-in-profession.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   22b94b16b..695c10a2d  main -> main
+Created post: opinion-weighing-ais-impact-on-trust-in-profession.md
