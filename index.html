@@ -8,6 +8,10 @@
     <meta name="keywords" content="GenAI, AI news, Generative AI, artificial intelligence, tech news, LLMs, ChatGPT, OpenAI, Anthropic">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
     <!-- Open Graph / Facebook -->
     <link rel="canonical" href="https://genai-news.com/" />
     <meta property="og:type" content="website">
@@ -24,6 +28,19 @@
     <meta property="twitter:image" content="https://genai-news.com/images/og-image.jpg">
 
     <style>
+        /* Skip to main content for accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
         :root {
             --primary-color: #0ea5e9;
             --secondary-color: #0f172a;
@@ -116,11 +133,12 @@
     </script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header role="banner">
         <h1>GenAI News</h1>
         <p style="color: #cbd5e1; margin-top: 0.75rem; font-size: 1.2rem;">Your daily source for Generative AI breakthroughs</p>
     </header>
-    <main role="main">
+    <main id="main-content" role="main">
         <article>
             <header>
                 <h2>Welcome to the Future of AI</h2>
