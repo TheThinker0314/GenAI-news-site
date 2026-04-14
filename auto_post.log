@@ -761,3 +761,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ai-utilized-to-mass-produce-online-antisemitic-mes.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main eb0434d98] feat: Auto-post japan-most-used-generative-ai-tools-2025---statist.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-most-used-generative-ai-tools-2025---statist.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   1a28b82f9..eb0434d98  main -> main
+Created post: japan-most-used-generative-ai-tools-2025---statist.md
