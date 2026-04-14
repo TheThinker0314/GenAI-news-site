@@ -13,8 +13,32 @@
     <meta property="og:type" content="article">
     <link rel="canonical" href="https://genai-news.com/posts/hello-world/">
     <meta name="generator" content="Hugo 0.124.1">
-    <link rel="stylesheet" href="/css/custom.css">
-</head>
+</INNER_EOF>
+
+echo "Updating hugo.toml with SEO params"
+if ! grep -q "description = " hugo.toml; then
+    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
+fi
+
+echo "Adding some CSS for UI improvement"
+mkdir -p static/css
+cat &lt;&lt; 'INNER_EOF' > static/css/custom.css
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
     
 <link rel="canonical" href="https://genai-news.com/posts/hello-world/">
 <meta name="description" content="Hello World! Welcome to the new and improved GenAI News Site!">
@@ -58,7 +82,9 @@
 }
 </script>
 
-    
+    <meta name="keywords" content="Generative AI, LLM, ChatGPT, AI News, Machine Learning, Tech Trends, Deep Learning, Artificial Intelligence, AI Ethics, Neural Networks, AI Research, Generative Models, AI Startups, Prompt Engineering, OpenAI, Anthropic, Claude, Gemini, AI Business, Future of Work, AI Tools, AI Tutorials, AI Development">
+<link rel="canonical" href="https://genai-news.com/posts/hello-world/">
+
 
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">

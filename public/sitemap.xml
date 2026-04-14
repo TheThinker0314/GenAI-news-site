@@ -3,36 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/samsung-sds-launches-ai-platform-to-support-nation/</loc>
-    <lastmod>2026-04-14T05:30:02+00:00</lastmod>
+    <loc>https://genai-news.com/posts/sk-group-uses-ai-to-recreate-founding-chairmen---l/</loc>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-14T07:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/orange-lion-sports-launches-ai-event-operations-as/</loc>
+    <lastmod>2026-04-14T06:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/the-ethics-of-generative-ai-in-creative-industries/</loc>
+    <lastmod>2026-04-14T06:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/samsung-sds-launches-ai-platform-to-support-nation/</loc>
     <lastmod>2026-04-14T05:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
