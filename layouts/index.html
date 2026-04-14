@@ -1,28 +1,34 @@
 {{ define "main" }}
-<div class="ph3">
-  <h1 class="f3 f2-m f1-l">Latest GenAI News &amp; Breakthroughs</h1>
-  <p class="f5 lh-copy measure">
-    Your daily source for the latest news, updates, and trends in Generative AI, LLMs, ChatGPT, and machine learning.
-  </p>
-</div>
-<div class="ph3 mt4">
-  <h2 class="f4">Latest Posts</h2>
-  <div class="flex-l flex-wrap">
+<section class="ph3 ph5-ns pv4 bg-light-gray w-100">
+  <div class="center mw8">
+    <h1 class="f2 f1-m f-headline-l fw8 mb0 lh-title dark-blue">Latest GenAI News &amp; Breakthroughs</h1>
+    <p class="f4 lh-copy measure mt3 mid-gray">
+      Your daily source for the latest news, updates, and trends in Generative AI, LLMs, ChatGPT, and machine learning.
+    </p>
+  </div>
+</section>
+
+<section class="ph3 ph5-ns mt4 mb5 center mw8">
+  <header>
+    <h2 class="f3 fw6 mb4 pb2 bb b--black-10">Latest Posts</h2>
+  </header>
+  <div class="flex flex-wrap nl2 nr2">
     {{ $pages := where .Site.RegularPages "Section" "posts" }}
     {{ range first 5 $pages.ByDate.Reverse }}
-    <div class="w-100 w-50-l pa2">
-        <a href="{{ .Permalink }}" class="db link dim">
-            <div class="ba b--black-10">
-                <div class="pa3">
-                    <h3 class="f5 f4-ns mb0">{{ .Title }}</h3>
-                    <p class="f6 f5-ns mt1 measure-narrow">{{ .Summary }}</p>
-                </div>
+    <article class="w-100 w-50-m w-33-l pa2 flex">
+        <a href="{{ .Permalink }}" class="db link black hide-child ba b--black-10 br3 shadow-4 hover-bg-lightest-blue bg-white h-100 flex flex-column w-100">
+            <div class="pa4 flex-auto">
+                <h3 class="f4 fw6 mb2 lh-title color-inherit hover-blue">{{ .Title }}</h3>
+                <p class="f6 lh-copy mt1 mb3 measure mid-gray">{{ .Summary }}</p>
+            </div>
+            <div class="pa3 bt b--black-10 bg-near-white mt-auto">
+                <span class="f6 db blue b">Read article &rarr;</span>
             </div>
         </a>
-    </div>
+    </article>
     {{ end }}
   </div>
-</div>
+</section>
 {{ end }}
 
 {{ define "head" }}
