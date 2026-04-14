@@ -2,42 +2,115 @@
 <html lang="en-us" class="scroll-smooth">
   <head>
     <title>GenAI | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GenAI | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
-    <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="GenAI">
-    <meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-    <meta property="og:type" content="article">
-    <link rel="canonical" href="https://genai-news.com/tags/genai/">
-    <meta name="generator" content="Hugo 0.124.1">
-</INNER_EOF>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GenAI | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
+<meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
+<meta name="author" content="GenAI News Editorial Team">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="https://genai-news.com/tags/genai/">
+<meta property="og:title" content="GenAI">
+<meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://genai-news.com/tags/genai/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GenAI">
+<style>
+    :root { 
+      --primary: #3b82f6; 
+      --primary-hover: #2563eb;
+      --text: #1f2937; 
+      --text-muted: #4b5563;
+      --bg: #ffffff; 
+      --surface: #f9fafb; 
+      --border: #e5e7eb;
+      --radius: 0.75rem;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    @media (prefers-color-scheme: dark) { 
+      :root { 
+        --primary: #60a5fa; 
+        --primary-hover: #93c5fd;
+        --text: #f9fafb; 
+        --text-muted: #9ca3af;
+        --bg: #0f172a; 
+        --surface: #1e293b; 
+        --border: #334155;
+        --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+      } 
+    }
+    body { 
+      font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+      line-height: 1.6; 
+      color: var(--text); 
+      background: var(--bg); 
+      max-width: 1200px; 
+      margin: 0 auto; 
+      padding: 2rem; 
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 { 
+      color: var(--text); 
+      line-height: 1.2; 
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+    a { 
+      color: var(--primary); 
+      text-decoration: none; 
+      transition: all 0.2s ease; 
+    }
+    a:hover { 
+      color: var(--primary-hover); 
+      text-decoration: underline; 
+    }
+    header { 
+      border-bottom: 1px solid var(--border); 
+      padding-bottom: 2rem; 
+      margin-bottom: 3rem; 
+    }
+    .post { 
+      margin-bottom: 3rem; 
+      background: var(--surface); 
+      padding: 2rem; 
+      border-radius: var(--radius); 
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .post:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    }
+    .post-title { 
+      font-size: 1.875rem; 
+      margin-bottom: 0.75rem; 
+    }
+    .post-meta { 
+      font-size: 0.875rem; 
+      color: var(--text-muted);
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+</style>
 
-echo "Updating hugo.toml with SEO params"
-if ! grep -q "description = " hugo.toml; then
-    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
-fi
 
-echo "Adding some CSS for UI improvement"
-mkdir -p static/css
-cat &lt;&lt; 'INNER_EOF' > static/css/custom.css
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "headline": "GenAI",
+  "name": "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends \u0026 ChatGPT Updates",
+  "url": "https:\/\/genai-news.com\/tags\/genai\/",
+  "description": "Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends \u0026 ChatGPT Updates"
+  }
 }
-h1, h2, h3 {
-    color: #111;
-}
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+</script>
 
     
 <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
@@ -55,11 +128,14 @@ a:hover {
 <meta name="twitter:site" content="@genainews">
 <meta name="twitter:title" content="GenAI">
 <meta name="twitter:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
+<link rel="canonical" href="https://genai-news.com/tags/genai/">
 
     <meta name="keywords" content="Generative AI, LLM, ChatGPT, AI News, Machine Learning, Tech Trends, Deep Learning, Artificial Intelligence, AI Ethics, Neural Networks, AI Research, Generative Models, AI Startups, Prompt Engineering, OpenAI, Anthropic, Claude, Gemini, AI Business, Future of Work, AI Tools, AI Tutorials, AI Development">
 <link rel="canonical" href="https://genai-news.com/tags/genai/">
+<meta property="og:site_name" content="GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
+<meta name="twitter:creator" content="@GenAINews">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-<meta name="googlebot" content="index, follow">
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,17 +178,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/oci-adds-generative-ai-exadata-cloudcustomer-and-o/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: OCI adds Generative AI, Exadata Cloud@Customer, and other authorized services for US government customers - Oracle Blogs">
+      <a href="https://genai-news.com/posts/heres-how-generative-ai-affects-creativity-accordi/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Here’s How Generative AI Affects Creativity, According to UH Research - University of Houston">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T03:00:02Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/oci-adds-generative-ai-exadata-cloudcustomer-and-o/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">OCI adds Generative AI, Exadata Cloud@Customer, and other authorized services for US government customers - Oracle Blogs</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T12:30:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/heres-how-generative-ai-affects-creativity-accordi/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Here’s How Generative AI Affects Creativity, According to UH Research - University of Houston</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/oci-adds-generative-ai-exadata-cloudcustomer-and-o/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: OCI adds Generative AI, Exadata Cloud@Customer, and other authorized services for US government customers - Oracle Blogs">Read Article
+        <a href="https://genai-news.com/posts/heres-how-generative-ai-affects-creativity-accordi/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Here’s How Generative AI Affects Creativity, According to UH Research - University of Houston">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -120,17 +196,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/enhance-or-eliminate-how-ai-will-likely-change-the/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Enhance or Eliminate? How AI Will Likely Change These Jobs | Working Knowledge - Harvard Business School">
+      <a href="https://genai-news.com/posts/top-10-best-ai-companies-in-florida-usa-2026-led-b/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Top 10 Best AI Companies in Florida USA 2026 Led by Simform Biz4Group and NIX With Strong Growth in Miami - International Business Times Australia">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T02:30:01Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/enhance-or-eliminate-how-ai-will-likely-change-the/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Enhance or Eliminate? How AI Will Likely Change These Jobs | Working Knowledge - Harvard Business School</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T12:00:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/top-10-best-ai-companies-in-florida-usa-2026-led-b/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Top 10 Best AI Companies in Florida USA 2026 Led by Simform Biz4Group and NIX With Strong Growth in Miami - International Business Times Australia</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/enhance-or-eliminate-how-ai-will-likely-change-the/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Enhance or Eliminate? How AI Will Likely Change These Jobs | Working Knowledge - Harvard Business School">Read Article
+        <a href="https://genai-news.com/posts/top-10-best-ai-companies-in-florida-usa-2026-led-b/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Top 10 Best AI Companies in Florida USA 2026 Led by Simform Biz4Group and NIX With Strong Growth in Miami - International Business Times Australia">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -138,17 +214,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/oracle-embeds-generative-ai-across-the-technology-/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Oracle Embeds Generative AI Across the Technology Stack to Enable Enterprise AI Adoption at Scale - Oracle">
+      <a href="https://genai-news.com/posts/ai-driven-strategy-outlined-at-mobile-world-congre/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: AI-driven strategy outlined at Mobile World Congress 2026 - Daily Tribune">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T02:00:01Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/oracle-embeds-generative-ai-across-the-technology-/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Oracle Embeds Generative AI Across the Technology Stack to Enable Enterprise AI Adoption at Scale - Oracle</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T11:30:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/ai-driven-strategy-outlined-at-mobile-world-congre/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">AI-driven strategy outlined at Mobile World Congress 2026 - Daily Tribune</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/oracle-embeds-generative-ai-across-the-technology-/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Oracle Embeds Generative AI Across the Technology Stack to Enable Enterprise AI Adoption at Scale - Oracle">Read Article
+        <a href="https://genai-news.com/posts/ai-driven-strategy-outlined-at-mobile-world-congre/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: AI-driven strategy outlined at Mobile World Congress 2026 - Daily Tribune">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -156,17 +232,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/nwo-policy-on-the-use-of-generative-ai---nwonl/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: NWO policy on the use of generative AI - nwo.nl">
+      <a href="https://genai-news.com/posts/waternsw-to-move-on-generative-ai---itnews/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: WaterNSW to move on generative AI - iTnews">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T01:30:02Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/nwo-policy-on-the-use-of-generative-ai---nwonl/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">NWO policy on the use of generative AI - nwo.nl</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T11:00:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/waternsw-to-move-on-generative-ai---itnews/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">WaterNSW to move on generative AI - iTnews</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/nwo-policy-on-the-use-of-generative-ai---nwonl/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: NWO policy on the use of generative AI - nwo.nl">Read Article
+        <a href="https://genai-news.com/posts/waternsw-to-move-on-generative-ai---itnews/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: WaterNSW to move on generative AI - iTnews">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -174,17 +250,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/spring-ai-tutorial-how-to-develop-ai-agents-with-s/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Spring AI tutorial: How to develop AI agents with Spring - InfoWorld">
+      <a href="https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Prompt Injection and LLM Jailbreaks: Defenses - Blockchain Council">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T01:00:01Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/spring-ai-tutorial-how-to-develop-ai-agents-with-s/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Spring AI tutorial: How to develop AI agents with Spring - InfoWorld</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T10:30:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Prompt Injection and LLM Jailbreaks: Defenses - Blockchain Council</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/spring-ai-tutorial-how-to-develop-ai-agents-with-s/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Spring AI tutorial: How to develop AI agents with Spring - InfoWorld">Read Article
+        <a href="https://genai-news.com/posts/prompt-injection-and-llm-jailbreaks-defenses---blo/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Prompt Injection and LLM Jailbreaks: Defenses - Blockchain Council">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -192,17 +268,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/bringing-ai-closer-to-the-edge-and-on-device-with-/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Bringing AI Closer to the Edge and On-Device with Gemma 4 | NVIDIA Technical Blog - developer.nvidia.com">
+      <a href="https://genai-news.com/posts/student-generative-artificial-intelligence-survey-/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Student Generative Artificial Intelligence Survey 2026 - hepi.ac.uk">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T00:30:01Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/bringing-ai-closer-to-the-edge-and-on-device-with-/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Bringing AI Closer to the Edge and On-Device with Gemma 4 | NVIDIA Technical Blog - developer.nvidia.com</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T10:00:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/student-generative-artificial-intelligence-survey-/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Student Generative Artificial Intelligence Survey 2026 - hepi.ac.uk</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/bringing-ai-closer-to-the-edge-and-on-device-with-/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Bringing AI Closer to the Edge and On-Device with Gemma 4 | NVIDIA Technical Blog - developer.nvidia.com">Read Article
+        <a href="https://genai-news.com/posts/student-generative-artificial-intelligence-survey-/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Student Generative Artificial Intelligence Survey 2026 - hepi.ac.uk">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -210,17 +286,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/arc-raiders-publisher-nexon-calls-the-game-a-troja/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: ARC Raiders Publisher Nexon Calls The Game A Trojan Horse To Normalize Generative AI - gameranx.com">
+      <a href="https://genai-news.com/posts/take-two-shuts-down-internal-ai-team---letsdatasci/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Take-Two Shuts Down Internal AI Team - letsdatascience.com">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T00:00:02Z">April 5, 2026</time>
-        <a href="https://genai-news.com/posts/arc-raiders-publisher-nexon-calls-the-game-a-troja/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">ARC Raiders Publisher Nexon Calls The Game A Trojan Horse To Normalize Generative AI - gameranx.com</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T09:30:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/take-two-shuts-down-internal-ai-team---letsdatasci/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Take-Two Shuts Down Internal AI Team - letsdatascience.com</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/arc-raiders-publisher-nexon-calls-the-game-a-troja/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: ARC Raiders Publisher Nexon Calls The Game A Trojan Horse To Normalize Generative AI - gameranx.com">Read Article
+        <a href="https://genai-news.com/posts/take-two-shuts-down-internal-ai-team---letsdatasci/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Take-Two Shuts Down Internal AI Team - letsdatascience.com">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -228,17 +304,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/how-to-use-generative-ai-for-pricing---mit-sloan-m/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: ﻿How to Use Generative AI for Pricing - MIT Sloan Management Review">
+      <a href="https://genai-news.com/posts/3-undervalued-ai-stocks-to-buy-right-now---the-glo/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: 3 Undervalued AI Stocks to Buy Right Now - The Globe and Mail">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-04T23:30:01Z">April 4, 2026</time>
-        <a href="https://genai-news.com/posts/how-to-use-generative-ai-for-pricing---mit-sloan-m/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">﻿How to Use Generative AI for Pricing - MIT Sloan Management Review</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T09:00:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/3-undervalued-ai-stocks-to-buy-right-now---the-glo/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">3 Undervalued AI Stocks to Buy Right Now - The Globe and Mail</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/how-to-use-generative-ai-for-pricing---mit-sloan-m/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: ﻿How to Use Generative AI for Pricing - MIT Sloan Management Review">Read Article
+        <a href="https://genai-news.com/posts/3-undervalued-ai-stocks-to-buy-right-now---the-glo/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: 3 Undervalued AI Stocks to Buy Right Now - The Globe and Mail">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -246,17 +322,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/why-ai-leaders-are-so-focused-on-image-generation-/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Why AI Leaders Are So Focused On Image Generation - digitalinformationworld.com">
+      <a href="https://genai-news.com/posts/top-13-use-cases-of-generative-ai-in-education---a/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Top 13 Use Cases of Generative AI in Education - AIMultiple">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-04T23:00:02Z">April 4, 2026</time>
-        <a href="https://genai-news.com/posts/why-ai-leaders-are-so-focused-on-image-generation-/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Why AI Leaders Are So Focused On Image Generation - digitalinformationworld.com</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T08:30:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/top-13-use-cases-of-generative-ai-in-education---a/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Top 13 Use Cases of Generative AI in Education - AIMultiple</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/why-ai-leaders-are-so-focused-on-image-generation-/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Why AI Leaders Are So Focused On Image Generation - digitalinformationworld.com">Read Article
+        <a href="https://genai-news.com/posts/top-13-use-cases-of-generative-ai-in-education---a/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Top 13 Use Cases of Generative AI in Education - AIMultiple">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -264,17 +340,17 @@ a:hover {
     
     <article class="bg-slate-800/80 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full border border-slate-700/50 overflow-hidden group">
       
-      <a href="https://genai-news.com/posts/ai-deskilling-we-warned-you---planetearthandbeyond/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: AI Deskilling: We Warned You. - planetearthandbeyond.co">
+      <a href="https://genai-news.com/posts/take-two-interactive-cuts-ai-team-ahead-of-gta-vi-/" class="block w-full aspect-video bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center text-slate-400 relative overflow-hidden" aria-label="Read article: Take-Two Interactive cuts AI team ahead of GTA VI release - The News International">
         <svg class="w-16 h-16 transform group-hover:scale-110 transition-transform duration-500 ease-out" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
       </a>
       
       <div class="p-8 flex flex-col flex-grow">
-        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-04T22:30:01Z">April 4, 2026</time>
-        <a href="https://genai-news.com/posts/ai-deskilling-we-warned-you---planetearthandbeyond/" class="block group-hover:text-blue-300 transition-colors">
-          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">AI Deskilling: We Warned You. - planetearthandbeyond.co</h2>
+        <time class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-4 block" datetime="2026-04-05T08:00:02Z">April 5, 2026</time>
+        <a href="https://genai-news.com/posts/take-two-interactive-cuts-ai-team-ahead-of-gta-vi-/" class="block group-hover:text-blue-300 transition-colors">
+          <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">Take-Two Interactive cuts AI team ahead of GTA VI release - The News International</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">Read the full article here</p>
-        <a href="https://genai-news.com/posts/ai-deskilling-we-warned-you---planetearthandbeyond/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: AI Deskilling: We Warned You. - planetearthandbeyond.co">Read Article
+        <a href="https://genai-news.com/posts/take-two-interactive-cuts-ai-team-ahead-of-gta-vi-/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: Take-Two Interactive cuts AI team ahead of GTA VI release - The News International">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>
       </div>
@@ -310,7 +386,7 @@ a:hover {
         <a href="/tags/genai/page/45/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
       </li>
       <li class="page-item">
-        <a href="/tags/genai/page/97/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/tags/genai/page/99/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
       </li>
     </ul>
   </div>

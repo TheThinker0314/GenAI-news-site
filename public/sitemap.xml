@@ -3,36 +3,131 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://genai-news.com/categories/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/popular-ai-chatbots-are-confidently-dispensing-med/</loc>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/printerpix-launches-artezaar-global-marketplace-br/</loc>
-    <lastmod>2026-04-14T13:00:02+00:00</lastmod>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://genai-news.com/tags/</loc>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/anthropic-mythos-prompting-calls-for-more-security/</loc>
+    <lastmod>2026-04-14T22:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/marine-corps-inaugural-agentic-and-genai-workshop-/</loc>
+    <lastmod>2026-04-14T22:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</loc>
+    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</loc>
+    <lastmod>2026-04-14T21:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</loc>
+    <lastmod>2026-04-14T20:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/generative-ai-tackles-key-challenges-for-future-6g/</loc>
+    <lastmod>2026-04-14T20:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/navigating-the-generative-ai-journey-the-path-to-v/</loc>
+    <lastmod>2026-04-14T19:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/mayer-brown-launches-comprehensive-genai-curriculu/</loc>
+    <lastmod>2026-04-14T19:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/eu-regulators-largely-denied-access-to-anthropic-m/</loc>
+    <lastmod>2026-04-14T18:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/microsoft-is-developing-copilot-features-inspired-/</loc>
+    <lastmod>2026-04-14T18:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</loc>
+    <lastmod>2026-04-14T17:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/workers-who-want-ai-training-the-most-are-using-it/</loc>
+    <lastmod>2026-04-14T17:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/we-are-creators-ai-is-not---calvin-university-chim/</loc>
+    <lastmod>2026-04-14T16:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</loc>
+    <lastmod>2026-04-14T16:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/ai-spreading-at-historic-speed-according-to-stanfo/</loc>
+    <lastmod>2026-04-14T15:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</loc>
+    <lastmod>2026-04-14T15:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/federal-court-holds-ai-communications-are-not-prot/</loc>
+    <lastmod>2026-04-14T14:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/doanes-tolerance-on-ai---doaneline/</loc>
+    <lastmod>2026-04-14T14:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://genai-news.com/posts/printerpix-launches-artezaar-global-marketplace-br/</loc>
     <lastmod>2026-04-14T13:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
