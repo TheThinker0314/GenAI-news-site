@@ -1028,3 +1028,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    1836c464f..74de1168b  main -> main
 Created post: oracle-expands-ai-infrastructure-drive-with-bloom-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 9c5cd25c8] feat: Auto-post we-are-creators-ai-is-not---calvin-university-chim.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/we-are-creators-ai-is-not---calvin-university-chim.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 9c5cd25c8f95610ce8d37d77f0ccc1f1fb49e6fd but expected ec5afcaaf9d7d6bbc684b6488ebcaf5cbc8b5ab8)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: we-are-creators-ai-is-not---calvin-university-chim.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
