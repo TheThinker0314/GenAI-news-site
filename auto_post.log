@@ -721,3 +721,13 @@ Created post: the-evolution-of-artificial-intelligence-from-hand.md
  create mode 100644 content/posts/unigen-expands-ai-portfolio-with-high-performance-.md
 Everything up-to-date
 Created post: unigen-expands-ai-portfolio-with-high-performance-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 842b246f3] feat: Auto-post kia-unveils-robotics-strategy-for-car-manufacturin.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/kia-unveils-robotics-strategy-for-car-manufacturin.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 842b246f38bdc9c9db678cd5dc43b25e49437d44 but expected 6d24ac968dccc556b2f0952c408197adb1449855)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: kia-unveils-robotics-strategy-for-car-manufacturin.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
