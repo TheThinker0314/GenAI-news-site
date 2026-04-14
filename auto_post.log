@@ -930,3 +930,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: amd-gaia-update-highlights-growing-role-in-open-so.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 50ea8f0aa] feat: Auto-post nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 50ea8f0aa187a2ba23a8e4e2a500b33a5da4f540 but expected 266611bb0f5412f357d6f1c86c46563c67db74d6)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
