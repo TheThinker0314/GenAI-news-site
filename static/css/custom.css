@@ -1,100 +1,47 @@
+/* custom.css - GenAI News Site Design Improvements */
 body {
-    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #333;
+    line-height: 1.6;
 }
 
-.f1-l {
-    font-size: 3rem;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #1a5276;
+    margin-bottom: 0.5rem;
 }
 
-.f3 {
-    font-size: 1.5rem;
-}
-
-.f4 {
-    font-size: 1.25rem;
-}
-
-.f5 {
-    font-size: 1rem;
-}
-
-.f6 {
-    font-size: .875rem;
-}
-
-.lh-copy {
-    line-height: 1.5;
-}
-
-.measure {
-    max-width: 30em;
-}
-
-.measure-narrow {
-    max-width: 20em;
-}
-
-.pa2 {
-    padding: .5rem;
-}
-
-.pa3 {
-    padding: 1rem;
-}
-
-.mt1 {
-    margin-top: .25rem;
-}
-
-.mt4 {
-    margin-top: 2rem;
-}
-
-.mb0 {
-    margin-bottom: 0;
-}
-
-.db {
-    display: block;
-}
-
-.link {
+a {
+    color: #2980b9;
     text-decoration: none;
-    color: inherit;
+    transition: color 0.2s ease-in-out;
 }
 
-.dim {
-    opacity: 1;
-    transition: opacity .15s ease-in;
+a:hover {
+    color: #1a5276;
+    text-decoration: underline;
 }
 
-.dim:hover,
-.dim:focus {
-    opacity: .5;
+.article-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
 }
 
-.ba {
-    border-style: solid;
-    border-width: 1px;
+.post-meta {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
 }
 
-.b--black-10 {
-    border-color: rgba(0, 0, 0, .1);
+.bg-near-black {
+    background-color: #0b1a26; /* Deeper, richer dark blue/black for modern AI vibe */
 }
 
-.w-100 {
-    width: 100%;
-}
-
-@media screen and (min-width: 60em) {
-    .w-50-l {
-        width: 50%;
-    }
-    .flex-l {
-        display: flex;
-    }
-    .flex-wrap {
-        flex-wrap: wrap;
-    }
+.shadow-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
 }
