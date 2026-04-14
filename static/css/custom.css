@@ -11,7 +11,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 a {
@@ -25,20 +25,30 @@ a:hover {
   text-decoration: underline;
 }
 
-.article-card {
+.article-card, .card {
   background: var(--card-bg);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: var(--transition);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   border: 1px solid rgba(255,255,255,0.05);
 }
 
-.article-card:hover {
+.article-card:hover, .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
   border-color: rgba(255,255,255,0.1);
+}
+
+.article-content {
+  font-size: 1.15rem;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  max-width: 100%;
 }
 
 header {
@@ -50,11 +60,9 @@ header {
   z-index: 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: #ffffff;
-}
+h1 { font-size: 2.5rem; letter-spacing: -0.03em; color: #ffffff; font-weight: 700; }
+h2 { font-size: 2rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; color: #ffffff; font-weight: 700; }
+h3, h4, h5, h6 { font-weight: 700; letter-spacing: -0.025em; color: #ffffff; }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
