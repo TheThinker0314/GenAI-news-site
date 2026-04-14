@@ -8,7 +8,7 @@ summaryLength = 50
 
 [params]
   description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.'
-  theme_color = '#1a5276'
+  theme_color = '#1b1b1b'
   keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence", "AI Ethics", "Neural Networks", "AI Research", "Generative Models", "AI Startups", "Prompt Engineering", "OpenAI", "Anthropic", "Claude", "Gemini", "AI Business", "Future of Work", "AI Tools", "AI Tutorials", "AI Development"]
   custom_css = ["css/custom.css"]
   background_color_class = "bg-near-black"
