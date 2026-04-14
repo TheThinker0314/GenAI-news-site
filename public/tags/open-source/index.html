@@ -12,13 +12,35 @@
     <meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
     <meta property="og:type" content="article">
     <link rel="canonical" href="https://genai-news.com/tags/open-source/">
-    <meta name="generator" content="Hugo 0.126.0">
-    
+    <meta name="generator" content="Hugo 0.124.1">
+</INNER_EOF>
+
+echo "Updating hugo.toml with SEO params"
+if ! grep -q "description = " hugo.toml; then
+    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
+fi
+
+echo "Adding some CSS for UI improvement"
+mkdir -p static/css
+cat &lt;&lt; 'INNER_EOF' > static/css/custom.css
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
     
 <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<meta name="author" content="GenAI News Editorial Team">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 
 <meta property="og:title" content="Open Source">
@@ -28,68 +50,16 @@
 <meta property="og:site_name" content="GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
 
 
-<meta property="og:image" content="https://genai-news.com/images/og-image.jpg">
-
-
-
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@GenAINews">
+<meta name="twitter:site" content="@genainews">
 <meta name="twitter:title" content="Open Source">
 <meta name="twitter:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
 
-<meta name="twitter:image" content="https://genai-news.com/images/og-image.jpg">
+    <meta name="keywords" content="Generative AI, LLM, ChatGPT, AI News, Machine Learning, Tech Trends, Deep Learning, Artificial Intelligence, AI Ethics, Neural Networks, AI Research, Generative Models, AI Startups, Prompt Engineering, OpenAI, Anthropic, Claude, Gemini, AI Business, Future of Work, AI Tools, AI Tutorials, AI Development">
+<link rel="canonical" href="https://genai-news.com/tags/open-source/">
 
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends \u0026 ChatGPT Updates",
-  "url": "https:\/\/genai-news.com\/"
-}
-</script>
-
-</head>
-    
-<meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<meta name="author" content="GenAI News Editorial Team">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-
-
-<meta property="og:title" content="Open Source">
-<meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://genai-news.com/tags/open-source/">
-<meta property="og:site_name" content="GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
-
-
-<meta property="og:image" content="https://genai-news.com/images/og-image.jpg">
-
-
-
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@GenAINews">
-<meta name="twitter:title" content="Open Source">
-<meta name="twitter:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-
-<meta name="twitter:image" content="https://genai-news.com/images/og-image.jpg">
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends \u0026 ChatGPT Updates",
-  "url": "https:\/\/genai-news.com\/"
-}
-</script>
-
-    
-
+<meta name="googlebot" content="index, follow">
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -142,7 +112,7 @@
           <h2 class="text-2xl font-bold text-slate-100 mb-4 leading-tight line-clamp-2">The Future of Open Source LLMs: What to Expect in 2026</h2>
         </a>
         <p class="text-slate-300 flex-grow line-clamp-3 mb-8 text-base leading-relaxed">The landscape of Generative AI is shifting rapidly. With the release of smaller, highly optimized open-source models, the community is seeing performance that rivals massive proprietary systems.
-Key Trends Efficiency on the Edge: Models are being optimized to run on local hardware, reducing cloud dependency. Multimodal Capabilities: Text is no longer enough.</p>
+Key Trends Efficiency on the Edge: Models are being optimized to run on local hardware, reducing cloud dependency. Multimodal Capabilities: Text is no longer enough. The new wave of open-source models can process audio, images, and video natively.</p>
         <a href="https://genai-news.com/posts/open-source-llm-2026/" class="text-blue-400 font-bold hover:text-blue-300 transition-colors mt-auto inline-flex items-center group/link" aria-label="Read full article: The Future of Open Source LLMs: What to Expect in 2026">Read Article
           <svg class="w-5 h-5 ml-2 transform group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
         </a>

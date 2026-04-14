@@ -678,3 +678,304 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: 2-attorneys-charged-3rd-faces-discipline-by-state-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 136bc51b4] feat: Auto-post generative-ai-wont-create-value-on-its-own---knowl.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-wont-create-value-on-its-own---knowl.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 136bc51b401478c56dc8e40324238519bc003a15 but expected 89cf45c46b3c46e91de08fe50b46da645f25ffe6)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-wont-create-value-on-its-own---knowl.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f1816b58f] feat: Auto-post employee-worries-over-ai-job-loss-clash-against-im.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/employee-worries-over-ai-job-loss-clash-against-im.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   b5e3062b1..f1816b58f  main -> main
+Created post: employee-worries-over-ai-job-loss-clash-against-im.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 30a300c59] feat: Auto-post from-buddhabot-to-199-chats-with-ai-jesus-the-fait.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/from-buddhabot-to-199-chats-with-ai-jesus-the-fait.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 30a300c59c452480dfaf51def21a19ec10c847f6 but expected f1816b58f67b614e929e6e33f26d0302ab27ad7b)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: from-buddhabot-to-199-chats-with-ai-jesus-the-fait.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ed8360b05] feat: Auto-post the-evolution-of-artificial-intelligence-from-hand.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-evolution-of-artificial-intelligence-from-hand.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   6794ee032..ed8360b05  main -> main
+Created post: the-evolution-of-artificial-intelligence-from-hand.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main abf62ba7e] feat: Auto-post unigen-expands-ai-portfolio-with-high-performance-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/unigen-expands-ai-portfolio-with-high-performance-.md
+Everything up-to-date
+Created post: unigen-expands-ai-portfolio-with-high-performance-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 842b246f3] feat: Auto-post kia-unveils-robotics-strategy-for-car-manufacturin.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/kia-unveils-robotics-strategy-for-car-manufacturin.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 842b246f38bdc9c9db678cd5dc43b25e49437d44 but expected 6d24ac968dccc556b2f0952c408197adb1449855)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: kia-unveils-robotics-strategy-for-car-manufacturin.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 70199b206] feat: Auto-post ai-errors-enter-new-mexico-state-federal-case-fili.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-errors-enter-new-mexico-state-federal-case-fili.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 70199b20656efeeadc3daaf6c890e2581aada4c4 but expected 842b246f38bdc9c9db678cd5dc43b25e49437d44)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-errors-enter-new-mexico-state-federal-case-fili.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main db7eed87f] feat: Auto-post approaches-to-ai-vary-among-san-diego-county-schoo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/approaches-to-ai-vary-among-san-diego-county-schoo.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at db7eed87f0f46f20c8673d6795069ed8fbc790ab but expected 528d8949d398f0209e4f611c85fde6597000f3d4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: approaches-to-ai-vary-among-san-diego-county-schoo.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 949dab463] feat: Auto-post ai-utilized-to-mass-produce-online-antisemitic-mes.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-utilized-to-mass-produce-online-antisemitic-mes.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 949dab463b2cfe56469f2fe29ec70f2f4ff627cb but expected db7eed87f0f46f20c8673d6795069ed8fbc790ab)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-utilized-to-mass-produce-online-antisemitic-mes.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main eb0434d98] feat: Auto-post japan-most-used-generative-ai-tools-2025---statist.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-most-used-generative-ai-tools-2025---statist.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   1a28b82f9..eb0434d98  main -> main
+Created post: japan-most-used-generative-ai-tools-2025---statist.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ead465dd2] feat: Auto-post a-look-at-progress-software-prgs-valuation-after-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/a-look-at-progress-software-prgs-valuation-after-t.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at ead465dd2a50bf0a681f3273e2a66baa040947da but expected eb0434d98014a8a9be9619911cfbd48d4a890a45)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: a-look-at-progress-software-prgs-valuation-after-t.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 75d9dbc74] feat: Auto-post openai-cro-warns-staff-ai-market-as-competitive-as.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/openai-cro-warns-staff-ai-market-as-competitive-as.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   0b27b945a..75d9dbc74  main -> main
+Created post: openai-cro-warns-staff-ai-market-as-competitive-as.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 25784d490] feat: Auto-post how-to-build-your-own-ai-agents-with-google-worksp.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-to-build-your-own-ai-agents-with-google-worksp.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 25784d490531f78a3783686aaa007732ab8888ae but expected 75d9dbc74cd05a7aa8ad843188a768c052acabb7)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: how-to-build-your-own-ai-agents-with-google-worksp.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f78cd1b0b] feat: Auto-post generative-ai-falls-short-in-diagnostic-reasoning-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-falls-short-in-diagnostic-reasoning-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f78cd1b0bfcf4c9e834c53655b1f18232e4ff800 but expected 25784d490531f78a3783686aaa007732ab8888ae)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-falls-short-in-diagnostic-reasoning-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 9ab947043] feat: Auto-post ais-big-productivity-boost-its-happening-from-the-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ais-big-productivity-boost-its-happening-from-the-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 9ab947043038ed5aa34aa34be29625bd8ea01383 but expected f78cd1b0bfcf4c9e834c53655b1f18232e4ff800)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ais-big-productivity-boost-its-happening-from-the-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+No items found in RSS.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 841eeeff0] feat: Auto-post why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 841eeeff0808c0a94c07a2ec5c5dd17d3bacd1c1 but expected 3806396eedf90aa2105293897297d1435c522a71)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c417f2611] feat: Auto-post samsung-sds-launches-ai-platform-to-support-nation.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/samsung-sds-launches-ai-platform-to-support-nation.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at c417f261128cd628a78121201572229997228ff7 but expected 841eeeff0808c0a94c07a2ec5c5dd17d3bacd1c1)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: samsung-sds-launches-ai-platform-to-support-nation.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 61d420eb2] feat: Auto-post the-ethics-of-generative-ai-in-creative-industries.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-ethics-of-generative-ai-in-creative-industries.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   c463c7a01..61d420eb2  main -> main
+Created post: the-ethics-of-generative-ai-in-creative-industries.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 264983e64] feat: Auto-post orange-lion-sports-launches-ai-event-operations-as.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/orange-lion-sports-launches-ai-event-operations-as.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   95c600c62..264983e64  main -> main
+Created post: orange-lion-sports-launches-ai-event-operations-as.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 28da47d52] feat: Auto-post sk-group-uses-ai-to-recreate-founding-chairmen---l.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/sk-group-uses-ai-to-recreate-founding-chairmen---l.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 28da47d52dd727ae7439b6ded4b636fe1467c549 but expected 29b32aa19b22adab2ee37c5e0c7d83c8040547b5)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: sk-group-uses-ai-to-recreate-founding-chairmen---l.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+fatal: Unable to create '/home/ubuntu/.openclaw/workspace/GenAI-news-site/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Created post: generative-ai-in-material-science-market-to-hit-us.md
+Error: Command '['git', 'add', 'content/posts/generative-ai-in-material-science-market-to-hit-us.md']' returned non-zero exit status 128.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b42270b5a] feat: Auto-post stanford-hai-report-generative-ai-hits-53-global-a.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/stanford-hai-report-generative-ai-hits-53-global-a.md
+Everything up-to-date
+Created post: stanford-hai-report-generative-ai-hits-53-global-a.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 777d17138] feat: Auto-post exclusive-edge-ai-inference-set-for-10x-growth-nok.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/exclusive-edge-ai-inference-set-for-10x-growth-nok.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   b31118c9b..777d17138  main -> main
+Created post: exclusive-edge-ai-inference-set-for-10x-growth-nok.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1aa9da4ee] feat: Auto-post the-viability-gap-why-42-of-ai-initiatives-fail-an.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-viability-gap-why-42-of-ai-initiatives-fail-an.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 1aa9da4ee5a13d9a392d690b3d5e0a88e119f82f but expected fa346d5679ee38c262b16a03f3d07cb11bd87e77)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: the-viability-gap-why-42-of-ai-initiatives-fail-an.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3783acf41] feat: Auto-post governing-the-hidden-risks-of-generative-ai-in-the.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/governing-the-hidden-risks-of-generative-ai-in-the.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 3783acf410dcfe2a3fc4dcb2bbe9d921a6dc8165 but expected 1aa9da4ee5a13d9a392d690b3d5e0a88e119f82f)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: governing-the-hidden-risks-of-generative-ai-in-the.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e9888cafc] feat: Auto-post dealers-demand-more-practical-ai-as-generic-tools-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/dealers-demand-more-practical-ai-as-generic-tools-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at e9888cafc991afb25d1c9d4206d10670a845aa1d but expected 002a9df8383669a80885b3f3fdb01da3270e7ff9)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: dealers-demand-more-practical-ai-as-generic-tools-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 266611bb0] feat: Auto-post amd-gaia-update-highlights-growing-role-in-open-so.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/amd-gaia-update-highlights-growing-role-in-open-so.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 266611bb0f5412f357d6f1c86c46563c67db74d6 but expected b70093a8f962378b82808562723291de04a3ae73)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: amd-gaia-update-highlights-growing-role-in-open-so.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 50ea8f0aa] feat: Auto-post nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 50ea8f0aa187a2ba23a8e4e2a500b33a5da4f540 but expected 266611bb0f5412f357d6f1c86c46563c67db74d6)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: nvidias-stephen-jones-on-the-toolkit-powering-gpus.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 14e1e19f2] feat: Auto-post stanfords-ai-index-2026-shows-rapid-progress-growi.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/stanfords-ai-index-2026-shows-rapid-progress-growi.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 14e1e19f257719847208ebfbb28a2247459839d0 but expected 6d58aaa2e0758f00a85a9540985b9c480c078cb1)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: stanfords-ai-index-2026-shows-rapid-progress-growi.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d4525a248] feat: Auto-post the-techbeat-microsoft-generative-ai-report-the-40.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-techbeat-microsoft-generative-ai-report-the-40.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   b5fca2ce7..d4525a248  main -> main
+Created post: the-techbeat-microsoft-generative-ai-report-the-40.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 99d872c4c] feat: Auto-post how-generative-ai-in-health-care-is-changing-patie.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-generative-ai-in-health-care-is-changing-patie.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 99d872c4ced51a3ed7976751c69f43817e3f9936 but expected c1c761bd9f3cd201578ec7f128231ef9cd6d4e1f)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: how-generative-ai-in-health-care-is-changing-patie.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 000885152] feat: Auto-post printerpix-launches-artezaar-global-marketplace-br.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/printerpix-launches-artezaar-global-marketplace-br.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 00088515236bb32a19859ba610a6fb59c3e9642b but expected 309121284b29f459bf9fecbaa1e4f0e8f087795e)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: printerpix-launches-artezaar-global-marketplace-br.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+No items found in RSS.
