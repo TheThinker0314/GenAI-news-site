@@ -1,46 +1,60 @@
+/* Custom CSS for GenAI News Hub */
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    line-height: 1.7;
-    color: #222;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #e2e8f0;
+    background-color: #1a202c;
+    line-height: 1.6;
 }
-h1, h2, h3 {
-    color: #000;
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f7fafc;
     font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
 }
+
 a {
-    color: #0284c7;
+    color: #63b3ed;
     text-decoration: none;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+    transition: color 0.2s ease-in-out;
 }
+
 a:hover {
-    color: #0369a1;
-    border-bottom: 2px solid #0369a1;
+    color: #90cdf4;
+    text-decoration: underline;
 }
-.container {
-    max-width: 1200px;
+
+article {
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 1.5rem;
+    padding: 2rem 1rem;
 }
-img {
+
+article img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 100%;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-.card {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    padding: 2rem;
-    margin-bottom: 2rem;
-    transition: transform 0.2s ease;
+
+.nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
-.card:hover {
-    transform: translateY(-5px);
+
+.button, .btn {
+    background-color: #1a5276;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.2s;
 }
-/* SEO & Design improvements */
-.article-title { font-weight: bold; font-size: 2.2rem; line-height: 1.2; color: #333; }
-.article-content { font-size: 1.15rem; line-height: 1.7; color: #444; }
-.btn-primary { background-color: #0056b3; border-radius: 4px; padding: 10px 20px; color: white; transition: background 0.3s; }
-.btn-primary:hover { background-color: #004494; }
-meta[name=description] { content: 'Premium GenAI news'; }
+
+.button:hover, .btn:hover {
+    background-color: #2471a3;
+    color: #ffffff;
+    text-decoration: none;
+}
