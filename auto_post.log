@@ -818,3 +818,13 @@ error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news
 Created post: ais-big-productivity-boost-its-happening-from-the-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
 No items found in RSS.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 841eeeff0] feat: Auto-post why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 841eeeff0808c0a94c07a2ec5c5dd17d3bacd1c1 but expected 3806396eedf90aa2105293897297d1435c522a71)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: why-is-weibos-ai-bot-trolling-everyone-online---ra.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
