@@ -1,60 +1,43 @@
-/* Custom CSS for GenAI News Hub */
+/* static/css/custom.css */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #e2e8f0;
-    background-color: #1a202c;
-    line-height: 1.6;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #f7fafc;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: -0.025em;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 a {
-    color: #63b3ed;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    color: #bb86fc;
 }
 
 a:hover {
-    color: #90cdf4;
-    text-decoration: underline;
+    color: #3700b3;
 }
 
 article {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-}
-
-article img {
+    background-color: #1e1e1e;
+    padding: 2em;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
-    height: auto;
+    margin-bottom: 2em;
 }
 
-.nav-link {
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.button, .btn {
-    background-color: #1a5276;
+h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    font-weight: 600;
-    display: inline-block;
-    transition: background-color 0.2s;
 }
 
-.button:hover, .btn:hover {
-    background-color: #2471a3;
-    color: #ffffff;
-    text-decoration: none;
+blockquote {
+    border-left: 5px solid #bb86fc;
+    color: #cfcfcf;
+    background-color: #2a2a2a;
+    padding: 1em;
+}
+
+pre {
+    background-color: #2a2a2a;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+code {
+    background-color: #2a2a2a;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
 }
