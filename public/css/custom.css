@@ -1,15 +1,100 @@
 body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
+    font-family: 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     color: #333;
 }
-h1, h2, h3 {
-    color: #111;
+
+.f1-l {
+    font-size: 3rem;
 }
-a {
-    color: #0056b3;
+
+.f3 {
+    font-size: 1.5rem;
+}
+
+.f4 {
+    font-size: 1.25rem;
+}
+
+.f5 {
+    font-size: 1rem;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.lh-copy {
+    line-height: 1.5;
+}
+
+.measure {
+    max-width: 30em;
+}
+
+.measure-narrow {
+    max-width: 20em;
+}
+
+.pa2 {
+    padding: .5rem;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mt1 {
+    margin-top: .25rem;
+}
+
+.mt4 {
+    margin-top: 2rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.db {
+    display: block;
+}
+
+.link {
     text-decoration: none;
+    color: inherit;
 }
-a:hover {
-    text-decoration: underline;
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover,
+.dim:focus {
+    opacity: .5;
+}
+
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+@media screen and (min-width: 60em) {
+    .w-50-l {
+        width: 50%;
+    }
+    .flex-l {
+        display: flex;
+    }
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
 }

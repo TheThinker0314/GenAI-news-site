@@ -7,7 +7,6 @@ enableGitInfo = true
 summaryLength = 50
 
 [params]
-  description = "The latest news and updates on Generative AI, LLMs, and AI research."
   description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.'
   theme_color = '#1a5276'
   keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence", "AI Ethics", "Neural Networks", "AI Research", "Generative Models", "AI Startups", "Prompt Engineering", "OpenAI", "Anthropic", "Claude", "Gemini", "AI Business", "Future of Work", "AI Tools", "AI Tutorials", "AI Development"]
@@ -32,6 +31,9 @@ summaryLength = 50
   [params.social]
     twitter = "GenAINews"
     linkedin = "genai-news"
+
+[params.ananke]
+  show_recent_posts = true
 
 [menu]
   [[menu.main]]
