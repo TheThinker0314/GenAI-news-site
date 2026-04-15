@@ -1225,3 +1225,10 @@ Created post: how-to-use-google-chromes-new-ai-powered-skills---.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    202d3a043..8c2aff1d3  main -> main
 Created post: upstage-reaches-generative-ai-unicorn-status-with-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 02352b9c3] feat: Auto-post in-the-face-of-rampant-ai-is-data-poisoning-a-new-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/in-the-face-of-rampant-ai-is-data-poisoning-a-new-.md
+Everything up-to-date
+Created post: in-the-face-of-rampant-ai-is-data-poisoning-a-new-.md
