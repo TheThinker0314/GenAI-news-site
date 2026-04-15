@@ -3,32 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/genai/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/news/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/categories/news/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/replace-staff-with-ai-before-it-gets-too-expensive/</loc>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/can-microsoft-really-meet-its-carbon-negative-goal/</loc>
+    <lastmod>2026-04-15T09:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/a-new-ai-tool-could-transform-how-we-diagnose-gene/</loc>
+    <lastmod>2026-04-15T08:30:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-and-the-death-of-quality-research---the-loyola-/</loc>
+    <lastmod>2026-04-15T08:30:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
@@ -3918,7 +3938,27 @@
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/1-unstoppable-ai-stock-to-buy-before-it-soars-more/</loc>
-    <lastmod>2026-03-31T10:36:19+00:00</lastmod>
+    <lastmod>2026-04-15T08:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/ai-stocks/</loc>
+    <lastmod>2026-04-15T08:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai-stocks/</loc>
+    <lastmod>2026-04-15T08:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/investing/</loc>
+    <lastmod>2026-04-15T08:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/wall-street/</loc>
+    <lastmod>2026-04-15T08:00:03+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
