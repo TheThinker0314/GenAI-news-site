@@ -1,4 +1,6 @@
 <meta name="keywords" content="{{ with .Params.tags }}{{ delimit . ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
-<!-- Empty file to override conflicting CSS -->
-<meta name="googlebot" content="index, follow">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta name="twitter:creator" content="@GenAINews">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<!-- SEO & UI tweaks applied -->

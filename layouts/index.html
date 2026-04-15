@@ -16,7 +16,7 @@
     {{ $pages := where .Site.RegularPages "Section" "posts" }}
     {{ range first 5 $pages.ByDate.Reverse }}
     <article class="w-100 w-50-m w-33-l pa2 flex">
-        <a href="{{ .Permalink }}" class="db link black hide-child ba b--black-10 br3 shadow-4 hover-bg-lightest-blue bg-white h-100 flex flex-column w-100">
+        <a href="{{ .Permalink }}" rel="bookmark" class="db link black hide-child ba b--black-10 br3 shadow-4 hover-bg-lightest-blue focus-bg-lightest-blue bg-white h-100 flex flex-column w-100 transition-all">
             <div class="pa4 flex-auto">
                 <h3 class="f4 fw6 mb2 lh-title color-inherit hover-blue">{{ .Title }}</h3>
                 <p class="f6 lh-copy mt1 mb3 measure mid-gray">{{ .Summary }}</p>
@@ -32,7 +32,7 @@
 {{ end }}
 
 {{ define "head" }}
-<title>Latest GenAI News &amp; Breakthroughs | GenAI News Hub</title>
+<title>GenAI News Hub: Latest Generative AI & LLM Breakthroughs</title>
 <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
 <meta name="keywords" content="Generative AI, LLM, ChatGPT, AI News, Machine Learning, Tech Trends, Deep Learning, Artificial Intelligence, AI Ethics, Neural Networks, AI Research, Generative Models, AI Startups, Prompt Engineering, OpenAI, Anthropic, Claude, Gemini, AI Business, Future of Work, AI Tools, AI Tutorials, AI Development">
 <meta property="og:site_name" content="GenAI News Hub">

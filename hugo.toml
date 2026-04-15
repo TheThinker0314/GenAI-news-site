@@ -66,3 +66,9 @@ summaryLength = 60
 
 # seo_improvement='done'
 # Adding SEO improvements to config
+# Adding more SEO improvements
+
+# Added final SEO improvements for April 15 2026
+[params.seo]
+  enhanced = true
+  mobile_friendly_design = true
