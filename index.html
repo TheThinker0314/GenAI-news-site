@@ -87,11 +87,13 @@
         .skip-link:focus { top: 0; }
 
         header {
-            background: linear-gradient(135deg, var(--primary), #8b5cf6);
+            background: linear-gradient(135deg, var(--primary), #6366f1);
             color: white;
-            padding: 4rem 1.5rem;
+            padding: 5rem 2rem;
             text-align: center;
-            box-shadow: var(--shadow-md);
+            border-bottom-left-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+            box-shadow: var(--shadow-lg);
         }
 
         h1 {
@@ -176,7 +178,11 @@
       "description": "Latest GenAI news, AI advancements, and updates.",
       "publisher": {
         "@type": "Organization",
-        "name": "GenAI News Editorial Team"
+        "name": "GenAI News Editorial Team",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://genai-news.com/images/logo.png"
+        }
       }
     }
     </script>

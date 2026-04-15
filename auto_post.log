@@ -1173,3 +1173,13 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 Created post: ai-exclusions-in-insurance-policies-broad-language.md
 Error: Command '['git', 'add', 'content/posts/ai-exclusions-in-insurance-policies-broad-language.md']' returned non-zero exit status 128.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7275c246f] feat: Auto-post turning-urgency-into-opportunity-the-cio-as-a-comp.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/turning-urgency-into-opportunity-the-cio-as-a-comp.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 7275c246f4a810254b19819c55da80406921680a but expected 89ac1918fc4d6e9dfc755dc46c6eb65b350626fa)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: turning-urgency-into-opportunity-the-cio-as-a-comp.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
