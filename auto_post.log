@@ -1269,3 +1269,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
  create mode 100644 content/posts/california-attorneys-charged-with-submitting-false.md
 Everything up-to-date
 Created post: california-attorneys-charged-with-submitting-false.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 73bbe7eea] feat: Auto-post technogym-google-cloud-announce-multi-year-collabo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/technogym-google-cloud-announce-multi-year-collabo.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 73bbe7eea6cdf7a9709592ff6877b6934d17d765 but expected 31110f563803aa6847136d321db6aee3835b2d07)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: technogym-google-cloud-announce-multi-year-collabo.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
