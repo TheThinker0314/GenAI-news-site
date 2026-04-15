@@ -1548,3 +1548,11 @@ Error: Command '['git', 'add', 'content/posts/berklee-college-of-music-offers-ai
 To https://github.com/TheThinker0314/GenAI-news-site.git
    ec89c168e..51a4f0dea  main -> main
 Created post: fireside-chat-the-backstage-revolution-ai--the-new.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b2c7026d0] feat: Auto-post splice-extends-creator-compensation-model-with-new.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/splice-extends-creator-compensation-model-with-new.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   0b437ce5d..b2c7026d0  main -> main
+Created post: splice-extends-creator-compensation-model-with-new.md
