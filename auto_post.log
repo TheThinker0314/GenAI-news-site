@@ -1408,3 +1408,11 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 Created post: tap-into-the-ai-apis-of-google-chrome-and-microsof.md
 Error: Command '['git', 'add', 'content/posts/tap-into-the-ai-apis-of-google-chrome-and-microsof.md']' returned non-zero exit status 128.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4e94e1b3e] feat: Auto-post reply-aws-deepen-enterprise-ai-and-cloud-alliance-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/reply-aws-deepen-enterprise-ai-and-cloud-alliance-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   653deb9d5..4e94e1b3e  main -> main
+Created post: reply-aws-deepen-enterprise-ai-and-cloud-alliance-.md
