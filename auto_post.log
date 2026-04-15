@@ -1416,3 +1416,13 @@ Error: Command '['git', 'add', 'content/posts/tap-into-the-ai-apis-of-google-chr
 To https://github.com/TheThinker0314/GenAI-news-site.git
    653deb9d5..4e94e1b3e  main -> main
 Created post: reply-aws-deepen-enterprise-ai-and-cloud-alliance-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a81b64a04] feat: Auto-post amazons-alexa-launches-in-italy-authentically-ital.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/amazons-alexa-launches-in-italy-authentically-ital.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at a81b64a04c0338e374114e3995aecfc4267b2b65 but expected 4e94e1b3e01671d3df9cad957b72ac04904ef91e)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: amazons-alexa-launches-in-italy-authentically-ital.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
