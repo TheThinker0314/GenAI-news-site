@@ -1252,3 +1252,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ai-powered-mainframe-exits-are-a-bubble-set-to-pop.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 84dbbcb95] feat: Auto-post generative-ai-use-is-getting-more-mainstream-in-am.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-use-is-getting-more-mainstream-in-am.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 84dbbcb95de2c68c8febb674e88bac8d127610f9 but expected 6f972576be3e07e513db140d4b63cf8e35ffed1a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: generative-ai-use-is-getting-more-mainstream-in-am.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
