@@ -72,3 +72,8 @@ summaryLength = 60
 [params.seo]
   enhanced = true
   mobile_friendly_design = true
+  structured_data_json_ld = true
+  core_web_vitals_optimized = true
+  accessibility_contrast_ratio = "AAA"
+  lazy_loading_images = true
+  font_display_swap = true

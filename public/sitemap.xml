@@ -2,122 +2,377 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://genai-news.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/genai/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/news/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/categories/news/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/pennsylvania-to-roll-out-genai-tools-across-state-/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-15T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/wit-studio-apologizes-for-generative-ai-in-ascenda/</loc>
+    <lastmod>2026-04-15T22:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/tiktokers-are-mocking-generative-aiand-racking-up-/</loc>
+    <lastmod>2026-04-15T22:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/pennsylvania-expanded-generative-ai-to-3000-employ/</loc>
+    <lastmod>2026-04-15T21:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/only-18-of-organizations-track-ai-roi---accounting/</loc>
+    <lastmod>2026-04-15T21:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/</loc>
+    <lastmod>2026-04-15T20:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/splice-extends-creator-compensation-model-with-new/</loc>
+    <lastmod>2026-04-15T20:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/fireside-chat-the-backstage-revolution-ai--the-new/</loc>
+    <lastmod>2026-04-15T19:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/berklee-college-of-music-offers-ai-course-students/</loc>
+    <lastmod>2026-04-15T19:21:55+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/once-trendy-shoe-company-allbirds-pivots-to-ai-inf/</loc>
+    <lastmod>2026-04-15T18:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/funding-lays-groundwork-for-orbitals-ai-data-cente/</loc>
+    <lastmod>2026-04-15T18:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/university-of-nevada-reno-navigates-ai---northern-/</loc>
+    <lastmod>2026-04-15T17:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/meta-and-broadcom-agree-to-mega-deal-to-co-develop/</loc>
+    <lastmod>2026-04-15T17:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-chatbots-give-misleading-medical-advice-50-of-t/</loc>
+    <lastmod>2026-04-15T17:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/splice-extends-creator-compensation-to-generative-/</loc>
+    <lastmod>2026-04-15T16:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/adobe-ushers-in-a-new-era-of-creativity-with-new-c/</loc>
+    <lastmod>2026-04-15T15:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/video-game-lawyer-implores-devs-to-understand-owne/</loc>
+    <lastmod>2026-04-15T15:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-state-regulatory-frontiers-predictive-generativ/</loc>
+    <lastmod>2026-04-15T14:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/boston-dynamics-google-deepmind-partner-on-industr/</loc>
+    <lastmod>2026-04-15T14:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/splice-announces-new-generative-ai-tools-to-custom/</loc>
+    <lastmod>2026-04-15T13:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/amazons-alexa-launches-in-italy-authentically-ital/</loc>
+    <lastmod>2026-04-15T13:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/reply-aws-deepen-enterprise-ai-and-cloud-alliance-/</loc>
+    <lastmod>2026-04-15T12:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/tap-into-the-ai-apis-of-google-chrome-and-microsof/</loc>
+    <lastmod>2026-04-15T12:26:27+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ocbc-rolls-out-generative-ai-training-for-wealth-a/</loc>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-developer-behind-infinity-nikki-and-love-and-d/</loc>
+    <lastmod>2026-04-15T11:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/salesforce-organizes-10-executives-to-defend-again/</loc>
+    <lastmod>2026-04-15T10:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/swri-harnesses-ai-to-find-meaningful-matches-in-so/</loc>
+    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/replace-staff-with-ai-before-it-gets-too-expensive/</loc>
+    <lastmod>2026-04-15T09:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/can-microsoft-really-meet-its-carbon-negative-goal/</loc>
+    <lastmod>2026-04-15T09:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/a-new-ai-tool-could-transform-how-we-diagnose-gene/</loc>
+    <lastmod>2026-04-15T08:30:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-and-the-death-of-quality-research---the-loyola-/</loc>
+    <lastmod>2026-04-15T08:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/upstage-becomes-koreas-first-generative-ai-unicorn/</loc>
+    <lastmod>2026-04-15T07:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/stanford-expands-ai-research-repository-for-k12-as/</loc>
+    <lastmod>2026-04-15T07:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/hyundai-partners-deepx-for-ai-powered-robots---lat/</loc>
+    <lastmod>2026-04-15T06:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/havas-red-launches-echoweave-to-help-brands-naviga/</loc>
+    <lastmod>2026-04-15T06:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/technogym-google-cloud-announce-multi-year-collabo/</loc>
+    <lastmod>2026-04-15T05:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/california-attorneys-charged-with-submitting-false/</loc>
+    <lastmod>2026-04-15T05:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/generative-ai-use-is-getting-more-mainstream-in-am/</loc>
+    <lastmod>2026-04-15T04:30:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-powered-mainframe-exits-are-a-bubble-set-to-pop/</loc>
+    <lastmod>2026-04-15T04:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/korean-ai-chip-startup-deepx-hyundai-work-on-robot/</loc>
+    <lastmod>2026-04-15T03:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/in-the-face-of-rampant-ai-is-data-poisoning-a-new-/</loc>
+    <lastmod>2026-04-15T03:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/upstage-reaches-generative-ai-unicorn-status-with-/</loc>
+    <lastmod>2026-04-15T02:30:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/how-to-use-google-chromes-new-ai-powered-skills---/</loc>
+    <lastmod>2026-04-15T02:00:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/inside-the-ai-index-12-takeaways-from-the-2026-rep/</loc>
+    <lastmod>2026-04-15T01:30:03+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/hack-the-ai-agent-build-agentic-ai-security-skills/</loc>
+    <lastmod>2026-04-15T01:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/technogym-and-google-cloud-enter-multi-year-collab/</loc>
+    <lastmod>2026-04-15T00:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/turning-urgency-into-opportunity-the-cio-as-a-comp/</loc>
+    <lastmod>2026-04-15T00:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-exclusions-in-insurance-policies-broad-language/</loc>
+    <lastmod>2026-04-15T00:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/popular-ai-chatbots-are-confidently-dispensing-med/</loc>
+    <lastmod>2026-04-14T23:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/anthropic-mythos-prompting-calls-for-more-security/</loc>
+    <lastmod>2026-04-14T22:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/marine-corps-inaugural-agentic-and-genai-workshop-/</loc>
+    <lastmod>2026-04-14T22:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</loc>
     <lastmod>2026-04-14T21:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/tags/genai/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/tags/news/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/categories/news/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/tags/</loc>
-    <lastmod>2026-04-14T21:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://genai-news.com/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</loc>
+    <loc>http://localhost:1313/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</loc>
     <lastmod>2026-04-14T21:00:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</loc>
+    <loc>http://localhost:1313/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</loc>
     <lastmod>2026-04-14T20:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/generative-ai-tackles-key-challenges-for-future-6g/</loc>
+    <loc>http://localhost:1313/posts/generative-ai-tackles-key-challenges-for-future-6g/</loc>
     <lastmod>2026-04-14T20:00:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/navigating-the-generative-ai-journey-the-path-to-v/</loc>
+    <loc>http://localhost:1313/posts/navigating-the-generative-ai-journey-the-path-to-v/</loc>
     <lastmod>2026-04-14T19:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/mayer-brown-launches-comprehensive-genai-curriculu/</loc>
+    <loc>http://localhost:1313/posts/mayer-brown-launches-comprehensive-genai-curriculu/</loc>
     <lastmod>2026-04-14T19:00:01+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/eu-regulators-largely-denied-access-to-anthropic-m/</loc>
+    <loc>http://localhost:1313/posts/eu-regulators-largely-denied-access-to-anthropic-m/</loc>
     <lastmod>2026-04-14T18:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/microsoft-is-developing-copilot-features-inspired-/</loc>
+    <loc>http://localhost:1313/posts/microsoft-is-developing-copilot-features-inspired-/</loc>
     <lastmod>2026-04-14T18:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</loc>
+    <loc>http://localhost:1313/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</loc>
     <lastmod>2026-04-14T17:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/workers-who-want-ai-training-the-most-are-using-it/</loc>
+    <loc>http://localhost:1313/posts/workers-who-want-ai-training-the-most-are-using-it/</loc>
     <lastmod>2026-04-14T17:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/we-are-creators-ai-is-not---calvin-university-chim/</loc>
+    <loc>http://localhost:1313/posts/we-are-creators-ai-is-not---calvin-university-chim/</loc>
     <lastmod>2026-04-14T16:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</loc>
+    <loc>http://localhost:1313/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</loc>
     <lastmod>2026-04-14T16:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/ai-spreading-at-historic-speed-according-to-stanfo/</loc>
+    <loc>http://localhost:1313/posts/ai-spreading-at-historic-speed-according-to-stanfo/</loc>
     <lastmod>2026-04-14T15:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</loc>
+    <loc>http://localhost:1313/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</loc>
     <lastmod>2026-04-14T15:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/federal-court-holds-ai-communications-are-not-prot/</loc>
+    <loc>http://localhost:1313/posts/federal-court-holds-ai-communications-are-not-prot/</loc>
     <lastmod>2026-04-14T14:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/doanes-tolerance-on-ai---doaneline/</loc>
+    <loc>http://localhost:1313/posts/doanes-tolerance-on-ai---doaneline/</loc>
     <lastmod>2026-04-14T14:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/printerpix-launches-artezaar-global-marketplace-br/</loc>
+    <loc>http://localhost:1313/posts/printerpix-launches-artezaar-global-marketplace-br/</loc>
     <lastmod>2026-04-14T13:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://genai-news.com/posts/how-generative-ai-in-health-care-is-changing-patie/</loc>
+    <loc>http://localhost:1313/posts/how-generative-ai-in-health-care-is-changing-patie/</loc>
     <lastmod>2026-04-14T12:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>

@@ -6,118 +6,475 @@
     <description>Recent content in News on GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 21:30:02 +0000</lastBuildDate>
-    <atom:link href="https://genai-news.com/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 23:00:02 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pennsylvania to Roll Out GenAI Tools Across State Workforce - govtech.com</title>
+      <link>http://localhost:1313/posts/pennsylvania-to-roll-out-genai-tools-across-state-/</link>
+      <pubDate>Wed, 15 Apr 2026 23:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pennsylvania-to-roll-out-genai-tools-across-state-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>WIT Studio Apologizes for Generative AI in Ascendance of a Bookworm Part 3&#39;s Opening Sequence - Anime News Network</title>
+      <link>http://localhost:1313/posts/wit-studio-apologizes-for-generative-ai-in-ascenda/</link>
+      <pubDate>Wed, 15 Apr 2026 22:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wit-studio-apologizes-for-generative-ai-in-ascenda/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>TikTokers Are Mocking Generative AI—And Racking Up Millions Of Views - Forbes</title>
+      <link>http://localhost:1313/posts/tiktokers-are-mocking-generative-aiand-racking-up-/</link>
+      <pubDate>Wed, 15 Apr 2026 22:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tiktokers-are-mocking-generative-aiand-racking-up-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Pennsylvania expanded generative AI to 3,000 employees, with thousands more in training - StateScoop</title>
+      <link>http://localhost:1313/posts/pennsylvania-expanded-generative-ai-to-3000-employ/</link>
+      <pubDate>Wed, 15 Apr 2026 21:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pennsylvania-expanded-generative-ai-to-3000-employ/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Only 18% of organizations track AI ROI - Accounting Today</title>
+      <link>http://localhost:1313/posts/only-18-of-organizations-track-ai-roi---accounting/</link>
+      <pubDate>Wed, 15 Apr 2026 21:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/only-18-of-organizations-track-ai-roi---accounting/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes</title>
+      <link>http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/</link>
+      <pubDate>Wed, 15 Apr 2026 20:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Splice Extends Creator Compensation Model With New Generative AI Tools - MusicRow.com</title>
+      <link>http://localhost:1313/posts/splice-extends-creator-compensation-model-with-new/</link>
+      <pubDate>Wed, 15 Apr 2026 20:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/splice-extends-creator-compensation-model-with-new/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Fireside Chat: The Backstage Revolution: AI &amp; The New Production OS - Television Academy</title>
+      <link>http://localhost:1313/posts/fireside-chat-the-backstage-revolution-ai--the-new/</link>
+      <pubDate>Wed, 15 Apr 2026 19:30:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fireside-chat-the-backstage-revolution-ai--the-new/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Berklee College of Music Offers AI Course, Students Are Pissed - Gizmodo</title>
+      <link>http://localhost:1313/posts/berklee-college-of-music-offers-ai-course-students/</link>
+      <pubDate>Wed, 15 Apr 2026 19:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/berklee-college-of-music-offers-ai-course-students/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Once Trendy Shoe Company Allbirds Pivots to AI Infrastructure - AI Business</title>
+      <link>http://localhost:1313/posts/once-trendy-shoe-company-allbirds-pivots-to-ai-inf/</link>
+      <pubDate>Wed, 15 Apr 2026 18:30:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/once-trendy-shoe-company-allbirds-pivots-to-ai-inf/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Funding Lays Groundwork for Orbital’s AI Data Centers in Space - AI Business</title>
+      <link>http://localhost:1313/posts/funding-lays-groundwork-for-orbitals-ai-data-cente/</link>
+      <pubDate>Wed, 15 Apr 2026 18:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/funding-lays-groundwork-for-orbitals-ai-data-cente/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>University of Nevada, Reno navigates AI - Northern Nevada Business Weekly</title>
+      <link>http://localhost:1313/posts/university-of-nevada-reno-navigates-ai---northern-/</link>
+      <pubDate>Wed, 15 Apr 2026 17:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/university-of-nevada-reno-navigates-ai---northern-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Meta and Broadcom Agree to Mega-Deal to Co-Develop AI Chips - AI Business</title>
+      <link>http://localhost:1313/posts/meta-and-broadcom-agree-to-mega-deal-to-co-develop/</link>
+      <pubDate>Wed, 15 Apr 2026 17:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/meta-and-broadcom-agree-to-mega-deal-to-co-develop/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AI chatbots give misleading medical advice 50% of the time: study - Modern Healthcare</title>
+      <link>http://localhost:1313/posts/ai-chatbots-give-misleading-medical-advice-50-of-t/</link>
+      <pubDate>Wed, 15 Apr 2026 16:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-chatbots-give-misleading-medical-advice-50-of-t/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Splice Extends Creator Compensation to Generative AI Tools - Let&#39;s Data Science</title>
+      <link>http://localhost:1313/posts/splice-extends-creator-compensation-to-generative-/</link>
+      <pubDate>Wed, 15 Apr 2026 16:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/splice-extends-creator-compensation-to-generative-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Adobe Ushers in a New Era of Creativity with New Creative Agent and Generative AI Innovations in Adobe Firefly - Adobe Newsroom</title>
+      <link>http://localhost:1313/posts/adobe-ushers-in-a-new-era-of-creativity-with-new-c/</link>
+      <pubDate>Wed, 15 Apr 2026 15:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/adobe-ushers-in-a-new-era-of-creativity-with-new-c/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Video game lawyer implores devs to understand ownership and swerve generative AI - Game Developer</title>
+      <link>http://localhost:1313/posts/video-game-lawyer-implores-devs-to-understand-owne/</link>
+      <pubDate>Wed, 15 Apr 2026 15:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/video-game-lawyer-implores-devs-to-understand-owne/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AI State Regulatory Frontiers: Predictive, Generative, and Agentic Risk - Regulatory Oversight</title>
+      <link>http://localhost:1313/posts/ai-state-regulatory-frontiers-predictive-generativ/</link>
+      <pubDate>Wed, 15 Apr 2026 14:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-state-regulatory-frontiers-predictive-generativ/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Boston Dynamics, Google DeepMind Partner on Industrial AI - AI Business</title>
+      <link>http://localhost:1313/posts/boston-dynamics-google-deepmind-partner-on-industr/</link>
+      <pubDate>Wed, 15 Apr 2026 14:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/boston-dynamics-google-deepmind-partner-on-industr/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Splice Announces New Generative AI Tools to Customize Human-Made Samples - Billboard</title>
+      <link>http://localhost:1313/posts/splice-announces-new-generative-ai-tools-to-custom/</link>
+      <pubDate>Wed, 15 Apr 2026 13:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/splice-announces-new-generative-ai-tools-to-custom/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Amazon&#39;s Alexa&#43; launches in Italy, authentically Italian and powered by generative AI - About Amazon</title>
+      <link>http://localhost:1313/posts/amazons-alexa-launches-in-italy-authentically-ital/</link>
+      <pubDate>Wed, 15 Apr 2026 13:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/amazons-alexa-launches-in-italy-authentically-ital/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Reply, AWS deepen enterprise AI and cloud alliance - TechInformed</title>
+      <link>http://localhost:1313/posts/reply-aws-deepen-enterprise-ai-and-cloud-alliance-/</link>
+      <pubDate>Wed, 15 Apr 2026 12:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/reply-aws-deepen-enterprise-ai-and-cloud-alliance-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Tap into the AI APIs of Google Chrome and Microsoft Edge - InfoWorld</title>
+      <link>http://localhost:1313/posts/tap-into-the-ai-apis-of-google-chrome-and-microsof/</link>
+      <pubDate>Wed, 15 Apr 2026 12:00:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tap-into-the-ai-apis-of-google-chrome-and-microsof/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>OCBC rolls out generative AI training for wealth advisors - Computer Weekly</title>
+      <link>http://localhost:1313/posts/ocbc-rolls-out-generative-ai-training-for-wealth-a/</link>
+      <pubDate>Wed, 15 Apr 2026 11:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ocbc-rolls-out-generative-ai-training-for-wealth-a/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>The developer behind Infinity Nikki and Love and Deepspace has stated that artificial intelligence does not possess the soul necessary to replace human creators - WN Hub</title>
+      <link>http://localhost:1313/posts/the-developer-behind-infinity-nikki-and-love-and-d/</link>
+      <pubDate>Wed, 15 Apr 2026 11:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the-developer-behind-infinity-nikki-and-love-and-d/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Salesforce Organizes 10 Executives to Defend Against AI Threat - Let&#39;s Data Science</title>
+      <link>http://localhost:1313/posts/salesforce-organizes-10-executives-to-defend-again/</link>
+      <pubDate>Wed, 15 Apr 2026 10:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/salesforce-organizes-10-executives-to-defend-again/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>SwRI harnesses AI to find meaningful matches in solar data - EurekAlert!</title>
+      <link>http://localhost:1313/posts/swri-harnesses-ai-to-find-meaningful-matches-in-so/</link>
+      <pubDate>Wed, 15 Apr 2026 10:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/swri-harnesses-ai-to-find-meaningful-matches-in-so/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Replace staff with AI before it gets too expensive - cio.com</title>
+      <link>http://localhost:1313/posts/replace-staff-with-ai-before-it-gets-too-expensive/</link>
+      <pubDate>Wed, 15 Apr 2026 09:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/replace-staff-with-ai-before-it-gets-too-expensive/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Can Microsoft really meet its carbon-negative goal by 2030? - Computerworld</title>
+      <link>http://localhost:1313/posts/can-microsoft-really-meet-its-carbon-negative-goal/</link>
+      <pubDate>Wed, 15 Apr 2026 09:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/can-microsoft-really-meet-its-carbon-negative-goal/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>A New AI Tool Could Transform How We Diagnose Genetic Diseases - Time Magazine</title>
+      <link>http://localhost:1313/posts/a-new-ai-tool-could-transform-how-we-diagnose-gene/</link>
+      <pubDate>Wed, 15 Apr 2026 08:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-new-ai-tool-could-transform-how-we-diagnose-gene/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AI and the Death of Quality Research - The Loyola Phoenix</title>
+      <link>http://localhost:1313/posts/ai-and-the-death-of-quality-research---the-loyola-/</link>
+      <pubDate>Wed, 15 Apr 2026 08:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-and-the-death-of-quality-research---the-loyola-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Upstage Becomes Korea&#39;s First Generative AI Unicorn After Closing $125.9M Series C First Close - Wowtale</title>
+      <link>http://localhost:1313/posts/upstage-becomes-koreas-first-generative-ai-unicorn/</link>
+      <pubDate>Wed, 15 Apr 2026 07:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/upstage-becomes-koreas-first-generative-ai-unicorn/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Stanford expands AI research repository for K–12 as evidence base grows - EdTech Innovation Hub</title>
+      <link>http://localhost:1313/posts/stanford-expands-ai-research-repository-for-k12-as/</link>
+      <pubDate>Wed, 15 Apr 2026 07:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/stanford-expands-ai-research-repository-for-k12-as/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Hyundai partners DEEPX for AI-powered robots - Latest news from Azerbaijan</title>
+      <link>http://localhost:1313/posts/hyundai-partners-deepx-for-ai-powered-robots---lat/</link>
+      <pubDate>Wed, 15 Apr 2026 06:30:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hyundai-partners-deepx-for-ai-powered-robots---lat/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Havas Red launches EchoWeave to help brands navigate AI-driven search visibility - marketech apac</title>
+      <link>http://localhost:1313/posts/havas-red-launches-echoweave-to-help-brands-naviga/</link>
+      <pubDate>Wed, 15 Apr 2026 06:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/havas-red-launches-echoweave-to-help-brands-naviga/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Technogym, Google Cloud Announce Multi-Year Collaboration on AI Fitness Platform - The Fast Mode</title>
+      <link>http://localhost:1313/posts/technogym-google-cloud-announce-multi-year-collabo/</link>
+      <pubDate>Wed, 15 Apr 2026 05:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/technogym-google-cloud-announce-multi-year-collabo/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>California attorneys charged with submitting false court filings using AI - NewsNation</title>
+      <link>http://localhost:1313/posts/california-attorneys-charged-with-submitting-false/</link>
+      <pubDate>Wed, 15 Apr 2026 05:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/california-attorneys-charged-with-submitting-false/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Generative AI use is getting more mainstream in America - Ipsos</title>
+      <link>http://localhost:1313/posts/generative-ai-use-is-getting-more-mainstream-in-am/</link>
+      <pubDate>Wed, 15 Apr 2026 04:30:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/generative-ai-use-is-getting-more-mainstream-in-am/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AI-powered mainframe exits are a bubble set to pop: Gartner - theregister.com</title>
+      <link>http://localhost:1313/posts/ai-powered-mainframe-exits-are-a-bubble-set-to-pop/</link>
+      <pubDate>Wed, 15 Apr 2026 04:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-powered-mainframe-exits-are-a-bubble-set-to-pop/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Korean AI chip startup DEEPX, Hyundai work on robots powered by generative AI - Reuters</title>
+      <link>http://localhost:1313/posts/korean-ai-chip-startup-deepx-hyundai-work-on-robot/</link>
+      <pubDate>Wed, 15 Apr 2026 03:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/korean-ai-chip-startup-deepx-hyundai-work-on-robot/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>In the face of rampant AI, is ‘data poisoning’ a new form of civil disobedience? - The Conversation</title>
+      <link>http://localhost:1313/posts/in-the-face-of-rampant-ai-is-data-poisoning-a-new-/</link>
+      <pubDate>Wed, 15 Apr 2026 03:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/in-the-face-of-rampant-ai-is-data-poisoning-a-new-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Upstage Reaches Generative AI Unicorn Status With New Series C Funding - TipRanks</title>
+      <link>http://localhost:1313/posts/upstage-reaches-generative-ai-unicorn-status-with-/</link>
+      <pubDate>Wed, 15 Apr 2026 02:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/upstage-reaches-generative-ai-unicorn-status-with-/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>How to Use Google Chrome’s New AI-Powered ‘Skills’ - WIRED</title>
+      <link>http://localhost:1313/posts/how-to-use-google-chromes-new-ai-powered-skills---/</link>
+      <pubDate>Wed, 15 Apr 2026 02:00:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-use-google-chromes-new-ai-powered-skills---/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Inside the AI Index: 12 Takeaways from the 2026 Report - Stanford HAI</title>
+      <link>http://localhost:1313/posts/inside-the-ai-index-12-takeaways-from-the-2026-rep/</link>
+      <pubDate>Wed, 15 Apr 2026 01:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/inside-the-ai-index-12-takeaways-from-the-2026-rep/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Hack the AI agent: Build agentic AI security skills with the GitHub Secure Code Game - The GitHub Blog</title>
+      <link>http://localhost:1313/posts/hack-the-ai-agent-build-agentic-ai-security-skills/</link>
+      <pubDate>Wed, 15 Apr 2026 01:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hack-the-ai-agent-build-agentic-ai-security-skills/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Technogym and Google Cloud Enter Multi-Year Collaboration to Integrate Generative Ai Technologies - marketscreener.com</title>
+      <link>http://localhost:1313/posts/technogym-and-google-cloud-enter-multi-year-collab/</link>
+      <pubDate>Wed, 15 Apr 2026 00:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/technogym-and-google-cloud-enter-multi-year-collab/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Turning urgency into opportunity: The CIO as a compass in an AI-first world - cio.com</title>
+      <link>http://localhost:1313/posts/turning-urgency-into-opportunity-the-cio-as-a-comp/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/turning-urgency-into-opportunity-the-cio-as-a-comp/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>AI Exclusions in Insurance Policies: Broad Language, Uncertain Impact | Pillsbury - Policyholder Pulse blog - JD Supra</title>
+      <link>http://localhost:1313/posts/ai-exclusions-in-insurance-policies-broad-language/</link>
+      <pubDate>Tue, 14 Apr 2026 23:30:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai-exclusions-in-insurance-policies-broad-language/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Popular AI chatbots are confidently dispensing medical misinformation, analysis shows - Medical Xpress</title>
+      <link>http://localhost:1313/posts/popular-ai-chatbots-are-confidently-dispensing-med/</link>
+      <pubDate>Tue, 14 Apr 2026 23:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/popular-ai-chatbots-are-confidently-dispensing-med/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Anthropic Mythos Prompting Calls for More Security Measures - AI Business</title>
+      <link>http://localhost:1313/posts/anthropic-mythos-prompting-calls-for-more-security/</link>
+      <pubDate>Tue, 14 Apr 2026 22:30:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/anthropic-mythos-prompting-calls-for-more-security/</guid>
+      <description>Read the full article here</description>
+    </item>
+    <item>
+      <title>Marine Corps’ inaugural agentic and genAI workshop spotlighted need for training, more trust - DefenseScoop</title>
+      <link>http://localhost:1313/posts/marine-corps-inaugural-agentic-and-genai-workshop-/</link>
+      <pubDate>Tue, 14 Apr 2026 22:00:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/marine-corps-inaugural-agentic-and-genai-workshop-/</guid>
+      <description>Read the full article here</description>
+    </item>
     <item>
       <title>Crimson Desert&#39;s AI Scandal Should Bother You More - gamespot.com</title>
-      <link>https://genai-news.com/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</link>
+      <link>http://localhost:1313/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</link>
       <pubDate>Tue, 14 Apr 2026 21:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</guid>
+      <guid>http://localhost:1313/posts/crimson-deserts-ai-scandal-should-bother-you-more-/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>A $10K college built from scratch for the AI era - Axios</title>
-      <link>https://genai-news.com/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</link>
+      <link>http://localhost:1313/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</link>
       <pubDate>Tue, 14 Apr 2026 21:00:01 +0000</pubDate>
-      <guid>https://genai-news.com/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</guid>
+      <guid>http://localhost:1313/posts/a-10k-college-built-from-scratch-for-the-ai-era---/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Industries most exposed to AI are not only seeing productivity gains but jobs and wage growth too - The Conversation</title>
-      <link>https://genai-news.com/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</link>
+      <link>http://localhost:1313/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</link>
       <pubDate>Tue, 14 Apr 2026 20:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</guid>
+      <guid>http://localhost:1313/posts/industries-most-exposed-to-ai-are-not-only-seeing-/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Generative AI Tackles Key Challenges For Future 6G Networks - Tomorrow&#39;s World Today</title>
-      <link>https://genai-news.com/posts/generative-ai-tackles-key-challenges-for-future-6g/</link>
+      <link>http://localhost:1313/posts/generative-ai-tackles-key-challenges-for-future-6g/</link>
       <pubDate>Tue, 14 Apr 2026 20:00:01 +0000</pubDate>
-      <guid>https://genai-news.com/posts/generative-ai-tackles-key-challenges-for-future-6g/</guid>
+      <guid>http://localhost:1313/posts/generative-ai-tackles-key-challenges-for-future-6g/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Navigating the generative AI journey: The Path-to-Value framework from AWS - Amazon Web Services</title>
-      <link>https://genai-news.com/posts/navigating-the-generative-ai-journey-the-path-to-v/</link>
+      <link>http://localhost:1313/posts/navigating-the-generative-ai-journey-the-path-to-v/</link>
       <pubDate>Tue, 14 Apr 2026 19:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/navigating-the-generative-ai-journey-the-path-to-v/</guid>
+      <guid>http://localhost:1313/posts/navigating-the-generative-ai-journey-the-path-to-v/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Mayer Brown launches comprehensive GenAI curriculum to equip all lawyers with advanced AI skills - Mayer Brown</title>
-      <link>https://genai-news.com/posts/mayer-brown-launches-comprehensive-genai-curriculu/</link>
+      <link>http://localhost:1313/posts/mayer-brown-launches-comprehensive-genai-curriculu/</link>
       <pubDate>Tue, 14 Apr 2026 19:00:01 +0000</pubDate>
-      <guid>https://genai-news.com/posts/mayer-brown-launches-comprehensive-genai-curriculu/</guid>
+      <guid>http://localhost:1313/posts/mayer-brown-launches-comprehensive-genai-curriculu/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>EU regulators largely denied access to Anthropic Mythos - csoonline.com</title>
-      <link>https://genai-news.com/posts/eu-regulators-largely-denied-access-to-anthropic-m/</link>
+      <link>http://localhost:1313/posts/eu-regulators-largely-denied-access-to-anthropic-m/</link>
       <pubDate>Tue, 14 Apr 2026 18:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/eu-regulators-largely-denied-access-to-anthropic-m/</guid>
+      <guid>http://localhost:1313/posts/eu-regulators-largely-denied-access-to-anthropic-m/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Microsoft is developing Copilot features inspired by Openclaw - Computerworld</title>
-      <link>https://genai-news.com/posts/microsoft-is-developing-copilot-features-inspired-/</link>
+      <link>http://localhost:1313/posts/microsoft-is-developing-copilot-features-inspired-/</link>
       <pubDate>Tue, 14 Apr 2026 18:00:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/microsoft-is-developing-copilot-features-inspired-/</guid>
+      <guid>http://localhost:1313/posts/microsoft-is-developing-copilot-features-inspired-/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>EXCLUSIVE Q&amp;A: Bain &amp; Co. analyzes next-gen AI in retail marketing - Chain Store Age</title>
-      <link>https://genai-news.com/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</link>
+      <link>http://localhost:1313/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</link>
       <pubDate>Tue, 14 Apr 2026 17:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</guid>
+      <guid>http://localhost:1313/posts/exclusive-qa-bain--co-analyzes-next-gen-ai-in-reta/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Workers who want AI training the most are using it the least - Yahoo Finance</title>
-      <link>https://genai-news.com/posts/workers-who-want-ai-training-the-most-are-using-it/</link>
+      <link>http://localhost:1313/posts/workers-who-want-ai-training-the-most-are-using-it/</link>
       <pubDate>Tue, 14 Apr 2026 17:00:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/workers-who-want-ai-training-the-most-are-using-it/</guid>
+      <guid>http://localhost:1313/posts/workers-who-want-ai-training-the-most-are-using-it/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>We are creators. AI is not. - Calvin University Chimes</title>
-      <link>https://genai-news.com/posts/we-are-creators-ai-is-not---calvin-university-chim/</link>
+      <link>http://localhost:1313/posts/we-are-creators-ai-is-not---calvin-university-chim/</link>
       <pubDate>Tue, 14 Apr 2026 16:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/we-are-creators-ai-is-not---calvin-university-chim/</guid>
+      <guid>http://localhost:1313/posts/we-are-creators-ai-is-not---calvin-university-chim/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Oracle Expands AI Infrastructure Drive with Bloom Deal - AI Business</title>
-      <link>https://genai-news.com/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</link>
+      <link>http://localhost:1313/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</link>
       <pubDate>Tue, 14 Apr 2026 16:00:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</guid>
+      <guid>http://localhost:1313/posts/oracle-expands-ai-infrastructure-drive-with-bloom-/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>AI Spreading at &#39;Historic Speed,&#39; According to Stanford Report - AI Business</title>
-      <link>https://genai-news.com/posts/ai-spreading-at-historic-speed-according-to-stanfo/</link>
+      <link>http://localhost:1313/posts/ai-spreading-at-historic-speed-according-to-stanfo/</link>
       <pubDate>Tue, 14 Apr 2026 15:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/ai-spreading-at-historic-speed-according-to-stanfo/</guid>
+      <guid>http://localhost:1313/posts/ai-spreading-at-historic-speed-according-to-stanfo/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>pdfFiller Unveils AI PDF Editor: Generative AI Comes to Document Workflows - TMX Newsfile</title>
-      <link>https://genai-news.com/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</link>
+      <link>http://localhost:1313/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</link>
       <pubDate>Tue, 14 Apr 2026 15:00:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</guid>
+      <guid>http://localhost:1313/posts/pdffiller-unveils-ai-pdf-editor-generative-ai-come/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Federal Court Holds AI Communications are Not Protected by Privilege or Work Product - JD Supra</title>
-      <link>https://genai-news.com/posts/federal-court-holds-ai-communications-are-not-prot/</link>
+      <link>http://localhost:1313/posts/federal-court-holds-ai-communications-are-not-prot/</link>
       <pubDate>Tue, 14 Apr 2026 14:30:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/federal-court-holds-ai-communications-are-not-prot/</guid>
+      <guid>http://localhost:1313/posts/federal-court-holds-ai-communications-are-not-prot/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
       <title>Doane’s tolerance on AI - Doaneline</title>
-      <link>https://genai-news.com/posts/doanes-tolerance-on-ai---doaneline/</link>
+      <link>http://localhost:1313/posts/doanes-tolerance-on-ai---doaneline/</link>
       <pubDate>Tue, 14 Apr 2026 14:00:02 +0000</pubDate>
-      <guid>https://genai-news.com/posts/doanes-tolerance-on-ai---doaneline/</guid>
+      <guid>http://localhost:1313/posts/doanes-tolerance-on-ai---doaneline/</guid>
       <description>Read the full article here</description>
     </item>
     <item>
