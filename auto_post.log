@@ -1201,3 +1201,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: hack-the-ai-agent-build-agentic-ai-security-skills.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 11e0d3ad0] feat: Auto-post inside-the-ai-index-12-takeaways-from-the-2026-rep.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/inside-the-ai-index-12-takeaways-from-the-2026-rep.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   2ff73142e..11e0d3ad0  main -> main
+Created post: inside-the-ai-index-12-takeaways-from-the-2026-rep.md
