@@ -8,6 +8,7 @@
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="article">
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
     {{ hugo.Generator }}
 </INNER_EOF>
 

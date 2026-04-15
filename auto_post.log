@@ -1397,3 +1397,14 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ocbc-rolls-out-generative-ai-training-for-wealth-a.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+fatal: Unable to create '/home/ubuntu/.openclaw/workspace/GenAI-news-site/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Created post: tap-into-the-ai-apis-of-google-chrome-and-microsof.md
+Error: Command '['git', 'add', 'content/posts/tap-into-the-ai-apis-of-google-chrome-and-microsof.md']' returned non-zero exit status 128.
