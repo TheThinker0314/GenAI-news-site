@@ -1540,3 +1540,11 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 Created post: berklee-college-of-music-offers-ai-course-students.md
 Error: Command '['git', 'add', 'content/posts/berklee-college-of-music-offers-ai-course-students.md']' returned non-zero exit status 128.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 51a4f0dea] feat: Auto-post fireside-chat-the-backstage-revolution-ai--the-new.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/fireside-chat-the-backstage-revolution-ai--the-new.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   ec89c168e..51a4f0dea  main -> main
+Created post: fireside-chat-the-backstage-revolution-ai--the-new.md
