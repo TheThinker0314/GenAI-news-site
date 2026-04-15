@@ -1338,3 +1338,13 @@ Error: Command '['git', 'add', 'content/posts/ai-and-the-death-of-quality-resear
 To https://github.com/TheThinker0314/GenAI-news-site.git
    8e6bacc78..c8606bd9d  main -> main
 Created post: a-new-ai-tool-could-transform-how-we-diagnose-gene.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 47f562e4b] feat: Auto-post can-microsoft-really-meet-its-carbon-negative-goal.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/can-microsoft-really-meet-its-carbon-negative-goal.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 434a8dfa31cf4562b5d40e59d4605f58f5e1f87a but expected c8606bd9db0be65e7bf46c46c80284f4f730e41f)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: can-microsoft-really-meet-its-carbon-negative-goal.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
