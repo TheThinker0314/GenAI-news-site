@@ -1452,3 +1452,11 @@ Created post: boston-dynamics-google-deepmind-partner-on-industr.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    98f8387e9..1bc914b45  main -> main
 Created post: ai-state-regulatory-frontiers-predictive-generativ.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 37da1acf9] feat: Auto-post video-game-lawyer-implores-devs-to-understand-owne.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/video-game-lawyer-implores-devs-to-understand-owne.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   7d99456b4..37da1acf9  main -> main
+Created post: video-game-lawyer-implores-devs-to-understand-owne.md
