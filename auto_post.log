@@ -1426,3 +1426,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: amazons-alexa-launches-in-italy-authentically-ital.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8f2a78ae8] feat: Auto-post splice-announces-new-generative-ai-tools-to-custom.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/splice-announces-new-generative-ai-tools-to-custom.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 8f2a78ae81c7132e8c50c3ad351fe6921c0905c1 but expected e3a9fd98a1d3f3b6835bb6945d46a0ec246e1faf)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: splice-announces-new-generative-ai-tools-to-custom.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.

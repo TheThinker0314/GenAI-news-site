@@ -21,3 +21,17 @@
 {{ with .Params.images }}
 <meta name="twitter:image" content="{{ index . 0 | absURL }}">
 {{ end }}<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
+  "headline": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}"
+  }
+}
+</script>
