@@ -3,36 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/genai/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/news/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/categories/news/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ocbc-rolls-out-generative-ai-training-for-wealth-a/</loc>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>http://localhost:1313/posts/swri-harnesses-ai-to-find-meaningful-matches-in-so/</loc>
-    <lastmod>2026-04-15T10:21:32+00:00</lastmod>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-15T11:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-developer-behind-infinity-nikki-and-love-and-d/</loc>
+    <lastmod>2026-04-15T11:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/salesforce-organizes-10-executives-to-defend-again/</loc>
+    <lastmod>2026-04-15T10:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/swri-harnesses-ai-to-find-meaningful-matches-in-so/</loc>
     <lastmod>2026-04-15T10:21:32+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
