@@ -1,70 +1,36 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-<meta name="author" content="{{ site.Params.author }}">
-<link rel="canonical" href="{{ .Permalink }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ hugo.Generator }}
+</INNER_EOF>
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+echo "Updating hugo.toml with SEO params"
+if ! grep -q "description = " hugo.toml; then
+    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
+fi
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ .Permalink }}">
-<meta property="twitter:title" content="{{ .Title }}">
-<meta property="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-
-<style>
-    :root {
-        --primary-color: #3498db;
-        --secondary-color: #2c3e50;
-        --text-color: #333;
-        --bg-color: #f9f9f9;
-        --container-bg: #fff;
-    }
-    body {
-        font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.8;
-        color: var(--text-color);
-        background-color: var(--bg-color);
-        margin: 0;
-        padding: 0;
-    }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: var(--container-bg);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-        border-radius: 8px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    h1, h2, h3 { color: var(--secondary-color); font-weight: 700; }
-    a { color: var(--primary-color); text-decoration: none; transition: color 0.3s ease; }
-    a:hover { color: #2980b9; text-decoration: underline; }
-    header {
-        border-bottom: 2px solid #eee;
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    header h1 { margin-bottom: 0; font-size: 2.5em; }
-    .post {
-        margin-bottom: 40px;
-        padding: 20px;
-        border: 1px solid #eee;
-        border-radius: 8px;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .post:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-    }
-    .post-title { font-size: 1.8em; margin-bottom: 10px; font-weight: bold; }
-    .post-meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 15px; }
-    .post-summary { font-size: 1.1em; color: #555; }
-</style>
+echo "Adding some CSS for UI improvement"
+mkdir -p static/css
+cat << 'INNER_EOF' > static/css/custom.css
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
