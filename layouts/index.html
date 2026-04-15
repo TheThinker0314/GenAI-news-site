@@ -16,7 +16,7 @@
     {{ $pages := where .Site.RegularPages "Section" "posts" }}
     {{ range first 5 $pages.ByDate.Reverse }}
     <article class="w-100 w-50-m w-33-l pa2 flex">
-        <a href="{{ .Permalink }}" class="db link black hide-child ba b--black-10 br3 shadow-4 hover-bg-lightest-blue bg-white h-100 flex flex-column w-100">
+        <a href="{{ .Permalink }}" rel="bookmark" class="db link black hide-child ba b--black-10 br3 shadow-4 hover-bg-lightest-blue focus-bg-lightest-blue bg-white h-100 flex flex-column w-100 transition-all">
             <div class="pa4 flex-auto">
                 <h3 class="f4 fw6 mb2 lh-title color-inherit hover-blue">{{ .Title }}</h3>
                 <p class="f6 lh-copy mt1 mb3 measure mid-gray">{{ .Summary }}</p>
