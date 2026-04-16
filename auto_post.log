@@ -1933,3 +1933,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    5e0a3d770..b83788125  main -> main
 Created post: this-week-in-5-numbers-workers-turn-to-generative-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b1fdfcdcb] feat: Auto-post iu-offering-free-generative-ai-course-to-anyone-wo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/iu-offering-free-generative-ai-course-to-anyone-wo.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   80aee9e9b..b1fdfcdcb  main -> main
+Created post: iu-offering-free-generative-ai-course-to-anyone-wo.md
