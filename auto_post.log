@@ -1887,3 +1887,13 @@ Created post: interluxe-group-introduces-optima-ai-index-advanci.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    5726940cc..8d67445ef  main -> main
 Created post: iu-opens-its-free-generative-ai-course-to-anyone-w.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 536bdbf9f] feat: Auto-post how-automated-reasoning-checks-in-amazon-bedrock-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-automated-reasoning-checks-in-amazon-bedrock-t.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 536bdbf9f4edab2805cf82b7cfbd5e45a8df3144 but expected 19f06a5c4934450c24adde707a3a51c9bc5d10ee)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: how-automated-reasoning-checks-in-amazon-bedrock-t.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
