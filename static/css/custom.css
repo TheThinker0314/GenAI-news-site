@@ -35,8 +35,24 @@ article {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+.seo-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: background-color 0.2s;
+}
+.seo-tag:hover {
+  background-color: #2563eb;
 }
 .article-content { font-size: 1.15rem; }
 img {
