@@ -2,37 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/ai-is-advancing-faster-than-expected---qazinform/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1</priority>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/genai/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/making-ai-efficient-powerful-and-cost-effective---/</loc>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/news/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/categories/news/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-04-16T03:30:02+00:00</lastmod>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-16T09:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/as-ai-infosec-woes-heighten-ibm-intros-autonomous-/</loc>
+    <lastmod>2026-04-16T08:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/wit-studio-apologizes-for-using-generative-ai-in-o/</loc>
+    <lastmod>2026-04-16T08:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-data-center-market-to-reach-usd-12359619-millio/</loc>
+    <lastmod>2026-04-16T07:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/australian-federal-court-warns-lawyers-over-unacce/</loc>
+    <lastmod>2026-04-16T07:00:01+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-google-deploys-ai-skills-in-its-chrome-browsers/</loc>
+    <lastmod>2026-04-16T06:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/g42-and-rga-launch-alphag42ai-a-generative-interfa/</loc>
+    <lastmod>2026-04-16T06:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/uno-study-reveals-how-students-collaborate-with-ai/</loc>
+    <lastmod>2026-04-16T05:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/australian-federal-court-issues-warning-to-lawyers/</loc>
+    <lastmod>2026-04-16T05:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/european-ai-spending-set-to-hit-290-billion-by-202/</loc>
+    <lastmod>2026-04-16T04:30:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/generative-ai-may-revolutionize-millions-of-viet-n/</loc>
+    <lastmod>2026-04-16T04:00:02+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/ai-is-advancing-faster-than-expected---qazinform/</loc>
     <lastmod>2026-04-16T03:30:02+00:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1</priority>

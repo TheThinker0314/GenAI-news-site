@@ -80,3 +80,5 @@ summaryLength = 60
   accessibility_contrast_ratio = "AAA"
   lazy_loading_images = true
   font_display_swap = true
+  # added more seo stuff
+  primary_color = "#3498db"
