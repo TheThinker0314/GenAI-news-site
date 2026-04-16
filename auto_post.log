@@ -1925,3 +1925,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: reporters-notebook-in-nepal-and-sri-lanka-ai-boom-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b83788125] feat: Auto-post this-week-in-5-numbers-workers-turn-to-generative-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/this-week-in-5-numbers-workers-turn-to-generative-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   5e0a3d770..b83788125  main -> main
+Created post: this-week-in-5-numbers-workers-turn-to-generative-.md
