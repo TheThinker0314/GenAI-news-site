@@ -1843,3 +1843,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    0b1935519..86b5faac7  main -> main
 Created post: neenopal-achieves-the-aws-ai-competency-in-generat.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 407b05f73] feat: Auto-post prompt-coaching-tool-raises-user-awareness-of-bias.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/prompt-coaching-tool-raises-user-awareness-of-bias.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 407b05f7309f76ac9105bd782eec077a181bbb0b but expected 86b5faac7b22bfcf2572c82e836317eebd368734)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: prompt-coaching-tool-raises-user-awareness-of-bias.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
