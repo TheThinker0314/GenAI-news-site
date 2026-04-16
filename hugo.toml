@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News title = 'GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends & ChatGPT Updates' Insights"
+title = 'GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends & ChatGPT Updates'
 theme = 'ananke'
 enableRobotsTXT = true
 enableGitInfo = true
