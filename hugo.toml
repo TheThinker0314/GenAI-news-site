@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = 'GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends & ChatGPT Updates'
+title = "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends & ChatGPT Updates"
 theme = 'ananke'
 enableRobotsTXT = true
 enableGitInfo = true
@@ -82,11 +82,13 @@ summaryLength = 60
   font_display_swap = true
   # added more seo stuff
   primary_color = "#3498db"
-  secondary_color = "#2ecc71"
+  secondary_color = "#2c3e50"
   background_color = "#f9f9f9"
   text_color = "#333333"
-  headings_font = "Inter, sans-serif"
+  enable_breadcrumbs = true
+  heading_font = "Inter, sans-serif"
   body_font = "Roboto, sans-serif"
+  meta_author = "GenAI Experts"
   meta_description_length_optimized = true
   alt_tags_enforced = true
   semantic_html5_structure = true
