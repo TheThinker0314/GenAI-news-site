@@ -1807,3 +1807,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ai-emerges-as-bollywoods-new-film-industry-superst.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f666102a1] feat: Auto-post critical-thinking-must-also-be-a-part-of-ai-litera.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/critical-thinking-must-also-be-a-part-of-ai-litera.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f666102a1915c23af904f3e865fdbea3fd020704 but expected 7c23648492e224b5ed3280c54d72e737da96e0c4)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: critical-thinking-must-also-be-a-part-of-ai-litera.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
