@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial Intelligence on GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
-    <link>https://genai-news.com/tags/artificial-intelligence/</link>
+    <link>http://localhost:1313/tags/artificial-intelligence/</link>
     <description>Recent content in Artificial Intelligence on GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Mar 2026 11:33:35 +0000</lastBuildDate>
-    <atom:link href="https://genai-news.com/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the GenAI News Hub</title>
-      <link>https://genai-news.com/posts/welcome-to-genai-news/</link>
+      <link>http://localhost:1313/posts/welcome-to-genai-news/</link>
       <pubDate>Mon, 30 Mar 2026 11:21:00 +0000</pubDate>
-      <guid>https://genai-news.com/posts/welcome-to-genai-news/</guid>
+      <guid>http://localhost:1313/posts/welcome-to-genai-news/</guid>
       <description>Welcome to the GenAI News Hub!&#xA;This is your new central source for everything happening in the exciting world of Generative AI. From groundbreaking research and new model releases to practical applications and ethical discussions, we&amp;rsquo;ll be covering it all.&#xA;Our mission is to provide clear, concise, and timely information to help you stay informed in this rapidly evolving field. Whether you&amp;rsquo;re a developer, a researcher, an entrepreneur, or just an enthusiast, you&amp;rsquo;ll find something of value here.</description>
     </item>
   </channel>
