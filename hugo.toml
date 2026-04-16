@@ -71,6 +71,9 @@ summaryLength = 60
 # Added final SEO improvements for April 15 2026
 [params.seo]
   enhanced = true
+  amp_support = true
+  brotli_compression = true
+  cdn_integration = true
   mobile_friendly_design = true
   structured_data_json_ld = true
   core_web_vitals_optimized = true
