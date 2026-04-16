@@ -1,122 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-us" class="scroll-smooth">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
-    
+    <title>Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
+    <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science">
+    <meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
+    <meta property="og:type" content="article">
+    <link rel="canonical" href="http://localhost:1313/posts/generative-ai-reconfigures-advertising-authorship-/">
+    <meta name="generator" content="Hugo 0.124.1">
+</INNER_EOF>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates</title>
-<meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<meta name="author" content="GenAI News Editorial Team">
-<meta property="og:title" content="TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
-<meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes | GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
-<meta name="robots" content="index, follow">
+echo "Updating hugo.toml with SEO params"
+if ! grep -q "description = " hugo.toml; then
+    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
+fi
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
-<style>
-    :root {
-        --primary: #2563eb;
-        --text-main: #1f2937;
-        --text-muted: #6b7280;
-        --bg-main: #f9fafb;
-        --bg-card: #ffffff;
-    }
-    body { 
-        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
-        line-height: 1.6; 
-        color: var(--text-main); 
-        background-color: var(--bg-main);
-        margin: 0; 
-        padding: 0; 
-    }
-    .container {
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 2rem;
-    }
-    header { 
-        background: var(--bg-card);
-        border-bottom: 1px solid #e5e7eb;
-        padding: 2rem 0; 
-        text-align: center;
-        margin-bottom: 3rem;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    header h1 {
-        margin: 0;
-        font-size: 2.5rem;
-        font-weight: 800;
-        color: var(--text-main);
-    }
-    a { 
-        color: var(--primary); 
-        text-decoration: none; 
-        transition: color 0.2s ease;
-    }
-    a:hover { 
-        color: #1d4ed8;
-        text-decoration: underline; 
-    }
-    .post { 
-        background: var(--bg-card);
-        border-radius: 8px;
-        padding: 2rem;
-        margin-bottom: 2rem; 
-        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .post:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
-    }
-    .post-title { 
-        font-size: 1.75rem; 
-        font-weight: 600;
-        margin-top: 0;
-        margin-bottom: 0.5rem; 
-    }
-    .post-meta { 
-        color: var(--text-muted); 
-        font-size: 0.875rem; 
-        margin-bottom: 1rem;
-    }
-    .post-content {
-        font-size: 1.125rem;
-    }
-</style>
+echo "Adding some CSS for UI improvement"
+mkdir -p static/css
+cat &lt;&lt; 'INNER_EOF' > static/css/custom.css
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #111;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
     
 <meta name="description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
 
 
-<meta property="og:title" content="TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes">
+<meta property="og:title" content="Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science">
 <meta property="og:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/">
+<meta property="og:url" content="http://localhost:1313/posts/generative-ai-reconfigures-advertising-authorship-/">
 <meta property="og:site_name" content="GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
 
 
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@genainews">
-<meta name="twitter:title" content="TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes">
+<meta name="twitter:title" content="Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science">
 <meta name="twitter:description" content="Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.">
-<link rel="canonical" href="http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/">
+<link rel="canonical" href="http://localhost:1313/posts/generative-ai-reconfigures-advertising-authorship-/">
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes",
-  "url": "http:\/\/localhost:1313\/posts\/tiktok-is-exposing-the-fatal-flaw-of-generative-ai\/",
+  "headline": "Generative AI Reconfigures Advertising Authorship and Risk - Let\u0027s Data Science",
+  "url": "http:\/\/localhost:1313\/posts\/generative-ai-reconfigures-advertising-authorship-\/",
   "publisher": {
     "@type": "Organization",
     "name": "GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends \u0026 ChatGPT Updates"
@@ -125,7 +72,7 @@
 </script>
 
     <meta name="keywords" content="GenAI, News">
-<link rel="canonical" href="http://localhost:1313/posts/tiktok-is-exposing-the-fatal-flaw-of-generative-ai/">
+<link rel="canonical" href="http://localhost:1313/posts/generative-ai-reconfigures-advertising-authorship-/">
 <meta property="og:site_name" content="GenAI News Hub | Daily Generative AI Breakthroughs, LLM Trends &amp; ChatGPT Updates">
 <meta name="twitter:creator" content="@GenAINews">
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -169,14 +116,14 @@
     "@type": "NewsArticle",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "http:\/\/localhost:1313\/posts\/tiktok-is-exposing-the-fatal-flaw-of-generative-ai\/"
+      "@id": "http:\/\/localhost:1313\/posts\/generative-ai-reconfigures-advertising-authorship-\/"
     },
-    "headline": "TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes",
+    "headline": "Generative AI Reconfigures Advertising Authorship and Risk - Let\u0027s Data Science",
     "image": [
       "http:\/\/localhost:1313\/images\/og-image.jpg"
      ],
-    "datePublished": "2026-04-15T20:30:02Z",
-    "dateModified": "2026-04-15T20:30:02Z",
+    "datePublished": "2026-04-16T13:00:03Z",
+    "dateModified": "2026-04-16T13:00:03Z",
     "author": [{
         "@type": "Person",
         "name": "GenAI News Editorial Team"
@@ -209,7 +156,7 @@
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes"
+        "name": "Generative AI Reconfigures Advertising Authorship and Risk - Let\u0027s Data Science"
       }
     ]
   }
@@ -223,16 +170,16 @@
       <li><span class="mx-2">/</span></li>
       <li><a href="/posts/" class="hover:text-blue-400 transition-colors">Posts</a></li>
       <li><span class="mx-2">/</span></li>
-      <li class="text-slate-200" aria-current="page">TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes</li>
+      <li class="text-slate-200" aria-current="page">Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science</li>
     </ol>
   </nav>
 
   <header class="mb-8 relative">
     
     <div class="p-8 pb-4 bg-slate-900/50 border-b border-slate-700">
-      <h1 id="article-title" class="text-3xl md:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight leading-tight">TikTok Is Exposing The Fatal Flaw Of Generative AI - Forbes</h1>
+      <h1 id="article-title" class="text-3xl md:text-5xl font-extrabold text-slate-100 mb-4 tracking-tight leading-tight">Generative AI Reconfigures Advertising Authorship and Risk - Let&#39;s Data Science</h1>
       <div class="flex items-center space-x-4 text-sm text-slate-400 font-medium">
-        <time datetime="2026-04-15T20:30:02Z">April 15, 2026</time>
+        <time datetime="2026-04-16T13:00:03Z">April 16, 2026</time>
         
         <span>&bull; By GenAI News Editorial Team</span>
         
@@ -242,7 +189,7 @@
   </header>
 
   <div class="prose prose-invert prose-lg prose-blue max-w-none px-8 pb-12 prose-headings:font-bold prose-headings:text-slate-100 prose-a:text-blue-400 prose-img:rounded-xl">
-    <p><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHpJc1B4dEZlNmJoRWpvMFRLOTdRZzkzZkdKTzc2ZVhzZlVWRnplbHVZNHo1MTVwdGplTkJQTF83aW5JOUpFZ2ZJd1ZkWEZtSjlDbkQ2NXMxbTFLYzhEcnJlSDBNZTZyX3o2dGswcmVfN0tSRmdrMnk0VlQzNnRxNzVpQUhaODFJNUhwREJNNG91bjhKb3FtVWI4Z05LNl9YbUxESDZlMEk?oc=5">Read the full article here</a></p>
+    <p><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxORmNWUzdkOHJVeFp3WURPTlNhdmtZc0ZpWlJxN3hLYWZXN0xoWUg4UUljV2p6UlNQRnlRUG9sTDhFeHJfUzNodGZldUxwVk5HUDYzaGo5ZElyNmdqWWxHMUVyLWJtdGhJRGRnWTRMMENZQU1SRXotS2s3U1ZsSE9DQVJfa2Q4SkJZU0ZSeEw3Mzd3ZzFFTEdjemNON2szN0ZhMkE?oc=5">Read the full article here</a></p>
 
   </div>
 
