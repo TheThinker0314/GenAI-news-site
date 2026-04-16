@@ -1907,3 +1907,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: blend-named-a-leader-in-aim-researchs-pema-quadran.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e8622c18b] feat: Auto-post anthropic-has-surged-past-openai-in-capturing-busi.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/anthropic-has-surged-past-openai-in-capturing-busi.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   bd5855328..e8622c18b  main -> main
+Created post: anthropic-has-surged-past-openai-in-capturing-busi.md
