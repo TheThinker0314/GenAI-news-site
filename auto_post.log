@@ -1835,3 +1835,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: splice-introduces-raft-of-new-generative-ai-featur.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 86b5faac7] feat: Auto-post neenopal-achieves-the-aws-ai-competency-in-generat.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/neenopal-achieves-the-aws-ai-competency-in-generat.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   0b1935519..86b5faac7  main -> main
+Created post: neenopal-achieves-the-aws-ai-competency-in-generat.md
