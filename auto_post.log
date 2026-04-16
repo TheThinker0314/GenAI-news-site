@@ -1897,3 +1897,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: how-automated-reasoning-checks-in-amazon-bedrock-t.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4c358cc46] feat: Auto-post blend-named-a-leader-in-aim-researchs-pema-quadran.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/blend-named-a-leader-in-aim-researchs-pema-quadran.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 4c358cc46111779e1fc8e4aecdc0b588ccb62dac but expected 8979f6b47e80e9f3dd5ab483215805cd8d14550b)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: blend-named-a-leader-in-aim-researchs-pema-quadran.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
