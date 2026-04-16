@@ -4,13 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ $title }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ delimit site.Params.keywords ", " }}">
 <meta name="author" content="{{ site.Params.author }}">
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<link rel="canonical" href="{{ .Permalink }}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +37,7 @@
     .container {
         max-width: 1000px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     header { 
         background: var(--bg-card);
@@ -47,9 +49,10 @@
     }
     header h1 {
         margin: 0;
-        font-size: 2.5rem;
+        font-size: clamp(1.5rem, 4vw, 2.5rem);
         font-weight: 800;
         color: var(--text-main);
+        padding: 0 1rem;
     }
     a { 
         color: var(--primary); 
@@ -63,17 +66,22 @@
     .post { 
         background: var(--bg-card);
         border-radius: 8px;
-        padding: 2rem;
+        padding: 1.5rem;
         margin-bottom: 2rem; 
         box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    @media (min-width: 768px) {
+        .post {
+            padding: 2rem;
+        }
     }
     .post:hover {
         transform: translateY(-2px);
         box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
     }
     .post-title { 
-        font-size: 1.75rem; 
+        font-size: clamp(1.25rem, 3vw, 1.75rem); 
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 0.5rem; 
@@ -84,6 +92,11 @@
         margin-bottom: 1rem;
     }
     .post-content {
-        font-size: 1.125rem;
+        font-size: clamp(1rem, 2vw, 1.125rem);
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
     }
 </style>
