@@ -1711,3 +1711,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    419a91c98..5f648ab31  main -> main
 Created post: australian-federal-court-issues-warning-to-lawyers.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 12a69ceb4] feat: Auto-post uno-study-reveals-how-students-collaborate-with-ai.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/uno-study-reveals-how-students-collaborate-with-ai.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   212a082f5..12a69ceb4  main -> main
+Created post: uno-study-reveals-how-students-collaborate-with-ai.md
