@@ -82,3 +82,10 @@ summaryLength = 60
   font_display_swap = true
   # added more seo stuff
   primary_color = "#3498db"
+  secondary_color = "#2ecc71"
+  background_color = "#f9f9f9"
+  text_color = "#333333"
+  headings_font = "Inter, sans-serif"
+  body_font = "Roboto, sans-serif"
+  meta_description_length_optimized = true
+  alt_tags_enforced = true
