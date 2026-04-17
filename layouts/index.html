@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main>
 <section class="ph3 ph5-ns pv4 bg-light-gray w-100">
   <div class="center mw8">
     <h1 class="f2 f1-m f-headline-l fw8 mb0 lh-title dark-blue">Latest GenAI News &amp; Breakthroughs</h1>
@@ -22,13 +23,14 @@
                 <p class="f6 lh-copy mt1 mb3 measure mid-gray">{{ .Summary }}</p>
             </div>
             <div class="pa3 bt b--black-10 bg-near-white mt-auto">
-                <span class="f6 db blue b">Read article &rarr;</span>
+                <span class="f6 db blue b" aria-label="Read full article: {{ .Title }}">Read article &rarr;</span>
             </div>
         </a>
     </article>
     {{ end }}
   </div>
 </section>
+</main>
 {{ end }}
 
 {{ define "head" }}
