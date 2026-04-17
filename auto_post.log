@@ -2333,3 +2333,10 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    c49657326..c279f5ddf  main -> main
 Created post: how-angine-de-poitrines-intricate-math-rock-defies.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 150029e9c] feat: Auto-post verify-guide-train-lessons-from-emerging-attorney-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/verify-guide-train-lessons-from-emerging-attorney-.md
+Everything up-to-date
+Created post: verify-guide-train-lessons-from-emerging-attorney-.md
