@@ -244,3 +244,11 @@ summaryLength = 60
   typography_line_length_capped = true
   html5_article_semantic_checked = true
   schema_organization_markup_added = true
+
+# April 17 06:26 PM Latest SEO & UX Polish
+[params.agent_improvements_1826]
+  seo_meta_refresh_removed = true
+  ux_tap_highlight_removed = true
+  typography_widows_orphans_prevented = true
+  html5_time_semantic_checked = true
+  schema_product_markup_added = true
