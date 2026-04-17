@@ -96,3 +96,6 @@ summaryLength = 60
   css_minification = true
   open_graph_locale = "en_US"
   twitter_site = "@GenAINewsHub"
+  # April 17 SEO Update
+  preload_fonts = true
+  structured_data_organization = true
