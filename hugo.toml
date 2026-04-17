@@ -94,3 +94,5 @@ summaryLength = 60
   semantic_html5_structure = true
   dark_mode_toggle_enabled = true
   css_minification = true
+  open_graph_locale = "en_US"
+  twitter_site = "@GenAINewsHub"
