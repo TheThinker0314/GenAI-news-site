@@ -1,0 +1,9 @@
+---
+title: "North America Generative AI (GenAI) Market Research and - GlobeNewswire"
+date: 2026-04-17T16:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi6AJBVV95cUxPSFZaeGl1ZV9rQkJMZzllUWdYaHJScTRBMmpYWURWb2hOcDhjcnhrRU9KV2lpa2Y0amVaM3Vqa0FPSWEzeXQ4bERmSlJrUGhzQzg3LW43Z1I5bC1Pdl90Rm5tM1Jzc3NuVlNfeHgyX1V6SjRPNUZsMXF2bUp2dTF4Sll2eEYwTV85Uk5DRFEzendPY2xYZ29zQjdZTktFZHMyQUpsWVVWRWd6TDVIQXhHNlVUVV9MNll2LVQ4dXBoU3Q0N0pRUTdwV191UWJuYW9fcDk5ekdraFJBRE1HaWNKUXZRbXc2YTI2V3R0NVdKVVlTVnhWaG54TVMyb1Zub1hiWTZOMHVPVUZoejhCWjdYUVN5RHRfOVNrY1VnajVSLXBwdEtwc29XdGR5SUN1R0ZENjBfMU5wc3NKOXFaa3d5cW90eDJ0b0RTZUZEN0dNRlQ1WHJvR3g1SzZCYzYyTlp1RTlfUi1SakM?oc=5)
