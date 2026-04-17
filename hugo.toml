@@ -111,3 +111,10 @@ summaryLength = 60
   # Additional April 17 SEO & Design Update
   typography_fluid_scaling = true
   advanced_caching_headers = true
+
+# April 17 07:26 AM SEO & Design Enhancements
+[params.latest_seo_design]
+  semantic_nav_tags = true
+  microdata_schema_added = true
+  contrast_ratio_enhanced = true
+  async_js_loading = true
