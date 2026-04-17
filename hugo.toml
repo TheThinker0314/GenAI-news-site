@@ -108,3 +108,6 @@ summaryLength = 60
   seo_auto_sitemap = true
   ui_hover_effects = true
   glassmorphism_ui = true
+  # Additional April 17 SEO & Design Update
+  typography_fluid_scaling = true
+  advanced_caching_headers = true
