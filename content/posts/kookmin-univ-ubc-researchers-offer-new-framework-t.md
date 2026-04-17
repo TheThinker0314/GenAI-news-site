@@ -1,0 +1,9 @@
+---
+title: "Kookmin Univ., UBC researchers offer new framework to make generative AI safer - The Korea Times"
+date: 2026-04-17T07:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS01fRHJkVHEwbm9LU1lyYTdZbVlIUDhuNG1XSmJQN2FqS0RRN0U2MlhhdlNEZk1UTzFlSlNOV2pyWjdyMmxoM3c3bFg4NGhlZkplLU12WjkzOWhyTG5rbm1WbkV3TmRlcUZ3MGVFWVF0OHRmRHVjYU13VF94ZER3c2R5azJUNVlmMHM5NmkxclVPQmZ2WUxYcnZWdlFVRGhkSHExRzVaNGVJTWZqcjA3WmZnZ185dm1BOHVzNEV4anFqclXSAcgBQVVfeXFMTnExRUVhZjJ4VnF6SDFrMnNVMEJhSkY5eTlzbVlFVmc4UVYzNmUtZU9GdHBDbmY5eWlMd2RQUkV1dTlJUDBueWEwalpOQzl5U0Jkb3RhaWJrWUFJUENvSTdwNXJ6Y1BWdTZFNVREcWdHcTJ5amNUZzJMNzFqRlBKNmZWUV9YeE8yVmRHczJ5WHhia3c2TEhZU2tSbVpoWmJTUmotbHlkQ01YUjBJdWRmYjBINTB0bThQWno3aEJuR3k5X0tiNEtIeGU?oc=5)
