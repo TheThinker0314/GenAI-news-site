@@ -209,3 +209,12 @@ summaryLength = 60
   typography_mobile_optimized = true
   html5_nav_semantics_enhanced = true
   schema_article_markup_added = true
+
+# April 17 01:56 PM Latest SEO & UX Polish
+[params.agent_improvements_1356]
+  seo_lcp_improved = true
+  ux_spacing_standardized = true
+  typography_legibility_enhanced = true
+  html5_main_semantic_checked = true
+  schema_breadcrumb_markup_added = true
+
