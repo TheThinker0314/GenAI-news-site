@@ -2101,3 +2101,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: seedance-20-api-goes-live-on-fal-expanding-access-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 15e603b7c] feat: Auto-post kookmin-univ-ubc-researchers-offer-new-framework-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/kookmin-univ-ubc-researchers-offer-new-framework-t.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 15e603b7c6d7c366d80d717c73f72370b7fbc292 but expected 917edca3951c7fd63681ce52f5186f59ac318ed1)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: kookmin-univ-ubc-researchers-offer-new-framework-t.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
