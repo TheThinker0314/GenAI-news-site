@@ -1,0 +1,9 @@
+---
+title: "China's SenseTime to raise $415 million in share placing to fund AI expansion - Indiatimes"
+date: 2026-04-17T13:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVURpTlBvQ2dZSFUwS0R1Njh2WnlHZlhuLTdRdFlIMDd4Ymwtckh2aFQ1UzFjZEVZVU1obmNTdmVLVkdNYUxSQmRMWVJQdWtzLXVDY3pKdEtRR3JsTWZPdmlWcW95MFJ5WkNKYjJRS2tfX0MtRDVhSEVIXzlEdTJ5b1p4Z0tWdWQwejU5MzhrYmg0NjZvc1dTbURiYXY5bTRNSnJrajVMRWRoeUFYdnA5bjFfOW1rRkFlZnJYcDhjSDI5ZFNzWmt0dGtyNFBVRW9CZ29wczVlZWc2bknSAeABQVVfeXFMTWZuQWU0WWxBdUZHbjNuWDhTamtPSno4djdwZG9VU1BXSkxkdEdrUHB3STJaX05RQlBZWUJqU0gyT1RObGdRalFhOGd2dUM2YjcwNUcxOWFiS2kzRmUxbkc4alQxeHpuUEFiVm5XMUNTcWw5QWRJOHJCTmQ3S3B4QkZFcURRSUxESFp0NnVwMktNTERJU2pVcFE5SmZ2TTh1eDh3NkhqWF91bHlwdDFGR1QxZDdoUVV3ZXBzbG5sbE5NY21LTFNrcVRCRlNxYXhVLXhfWW0tYmVWT0dlb0xROWc?oc=5)
