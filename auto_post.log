@@ -2205,3 +2205,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: as-ai-driven-fraud-grows-more-sophisticated-advanc.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 97b1f31ae] feat: Auto-post alkami-to-expand-genai-capabilities-with-the-launc.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/alkami-to-expand-genai-capabilities-with-the-launc.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 97b1f31aed7a278e675fb7eef74bf1a80c5c6f22 but expected eea38684eeed7627d7d6762f064322213a2acb55)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: alkami-to-expand-genai-capabilities-with-the-launc.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
