@@ -1987,3 +1987,11 @@ Created post: ai-hallucinations-just-got-lawyers-censured----wha.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    20f159ded..869c92327  main -> main
 Created post: baby-shark-meets-generative-ai-in-a-new-interactiv.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f75d9d237] feat: Auto-post generative-ai-digest-ai-drawn-into-geopolitics---s.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-digest-ai-drawn-into-geopolitics---s.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   dd5f67803..f75d9d237  main -> main
+Created post: generative-ai-digest-ai-drawn-into-geopolitics---s.md
