@@ -331,3 +331,10 @@ summaryLength = 60
   html5_aside_semantics_validated = true
   schema_faq_markup_refined = true
 
+# More SEO & Design optimizations
+[params.optimization]
+  prefetch_links = true
+  preload_fonts = true
+  reduce_cls = true
+  modern_css_grid = true
+
