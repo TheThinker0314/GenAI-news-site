@@ -1,104 +1,19 @@
-{{ $title := .Title }}
-{{ if .IsHome }}{{ $title = site.Title }}{{ else }}{{ $title = printf "%s | %s" .Title site.Title }}{{ end }}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ $title }}</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-<meta name="keywords" content="{{ delimit site.Params.keywords ", " }}">
 <meta name="author" content="{{ site.Params.author }}">
-<meta property="og:title" content="{{ $title }}">
+<meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ $title }}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<link rel="canonical" href="{{ .Permalink }}">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-
 <style>
-    :root {
-        --primary: #2563eb;
-        --text-main: #1f2937;
-        --text-muted: #6b7280;
-        --bg-main: #f9fafb;
-        --bg-card: #ffffff;
-    }
-    body { 
-        font-family: 'Inter', system-ui, -apple-system, sans-serif; 
-        line-height: 1.6; 
-        color: var(--text-main); 
-        background-color: var(--bg-main);
-        margin: 0; 
-        padding: 0; 
-    }
-    .container {
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 1.5rem;
-    }
-    header { 
-        background: var(--bg-card);
-        border-bottom: 1px solid #e5e7eb;
-        padding: 2rem 0; 
-        text-align: center;
-        margin-bottom: 3rem;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    header h1 {
-        margin: 0;
-        font-size: clamp(1.5rem, 4vw, 2.5rem);
-        font-weight: 800;
-        color: var(--text-main);
-        padding: 0 1rem;
-    }
-    a { 
-        color: var(--primary); 
-        text-decoration: none; 
-        transition: color 0.2s ease;
-    }
-    a:hover { 
-        color: #1d4ed8;
-        text-decoration: underline; 
-    }
-    .post { 
-        background: var(--bg-card);
-        border-radius: 8px;
-        padding: 1.5rem;
-        margin-bottom: 2rem; 
-        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    @media (min-width: 768px) {
-        .post {
-            padding: 2rem;
-        }
-    }
-    .post:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
-    }
-    .post-title { 
-        font-size: clamp(1.25rem, 3vw, 1.75rem); 
-        font-weight: 600;
-        margin-top: 0;
-        margin-bottom: 0.5rem; 
-    }
-    .post-meta { 
-        color: var(--text-muted); 
-        font-size: 0.875rem; 
-        margin-bottom: 1rem;
-    }
-    .post-content {
-        font-size: clamp(1rem, 2vw, 1.125rem);
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 4px;
-    }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
+    h1, h2, h3 { color: #2c3e50; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    .post { margin-bottom: 40px; }
+    .post-title { font-size: 1.5em; margin-bottom: 10px; }
+    .post-meta { color: #7f8c8d; font-size: 0.9em; }
 </style>
-<!-- Improved SEO Meta Tags -->
-<meta name='viewport' content='width=device-width, initial-scale=1.0'>
