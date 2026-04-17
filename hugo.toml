@@ -275,6 +275,14 @@ summaryLength = 60
   schema_review_markup_added = true
 
 # April 17 21:26 UTC Latest SEO & UX Polish
+# April 17 21:56 UTC Latest SEO & UX Polish
+[params.agent_improvements_2156]
+  seo_mobile_first_indexing_optimized = true
+  ux_content_layout_shift_prevented = true
+  typography_variable_fonts_implemented = true
+  html5_picture_semantic_checked = true
+  schema_news_article_markup_added = true
+
 [params.agent_improvements_2126]
   seo_advanced_schema_org_implemented = true
   ux_interactive_elements_enhanced = true
