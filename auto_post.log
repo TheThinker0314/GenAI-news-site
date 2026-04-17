@@ -2187,3 +2187,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: ive-been-debunking-ai-myths-for-16-yearsthe-truth-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 50269dccb] feat: Auto-post palo-altos-helmut-reisinger-sees-a-cyber-sea-chang.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/palo-altos-helmut-reisinger-sees-a-cyber-sea-chang.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   516e5af93..50269dccb  main -> main
+Created post: palo-altos-helmut-reisinger-sees-a-cyber-sea-chang.md
