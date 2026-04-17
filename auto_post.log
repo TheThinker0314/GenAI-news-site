@@ -2388,3 +2388,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: senator-mark-warner-predicts-30-percent-post-grad-.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f77586279] feat: Auto-post why-are-some-of-our-favorite-hollywood-actresses-p.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-are-some-of-our-favorite-hollywood-actresses-p.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at f77586279d1639c945a324799f5266dfaba38696 but expected 5cf12bf244aefe2fcc2245e927cbf0162a9d0360)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: why-are-some-of-our-favorite-hollywood-actresses-p.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
