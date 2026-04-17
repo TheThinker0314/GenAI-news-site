@@ -99,3 +99,6 @@ summaryLength = 60
   # April 17 SEO Update
   preload_fonts = true
   structured_data_organization = true
+  # Additional April 17 Design and SEO Polish
+  design_modern_rounded_corners = true
+  seo_advanced_image_sitemap = true
