@@ -338,9 +338,15 @@ summaryLength = 60
   reduce_cls = true
   modern_css_grid = true
 
-
 # More SEO 2026-04-18
 [params.seo_updates_20260418]
   voice_search_optimized = true
   ai_summaries_enabled = true
 
+# April 18 09:14 UTC Latest SEO & UX Polish
+[params.agent_improvements_0418_0914]
+  seo_site_architecture_optimized_v2 = true
+  ux_loading_animations_smoothed_v2 = true
+  typography_font_display_swap_enforced_v2 = true
+  html5_aside_semantics_validated_v2 = true
+  schema_faq_markup_refined_v2 = true
