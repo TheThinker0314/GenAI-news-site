@@ -2616,3 +2616,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    e8ac09937..98f29092d  main -> main
 Created post: 10-generative-ai-seo-agencies-redefining-search-op.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 99d3c3d1b] feat: Auto-post the-two-pass-compiler-is-back--this-time-its-fixin.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-two-pass-compiler-is-back--this-time-its-fixin.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   8736e7c96..99d3c3d1b  main -> main
+Created post: the-two-pass-compiler-is-back--this-time-its-fixin.md
