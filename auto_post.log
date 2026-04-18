@@ -2624,3 +2624,11 @@ Created post: 10-generative-ai-seo-agencies-redefining-search-op.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    8736e7c96..99d3c3d1b  main -> main
 Created post: the-two-pass-compiler-is-back--this-time-its-fixin.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a53bbb911] feat: Auto-post generative-ai-news-us-households-are-carving-out-r.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-news-us-households-are-carving-out-r.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   71e0ba664..a53bbb911  main -> main
+Created post: generative-ai-news-us-households-are-carving-out-r.md
