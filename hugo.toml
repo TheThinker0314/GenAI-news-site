@@ -415,3 +415,5 @@ summaryLength = 60
   seo_site_speed_optimized = true
   ux_accessibility_improved = true
 
+  seo_advanced_schema_organization = true
+  seo_core_web_vitals_audited = true
