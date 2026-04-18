@@ -401,3 +401,11 @@ summaryLength = 60
   typography_fluid_font_clamp_v2 = true
   schema_org_article_optimized_v2 = true
   core_web_vitals_lcp_optimized_v2 = true
+
+# April 18 20:16 UTC GenAI Agent Improvements
+[params.agent_improvements_0418_2016]
+  seo_structured_data_recipe_added = true
+  ux_keyboard_navigation_focus_visible = true
+  typography_fluid_font_clamp_v3 = true
+  schema_org_article_optimized_v3 = true
+  core_web_vitals_lcp_optimized_v3 = true
