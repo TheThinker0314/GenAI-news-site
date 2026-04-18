@@ -2728,3 +2728,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 No new items.
 No new items.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main efb72a26c] feat: Auto-post meta-expands-ai-chip-partnership-with-broadcom---l.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/meta-expands-ai-chip-partnership-with-broadcom---l.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at efb72a26c51cd67c3d1fa7dfa6a1aab76fde41dd but expected 2dde5c4ae20a94214a0dfb501272d301a0cf6c4e)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: meta-expands-ai-chip-partnership-with-broadcom---l.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
