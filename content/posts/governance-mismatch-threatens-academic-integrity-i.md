@@ -1,0 +1,9 @@
+---
+title: "Governance mismatch threatens academic integrity in era of generative AI - Devdiscourse"
+date: 2026-04-18T12:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMixwFBVV95cUxNaG9saHBkaE8zX01QOTZnR3FiSjdSZXBVNTRvYlhYMDQ5MDZhLUcyUlJoTHJMUTY3WkN3Yk8yVkx3T3hkVlVPYlNOVGJCd2xWMEgtTWswSDFYb3BxT0FlTWxVVEhuV01VMmVCekk4VnhlTUlMWEt4Z3dVd1ZSc1JIcnJacDZ4TF9sZ1VJajl4Z00zaVotRkY0OUJ2VkkzZEZzXzhYbHh2Z1dxb2xZYmwtNnhJdlhPU2hGY2RLbDBwZ3Y1Tnl6RVc40gHMAUFVX3lxTE13SjZNcjR6bHkwRzNrOGswNW01N3dCX2taVU10TGJMQU10SFowVUFiNmkwTDBpU3ZHUWpMRDFick0xWHppRW1Vdm1IUU9aSkNGczNWYkJza0xVV2YyU2JsQ3BOaGducHBONldleWpGY0gzOXg2NmM2akRiMUhjZjNNc1dpdkhsZ05CX0dtRWdVWnE3VFpuenlVU3I2bzhMNDYwaHlDVW96VFR4WWpuWXZjSHFUazNHai1idmRnRm41U21NRFpLTzZWOXZHeg?oc=5)
