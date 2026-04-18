@@ -2552,3 +2552,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To https://github.com/TheThinker0314/GenAI-news-site.git
    60bb56055..0a222efb7  main -> main
 Created post: students-adopt-generative-ai-reshape-college-learn.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main df1a96f07] feat: Auto-post best-of-the-week-sustainable-analytical-methods-ch.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/best-of-the-week-sustainable-analytical-methods-ch.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   20220fbca..df1a96f07  main -> main
+Created post: best-of-the-week-sustainable-analytical-methods-ch.md
