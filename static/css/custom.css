@@ -4,3 +4,10 @@ a { color: #0066cc; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #004499; text-decoration: underline; }
 .content { max-width: 800px; margin: 0 auto; padding: 20px; }
 article { margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
+/* April 18 15:46 UTC GenAI Agent Design Improvements */
+body { font-size: 1.125rem; background-color: #fafafa; }
+article { transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 8px; padding: 1.5rem; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.05); border-bottom: none; }
+article:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+a.read-more { display: inline-block; padding: 0.5rem 1rem; background: #0066cc; color: #fff; border-radius: 4px; text-decoration: none; font-weight: 600; }
+a.read-more:hover { background: #004499; text-decoration: none; color: #fff; }
+img { max-width: 100%; height: auto; border-radius: 6px; }

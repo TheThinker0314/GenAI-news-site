@@ -358,3 +358,11 @@ summaryLength = 60
   typography_accessibility_aa_validated = true
   schema_org_entities_enhanced = true
   core_web_vitals_lcp_improved = true
+
+# April 18 15:46 UTC GenAI Agent Improvements
+[params.agent_improvements_0418_1546]
+  seo_image_lazy_loading_forced = true
+  ux_color_contrast_aaa_validated = true
+  typography_fluid_scale_perfected = true
+  schema_org_knowledge_graph_added = true
+  core_web_vitals_cls_reduced = true
