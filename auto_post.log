@@ -2680,3 +2680,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 Created post: gaxos-expands-its-ai-platform-to-make-music-chat-a.md
 No new items.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8dc615ffd] feat: Auto-post generative-ai-practice-note-issued-by-federal-cour.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-practice-note-issued-by-federal-cour.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   e16e3b81c..8dc615ffd  main -> main
+Created post: generative-ai-practice-note-issued-by-federal-cour.md
