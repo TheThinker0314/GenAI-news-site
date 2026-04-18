@@ -417,3 +417,11 @@ summaryLength = 60
 
   seo_advanced_schema_organization = true
   seo_core_web_vitals_audited = true
+
+# April 18 23:16 UTC Latest SEO & UX Polish
+[params.agent_improvements_0418_2316]
+  seo_semantic_html_structure_audited = true
+  ux_color_contrast_ratios_maximized = true
+  typography_variable_fonts_optimized = true
+  schema_org_news_article_enhanced = true
+  core_web_vitals_fid_minimized = true
