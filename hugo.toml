@@ -338,3 +338,9 @@ summaryLength = 60
   reduce_cls = true
   modern_css_grid = true
 
+
+# More SEO 2026-04-18
+[params.seo_updates_20260418]
+  voice_search_optimized = true
+  ai_summaries_enabled = true
+
