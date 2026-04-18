@@ -2458,3 +2458,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: deloitte-at-the-2024-world-retail-congress---deloi.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 66e79599a] feat: Auto-post artificial-intelligence-backlash-intensifies-as-jo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/artificial-intelligence-backlash-intensifies-as-jo.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 66e79599a11ab4358464fa7e40c9851c8fc87b00 but expected 5a3245e7182dbb1ffdfc377029c71fa541b20ffb)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: artificial-intelligence-backlash-intensifies-as-jo.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
