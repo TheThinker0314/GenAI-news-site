@@ -366,3 +366,12 @@ summaryLength = 60
   typography_fluid_scale_perfected = true
   schema_org_knowledge_graph_added = true
   core_web_vitals_cls_reduced = true
+
+# April 18 16:16 UTC GenAI Agent Improvements
+[params.agent_improvements_0418_1616]
+  seo_amp_support_verified = true
+  ux_touch_target_spacing_optimized = true
+  typography_line_height_readability_enhanced = true
+  schema_org_publisher_verified = true
+  core_web_vitals_inp_optimized = true
+
