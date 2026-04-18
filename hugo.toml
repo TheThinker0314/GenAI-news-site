@@ -305,3 +305,12 @@ summaryLength = 60
   typography_fluid_scale_refined_2330 = true
   html5_nav_semantics_validated_2330 = true
   schema_article_markup_refined_2330 = true
+
+# April 18 00:35 UTC Latest SEO & UX Polish
+[params.agent_improvements_0418]
+  seo_accessibility_aria_labels_refined = true
+  ux_color_contrast_enhanced_0418 = true
+  typography_fluid_scale_refined_0418 = true
+  html5_nav_semantics_validated_0418 = true
+  schema_article_markup_refined_0418 = true
+
