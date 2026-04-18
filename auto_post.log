@@ -2715,3 +2715,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
  create mode 100644 content/posts/wyclef-jean-ai-and-the-secrets-behind-creative-the.md
 Everything up-to-date
 Created post: wyclef-jean-ai-and-the-secrets-behind-creative-the.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main af113b50b] feat: Auto-post ai-isnt-replacing-pr-its-making-it-more-important-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-isnt-replacing-pr-its-making-it-more-important-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 17a72c64a9ffa50bd0f6a803f39644df5f714e06 but expected d3cdb2d4d3927f4788a79d67d62fde78687a6d4a)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-isnt-replacing-pr-its-making-it-more-important-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.

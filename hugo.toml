@@ -384,3 +384,12 @@ summaryLength = 60
   schema_org_local_business_enhanced = true
   core_web_vitals_ttfb_minimized = true
 
+# April 18 17:46 UTC GenAI Agent Improvements
+[params.agent_improvements_0418_1746]
+  seo_advanced_schema_organization = true
+  ux_improved_focus_visible = true
+  typography_fluid_font_clamp = true
+  schema_org_article_optimized = true
+  core_web_vitals_lcp_optimized = true
+
+
