@@ -3,20 +3,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="keywords" content="{{ if .Params.tags }}{{ delimit .Params.tags ", " }}{{ else }}GenAI, AI news, Generative AI, LLM, ChatGPT{{ end }}">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="{{ site.Params.author }}">
+    <meta name="keywords" content="{{ if .Params.tags }}{{ delimit .Params.tags ", " }}{{ else }}GenAI, AI news, Generative AI, LLM, ChatGPT, Artificial Intelligence, Tech News{{ end }}">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="author" content="{{ site.Params.author | default "GenAI News Team" }}">
     
     <!-- Open Graph -->
+    <meta property="og:site_name" content="{{ site.Title }}">
     <meta property="og:title" content="{{ .Title }}">
     <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
+    {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}">{{ else if site.Params.defaultImage }}<meta property="og:image" content="{{ site.Params.defaultImage | absURL }}">{{ end }}
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ .Title }}">
     <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{ if .Params.image }}<meta name="twitter:image" content="{{ .Params.image | absURL }}">{{ else if site.Params.defaultImage }}<meta name="twitter:image" content="{{ site.Params.defaultImage | absURL }}">{{ end }}
     
     <link rel="canonical" href="{{ .Permalink }}">
     {{ hugo.Generator }}
@@ -27,15 +30,24 @@
     <link rel="stylesheet" href="/css/custom.css">
     
     <style>
-        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #2d3748; background-color: #f7fafc; max-width: 1200px; margin: 0 auto; padding: 20px; }
-        h1, h2, h3 { color: #1a202c; font-weight: 700; }
-        a { color: #3182ce; text-decoration: none; transition: color 0.2s ease; }
-        a:hover { color: #2b6cb0; text-decoration: underline; }
-        header { background-color: #ffffff; padding: 20px 30px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 30px; }
-        .post { background-color: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 30px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
-        .post:hover { transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .post-title { font-size: 1.75em; margin-bottom: 10px; color: #2d3748; }
-        .post-meta { color: #718096; font-size: 0.9em; margin-bottom: 15px; }
-        .content-area { padding: 15px 0; }
+        :root {
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+        }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; line-height: 1.6; color: var(--text-main); background-color: var(--bg); max-width: 1200px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3, h4 { color: #0f172a; font-weight: 700; letter-spacing: -0.025em; margin-bottom: 0.5em; }
+        a { color: var(--primary); text-decoration: none; transition: all 0.2s ease; }
+        a:hover { color: var(--primary-hover); text-decoration: underline; }
+        header { background-color: var(--card-bg); padding: 24px 32px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05); margin-bottom: 32px; border: 1px solid #e2e8f0; }
+        .post { background-color: var(--card-bg); padding: 28px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -2px rgba(0,0,0,0.05); margin-bottom: 32px; transition: transform 0.2s ease, box-shadow 0.2s ease; border: 1px solid #e2e8f0; }
+        .post:hover { transform: translateY(-3px); box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); }
+        .post-title { font-size: 1.875em; margin-bottom: 12px; color: #0f172a; line-height: 1.2; }
+        .post-meta { color: var(--text-muted); font-size: 0.95em; margin-bottom: 16px; display: flex; gap: 12px; flex-wrap: wrap; }
+        .content-area { padding: 16px 0; font-size: 1.05rem; }
+        img { max-width: 100%; height: auto; border-radius: 8px; }
     </style>
 </head>
