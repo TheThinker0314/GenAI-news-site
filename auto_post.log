@@ -2777,3 +2777,11 @@ Created post: charlize-theron-warns-ai-could-replace-actors-role.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
 No new items.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 19e100295] feat: Auto-post ai-misguides-patient-leads-to-fatal-treatment-dela.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-misguides-patient-leads-to-fatal-treatment-dela.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   78ddc33e1..19e100295  main -> main
+Created post: ai-misguides-patient-leads-to-fatal-treatment-dela.md
