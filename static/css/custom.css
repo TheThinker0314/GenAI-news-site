@@ -24,3 +24,31 @@ img {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+/* 2026-04-19 SEO and Design Improvements */
+body {
+  background-color: #fafafa;
+  color: #333333;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.article-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+a:focus {
+  outline: 2px solid #0056b3;
+  outline-offset: 2px;
+}
+
