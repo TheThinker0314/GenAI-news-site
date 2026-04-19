@@ -2936,3 +2936,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: humint-versus-ai-in-2026-why-human-intelligence-st.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e1f31218a] feat: Auto-post i-dont-fear-ai--i-fear-what-happens-when-everyone-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/i-dont-fear-ai--i-fear-what-happens-when-everyone-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   028f41c3e..e1f31218a  main -> main
+Created post: i-dont-fear-ai--i-fear-what-happens-when-everyone-.md
