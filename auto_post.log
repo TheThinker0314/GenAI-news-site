@@ -2969,3 +2969,11 @@ Created post: build-a-generative-ai-powered-business-reporting-s.md
 To https://github.com/TheThinker0314/GenAI-news-site.git
    ac5135bdd..4dfc8e15c  main -> main
 Created post: generative-ai-reshapes-work-patterns-in-viet-nam--.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 96c4490d1] feat: Auto-post everything-we-know-about-how-wall-street-banks-are.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/everything-we-know-about-how-wall-street-banks-are.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   9f9b94da3..96c4490d1  main -> main
+Created post: everything-we-know-about-how-wall-street-banks-are.md
