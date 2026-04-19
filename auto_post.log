@@ -2916,3 +2916,13 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 Created post: 7-best-agentic-ai-stocks-and-etfs-to-buy-in-2026--.md
 No new items.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 259035fdc] feat: Auto-post protesters-gather-call-for-halt-of-ai-data-centre-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/protesters-gather-call-for-halt-of-ai-data-centre-.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 05781ea9136f32b2e0729132537c920e0e1217d4 but expected b8f475d27fe2938add18887c85ffee2803a96f80)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: protesters-gather-call-for-halt-of-ai-data-centre-.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
