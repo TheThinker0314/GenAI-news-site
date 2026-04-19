@@ -2887,3 +2887,11 @@ No new items.
 To https://github.com/TheThinker0314/GenAI-news-site.git
    bef87e501..9a45d10ba  main -> main
 Created post: samsung-sweeps-edison-awards-with-ai-powered-home-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main ec939706a] feat: Auto-post from-rankings-to-representation-why-ai-is-re-writi.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/from-rankings-to-representation-why-ai-is-re-writi.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   239335bc8..ec939706a  main -> main
+Created post: from-rankings-to-representation-why-ai-is-re-writi.md
