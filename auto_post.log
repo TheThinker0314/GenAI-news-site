@@ -2868,3 +2868,13 @@ error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news
 Created post: ai-chat-windows-linking-portal-search-and-open-mar.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cd1ee423b] feat: Auto-post ai-in-esg--sustainability-market-size-to-reach-usd.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-in-esg--sustainability-market-size-to-reach-usd.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at cd1ee423b6f6c29e7f4557efe58a30f5a2c245b1 but expected 296f0d6696b3723d1fcbff3529feba028b77a1da)
+error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
+Created post: ai-in-esg--sustainability-market-size-to-reach-usd.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
