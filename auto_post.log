@@ -3138,3 +3138,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    909e26810..eac68b3bd  main -> main
 Created post: teaching-in-the-age-of-generative-ai---university-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7b444831c] feat: Auto-post what-is-generative-ai-worth---stanford-digital-eco.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/what-is-generative-ai-worth---stanford-digital-eco.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   5788074af..7b444831c  main -> main
+Created post: what-is-generative-ai-worth---stanford-digital-eco.md
