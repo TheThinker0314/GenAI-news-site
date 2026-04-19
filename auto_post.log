@@ -2815,3 +2815,11 @@ To https://github.com/TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'https://github.com/TheThinker0314/GenAI-news-site.git'
 Created post: leaders-prioritize-ai-investments-for-business-val.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 89af2ec6a] feat: Auto-post ex-files-is-it-okay-to-use-ai-for-free-legal-advic.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ex-files-is-it-okay-to-use-ai-for-free-legal-advic.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   7b419fa09..89af2ec6a  main -> main
+Created post: ex-files-is-it-okay-to-use-ai-for-free-legal-advic.md
