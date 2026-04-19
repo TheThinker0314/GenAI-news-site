@@ -1,54 +1,15 @@
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; }
-.title { font-weight: 700; color: #111; }
-a { color: #0066cc; text-decoration: none; transition: color 0.2s; }
-a:hover { color: #004499; text-decoration: underline; }
-.content { max-width: 800px; margin: 0 auto; padding: 20px; }
-article { margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
-
-/* Additional Design Improvements */
 body {
-  line-height: 1.8;
-  color: #e4e4e7;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
-h1 { font-size: 2.5rem; letter-spacing: -0.03em; }
-h2 { font-size: 2rem; border-bottom: 1px solid #333; padding-bottom: 0.5rem; }
-.card {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+h1, h2, h3 {
+    color: #111;
 }
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+a {
+    color: #0056b3;
+    text-decoration: none;
 }
-.article-content { font-size: 1.15rem; }
-img {
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+a:hover {
+    text-decoration: underline;
 }
-
-/* 2026-04-19 SEO and Design Improvements */
-body {
-  background-color: #fafafa;
-  color: #333333;
-  font-family: 'Inter', system-ui, sans-serif;
-}
-.article-title {
-  font-size: 2.75rem;
-  font-weight: 800;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-.meta {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 2rem;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-}
-a:focus {
-  outline: 2px solid #0056b3;
-  outline-offset: 2px;
-}
-
