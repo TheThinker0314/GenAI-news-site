@@ -2961,3 +2961,11 @@ No new items.
 To https://github.com/TheThinker0314/GenAI-news-site.git
    105c6a256..beffbbb3a  main -> main
 Created post: build-a-generative-ai-powered-business-reporting-s.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4dfc8e15c] feat: Auto-post generative-ai-reshapes-work-patterns-in-viet-nam--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-reshapes-work-patterns-in-viet-nam--.md
+To https://github.com/TheThinker0314/GenAI-news-site.git
+   ac5135bdd..4dfc8e15c  main -> main
+Created post: generative-ai-reshapes-work-patterns-in-viet-nam--.md
