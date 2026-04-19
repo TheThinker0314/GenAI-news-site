@@ -3146,3 +3146,11 @@ Created post: teaching-in-the-age-of-generative-ai---university-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    5788074af..7b444831c  main -> main
 Created post: what-is-generative-ai-worth---stanford-digital-eco.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 636fbfdc9] feat: Auto-post new-tool-makes-generative-ai-models-more-likely-to.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/new-tool-makes-generative-ai-models-more-likely-to.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   6aaf75bbd..636fbfdc9  main -> main
+Created post: new-tool-makes-generative-ai-models-more-likely-to.md
