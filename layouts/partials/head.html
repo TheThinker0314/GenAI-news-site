@@ -1,33 +1,19 @@
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    <meta name="author" content="{{ site.Params.author }}">
-    <link rel="canonical" href="{{ .Permalink }}">
-    
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }}">
-    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#2c3e50">
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{{ if .IsPage }}NewsArticle{{ else }}WebSite{{ end }}",
-      "headline": "{{ .Title }}",
-      "url": "{{ .Permalink }}",
-      "description": "{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"
-    }
-    </script>
-    
-    {{ hugo.Generator }}
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-</head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="author" content="{{ site.Params.author }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta property="og:type" content="website">
+<style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
+    h1, h2, h3 { color: #2c3e50; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
+    .post { margin-bottom: 40px; }
+    .post-title { font-size: 1.5em; margin-bottom: 10px; }
+    .post-meta { color: #7f8c8d; font-size: 0.9em; }
+</style>
