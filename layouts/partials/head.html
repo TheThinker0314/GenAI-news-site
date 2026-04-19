@@ -1,36 +1,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="{{ .Title }}">
-    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:type" content="article">
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <meta name="author" content="{{ site.Params.author }}">
     <link rel="canonical" href="{{ .Permalink }}">
+    
+    <meta property="og:title" content="{{ .Title }}">
+    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2c3e50">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "{{ if .IsPage }}NewsArticle{{ else }}WebSite{{ end }}",
+      "headline": "{{ .Title }}",
+      "url": "{{ .Permalink }}",
+      "description": "{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"
+    }
+    </script>
+    
     {{ hugo.Generator }}
-</INNER_EOF>
-
-echo "Updating hugo.toml with SEO params"
-if ! grep -q "description = " hugo.toml; then
-    sed -i '/\[params\]/a \ \ description = "The latest news and updates on Generative AI, LLMs, and AI research."' hugo.toml
-fi
-
-echo "Adding some CSS for UI improvement"
-mkdir -p static/css
-cat << 'INNER_EOF' > static/css/custom.css
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-h1, h2, h3 {
-    color: #111;
-}
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+</head>
