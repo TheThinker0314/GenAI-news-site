@@ -3477,3 +3477,13 @@ To github.com:TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
 Created post: ubisoft-wants-new-hires-to-be-familiar-with-genera.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main adccf498a] feat: Auto-post advance-local-workshop-introduces-ai-strategies-to.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/advance-local-workshop-introduces-ai-strategies-to.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 5c37d3df4999aa3c05aa7a71b83ba08441973813 but expected 6b09544c7e54581861065a5936f4947a3b2f17c2)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: advance-local-workshop-introduces-ai-strategies-to.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
