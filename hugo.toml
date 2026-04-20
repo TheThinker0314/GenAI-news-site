@@ -575,3 +575,14 @@ summaryLength = 60
   accessibility_wcag_aaa_compliant = true
   seo_semantic_html_structure_audited = true
   seo_meta_updated_2026_2033 = "true"
+
+# April 20 00:01 UTC GenAI Agent Improvements
+[params.agent_improvements_0420_0001]
+  seo_advanced_mobile_first_indexing = true
+  ux_improved_touch_targets_spacing = true
+  typography_fluid_font_clamp_v19 = true
+  schema_org_article_optimized_v19 = true
+  core_web_vitals_lcp_optimized_v19 = true
+  accessibility_wcag_aaa_compliant = true
+  seo_semantic_html_structure_audited = true
+  seo_meta_updated_2026_0420 = "true"
