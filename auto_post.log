@@ -3318,3 +3318,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    4104e4df9..d7f631fef  main -> main
 Created post: beyond-the-hype-the-true-roi-of-generative-ai-in-b.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5e7fd1e11] feat: Auto-post us-california-use-purchasing-power-to-set-ai-rules.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/us-california-use-purchasing-power-to-set-ai-rules.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   f00233a1a..5e7fd1e11  main -> main
+Created post: us-california-use-purchasing-power-to-set-ai-rules.md
