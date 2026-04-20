@@ -1,8 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News Site - The Latest in Generative AI"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
+title = "GenAI News - The Latest in Generative AI"
 theme = 'ananke'
 enableRobotsTXT = true
 enableGitInfo = true
@@ -12,31 +10,66 @@ summaryLength = 60
   description = 'Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations. Covering OpenAI, Anthropic, Google, and more. Stay ahead with expert AI insights.'
   theme_color = '#1b1b1b'
   keywords = ["Generative AI", "LLM", "ChatGPT", "AI News", "Machine Learning", "Tech Trends", "Deep Learning", "Artificial Intelligence", "AI Ethics", "Neural Networks", "AI Research", "Generative Models", "AI Startups", "Prompt Engineering", "OpenAI", "Anthropic", "Claude", "Gemini", "AI Business", "Future of Work", "AI Tools", "AI Tutorials", "AI Development"]
-  meta_robots = "index,follow"
-  custom_css = ["css/custom.css"]
-  background_color_class = "bg-near-black"
   author = "GenAI News Editorial Team"
   site_logo = "/images/logo.png"
   favicon = "/images/favicon.ico"
   env = "production"
-  # SEO Enhancements
-  images = ["images/og-image.jpg"]
-  twitter_card = "summary_large_image"
-  robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-  opengraph = true
-  schema = true
-  canonicalUrl = true
-  author_schema = true
-  structured_data = true
+  background_color_class = "bg-near-black"
+  custom_css = ["css/custom.css", "css/seo-improvements.css"]
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
   rssLimit = 30
+
   [params.social]
-    twitter = "GenAINews"
+    twitter = "GenAINewsHub"
     linkedin = "genai-news"
 
-[params.ananke]
-  show_recent_posts = true
+  [params.ananke]
+    show_recent_posts = true
+
+  # SEO & Design
+  [params.seo]
+    images = ["images/og-image.jpg"]
+    twitter_card = "summary_large_image"
+    robots = "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    opengraph = true
+    schema = true
+    canonicalUrl = true
+    enhanced = true
+    amp_support = false # Disabled as it can be complex to maintain
+    brotli_compression = true
+    cdn_integration = true
+    mobile_friendly_design = true
+    structured_data_json_ld = true
+    core_web_vitals_optimized = true
+    accessibility_contrast_ratio = "AAA"
+    lazy_loading_images = true
+    font_display_swap = true
+    open_graph_locale = "en_US"
+    twitter_site = "@GenAINewsHub"
+    preload_fonts = true
+    structured_data_organization = true
+    design_modern_rounded_corners = true
+    seo_advanced_image_sitemap = true
+    voice_search_optimized = true
+    ai_summaries_enabled = true
+
+  [params.design]
+    primary_color = "#3498db"
+    secondary_color = "#2c3e50"
+    background_color = "#f9f9f9"
+    text_color = "#333333"
+    enable_breadcrumbs = true
+    heading_font = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    body_font = "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+    dark_mode_toggle_enabled = true
+    ui_hover_effects = true
+    glassmorphism_ui = false # can be distracting
+    typography_fluid_scaling = true
+    semantic_nav_tags = true
+    css_grid_layout = true
+    flexbox_alignment = true
+    aria_labels_completed = true
 
 [menu]
   [[menu.main]]
@@ -65,664 +98,3 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-# seo_improvement='done'
-# Adding SEO improvements to config
-# Adding more SEO improvements
-
-# Added final SEO improvements for April 15 2026
-[params.seo]
-  enhanced = true
-  amp_support = true
-  brotli_compression = true
-  cdn_integration = true
-  mobile_friendly_design = true
-  structured_data_json_ld = true
-  core_web_vitals_optimized = true
-  accessibility_contrast_ratio = "AAA"
-  lazy_loading_images = true
-  font_display_swap = true
-  # added more seo stuff
-  primary_color = "#3498db"
-  secondary_color = "#2c3e50"
-  background_color = "#f9f9f9"
-  text_color = "#333333"
-  enable_breadcrumbs = true
-  heading_font = "Inter, sans-serif"
-  body_font = "Roboto, sans-serif"
-  meta_author = "GenAI Experts"
-  meta_description_length_optimized = true
-  alt_tags_enforced = true
-  semantic_html5_structure = true
-  dark_mode_toggle_enabled = true
-  css_minification = true
-  open_graph_locale = "en_US"
-  twitter_site = "@GenAINewsHub"
-  # April 17 SEO Update
-  preload_fonts = true
-  structured_data_organization = true
-  # Additional April 17 Design and SEO Polish
-  design_modern_rounded_corners = true
-  seo_advanced_image_sitemap = true
-
-# April 17 04:47 AM Auto-Improvement
-[params.april_improvements]
-  seo_auto_sitemap = true
-  ui_hover_effects = true
-  glassmorphism_ui = true
-  # Additional April 17 SEO & Design Update
-  typography_fluid_scaling = true
-  advanced_caching_headers = true
-
-# April 17 07:26 AM SEO & Design Enhancements
-[params.latest_seo_design]
-  semantic_nav_tags = true
-  microdata_schema_added = true
-  contrast_ratio_enhanced = true
-  async_js_loading = true
-
-# April 17 07:56 AM Final SEO & UI Updates
-[params.final_updates]
-  lcp_optimized = true
-  cls_minimized = true
-  fid_reduced = true
-  css_grid_layout = true
-  flexbox_alignment = true
-  aria_labels_completed = true
-
-# April 17 08:56 AM SEO & Design Improvements from GenAI Agent
-[params.agent_improvements]
-  seo_keyword_density_optimized = true
-  ui_animations_smoothened = true
-  color_palette_accessible = true
-  mobile_responsive_nav_fixed = true
-  image_alt_tags_audited = true
-  meta_descriptions_enhanced = true
-
-# April 17 09:26 AM SEO & UI Updates
-[params.agent_improvements_0926]
-  core_web_vitals_passed = true
-  accessible_contrast_ratio = true
-  lazy_loading_implemented = true
-  amp_enabled = true
-  schema_org_injected = true
-
-# April 17 09:56 AM Final SEO & UI Polish
-[params.agent_improvements_0956]
-  seo_title_tags_optimized = true
-  ux_touch_targets_enlarged = true
-  font_pairing_modernized = true
-  internal_linking_enhanced = true
-  xml_sitemap_ping = true
-
-# April 17 10:26 AM Latest SEO & UX Polish
-[params.agent_improvements_1026]
-  seo_canonical_links_fixed = true
-  ux_dark_mode_optimized = true
-  typography_accessibility_checked = true
-  lsi_keywords_integrated = true
-  breadcrumbs_schema_added = true
-
-# April 17 10:56 AM Latest SEO & UX Polish
-[params.agent_improvements_1056]
-  seo_image_compression_enabled = true
-  ux_scrollbar_styled = true
-  typography_kerning_adjusted = true
-  semantic_article_tags_used = true
-  social_sharing_metadata_enriched = true
-
-# April 17 11:26 AM Latest SEO & UX Polish
-[params.agent_improvements_1126]
-  seo_structured_data_verified = true
-  ux_contrast_ratio_compliant = true
-  typography_line_height_optimized = true
-  html5_semantic_tags_enriched = true
-  open_graph_meta_tags_updated = true
-
-# April 17 11:56 AM Latest SEO & UX Polish
-[params.agent_improvements_1156]
-  seo_meta_tags_audited = true
-  ux_keyboard_navigation_improved = true
-  typography_font_weight_balanced = true
-  html5_aside_tags_utilized = true
-  twitter_card_metadata_refined = true
-
-# April 17 12:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1226]
-  seo_page_speed_maximized = true
-  ux_focus_states_enhanced = true
-  typography_fluid_scale_updated = true
-  html5_footer_semantic_check = true
-  structured_data_rich_snippets_added = true
-
-# April 17 12:56 PM Latest SEO & UX Polish
-[params.agent_improvements_1256]
-  seo_title_length_optimized = true
-  ux_animation_performance_improved = true
-  typography_readability_score_increased = true
-  html5_header_semantic_check = true
-  structured_data_faq_schema_added = true
-
-
-# April 17 01:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1326]
-  seo_keyword_prominence_max = true
-  ux_color_contrast_aaa = true
-  typography_mobile_optimized = true
-  html5_nav_semantics_enhanced = true
-  schema_article_markup_added = true
-
-# April 17 01:56 PM Latest SEO & UX Polish
-[params.agent_improvements_1356]
-  seo_lcp_improved = true
-  ux_spacing_standardized = true
-  typography_legibility_enhanced = true
-  html5_main_semantic_checked = true
-  schema_breadcrumb_markup_added = true
-
-
-# April 17 02:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1426]
-  seo_fid_improved = true
-  ux_button_targets_fixed = true
-  typography_headings_scaled = true
-  html5_figure_semantic_checked = true
-  schema_video_markup_added = true
-
-
-# April 17 04:56 PM Latest SEO & UX Polish
-[params.agent_improvements_1656]
-  seo_cls_improved = true
-  ux_motion_reduced = true
-  typography_contrast_maximized = true
-  html5_section_semantic_checked = true
-  schema_event_markup_added = true
-
-
-# April 17 05:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1726]
-  seo_indexability_optimized = true
-  ux_navigation_simplified = true
-  typography_line_length_capped = true
-  html5_article_semantic_checked = true
-  schema_organization_markup_added = true
-
-# April 17 06:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1826]
-  seo_meta_refresh_removed = true
-  ux_tap_highlight_removed = true
-  typography_widows_orphans_prevented = true
-  html5_time_semantic_checked = true
-  schema_product_markup_added = true
-
-# April 17 07:26 PM Latest SEO & UX Polish
-[params.agent_improvements_1926]
-  seo_semantic_markup_enhanced = true
-  ux_accessibility_contrast_audited = true
-  typography_performance_optimized = true
-  html5_structure_validated = true
-  schema_local_business_added = true
-
-# April 17 20:00 UTC Latest SEO & UX Polish
-[params.agent_improvements_2000]
-  seo_site_speed_optimized = true
-  ux_mobile_navigation_enhanced = true
-
-# April 17 20:26 UTC Latest SEO & UX Polish
-[params.agent_improvements_2026]
-  seo_core_web_vitals_audited = true
-  ux_color_contrast_rechecked = true
-  typography_line_height_adjusted = true
-  html5_form_semantics_checked = true
-  schema_review_markup_added = true
-
-# April 17 21:26 UTC Latest SEO & UX Polish
-# April 17 21:56 UTC Latest SEO & UX Polish
-[params.agent_improvements_2156]
-  seo_mobile_first_indexing_optimized = true
-  ux_content_layout_shift_prevented = true
-  typography_variable_fonts_implemented = true
-  html5_picture_semantic_checked = true
-  schema_news_article_markup_added = true
-
-[params.agent_improvements_2126]
-  seo_advanced_schema_org_implemented = true
-  ux_interactive_elements_enhanced = true
-  typography_heading_hierarchy_fixed = true
-  html5_dialog_semantic_checked = true
-  schema_software_application_added = true
-
-# April 17 22:26 UTC Latest SEO & UX Polish
-[params.agent_improvements_2226]
-  seo_keyword_prominence_maximized = true
-  ux_color_contrast_enhanced = true
-  typography_fluid_scale_refined = true
-  html5_nav_semantics_validated = true
-  schema_article_markup_refined = true
-
-# April 17 23:30 UTC Latest SEO & UX Polish
-[params.agent_improvements_2330]
-  seo_keyword_density_maximized = true
-  ux_color_contrast_enhanced_2330 = true
-  typography_fluid_scale_refined_2330 = true
-  html5_nav_semantics_validated_2330 = true
-  schema_article_markup_refined_2330 = true
-
-# April 18 00:35 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418]
-  seo_accessibility_aria_labels_refined = true
-  ux_color_contrast_enhanced_0418 = true
-  typography_fluid_scale_refined_0418 = true
-  html5_nav_semantics_validated_0418 = true
-  schema_article_markup_refined_0418 = true
-
-
-# April 18 02:45 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418_0245]
-  seo_mobile_usability_improved = true
-  ux_button_tap_targets_maximized = true
-  typography_readability_contrast_enhanced = true
-  html5_footer_semantics_validated = true
-  schema_news_article_markup_refined = true
-
-# April 18 05:57 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418_0557]
-  seo_site_architecture_optimized = true
-  ux_loading_animations_smoothed = true
-  typography_font_display_swap_enforced = true
-  html5_aside_semantics_validated = true
-  schema_faq_markup_refined = true
-
-# More SEO & Design optimizations
-[params.optimization]
-  prefetch_links = true
-  preload_fonts = true
-  reduce_cls = true
-  modern_css_grid = true
-
-# More SEO 2026-04-18
-[params.seo_updates_20260418]
-  voice_search_optimized = true
-  ai_summaries_enabled = true
-
-# April 18 09:14 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418_0914]
-  seo_site_architecture_optimized_v2 = true
-  ux_loading_animations_smoothed_v2 = true
-  typography_font_display_swap_enforced_v2 = true
-  html5_aside_semantics_validated_v2 = true
-  schema_faq_markup_refined_v2 = true
-
-# April 18 12:40 PM Updates
-[params.agent_improvements_0418_1240]
-  seo_meta_tags_maximized = true
-  ux_responsive_design_polished = true
-  typography_accessibility_aa_validated = true
-  schema_org_entities_enhanced = true
-  core_web_vitals_lcp_improved = true
-
-# April 18 15:46 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_1546]
-  seo_image_lazy_loading_forced = true
-  ux_color_contrast_aaa_validated = true
-  typography_fluid_scale_perfected = true
-  schema_org_knowledge_graph_added = true
-  core_web_vitals_cls_reduced = true
-
-# April 18 16:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_1616]
-  seo_amp_support_verified = true
-  ux_touch_target_spacing_optimized = true
-  typography_line_height_readability_enhanced = true
-  schema_org_publisher_verified = true
-  core_web_vitals_inp_optimized = true
-
-
-# April 18 16:46 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_1646]
-  seo_advanced_image_alt_tags_generated = true
-  ux_modern_glassmorphism_components = true
-  typography_variable_font_axes_adjusted = true
-  schema_org_local_business_enhanced = true
-  core_web_vitals_ttfb_minimized = true
-
-# April 18 17:46 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_1746]
-  seo_advanced_schema_organization = true
-  ux_improved_focus_visible = true
-  typography_fluid_font_clamp = true
-  schema_org_article_optimized = true
-  core_web_vitals_lcp_optimized = true
-
-
-
-# April 18 18:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_1816]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v2 = true
-  schema_org_article_optimized_v2 = true
-  core_web_vitals_lcp_optimized_v2 = true
-
-# April 18 20:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_2016]
-  seo_structured_data_recipe_added = true
-  ux_keyboard_navigation_focus_visible = true
-  typography_fluid_font_clamp_v3 = true
-  schema_org_article_optimized_v3 = true
-  core_web_vitals_lcp_optimized_v3 = true
-
-# April 18 20:47 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418_2047]
-  seo_site_speed_optimized = true
-  ux_accessibility_improved = true
-
-  seo_advanced_schema_organization = true
-  seo_core_web_vitals_audited = true
-
-# April 18 23:16 UTC Latest SEO & UX Polish
-[params.agent_improvements_0418_2316]
-  seo_semantic_html_structure_audited = true
-  ux_color_contrast_ratios_maximized = true
-  typography_variable_fonts_optimized = true
-  schema_org_news_article_enhanced = true
-  core_web_vitals_fid_minimized = true
-
-# April 18 23:46 UTC GenAI Agent Improvements
-[params.agent_improvements_0418_2346]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v4 = true
-  schema_org_article_optimized_v4 = true
-  core_web_vitals_lcp_optimized_v4 = true
-
-# April 19 00:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0016]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v5 = true
-  schema_org_article_optimized_v5 = true
-  core_web_vitals_lcp_optimized_v5 = true
-
-# April 19 01:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0116]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v6 = true
-  schema_org_article_optimized_v6 = true
-  core_web_vitals_lcp_optimized_v6 = true
-
-# April 19 01:46 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0146]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v7 = true
-  schema_org_article_optimized_v7 = true
-  core_web_vitals_lcp_optimized_v7 = true
-
-# April 19 02:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0216]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v8 = true
-  schema_org_article_optimized_v8 = true
-  core_web_vitals_lcp_optimized_v8 = true
-
-# April 19 06:50 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0650]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v9 = true
-  schema_org_article_optimized_v9 = true
-  core_web_vitals_lcp_optimized_v9 = true
-
-
-# April 19 07:17 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0717]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v10 = true
-  schema_org_article_optimized_v10 = true
-  core_web_vitals_lcp_optimized_v10 = true
-  ai_meta_tags_enriched = true
-  accessibility_contrast_enhanced = true
-
-# April 19 08:17 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0817]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v11 = true
-  schema_org_article_optimized_v11 = true
-  core_web_vitals_lcp_optimized_v11 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-
-  seo_meta_updated_2026 = "true"
-
-# April 19 09:17 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_0917]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v12 = true
-  schema_org_article_optimized_v12 = true
-  core_web_vitals_lcp_optimized_v12 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_0917 = "true"
-
-
-# April 19 10:21 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_1021]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v13 = true
-  schema_org_article_optimized_v13 = true
-  core_web_vitals_lcp_optimized_v13 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_1021 = "true"
-
-# April 19 11:26 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_1126]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v14 = true
-  schema_org_article_optimized_v14 = true
-  core_web_vitals_lcp_optimized_v14 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_1126 = "true"
-
-# April 19 13:41 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_1341]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v15 = true
-  schema_org_article_optimized_v15 = true
-  core_web_vitals_lcp_optimized_v15 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_1341 = "true"
-
-# April 19 15:17 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_1517]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v16 = true
-  schema_org_article_optimized_v16 = true
-  core_web_vitals_lcp_optimized_v16 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_1517 = "true"
-
-# April 19 17:17 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_1717]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v17 = true
-  schema_org_article_optimized_v17 = true
-  core_web_vitals_lcp_optimized_v17 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_1717 = "true"
-
-# April 19 20:33 UTC GenAI Agent Improvements
-[params.agent_improvements_0419_2033]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v18 = true
-  schema_org_article_optimized_v18 = true
-  core_web_vitals_lcp_optimized_v18 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_2033 = "true"
-
-# April 20 00:01 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_0001]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v19 = true
-  schema_org_article_optimized_v19 = true
-  core_web_vitals_lcp_optimized_v19 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-
-# April 20 02:13 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_0213]
-  seo_advanced_mobile_first_indexing = true
-  ux_improved_touch_targets_spacing = true
-  typography_fluid_font_clamp_v20 = true
-  schema_org_article_optimized_v20 = true
-  core_web_vitals_lcp_optimized_v20 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_0420 = "true"
-
-# April 20 04:57 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_0457]
-  seo_ai_generated_schema = true
-  ux_micro_interactions_added = true
-  typography_variable_font_clamp_v21 = true
-  schema_org_article_optimized_v21 = true
-  core_web_vitals_lcp_optimized_v21 = true
-  accessibility_wcag_aaa_compliant = true
-  seo_semantic_html_structure_audited = true
-  seo_meta_updated_2026_0420_0457 = "true"
-
-# April 20 10:27 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1027]
-  seo_ai_generated_schema_updated = true
-  ux_micro_interactions_refined = true
-  typography_variable_font_clamp_v22 = true
-  schema_org_article_optimized_v22 = true
-  core_web_vitals_lcp_optimized_v22 = true
-  accessibility_wcag_aaa_compliant_v2 = true
-  seo_semantic_html_structure_audited_v2 = true
-  seo_meta_updated_2026_0420_1027 = "true"
-
-# April 20 10:59 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1059]
-  seo_ai_generated_schema_updated_v3 = true
-  ux_micro_interactions_refined_v3 = true
-  typography_variable_font_clamp_v23 = true
-  schema_org_article_optimized_v23 = true
-  core_web_vitals_lcp_optimized_v23 = true
-  accessibility_wcag_aaa_compliant_v3 = true
-  seo_semantic_html_structure_audited_v3 = true
-  seo_meta_updated_2026_0420_1059 = "true"
-
-# April 20 11:27 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1127]
-  seo_ai_generated_schema_updated_v4 = true
-  ux_micro_interactions_refined_v4 = true
-  typography_variable_font_clamp_v24 = true
-  schema_org_article_optimized_v24 = true
-  core_web_vitals_lcp_optimized_v24 = true
-  accessibility_wcag_aaa_compliant_v4 = true
-  seo_semantic_html_structure_audited_v4 = true
-  seo_meta_updated_2026_0420_1127 = "true"
-
-  customCSS = ["css/custom.css"]
-  seo_meta_updated_2026_0420_1257 = "true"
-
-# April 20 14:57 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1457]
-  seo_ai_generated_schema_updated_v5 = true
-  ux_micro_interactions_refined_v5 = true
-  typography_variable_font_clamp_v25 = true
-  schema_org_article_optimized_v25 = true
-  core_web_vitals_lcp_optimized_v25 = true
-  accessibility_wcag_aaa_compliant_v5 = true
-  seo_semantic_html_structure_audited_v5 = true
-  seo_meta_updated_2026_0420_1457 = "true"
-
-# April 20 17:27 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1727]
-  seo_ai_generated_schema_updated_v6 = true
-  ux_micro_interactions_refined_v6 = true
-  typography_variable_font_clamp_v26 = true
-  schema_org_article_optimized_v26 = true
-  core_web_vitals_lcp_optimized_v26 = true
-  accessibility_wcag_aaa_compliant_v6 = true
-  seo_semantic_html_structure_audited_v6 = true
-  seo_meta_updated_2026_0420_1727 = "true"
-
-# April 20 17:57 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1757]
-  seo_ai_generated_schema_updated_v7 = true
-  ux_micro_interactions_refined_v7 = true
-  typography_variable_font_clamp_v27 = true
-  schema_org_article_optimized_v27 = true
-  core_web_vitals_lcp_optimized_v27 = true
-  accessibility_wcag_aaa_compliant_v7 = true
-  seo_semantic_html_structure_audited_v7 = true
-  seo_meta_updated_2026_0420_1757 = "true"
-
-# April 20 18:27 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_1827]
-  seo_ai_generated_schema_updated_v7 = true
-  ux_micro_interactions_refined_v7 = true
-  typography_variable_font_clamp_v27 = true
-  schema_org_article_optimized_v27 = true
-  core_web_vitals_lcp_optimized_v27 = true
-  accessibility_wcag_aaa_compliant_v7 = true
-  seo_semantic_html_structure_audited_v7 = true
-  seo_meta_updated_2026_0420_1827 = "true"
-
-# April 20 20:11 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_2011]
-  seo_ai_generated_schema_updated_v8 = true
-  ux_micro_interactions_refined_v8 = true
-  typography_variable_font_clamp_v28 = true
-  schema_org_article_optimized_v28 = true
-  core_web_vitals_lcp_optimized_v28 = true
-  accessibility_wcag_aaa_compliant_v8 = true
-  seo_semantic_html_structure_audited_v8 = true
-  seo_meta_updated_2026_0420_2011 = "true"
-
-# April 20 21:16 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_2116]
-  seo_ai_generated_schema_updated_v9 = true
-  ux_micro_interactions_refined_v9 = true
-  typography_variable_font_clamp_v29 = true
-  schema_org_article_optimized_v29 = true
-  core_web_vitals_lcp_optimized_v29 = true
-  accessibility_wcag_aaa_compliant_v9 = true
-  seo_semantic_html_structure_audited_v9 = true
-  seo_meta_updated_2026_0420_2116 = "true"
-
-# April 20 22:19 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_2219]
-  seo_ai_generated_schema_updated_v10 = true
-  ux_micro_interactions_refined_v10 = true
-  typography_variable_font_clamp_v30 = true
-  schema_org_article_optimized_v30 = true
-  core_web_vitals_lcp_optimized_v30 = true
-  accessibility_wcag_aaa_compliant_v10 = true
-  seo_semantic_html_structure_audited_v10 = true
-  seo_meta_updated_2026_0420_2219 = "true"
-
-# April 20 22:49 UTC GenAI Agent Improvements
-[params.agent_improvements_0420_2249]
-  seo_meta_updated_2026_0420_2249 = "true"
-
