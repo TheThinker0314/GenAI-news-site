@@ -25,7 +25,7 @@
         <a href="/" class="text-3xl font-extrabold tracking-tight hover:opacity-80 transition-opacity gradient-text" aria-label="Home - {{ site.Title }}">{{ site.Title }}</a>
         <nav class="flex flex-wrap justify-center space-x-2 sm:space-x-6 text-sm sm:text-base font-medium" aria-label="Main Navigation">
           {{ range site.Menus.main }}
-          <a href="{{ .URL }}" class="px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/10 transition-all active:scale-95">{{ .Name }}</a>
+          <a href="{{ .URL }}" class="px-3 py-2 rounded-lg {{ if eq $.RelPermalink .URL }}text-white bg-white/10 font-bold{{ else }}text-slate-300 hover:text-white hover:bg-white/10{{ end }} transition-all active:scale-95" {{ if eq $.RelPermalink .URL }}aria-current="page"{{ end }}>{{ .Name }}</a>
           {{ end }}
         </nav>
       </div>
