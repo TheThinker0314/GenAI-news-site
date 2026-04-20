@@ -3387,3 +3387,11 @@ Created post: the-llm-gamble---towards-data-science.md
 To github.com:TheThinker0314/GenAI-news-site.git
    c336ad2f3..071ba8c64  main -> main
 Created post: from-lineage-to-provenance-the-governance-shift-ge.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4f1296aab] feat: Auto-post what-is-generative-ai-in-marketing---databricks.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/what-is-generative-ai-in-marketing---databricks.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   601a223ff..4f1296aab  main -> main
+Created post: what-is-generative-ai-in-marketing---databricks.md
