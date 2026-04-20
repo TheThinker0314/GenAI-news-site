@@ -3457,3 +3457,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    3b3865a7e..7ddc6de8d  main -> main
 Created post: physical-ai-edges-closer-to-real-world-deployments.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 9dfe35176] feat: Auto-post accelerate-generative-ai-inference-on-amazon-sagem.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/accelerate-generative-ai-inference-on-amazon-sagem.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 2c9f426af3d03de4695dcce66c12db11678a4c52 but expected e571bef97a088193726b2ac4cc412d5fa19479b1)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: accelerate-generative-ai-inference-on-amazon-sagem.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
