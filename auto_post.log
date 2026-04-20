@@ -3200,3 +3200,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    dc72efe76..9a9daf4bf  main -> main
 Created post: ai-generated-text-is-overwhelming-institutions-and.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 24b2a9533] feat: Auto-post could-ai-tools-actually-help-us-feel-better---inse.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/could-ai-tools-actually-help-us-feel-better---inse.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1375cc791..24b2a9533  main -> main
+Created post: could-ai-tools-actually-help-us-feel-better---inse.md
