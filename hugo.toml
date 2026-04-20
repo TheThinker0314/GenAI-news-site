@@ -3,12 +3,6 @@ languageCode = 'en-us'
 title = "GenAI News Site - The Latest in Generative AI"
 Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
 Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
 theme = 'ananke'
 enableRobotsTXT = true
 enableGitInfo = true
@@ -648,7 +642,6 @@ summaryLength = 60
   seo_semantic_html_structure_audited_v4 = true
   seo_meta_updated_2026_0420_1127 = "true"
 
-[params]
   customCSS = ["css/custom.css"]
   seo_meta_updated_2026_0420_1257 = "true"
 
