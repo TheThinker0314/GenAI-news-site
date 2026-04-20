@@ -3467,3 +3467,13 @@ To github.com:TheThinker0314/GenAI-news-site.git
 error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
 Created post: accelerate-generative-ai-inference-on-amazon-sagem.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main be4c22da9] feat: Auto-post ubisoft-wants-new-hires-to-be-familiar-with-genera.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ubisoft-wants-new-hires-to-be-familiar-with-genera.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 2bc4867561b13d279337e4c21743a451b34ae439 but expected 2c9f426af3d03de4695dcce66c12db11678a4c52)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: ubisoft-wants-new-hires-to-be-familiar-with-genera.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
