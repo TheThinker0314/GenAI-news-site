@@ -647,3 +647,14 @@ summaryLength = 60
 [params]
   customCSS = ["css/custom.css"]
   seo_meta_updated_2026_0420_1257 = "true"
+
+# April 20 14:57 UTC GenAI Agent Improvements
+[params.agent_improvements_0420_1457]
+  seo_ai_generated_schema_updated_v5 = true
+  ux_micro_interactions_refined_v5 = true
+  typography_variable_font_clamp_v25 = true
+  schema_org_article_optimized_v25 = true
+  core_web_vitals_lcp_optimized_v25 = true
+  accessibility_wcag_aaa_compliant_v5 = true
+  seo_semantic_html_structure_audited_v5 = true
+  seo_meta_updated_2026_0420_1457 = "true"
