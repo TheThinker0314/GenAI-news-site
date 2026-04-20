@@ -3503,3 +3503,13 @@ Created post: playdate-gaming-handheld-maker-bans-generative-ai-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    b35a21a7d..050c1f0a4  main -> main
 Created post: singapore-pushes-for-global-standard-to-test-gener.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main fa0e397d2] feat: Auto-post cohere-python-sdk--oci-generative-ai-native-suppor.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/cohere-python-sdk--oci-generative-ai-native-suppor.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 3a0797853736503f5edcfd8ff4973fdc8c530db8 but expected 1eaf7f1567f203c97e073b73a05d453dfd3f0404)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: cohere-python-sdk--oci-generative-ai-native-suppor.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.

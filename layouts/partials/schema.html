@@ -1,0 +1,24 @@
+<!-- layouts/partials/schema.html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsHome }}WebSite{{ else }}Article{{ end }}",
+  "headline": "{{ .Title }}",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Permalink }}",
+  "description": "{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ .Site.Params.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Params.author }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.Params.site_logo | absURL }}"
+    }
+  }{{ if .IsPage }},
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"{{ end }}
+}
+</script>
