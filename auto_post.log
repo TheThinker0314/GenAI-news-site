@@ -3379,3 +3379,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    53c1eec6c..3a04ef881  main -> main
 Created post: the-llm-gamble---towards-data-science.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 071ba8c64] feat: Auto-post from-lineage-to-provenance-the-governance-shift-ge.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/from-lineage-to-provenance-the-governance-shift-ge.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   c336ad2f3..071ba8c64  main -> main
+Created post: from-lineage-to-provenance-the-governance-shift-ge.md
