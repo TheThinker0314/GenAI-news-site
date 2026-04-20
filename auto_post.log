@@ -3284,3 +3284,11 @@ Created post: keve-announces-generative-ai-training-seminar-in-n.md
 To github.com:TheThinker0314/GenAI-news-site.git
    10e15135d..223bd4006  main -> main
 Created post: heres-why-most-ai-initiatives-crash-at-pilot-stage.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d8335c625] feat: Auto-post gcs-are-way-beyond-strategic-in-ai-era-they-build-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/gcs-are-way-beyond-strategic-in-ai-era-they-build-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ef8722790..d8335c625  main -> main
+Created post: gcs-are-way-beyond-strategic-in-ai-era-they-build-.md
