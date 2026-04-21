@@ -3798,3 +3798,13 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    59f0c1339..6eadb071b  main -> main
 Created post: optum-revenue-dips-as-executives-tout-strong-outlo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5c02f2a1b] feat: Auto-post neura-robotics-aws-collaborate-to-bring-physical-a.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/neura-robotics-aws-collaborate-to-bring-physical-a.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 18f685e315d55f8ecb27dd6e35db76461f06999d but expected 6eadb071b7a676822ced173ab1b7684bf5efd779)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: neura-robotics-aws-collaborate-to-bring-physical-a.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
