@@ -3816,3 +3816,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    4704aa97a..3d1453563  main -> main
 Created post: can-licensing-newsroom-data-to-ai-companies-genera.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e8870c25c] feat: Auto-post anthropic-seals-100b-infrastructure-deal-with-amaz.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/anthropic-seals-100b-infrastructure-deal-with-amaz.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   66ead014e..e8870c25c  main -> main
+Created post: anthropic-seals-100b-infrastructure-deal-with-amaz.md
