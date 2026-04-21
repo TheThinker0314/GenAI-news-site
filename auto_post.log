@@ -3762,3 +3762,13 @@ Created post: simplilearn-collaborates-with-uc-santa-barbara-pro.md
 To github.com:TheThinker0314/GenAI-news-site.git
    46e67b1bc..fdeff96e8  main -> main
 Created post: how-to-scale-content-in-the-agentic-era-while-ampl.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a7b3fe820] feat: Auto-post controlling-ai-hallucinations-building-evidence-ba.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/controlling-ai-hallucinations-building-evidence-ba.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 965ad59e69c8cb870e6f433f63b9bbdf4c1694be but expected fdeff96e81553077596d9e2ca66a37a8f9a23c9d)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: controlling-ai-hallucinations-building-evidence-ba.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
