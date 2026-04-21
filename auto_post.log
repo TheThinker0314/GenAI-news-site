@@ -3569,3 +3569,11 @@ Created post: uk-launches-675-million-fund-for-ai-startups---ai-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    9d1a0b1c0..a4e5c5ffe  main -> main
 Created post: siemens-trials-nvidia-powered-humanoid---ai-busine.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 857f5e689] feat: Auto-post playdate-maker-bans-generative-ai-in-catalog---let.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/playdate-maker-bans-generative-ai-in-catalog---let.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   561b58db1..857f5e689  main -> main
+Created post: playdate-maker-bans-generative-ai-in-catalog---let.md
