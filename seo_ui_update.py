@@ -1,5 +1,4 @@
 import os
-import re
 
 # Update hugo.toml
 hugo_path = 'hugo.toml'
@@ -9,7 +8,7 @@ if os.path.exists(hugo_path):
     
     # Add basic SEO fields if not present
     if 'description' not in content:
-        content += '\n[params]\n  description = "The latest news and updates on Generative AI, LLMs, and Machine Learning."\n  author = "GenAI News Team"\n'
+        content += '\n[params]\n  description = "The latest news and updates on Generative AI, LLMs, and Machine Learning."\n  author = "GenAI News Team"\n  keywords = "Generative AI, LLMs, Machine Learning, AI News"\n'
     
     with open(hugo_path, 'w') as f:
         f.write(content)
@@ -24,22 +23,72 @@ head_content = """
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ site.Params.keywords }}{{ end }}">
 <meta name="author" content="{{ site.Params.author }}">
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-<meta property="og:type" content="website">
-<style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
-    h1, h2, h3 { color: #2c3e50; }
-    a { color: #3498db; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
-    .post { margin-bottom: 40px; }
-    .post-title { font-size: 1.5em; margin-bottom: 10px; }
-    .post-meta { color: #7f8c8d; font-size: 0.9em; }
-</style>
+<meta name="robots" content="index, follow">
+
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
+
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 """
 with open(head_path, 'w') as f:
     f.write(head_content)
+
+# Create a basic stylesheet if it doesn't exist
+css_dir = 'static/css'
+os.makedirs(css_dir, exist_ok=True)
+css_path = os.path.join(css_dir, 'style.css')
+if not os.path.exists(css_path):
+    css_content = """
+body { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+    line-height: 1.8; 
+    color: #333; 
+    background-color: #fdfdfd;
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Georgia", serif;
+    color: #222; 
+}
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+}
+a:hover { 
+    text-decoration: underline; 
+}
+header { 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 20px; 
+    margin-bottom: 40px; 
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+.post { 
+    margin-bottom: 50px; 
+}
+.post-title a { 
+    font-size: 1.8em; 
+    color: #333;
+}
+.post-meta { 
+    color: #666; 
+    font-size: 0.9em; 
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+"""
+    with open(css_path, 'w') as f:
+        f.write(css_content)
 
 print("SEO and UI improvements applied.")
