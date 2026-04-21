@@ -3891,3 +3891,11 @@ Created post: panic-says-the-playdate-catalog-wont-accept-games-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    7d1caef2b..fd36dd689  main -> main
 Created post: towards-developing-future-ready-skills-with-genera.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3a3854776] feat: Auto-post the-top-100-gen-ai-consumer-apps--6th-edition---an.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-top-100-gen-ai-consumer-apps--6th-edition---an.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   200ef722f..3a3854776  main -> main
+Created post: the-top-100-gen-ai-consumer-apps--6th-edition---an.md
