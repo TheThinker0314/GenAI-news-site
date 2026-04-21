@@ -1,42 +1,53 @@
-/* SEO & Design improvements for GenAI News */
+/* Improved SEO and Design CSS */
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: var(--body-font, "Roboto", sans-serif);
+    color: var(--text-color, #333);
+    background-color: var(--background-color, #f9f9f9);
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
 }
-img {
-    max-width: 100%;
-    height: auto;
-    content-visibility: auto; /* for SEO core web vitals */
-}
-a {
-    color: #3498db;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-a:hover {
-    color: #2c3e50;
-    text-decoration: underline;
-}
+
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-    margin-bottom: 0.5em;
-    color: #111;
+    font-family: var(--heading-font, "Inter", sans-serif);
+    color: var(--secondary-color, #2c3e50);
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 20px;
 }
-/* Enhanced Accessibility */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+
+/* Glassmorphism UI */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* Semantic Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Fluid Typography */
+html {
+    font-size: clamp(16px, 1vw + 12px, 24px);
+}
+
+/* Modern Rounded Corners */
+.rounded-corners {
+    border-radius: 12px;
+}
+
+/* Hover effects */
+a {
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: var(--primary-color, #3498db);
 }
