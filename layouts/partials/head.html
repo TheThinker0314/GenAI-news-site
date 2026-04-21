@@ -7,13 +7,17 @@
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
     h1, h2, h3 { color: #2c3e50; }
-    a { color: #3498db; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a { color: #3498db; text-decoration: none; transition: color 0.3s ease; }
+    a:hover { color: #1abc9c; text-decoration: none; }
     header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; }
-    .post { margin-bottom: 40px; }
+    .post { margin-bottom: 40px; padding: 20px; border-radius: 8px; transition: box-shadow 0.3s ease, transform 0.3s ease; }
+    .post:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.1); transform: translateY(-2px); }
     .post-title { font-size: 1.5em; margin-bottom: 10px; }
     .post-meta { color: #7f8c8d; font-size: 0.9em; }
 </style>
