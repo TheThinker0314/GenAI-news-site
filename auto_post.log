@@ -3687,3 +3687,11 @@ Created post: seoul-ai-use-triples-generational-divide-persists-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    b6c314635..90b149b45  main -> main
 Created post: dont-let-your-lawyers-ai-problem-become-yours---wa.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c52609cc6] feat: Auto-post behind-silversides-pivot-from-production-company-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/behind-silversides-pivot-from-production-company-t.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   f191449ca..c52609cc6  main -> main
+Created post: behind-silversides-pivot-from-production-company-t.md
