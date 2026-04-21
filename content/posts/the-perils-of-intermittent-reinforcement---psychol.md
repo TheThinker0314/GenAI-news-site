@@ -1,9 +1,0 @@
----
-title: "The perils of intermittent reinforcement. - Psychology Today"
-date: 2026-04-03T19:30:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQS2I2Q2locEJEV3hBYXdEb2R2TVBmRXF2YXVsNXYxRTNfUGxidXExdlJKQmg0dWlCUVFGc2I4ajYtcFNkcjEtMHNodktvMEtfUm56Sld3M2Zza2pyeV83cVN0SDJSQlJrQzlwUmlZZjZNZVVfcGhmUkFBRmhvQ2dtQVhtZjhEX3p0cTZyckZmbGgwQXBQX2o5dVZ2a19ydnZtVEN3SDAzakUtT1HSAbABQVVfeXFMUFZnNldOUVRYX0dOSENDV1VBUDRwZnU5VkhQZ1hUT0IzS2g1NjJ2WmU2bmUwVzJlZkVId2x4bmpBZjJtLTMyTXBRdnFuNVJOUHZXNlZDUjdEbTVUY2JNaXYxaHhDclppSlY2MEVtUkdXS3ZBTHozZEpwcHVGRzl3MS12ZXdnQldWT2dPc2FmT1pCOXB4YjNLaG5ldm43a3lVd2pLa0tiVXdsSUZNV0JLT0s?oc=5)

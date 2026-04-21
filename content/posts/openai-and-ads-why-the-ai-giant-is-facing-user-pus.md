@@ -1,9 +1,0 @@
----
-title: "OpenAI and Ads: Why the AI giant is facing user pushback - Storyboard18"
-date: 2026-04-18T07:30:01Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMitgFBVV95cUxOdnlQMEFWTFRmR3hDWkJNb05iLWJnMGNHRHNKOVN6VUl2WVFvTGhMdmdIcnFzRHhQTXQwQnVaMDVGRFByNE5mZXpwaTVMMC1QbC1BVHVxd3lqZVItN25WNGVXTFlocENwQWRVdU91S0xWcjlBdFMwaEVsNU4zR09PWE9McmxFaG5zSk5UV01aSDBrem43RGUtQ25Ia0VmbkRPVE1jdTk5aWJORDR2RVZzajljTHZ0Z9IBtgFBVV95cUxOdnlQMEFWTFRmR3hDWkJNb05iLWJnMGNHRHNKOVN6VUl2WVFvTGhMdmdIcnFzRHhQTXQwQnVaMDVGRFByNE5mZXpwaTVMMC1QbC1BVHVxd3lqZVItN25WNGVXTFlocENwQWRVdU91S0xWcjlBdFMwaEVsNU4zR09PWE9McmxFaG5zSk5UV01aSDBrem43RGUtQ25Ia0VmbkRPVE1jdTk5aWJORDR2RVZzajljTHZ0Zw?oc=5)

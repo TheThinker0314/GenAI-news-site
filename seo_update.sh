@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/.openclaw/workspace/GenAI-news-site
+cd /home/ubuntu/GenAI-news-site
 
 # Add meta description and keywords to config
 sed -i 's/title = ".*"/title = "GenAI News Site - The Latest in Generative AI"\nDescription = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."\nKeywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"/g' hugo.toml

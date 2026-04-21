@@ -1,9 +1,0 @@
----
-title: "Practical steps to prepare enterprise data for generative AI: Gartner - ET CIO"
-date: 2026-04-13T04:00:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcGxQNWlvZEVGNmNvUHBldy1ycWQ4SEQtOTF3XzI5VUIzVldxMG9aaGtwazdWdVh2UDEzZ3lhMmJGTi1LVmtOS3pWVE1ucG5WY09VX1hILVhEWTJiNjBqMFNwOVJjUG5YUzhMelp0X3h2clE2alZKS0d4T0FQTUNyNi1EOHdxdjNNOVl1TGkxcThKeVdTZHJQWWRwRVdIMS1xNlNnMlpyNkxsamVONmh3S2JHUzdwdG9zVzh3Ym56aWctVzlHek8xa1lKQWRDT2VGbi1VY3NKbkRGMmo2cWtUTUdSbDY3THdQa3fSAe8BQVVfeXFMUEdKeXBqNi1hUUVsbnRGemp4TkpRTFBQd056SE84enY4T3dhbnZNOW9iZmlqT1hCQ1J3Qzh0dmlJSVdSdUFYYUc1aW1yaDdXNG9hVXlPUWJUMDYzQUhZRTVFb202S29FakVrQ0hHOVRxU0VPREFRVUlPNUx0QW1rTGw5YzZOODNjUEtrbjNTeEwtS2d6bHVkMFdxamVIZ1pRbnJSV2FWbU1IbThZVnFFTktfeDJ4cGhFUi16V3I4enRMZUJIV2FnakEzWUtyUm52X3UzRmg0aVZkZUdVa1JqQlFhaWhkS0JhR245c1o0SEk?oc=5)

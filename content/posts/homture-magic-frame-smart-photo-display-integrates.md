@@ -1,9 +1,0 @@
----
-title: "Homture Magic Frame smart photo display integrates generative AI and 60 GHz mmWave radar (Sponsored) - CNX Software"
-date: 2026-04-13T03:00:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNGY1bzFrVkpoSHd6VkFUaWhkREROVlpnZDhTZHlXeHBreE04bjNUUHEzZWRVNzJRancxbUszMjNxc3M5RnlTSWFUTzU2ajBOejNkX2ZYTG1RNDJZalBHS0tXclhpS2lUOXBEWHp5Vk9VYkE0bW4zV0xpSHJWc0Rfb1ZOV3JhaG5EcTFvcVNyRExMUk9UYjU1NlNzR3lwR081OUxUVmo0UjlYTE50aVFnNzZvQ3FVLW5lUnFheFVja3pKTThiOTQtZdIB0AFBVV95cUxNYTgwNjNieVRxVFBnXzZYSmFvc2xBNW1uTHE3SkxxSDN4c0N6TU9BcU1venNuNW83OUFGVm5sZkpWVEhrZmdNMlg5NjR0X2tkVXl5eEsteHV3NGc3bnlHSU52OUVuRU1ZX080UmhLMUVORDJYLVM5cmloZ3gxV2EybGZnRnVJZ2dWNEc5ckRoVUd2QzhZUHp6cWl4WTVfREU5SnRaN3NNdTJpdTgwR2w1bGNocWM2RXExVFZvRFQ2QmtCbElkOTFmX1JSdkd0Vmtk?oc=5)

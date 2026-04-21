@@ -1,9 +1,0 @@
----
-title: "Samsung SDS launches AI platform to support National Assembly - The Korea Times"
-date: 2026-04-14T05:30:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMiugFBVV95cUxPM0R5NWJremR6TDFESEtlODNiM25WeEYyWllnbG4xMGhDRUtMSmZVTXlVdmF5NXBGU0R1ZFp4bmgtUTVGYklhWHFzMmhXSlBHcDN3QThpbmVaOWwtcFZYaTl6VUtVaEVXb2pULWFfQnJQaVQ0aE02S0EyYVVGN0pVYVFHMDR0LVJyb1laZGNyTmpOMUF3NFhUMV9GdVRGZFVEb2xMRHd0eVRpeDh0LXIxWHhPbGVxaWRGNkHSAb8BQVVfeXFMTzFDZEFKSGs5YS1QXzYtb2JIWlhUaHhzeW01MllPbnJmNzZvbFAxRm1wMkZtUEM0OHpfZ21QOVFTUkV1RXVkV29hQmR0WVg2REtXM2UwQ1FyTno1bWd2UUJ1LVQ1dUlFVTdCLUIyNThueS1La2dsQ1FuZDdndVE1NExhanozMkNVdjI3MDRCd0xNN1JCYnlzaXM3OGNRRmFOR0xJeVo0dXBQeTVuQi1iU3JTeldrVTZlWGVwdlROVWc?oc=5)

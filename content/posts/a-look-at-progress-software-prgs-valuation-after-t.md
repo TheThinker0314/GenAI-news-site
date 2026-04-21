@@ -1,9 +1,0 @@
----
-title: "A Look At Progress Software (PRGS) Valuation After The Sitefinity Generative CMS AI Update - simplywall.st"
-date: 2026-04-14T02:00:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTkVPdzQ1OGdIM1VrWkhMZjJ5aHdnSGFkbUI3aVZtRlctVU1jNVBoanQxUTIyUW9WYl9aN1BMRE1QZkFGYUJWQ25wWkZ5cDNCNXlYV3c5U0FPU0g3QXZiWkV6Mnc4RDFuUzlsZmtFLXR6bmZKQkdIRFJVOGNURkE5R1RkYnJobms3Y08zVHFVb1lScWlWdDJWMGhON1NiWlJWdzV1eVdJRE1vdVZMTGZsWk5oYzJJNklGSFExTjYzQUpuclpWV3I1d3RWYWpoTkI0cUHSAdcBQVVfeXFMTlB4Ri1xdjdEcW1FTnY4a2RLWVJMUm5xemdubGtUdVh1RUQxbnhFNnpEYUJWUVk1eHUxMHh6dEU5VjRISU1rRWV1eW1QdGRFYk5reVlybkY5UlVGQ3pFS2wzNUhxeG1ZeVBJSWxIMHFqcDdlamdOWFNRX0V2dWgtWjFpWkJMS09pZmM4NFk2RkFzckpfVDlqWVVkRG9vSTFqdktwTVZCUjU2azFzdFd1bGFrWG1lX05JQVdfUFZ0Y21RRDdkaU12UzFzanIxSF9iMFRaUmN0OWM?oc=5)

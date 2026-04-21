@@ -1,9 +1,0 @@
----
-title: "GTA 6 steers clear of the AI Craze: Take-Two insists its development doesn’t rely on AI - Diario AS"
-date: 2026-04-08T16:00:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMiywFBVV95cUxQR3k1c1ZIMC1VLWJBdk1EV0V5c2tuczFsd3BHbnZ4Vi10YUZDOEJiWjdSUG5Cbzk4NkltX1lWMzN1NGlJYU1mV0pCZ1dSVWx4RENhYzdTQWdXWnFpZUNLOV96SXJoS3NmMFVYVlhtY0NWMHZrcTJMbHVEbzY3eFlzWlRoTzRRNEVpN1pzU2NUMmlicHQtdXkySWl3Y0pMT1I4Wmlxd0kzQ2h6dlNKNGpBdTJZVGdtRi10c1V0Q2V4eXNsSU5Pa19VNVlKd9IB3wFBVV95cUxPdXNhTjFxQ1ludEw4dW5sbHlDSTNlTkVlcy1mMXI5d2FRbDlsdUh2LTZIREdQMEpKa0NGMmFFM1ZPZTFhNlVFZWxqandPUXJaTUg5Z0lrLVhVQkZLUDQydWFKYi03WkNMZG1mRnlnZzJzR1JZNUlWb2FWRnFLWGdRTkZPM0FjM0VSV3Z3MDdKbUZ5MDBpcDVrYmVYNjlWVHF2ZW1ZbEtQS3FVSlNNQ1pnbVVrRlBkN3c1MjBUQVNKejhKNFhqQzlfdHREdGJoNmZtSkVVVVFJSm9YVEd3cThv?oc=5)

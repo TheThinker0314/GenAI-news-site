@@ -1,9 +1,0 @@
----
-title: "Consumer Concerns About Generative AI: Accuracy, Privacy, Misuse - WSJ"
-date: 2026-04-07T19:30:02Z
-draft: false
-tags: ["GenAI", "News"]
-categories: ["News"]
----
-
-[Read the full article here](https://news.google.com/rss/articles/CBMipgNBVV95cUxQSjVkTGgxaEFWcnhGTnlGUkdRdDF3SkRfU0lKVC1DdlMxd2twaDJmN1U4OEFmUnNobGY4cS1INGpZazlWZGNxcEljNnV2RlJEN3Q5RVBOZUw5SE1telhsOXhqWmR5ZVQ4YkxJV3JiSVhGcE1nWkd6c2EwZU9tRlZyVHBwemVfVkZ1NzNVZng1NWVNWFh4MkM0Z1kyVmVKcWZ4OURTcUdOOTdHX1ljWmlCcTA2YzZLd3A5cS1zaHVseVJocGs0MlRjRzJUTGdJbjgwQXBXSC1PMW8wWnZrcDhNWWdwVV9mSHo0YXd4eWp2RXZTSDFqVEEtQzluanFEeGFzTFlTRGNHR2JGX1BOYW1vY245TTM3bmhPaXk1ck90eE5KQ19aRnhnd2FIMzVua3Z3aUxNOUxBLVZDdWFrTmEwLUQyZ3cwWklMZUNyUG9qVzVZT3FVbV8tRWxhaFdoR1lJYll6LVpiUl9vVDF4V3ZFR0U5YUVoUmQ2Rms0OHU5amtNdjU0S1dzd3ViMmU5NnpMODVzRWI1UDMtbEhaeVBMNk9NeHlSdw?oc=5)
