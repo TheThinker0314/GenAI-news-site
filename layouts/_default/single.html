@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main>
 <script type="application/ld+json">
 [
   {
@@ -67,7 +68,7 @@
   <header class="mb-8 relative">
     {{ if .Params.images }}
     <div class="w-full h-64 md:h-96 relative overflow-hidden">
-      <img src="{{ index .Params.images 0 }}" alt="{{ .Params.image_alt | default .Title }}" class="w-full h-full object-cover">
+      <img src="{{ index .Params.images 0 }}" srcset="{{ index .Params.images 0 }} 1200w, {{ replace (index .Params.images 0) "." "-large." }} 1920w, {{ replace (index .Params.images 0) "." "-medium." }} 1200w, {{ replace (index .Params.images 0) "." "-small." }} 600w" sizes="(max-width: 1200px) 100vw, 1200px" alt="{{ .Params.image_alt | default .Title }}" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
     </div>
     <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
@@ -102,4 +103,5 @@
     {{ end }}
   </footer>
 </article>
+</main>
 {{ end }}
