@@ -8,7 +8,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    loading: lazy; /* for SEO core web vitals */
+    content-visibility: auto; /* for SEO core web vitals */
 }
 a {
     color: #3498db;
