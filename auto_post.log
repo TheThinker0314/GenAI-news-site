@@ -3603,3 +3603,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    d9312577f..93c7e4a2a  main -> main
 Created post: notre-dame-students-receive-promotional-email-abou.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 72287b9b1] feat: Auto-post amazon-to-invest-up-to-another-25-billion-in-anthr.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/amazon-to-invest-up-to-another-25-billion-in-anthr.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   e1cda9f2c..72287b9b1  main -> main
+Created post: amazon-to-invest-up-to-another-25-billion-in-anthr.md
