@@ -1,13 +1,23 @@
-
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ site.Params.keywords }}{{ end }}">
-<meta name="author" content="{{ site.Params.author }}">
-<meta name="robots" content="index, follow">
+<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ delimit site.Params.keywords ", " }}{{ end }}">
+
+{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
 {{- template "_internal/opengraph.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
+{{- template "_internal/schema.html" . -}}
 
-<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+{{ if .Site.Params.seo.canonicalUrl }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
+
+{{ range site.Params.custom_css -}}
+  <link rel="stylesheet" href="{{ . | relURL }}">
+{{- end }}
+
+{{ hugo.Generator }}
