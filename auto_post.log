@@ -3553,3 +3553,11 @@ Created post: amazon-and-anthropic-expand-strategic-collaboratio.md
 To github.com:TheThinker0314/GenAI-news-site.git
    41de999cc..e1527021f  main -> main
 Created post: ai-chipmaker-cerebras-files-for-ipo---ai-business.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 98f85d7c9] feat: Auto-post uk-launches-675-million-fund-for-ai-startups---ai-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/uk-launches-675-million-fund-for-ai-startups---ai-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   4b150bc20..98f85d7c9  main -> main
+Created post: uk-launches-675-million-fund-for-ai-startups---ai-.md
