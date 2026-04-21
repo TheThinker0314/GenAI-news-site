@@ -1,109 +1,13 @@
+
 <meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-{{/* SEO Title */}}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ site.Params.keywords }}{{ end }}">
+<meta name="author" content="{{ site.Params.author }}">
+<meta name="robots" content="index, follow">
 
-{{/* Meta Description */}}
-<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
+{{- template "_internal/opengraph.html" . -}}
+{{- template "_internal/twitter_cards.html" . -}}
 
-{{/* Keywords */}}
-<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ delimit site.Params.keywords ", " }}{{ end }}">
-
-{{/* Author */}}
-{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-
-{{/* Robots */}}
-{{ with site.Params.seo.robots }}
-  <meta name="robots" content="{{ . }}">
-{{ else }}
-  <meta name="robots" content="index, follow">
-{{ end }}
-
-{{/* Canonical URL */}}
-{{ if site.Params.seo.canonicalUrl }}
-  <link rel="canonical" href="{{ .Permalink }}">
-{{ end }}
-
-{{/* Favicon */}}
-{{ with site.Params.favicon }}
-  <link rel="shortcut icon" href="{{ . | relURL }}">
-{{ end }}
-
-{{/* Custom CSS */}}
-{{ range site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ . | relURL }}">
-{{ end }}
-
-{{/* Preload Fonts */}}
-{{ if site.Params.seo.preload_fonts }}
-  {{/* Add font preloading links here if you know the font files */}}
-{{ end }}
-
-{{/* Google Analytics */}}
-{{ with site.Params.googleAnalytics }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ . }}');
-  </script>
-{{ end }}
-
-{{/* Open Graph and Twitter Cards */}}
-{{ template "_internal/opengraph.html" . }}
-{{ template "_internal/twitter_cards.html" . }}
-
-{{/* Schema.org Structured Data */}}
-{{ if site.Params.seo.structured_data_json_ld }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "url": "{{ site.BaseURL }}",
-    "name": "{{ site.Title }}",
-    "description": "{{ site.Params.description }}"
-    {{ if site.Params.site_logo }}
-    ,"image": "{{ site.Params.site_logo | absURL }}"
-    {{ end }}
-  }
-  </script>
-
-  {{ if .IsPage }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ .Permalink }}"
-    },
-    "headline": "{{ .Title }}",
-    "image": [
-      {{ with .Params.images }}
-        {{ range $i, $e := . }}
-          {{ if $i }}, {{ end }}{{ . | absURL }}
-        {{ end }}
-      {{ end }}
-     ],
-    "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-    "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
-    "author": {
-      "@type": "Organization",
-      "name": "{{ site.Params.author }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ site.Params.author }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ site.Params.site_logo | absURL }}"
-      }
-    },
-    "description": "{{ .Summary }}"
-  }
-  </script>
-  {{ end }}
-{{ end }}
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
