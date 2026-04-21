@@ -3,9 +3,6 @@
   <head>
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     {{ partial "head.html" . }}
-    {{ partial "seo.html" . }}
-    {{ partial "head-additions.html" . }}
-    {{ partial "schema.html" . }}
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
