@@ -3651,3 +3651,13 @@ Created post: building-a-geo-practice-for-the-ai-driven-web---ad.md
 To github.com:TheThinker0314/GenAI-news-site.git
    c12d72cdc..49e26df9d  main -> main
 Created post: bearingpoint-launches-genaiq-to-turn-generative-ai.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2b5919a3b] feat: Auto-post modelon-advances-ai-driven-engineering-with-new-as.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/modelon-advances-ai-driven-engineering-with-new-as.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at fc21509cc22072dd0c6e126a21172f97c38482dc but expected 58429f10fd933d074b422975ff1a4260d0ac360f)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: modelon-advances-ai-driven-engineering-with-new-as.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
