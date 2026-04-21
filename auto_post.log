@@ -3577,3 +3577,11 @@ Created post: siemens-trials-nvidia-powered-humanoid---ai-busine.md
 To github.com:TheThinker0314/GenAI-news-site.git
    561b58db1..857f5e689  main -> main
 Created post: playdate-maker-bans-generative-ai-in-catalog---let.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7b7152c62] feat: Auto-post dataiku-emphasizes-production-ready-fine-tuning-an.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/dataiku-emphasizes-production-ready-fine-tuning-an.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   a1a68174c..7b7152c62  main -> main
+Created post: dataiku-emphasizes-production-ready-fine-tuning-an.md
