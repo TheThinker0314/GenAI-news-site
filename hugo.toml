@@ -102,4 +102,4 @@ summaryLength = 60
   tag = "tags"
 
 [params]
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css", "css/genai-seo-design.css"]

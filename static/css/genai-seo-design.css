@@ -1,0 +1,66 @@
+/* GenAI SEO & Modern Design Enhancements */
+:root {
+  --genai-primary: #10a37f; /* OpenAI green */
+  --genai-bg: #000000;
+  --genai-text: #ffffff;
+  --genai-accent: #f8c104; /* Caution/Notice */
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background-color: var(--genai-bg);
+  color: var(--genai-text);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: var(--genai-primary);
+}
+
+a {
+  color: var(--genai-primary);
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Card layout for better UI */
+.article-card {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: #111;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Image optimization classes */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Accessibility hidden text for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

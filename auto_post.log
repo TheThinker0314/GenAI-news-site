@@ -3711,3 +3711,11 @@ Created post: 5-trends-defining-healthcares-generative-ai-strate.md
 To github.com:TheThinker0314/GenAI-news-site.git
    86bb961cf..ed7fc8278  main -> main
 Created post: generative-ai-in-insurance-market-opportunity-anal.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 904378cce] feat: Auto-post unrestricted-generative-ai-harms-high-school-math-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/unrestricted-generative-ai-harms-high-school-math-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   476853a74..904378cce  main -> main
+Created post: unrestricted-generative-ai-harms-high-school-math-.md
