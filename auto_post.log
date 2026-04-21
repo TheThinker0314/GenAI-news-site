@@ -3561,3 +3561,11 @@ Created post: ai-chipmaker-cerebras-files-for-ipo---ai-business.md
 To github.com:TheThinker0314/GenAI-news-site.git
    4b150bc20..98f85d7c9  main -> main
 Created post: uk-launches-675-million-fund-for-ai-startups---ai-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a4e5c5ffe] feat: Auto-post siemens-trials-nvidia-powered-humanoid---ai-busine.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/siemens-trials-nvidia-powered-humanoid---ai-busine.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   9d1a0b1c0..a4e5c5ffe  main -> main
+Created post: siemens-trials-nvidia-powered-humanoid---ai-busine.md
