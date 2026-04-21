@@ -3746,3 +3746,11 @@ To github.com:TheThinker0314/GenAI-news-site.git
    c022581c6..a23070c12  main -> main
 Created post: amds-vision-for-ai-pcs-in-the-age-of-agentic-ai---.md
 No new items.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 46e67b1bc] feat: Auto-post simplilearn-collaborates-with-uc-santa-barbara-pro.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/simplilearn-collaborates-with-uc-santa-barbara-pro.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   7744ebe22..46e67b1bc  main -> main
+Created post: simplilearn-collaborates-with-uc-santa-barbara-pro.md
