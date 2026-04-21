@@ -3585,3 +3585,13 @@ Created post: playdate-maker-bans-generative-ai-in-catalog---let.md
 To github.com:TheThinker0314/GenAI-news-site.git
    a1a68174c..7b7152c62  main -> main
 Created post: dataiku-emphasizes-production-ready-fine-tuning-an.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d32a444a3] feat: Auto-post optoma-unveils-next-gen-generative-ai-display-solu.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/optoma-unveils-next-gen-generative-ai-display-solu.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at a37e83de283576747f3ca356bdef9dded3c57cbd but expected 7b7152c622ad04264aaf4d1cc18cbd79c7383c59)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: optoma-unveils-next-gen-generative-ai-display-solu.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
