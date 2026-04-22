@@ -3983,3 +3983,11 @@ Created post: ai-in-hollywood-saying-yes-to-utility-ai--and-no-t.md
 To github.com:TheThinker0314/GenAI-news-site.git
    4a4b516d6..22c637f76  main -> main
 Created post: quantifying-the-shift-operationalizing-generative-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b87fc1b40] feat: Auto-post florida-opens-criminal-investigation-into-openai-o.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/florida-opens-criminal-investigation-into-openai-o.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   bdfc0aba6..b87fc1b40  main -> main
+Created post: florida-opens-criminal-investigation-into-openai-o.md
