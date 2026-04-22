@@ -1,51 +1,6 @@
-/* SEO and Design Improvements */
-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #333;
-    background-color: #fafafa;
-    line-height: 1.6;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: #222;
-    font-weight: 700;
-}
-
-a {
-    color: #0056b3;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #004494;
-}
-
-.bg-near-black {
-    background-color: #1a1a1a !important;
-}
-
-/* Accessibility and SEO enhancements */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.article-content {
-    font-size: 1.125rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; }
+.title { font-weight: 700; color: #111; }
+a { color: #0066cc; text-decoration: none; transition: color 0.2s; }
+a:hover { color: #004499; text-decoration: underline; }
+.content { max-width: 800px; margin: 0 auto; padding: 20px; }
+article { margin-bottom: 2rem; border-bottom: 1px solid #eee; padding-bottom: 1rem; }
