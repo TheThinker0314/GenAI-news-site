@@ -55,6 +55,7 @@ summaryLength = 60
     ai_summaries_enabled = true
     alt_tags_enforced = true
     semantic_html5_structure = true
+    improve_seo_more = true
 
   [params.design]
     primary_color = "#3498db"
