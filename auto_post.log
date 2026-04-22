@@ -3935,3 +3935,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    1d7b979ea..c8d22b475  main -> main
 Created post: iu-opens-its-free-generative-ai-course-to-anyone-w.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b0442394e] feat: Auto-post just-how-bad-are-generative-ai-chatbots-for-our-me.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/just-how-bad-are-generative-ai-chatbots-for-our-me.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   a6428128f..b0442394e  main -> main
+Created post: just-how-bad-are-generative-ai-chatbots-for-our-me.md
