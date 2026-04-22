@@ -1,0 +1,9 @@
+---
+title: "How ChatGPT and other AI tools ‘killed’ this $15 billion American technology company in less than 4 years - The Times of India"
+date: 2026-04-22T13:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiggJBVV95cUxQY19pTEdval9Obm1aM3JyRUFmNHBVUnhQZGZmTlR6eUFZMDlqejRDQjM2SEhLcGE2MzBGZGJFOGVIbnp2YnBoQm9oLU9SZUZVbGpNQmltSkhndVhoLTFYSkRXR0lZbmptenNNMkQwOVRkaXY3aGZSQ00xaUZlVjktQU5tU0xKTXFjeUE4eFd2VWdDTnJJRkNGMkNCX2NLSGotX0hiWU8tNU5BQ3hxWExnTk9qNTRQclcxMTZ6dTRKeFNCVmx5U0ZlUVpmR1B3amFoOVJqQU50dEgxakc2ckRaV204ZmtGbXQ5NDJsUlZDXzc4MTNoTDhUZEh4LUtnZlRMc3fSAYcCQVVfeXFMTTI0QWFpOGVaenhQc0FiWkVGeXlLQURqSld0cnloaE05RW9pa3BZOVY4TWpsRmhTSncta2N5ZkRvUkg3eTBRNzlpdVlEWm1kamJYTU9mX1pJUWs5MDhPa3RfVXNlczYyakw4V2VXUktZeHNSRjRYQTRvX29mUGsyWGVQQndTUmtVMTgwUDhYOGZuV3ZWSXhYQnlDcl9xUnFQaDl1ZlNWVzYxQXZ6ODBpa0M2V3dGb25PR2hYWnpMWmkwSFE3VXZ6eTZ2YnVWdzl5YWZRZkV3VDRWTlJzbVI3M3pCcUJrVHZkalk3RGtwNGZ5bkplcENhQ0UxQ0Y5MWl3azd3THZHOU0?oc=5)
