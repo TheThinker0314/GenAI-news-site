@@ -1,16 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News title = "GenAI News title = "GenAI News Site - The Latest in Generative AI" Insights" Insights"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
-Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
-Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
+title = "GenAI News Site - The Latest in Generative AI"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
@@ -47,43 +37,6 @@ summaryLength = 60
     opengraph = true
     schema = true
     canonicalUrl = true
-    enhanced = true
-    amp_support = true
-    brotli_compression = true
-    cdn_integration = true
-    mobile_friendly_design = true
-    structured_data_json_ld = true
-    core_web_vitals_optimized = true
-    accessibility_contrast_ratio = "AAA"
-    lazy_loading_images = true
-    font_display_swap = true
-    open_graph_locale = "en_US"
-    twitter_site = "@GenAINewsHub"
-    preload_fonts = true
-    structured_data_organization = true
-    voice_search_optimized = true
-    ai_summaries_enabled = true
-    alt_tags_enforced = true
-    semantic_html5_structure = true
-    improve_seo_more = true
-
-  [params.design]
-    primary_color = "#3498db"
-    secondary_color = "#2c3e50"
-    background_color = "#f9f9f9"
-    text_color = "#333333"
-    enable_breadcrumbs = true
-    heading_font = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
-    body_font = "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-    dark_mode_toggle_enabled = true
-    ui_hover_effects = true
-    glassmorphism_ui = true
-    typography_fluid_scaling = true
-    semantic_nav_tags = true
-    css_grid_layout = true
-    flexbox_alignment = true
-    aria_labels_completed = true
-    design_modern_rounded_corners = true
 
 [menu]
   [[menu.main]]
@@ -112,6 +65,3 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-[params]
-  customCSS = ["css/custom.css"]
