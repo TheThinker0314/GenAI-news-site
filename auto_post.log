@@ -4233,3 +4233,11 @@ Created post: ai-prescribing-medications-in-utah-a-flawed-regula.md
 To github.com:TheThinker0314/GenAI-news-site.git
    73af26c24..35094692c  main -> main
 Created post: gemini-enterprise-update-brings-ai-agents-into-col.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c39223271] feat: Auto-post radnor-school-district-has-banned-nonconsensual-us.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/radnor-school-district-has-banned-nonconsensual-us.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d1feb7959..c39223271  main -> main
+Created post: radnor-school-district-has-banned-nonconsensual-us.md
