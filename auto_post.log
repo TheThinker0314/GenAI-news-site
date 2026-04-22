@@ -4087,3 +4087,11 @@ Created post: the-image-of-ai-as-a-tool-is-far-too-simple--dc---.md
 To github.com:TheThinker0314/GenAI-news-site.git
    eb2a8f641..e747594d4  main -> main
 Created post: chinese-volkswagens-to-feature-ai-agents-that-give.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3521aa5e1] feat: Auto-post meltwater-yougov-study-signals-shift-in-consumer-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/meltwater-yougov-study-signals-shift-in-consumer-t.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   17cfbc67b..3521aa5e1  main -> main
+Created post: meltwater-yougov-study-signals-shift-in-consumer-t.md
