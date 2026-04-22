@@ -1,6 +1,8 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News & Insights | Breaking AI, LLM & ChatGPT Trends"
+title = "GenAI News Site - The Latest in Generative AI"
+Description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
+Keywords = "Generative AI, AI news, LLM, machine learning, artificial intelligence"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
@@ -102,3 +104,6 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[params]
+  customCSS = ["css/custom.css"]
