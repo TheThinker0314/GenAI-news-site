@@ -4095,3 +4095,11 @@ Created post: chinese-volkswagens-to-feature-ai-agents-that-give.md
 To github.com:TheThinker0314/GenAI-news-site.git
    17cfbc67b..3521aa5e1  main -> main
 Created post: meltwater-yougov-study-signals-shift-in-consumer-t.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 785d5598c] feat: Auto-post playdate-has-had-enough-of-all-this-generative-ai-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/playdate-has-had-enough-of-all-this-generative-ai-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   3521aa5e1..785d5598c  main -> main
+Created post: playdate-has-had-enough-of-all-this-generative-ai-.md
