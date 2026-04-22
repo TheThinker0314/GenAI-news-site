@@ -4079,3 +4079,11 @@ Created post: disco-record-high-sales-and-profits-fueled-by-gene.md
 To github.com:TheThinker0314/GenAI-news-site.git
    25607d795..c243bfb3b  main -> main
 Created post: the-image-of-ai-as-a-tool-is-far-too-simple--dc---.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e747594d4] feat: Auto-post chinese-volkswagens-to-feature-ai-agents-that-give.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/chinese-volkswagens-to-feature-ai-agents-that-give.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   eb2a8f641..e747594d4  main -> main
+Created post: chinese-volkswagens-to-feature-ai-agents-that-give.md
