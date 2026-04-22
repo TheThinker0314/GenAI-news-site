@@ -4299,3 +4299,11 @@ Created post: perfect-homework-blank-stares-why-colleges-are-tur.md
 To github.com:TheThinker0314/GenAI-news-site.git
    3c08d771b..978b48cc5  main -> main
 Created post: how-to-find-generative-ai-use-cases-that-actually-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c5d151024] feat: Auto-post simplilearn-and-uc-santa-barbara-professional-and-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/simplilearn-and-uc-santa-barbara-professional-and-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   41e91a25f..c5d151024  main -> main
+Created post: simplilearn-and-uc-santa-barbara-professional-and-.md
