@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "GenAI News Site - The Latest in Generative AI, LLMs & Machine Learning"
 theme = 'ananke'
 
-description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, and machine learning."
+description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications."
 keywords = ["Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic"]
 
 enableRobotsTXT = true
