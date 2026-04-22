@@ -4127,3 +4127,11 @@ Created post: shanghai-has-added-one-new-registered-generative-a.md
 To github.com:TheThinker0314/GenAI-news-site.git
    7e4f5b551..b4a7d369f  main -> main
 Created post: the-white-house-ai-framework-for-fair-use-and-why-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cb9d321bb] feat: Auto-post generative-ai-expands-cancer-research-possibilitie.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-expands-cancer-research-possibilitie.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   42b8ab024..cb9d321bb  main -> main
+Created post: generative-ai-expands-cancer-research-possibilitie.md
