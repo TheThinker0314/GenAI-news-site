@@ -4265,3 +4265,11 @@ Created post: cdrh-director-tarver-previews-ai-guidance-at-aami-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    e7ab7304c..07cd14af2  main -> main
 Created post: why-are-people-against-data-centers-florida-projec.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 776edeeba] feat: Auto-post ischool-doctoral-students-and-faculty-team-explore.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ischool-doctoral-students-and-faculty-team-explore.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   94e69648b..776edeeba  main -> main
+Created post: ischool-doctoral-students-and-faculty-team-explore.md
