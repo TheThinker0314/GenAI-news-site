@@ -3943,3 +3943,11 @@ Created post: iu-opens-its-free-generative-ai-course-to-anyone-w.md
 To github.com:TheThinker0314/GenAI-news-site.git
    a6428128f..b0442394e  main -> main
 Created post: just-how-bad-are-generative-ai-chatbots-for-our-me.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 366962eae] feat: Auto-post generative-ai-in-healthcare-adoption-matures-as-ag.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-in-healthcare-adoption-matures-as-ag.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   b622c00fe..366962eae  main -> main
+Created post: generative-ai-in-healthcare-adoption-matures-as-ag.md
