@@ -4119,3 +4119,11 @@ Created post: microsoft-trims-cloud-desktop-pricing-even-as-it-b.md
 To github.com:TheThinker0314/GenAI-news-site.git
    8c5d467c6..687c781e0  main -> main
 Created post: shanghai-has-added-one-new-registered-generative-a.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b4a7d369f] feat: Auto-post the-white-house-ai-framework-for-fair-use-and-why-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-white-house-ai-framework-for-fair-use-and-why-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   7e4f5b551..b4a7d369f  main -> main
+Created post: the-white-house-ai-framework-for-fair-use-and-why-.md
