@@ -4705,3 +4705,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    7a2ee78f9..f107267a8  main -> main
 Created post: winning-a-kaggle-competition-with-generative-aiass.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 24d2dbcbc] feat: Auto-post gartner-global-it-spending-to-grow-by-135-this-yea.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/gartner-global-it-spending-to-grow-by-135-this-yea.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   546ba00fd..24d2dbcbc  main -> main
+Created post: gartner-global-it-spending-to-grow-by-135-this-yea.md
