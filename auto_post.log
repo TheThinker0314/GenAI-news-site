@@ -4557,3 +4557,11 @@ Created post: united-states-generative-ai-cybersecurity-market-s.md
 To github.com:TheThinker0314/GenAI-news-site.git
    08380196e..7cae60817  main -> main
 Created post: how-open-source-ideals-must-expand-for-ai---infowo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cd582844d] feat: Auto-post the-end-of-one-size-fits-all-enterprise-software--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-end-of-one-size-fits-all-enterprise-software--.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1e5825994..cd582844d  main -> main
+Created post: the-end-of-one-size-fits-all-enterprise-software--.md
