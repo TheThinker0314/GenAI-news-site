@@ -4407,3 +4407,18 @@ Created post: avoiding-sanctions-in-the-gen-ai-era-practical-gua.md
 To github.com:TheThinker0314/GenAI-news-site.git
    25602d4a7..e7d82849d  main -> main
 Created post: south-korean-poetry-classes-get-an-ai-twist---asia.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3e499ff9c] feat: Auto-post what-do-we-lose-with-generative-ai-in-campus-poste.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/what-do-we-lose-with-generative-ai-in-campus-poste.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Created post: what-do-we-lose-with-generative-ai-in-campus-poste.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
