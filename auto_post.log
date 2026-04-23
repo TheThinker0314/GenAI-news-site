@@ -4525,3 +4525,11 @@ Created post: unicorn-company-report-within-a-one-hour-drive-of-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    66d1ab0de..17fecf2cb  main -> main
 Created post: generative-ai-to-reshape-the-future-of-health-care.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 55d642fcb] feat: Auto-post usf-professors-students-share-how-they-navigate-ai.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/usf-professors-students-share-how-they-navigate-ai.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   a81998e6d..55d642fcb  main -> main
+Created post: usf-professors-students-share-how-they-navigate-ai.md
