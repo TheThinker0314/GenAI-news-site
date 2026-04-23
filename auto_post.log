@@ -4399,3 +4399,11 @@ Created post: achieving-ai-roi-from-genai-experiments-to-agentic.md
 To github.com:TheThinker0314/GenAI-news-site.git
    5bae72c93..a79972233  main -> main
 Created post: avoiding-sanctions-in-the-gen-ai-era-practical-gua.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e7d82849d] feat: Auto-post south-korean-poetry-classes-get-an-ai-twist---asia.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/south-korean-poetry-classes-get-an-ai-twist---asia.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   25602d4a7..e7d82849d  main -> main
+Created post: south-korean-poetry-classes-get-an-ai-twist---asia.md
