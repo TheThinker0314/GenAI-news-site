@@ -4430,3 +4430,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    9bea8704d..9644702c1  main -> main
 Created post: video-game-lawyer-implores-devs-to-understand-owne.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6bbb8f412] feat: Auto-post your-article-about-ai-doesnt-need-ai-art---the-ver.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/your-article-about-ai-doesnt-need-ai-art---the-ver.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   2fc28a2d5..6bbb8f412  main -> main
+Created post: your-article-about-ai-doesnt-need-ai-art---the-ver.md
