@@ -4729,3 +4729,11 @@ Created post: springfield-film-festival-faces-backlash-over-ai-d.md
 To github.com:TheThinker0314/GenAI-news-site.git
    5cd1087b4..8227e33bb  main -> main
 Created post: why-better-prompting-matters-more-as-ai-moves-into.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 184b1ebf1] feat: Auto-post aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   c4b898ebc..184b1ebf1  main -> main
+Created post: aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
