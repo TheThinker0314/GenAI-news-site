@@ -4454,3 +4454,11 @@ Created post: its-all-about-the-angle-your-photos-re-composed---.md
 To github.com:TheThinker0314/GenAI-news-site.git
    3c71bcc74..5cc859de8  main -> main
 Created post: acronis-creates-revenue-opportunity-for-msps-throu.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 80299dd28] feat: Auto-post why-generative-ai-is-raising-the-ceiling-of-custom.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-generative-ai-is-raising-the-ceiling-of-custom.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   2eae2af39..80299dd28  main -> main
+Created post: why-generative-ai-is-raising-the-ceiling-of-custom.md
