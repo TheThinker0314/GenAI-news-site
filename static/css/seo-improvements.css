@@ -36,3 +36,21 @@ a:hover {
     z-index: 50;
     background: #fff;
 }
+
+/* Additional Design Improvements */
+.article-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 1.5rem 0;
+}
+
+.article-content pre {
+    background-color: #2d3748;
+    color: #edf2f7;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 0.95rem;
+}
