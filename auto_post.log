@@ -4438,3 +4438,11 @@ Created post: video-game-lawyer-implores-devs-to-understand-owne.md
 To github.com:TheThinker0314/GenAI-news-site.git
    2fc28a2d5..6bbb8f412  main -> main
 Created post: your-article-about-ai-doesnt-need-ai-art---the-ver.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6b3f93416] feat: Auto-post its-all-about-the-angle-your-photos-re-composed---.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/its-all-about-the-angle-your-photos-re-composed---.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   3bcdd0134..6b3f93416  main -> main
+Created post: its-all-about-the-angle-your-photos-re-composed---.md
