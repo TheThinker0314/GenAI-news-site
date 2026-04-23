@@ -4501,3 +4501,11 @@ Created post: generative-ai-promises-cost-savings-in-machine-lea.md
 To github.com:TheThinker0314/GenAI-news-site.git
    d398c87c7..dc45eda16  main -> main
 Created post: bethog-has-raised-10-million-to-create-an-ai-deale.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4a40d7e05] feat: Auto-post ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   cc1e2f296..4a40d7e05  main -> main
+Created post: ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
