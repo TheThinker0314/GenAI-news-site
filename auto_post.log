@@ -4615,3 +4615,11 @@ Created post: unlocking-the-future-generative-ai-server-market-t.md
 To github.com:TheThinker0314/GenAI-news-site.git
    142af9041..cf19abeb1  main -> main
 Created post: undisclosed-generative-ai-use-is-now-standard-acro.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main fb6e3905d] feat: Auto-post llphant-a-php-generative-ai-framework-inspired-by-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/llphant-a-php-generative-ai-framework-inspired-by-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   e15032441..fb6e3905d  main -> main
+Created post: llphant-a-php-generative-ai-framework-inspired-by-.md
