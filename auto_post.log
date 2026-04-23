@@ -4721,3 +4721,11 @@ Created post: gartner-global-it-spending-to-grow-by-135-this-yea.md
 To github.com:TheThinker0314/GenAI-news-site.git
    2569494f9..5cd1087b4  main -> main
 Created post: springfield-film-festival-faces-backlash-over-ai-d.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8227e33bb] feat: Auto-post why-better-prompting-matters-more-as-ai-moves-into.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-better-prompting-matters-more-as-ai-moves-into.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   5cd1087b4..8227e33bb  main -> main
+Created post: why-better-prompting-matters-more-as-ai-moves-into.md
