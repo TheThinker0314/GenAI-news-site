@@ -4359,3 +4359,11 @@ Created post: cio-strategies-a-new-mandate-for-generative-ai---c.md
 To github.com:TheThinker0314/GenAI-news-site.git
    ea12dd108..c310f786c  main -> main
 Created post: isg-surveys-170-genai-firms-for-reports-buyers-use.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4643ebf36] feat: Auto-post tampere-university-opens-gaise26-generative-ai-sum.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/tampere-university-opens-gaise26-generative-ai-sum.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ee4ebdfb4..4643ebf36  main -> main
+Created post: tampere-university-opens-gaise26-generative-ai-sum.md
