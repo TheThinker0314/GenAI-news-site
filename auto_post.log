@@ -4541,3 +4541,11 @@ Created post: usf-professors-students-share-how-they-navigate-ai.md
 To github.com:TheThinker0314/GenAI-news-site.git
    40c1fe10e..b2d875fc7  main -> main
 Created post: gen-ai-penetrates-over-half-of-us-internet-househo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 64e3b1bc9] feat: Auto-post united-states-generative-ai-cybersecurity-market-s.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/united-states-generative-ai-cybersecurity-market-s.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ebd2f8df5..64e3b1bc9  main -> main
+Created post: united-states-generative-ai-cybersecurity-market-s.md
