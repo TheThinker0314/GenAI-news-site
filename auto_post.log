@@ -4631,3 +4631,11 @@ Created post: llphant-a-php-generative-ai-framework-inspired-by-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    d86e47a8b..6b95ad3d4  main -> main
 Created post: when-using-ai-leads-to-brain-fry---harvard-busines.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 77b94f717] feat: Auto-post most-modern-games-are-already-using-generative-ai-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/most-modern-games-are-already-using-generative-ai-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d3ad0b44b..77b94f717  main -> main
+Created post: most-modern-games-are-already-using-generative-ai-.md
