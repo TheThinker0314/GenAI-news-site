@@ -1,3 +1,7 @@
-<!-- SEO & Design Improvements -->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="theme-color" content="#3498db">
+<meta name="description" content="Latest news, insights, and trends in Generative AI. Stay updated with cutting-edge developments.">
+<meta name="keywords" content="Generative AI, AI News, Artificial Intelligence, LLM, Chatbots">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
