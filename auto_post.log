@@ -4655,3 +4655,11 @@ Created post: microsoft-to-spend-18b-on-ai-infrastructure-in-aus.md
 To github.com:TheThinker0314/GenAI-news-site.git
    1eec85d4a..76a0c7ab9  main -> main
 Created post: the-first-hurdle-is-the-hardest-in-generative-ai-a.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4a37ddc19] feat: Auto-post utah-launches-pilot-program-for-ai-chatbot-to-rene.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/utah-launches-pilot-program-for-ai-chatbot-to-rene.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   412ff9554..4a37ddc19  main -> main
+Created post: utah-launches-pilot-program-for-ai-chatbot-to-rene.md
