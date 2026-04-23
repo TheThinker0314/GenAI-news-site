@@ -4565,3 +4565,11 @@ Created post: how-open-source-ideals-must-expand-for-ai---infowo.md
 To github.com:TheThinker0314/GenAI-news-site.git
    1e5825994..cd582844d  main -> main
 Created post: the-end-of-one-size-fits-all-enterprise-software--.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3064a2051] feat: Auto-post beta-testing-childhood---tech-policy-press.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/beta-testing-childhood---tech-policy-press.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   34df66f96..3064a2051  main -> main
+Created post: beta-testing-childhood---tech-policy-press.md
