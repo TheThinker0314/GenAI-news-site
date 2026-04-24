@@ -1,8 +1,11 @@
 /* Design and SEO UI Improvements */
 :root {
   --primary-color: #2b6cb0;
+  --primary-dark: #1a365d;
   --text-dark: #1a202c;
+  --text-light: #e2e8f0;
   --bg-light: #f7fafc;
+  --bg-dark: #1a202c;
 }
 
 body {
@@ -10,6 +13,23 @@ body {
   color: var(--text-dark);
   background-color: var(--bg-light);
   line-height: 1.6;
+}
+
+/* Dark mode media query for better UX & retention */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--text-light);
+    background-color: var(--bg-dark);
+  }
+  h1, h2, h3 {
+    color: #63b3ed;
+  }
+  a {
+    color: #63b3ed;
+  }
+  a:hover, a:focus {
+    color: #90cdf4;
+  }
 }
 
 h1, h2, h3 {
@@ -25,7 +45,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #1a365d;
+  color: var(--primary-dark);
   text-decoration: underline;
 }
 

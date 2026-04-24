@@ -5046,3 +5046,11 @@ Created post: opinion--why-cant-newsroom-leaders-just-be-normal-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    b2e5cdc66..4c38e1639  main -> main
 Created post: the-top-100-gen-ai-consumer-apps--6th-edition--and.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2847a9b99] feat: Auto-post from-algorithms-to-antimicrobials-ai-model-generat.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/from-algorithms-to-antimicrobials-ai-model-generat.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   09d95ffa3..2847a9b99  main -> main
+Created post: from-algorithms-to-antimicrobials-ai-model-generat.md
