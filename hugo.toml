@@ -65,6 +65,3 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-[params]
-  customCSS = ["css/custom.css"]
