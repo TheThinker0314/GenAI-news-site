@@ -5006,3 +5006,11 @@ Created post: pentagon-uses-genaimil-to-create-100k-agents---rea.md
 To github.com:TheThinker0314/GenAI-news-site.git
    de335cc74..d78b2de21  main -> main
 Created post: how-advisers-can-adopt-ai-without-breaching-duty--.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e19300417] feat: Auto-post can-large-language-models-be-trusted-in-real-clini.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/can-large-language-models-be-trusted-in-real-clini.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   b9725f4f9..e19300417  main -> main
+Created post: can-large-language-models-be-trusted-in-real-clini.md
