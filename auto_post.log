@@ -5014,3 +5014,11 @@ Created post: how-advisers-can-adopt-ai-without-breaching-duty--.md
 To github.com:TheThinker0314/GenAI-news-site.git
    b9725f4f9..e19300417  main -> main
 Created post: can-large-language-models-be-trusted-in-real-clini.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b2b17b79c] feat: Auto-post how-to-create-an-ai-first-organization---fast-comp.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-to-create-an-ai-first-organization---fast-comp.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ae249854f..b2b17b79c  main -> main
+Created post: how-to-create-an-ai-first-organization---fast-comp.md
