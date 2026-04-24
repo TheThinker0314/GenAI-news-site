@@ -4974,3 +4974,11 @@ Created post: xebia-scales-enterprise-ai-systems-with-claude---a.md
 To github.com:TheThinker0314/GenAI-news-site.git
    de53ce96a..c7786a013  main -> main
 Created post: almost-all-big-studios-are-using-generative-ai-in-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main a9a0c62fb] feat: Auto-post opinion--children-are-in-the-crosshairs-of-artific.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/opinion--children-are-in-the-crosshairs-of-artific.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   633c13062..a9a0c62fb  main -> main
+Created post: opinion--children-are-in-the-crosshairs-of-artific.md
