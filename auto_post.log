@@ -4745,3 +4745,11 @@ Created post: aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
 To github.com:TheThinker0314/GenAI-news-site.git
    dee348cfb..c515c5452  main -> main
 Created post: paradigm-backed-succinct-launches-iphone-camera-ap.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4053450bc] feat: Auto-post japan-ruling-party-seeks-ai-penalties-over-deepfak.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-ruling-party-seeks-ai-penalties-over-deepfak.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1398f01d0..4053450bc  main -> main
+Created post: japan-ruling-party-seeks-ai-penalties-over-deepfak.md
