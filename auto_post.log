@@ -4998,3 +4998,11 @@ Created post: why-world-models-are-ais-next-frontier---infoworld.md
 To github.com:TheThinker0314/GenAI-news-site.git
    f4afaedab..eb8767f8c  main -> main
 Created post: pentagon-uses-genaimil-to-create-100k-agents---rea.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d78b2de21] feat: Auto-post how-advisers-can-adopt-ai-without-breaching-duty--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-advisers-can-adopt-ai-without-breaching-duty--.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   de335cc74..d78b2de21  main -> main
+Created post: how-advisers-can-adopt-ai-without-breaching-duty--.md
