@@ -4877,3 +4877,11 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Created post: morgan-stanley-names-4-stocks-that-will-benefit-as.md
 Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main da8e01611] feat: Auto-post why-ai-is-a-leadership-challenge--not-a-technology.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-ai-is-a-leadership-challenge--not-a-technology.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ffd495c67..da8e01611  main -> main
+Created post: why-ai-is-a-leadership-challenge--not-a-technology.md
