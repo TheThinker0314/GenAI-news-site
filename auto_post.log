@@ -5054,3 +5054,11 @@ Created post: the-top-100-gen-ai-consumer-apps--6th-edition--and.md
 To github.com:TheThinker0314/GenAI-news-site.git
    09d95ffa3..2847a9b99  main -> main
 Created post: from-algorithms-to-antimicrobials-ai-model-generat.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 1b8592230] feat: Auto-post japan-to-protect-celebrity-voices-against-ai-use--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-to-protect-celebrity-voices-against-ai-use--.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ca6dd62c2..1b8592230  main -> main
+Created post: japan-to-protect-celebrity-voices-against-ai-use--.md
