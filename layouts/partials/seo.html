@@ -7,10 +7,12 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
-{{ with .Params.images }}
-{{ range first 6 . }}
+{{ if .Params.images }}
+{{ range first 6 .Params.images }}
 <meta property="og:image" content="{{ . | absURL }}">
 {{ end }}
+{{ else if site.Params.seo.images }}
+<meta property="og:image" content="{{ index site.Params.seo.images 0 | absURL }}">
 {{ end }}
 
 <!-- Twitter Card meta tags -->
@@ -18,6 +20,8 @@
 <meta name="twitter:site" content="@genai_news">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-{{ with .Params.images }}
-<meta name="twitter:image" content="{{ index . 0 | absURL }}">
+{{ if .Params.images }}
+<meta name="twitter:image" content="{{ index .Params.images 0 | absURL }}">
+{{ else if site.Params.seo.images }}
+<meta name="twitter:image" content="{{ index site.Params.seo.images 0 | absURL }}">
 {{ end }}

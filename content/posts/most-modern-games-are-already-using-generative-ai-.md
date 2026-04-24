@@ -1,0 +1,9 @@
+---
+title: "Most modern games are already using generative AI, even as players remain largely unaware of its role - Diario AS"
+date: 2026-04-23T17:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi3wFBVV95cUxONnpyel9ZQXg4UnRGX3ltbUZMMGEyTWpocWFWV0g1TGNQdjVxSUphLWtkTXhWdFhHNWxibWpoeWtLc2Y0MUhNUzc5OWZFemE5TVZqTUlNZmxLODVTeEwyNEhKMVdEZXlfdFVwMXlQNWIwT0p1Snp1T0tGRFBzVGZxTlNRUnlzSTJMa0NjZEV2WmY5Ylp5ZFM5RjNQUXB0TzZqOUN1RERPci1wRlFNbnFSc2tKdlZ5aFlmMmZSc3hERmh1amNsX0VZZjNldkpVc1d0ZjJEQmROYnFTbk4ySzNn0gHzAUFVX3lxTE96Yk1wV3J5Z1BHaFFNRUVUeEFjaWg5ek5heHdaam05V0VaT3FESlpUNUh0MElvUEpFbm5yZGRkU1FHUnA1aUdxZ05BOVkzQlF0Rkh2MWFuR3Y1dURoNVYtS0c0cjdlMTJSWTBxYk5BOEFlSFdZd0o1Nk92VEFBc0w4d29pLThWVjN3b1hWRk1Oby1HSjYzNmQxLUp3UG5MWDczME1IQjdoVWl2Z0lQam9TQ3FLeHdVbkpwOE5CYmJvLUFsUEZMRWs2ZTNCN2ZvekRHN3lJY0tBSEJ6eTRiLUhCM1VJaU5CeGN2eUpmNm9zNG9Udw?oc=5)

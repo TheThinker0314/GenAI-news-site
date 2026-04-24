@@ -4454,3 +4454,358 @@ Created post: its-all-about-the-angle-your-photos-re-composed---.md
 To github.com:TheThinker0314/GenAI-news-site.git
    3c71bcc74..5cc859de8  main -> main
 Created post: acronis-creates-revenue-opportunity-for-msps-throu.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 80299dd28] feat: Auto-post why-generative-ai-is-raising-the-ceiling-of-custom.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-generative-ai-is-raising-the-ceiling-of-custom.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   2eae2af39..80299dd28  main -> main
+Created post: why-generative-ai-is-raising-the-ceiling-of-custom.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 0b89b6959] feat: Auto-post navigating-the-generative-ai-journey-the-path-to-v.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/navigating-the-generative-ai-journey-the-path-to-v.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [rejected]            main -> main (fetch first)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Created post: navigating-the-generative-ai-journey-the-path-to-v.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main d161c77c3] feat: Auto-post ai-transforms-cyber-risk-modeling-for-insurers---l.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-transforms-cyber-risk-modeling-for-insurers---l.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   696a2e1ad..d161c77c3  main -> main
+Created post: ai-transforms-cyber-risk-modeling-for-insurers---l.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8c952b677] feat: Auto-post generative-ai-promises-cost-savings-in-machine-lea.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-promises-cost-savings-in-machine-lea.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   88ef0d24c..8c952b677  main -> main
+Created post: generative-ai-promises-cost-savings-in-machine-lea.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main dc45eda16] feat: Auto-post bethog-has-raised-10-million-to-create-an-ai-deale.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/bethog-has-raised-10-million-to-create-an-ai-deale.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d398c87c7..dc45eda16  main -> main
+Created post: bethog-has-raised-10-million-to-create-an-ai-deale.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4a40d7e05] feat: Auto-post ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   cc1e2f296..4a40d7e05  main -> main
+Created post: ibm-q1-deep-dive-ai-and-hybrid-cloud-growth-drive-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 0a2c658ea] feat: Auto-post unicorn-company-report-within-a-one-hour-drive-of-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/unicorn-company-report-within-a-one-hour-drive-of-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   14d5088d5..0a2c658ea  main -> main
+Created post: unicorn-company-report-within-a-one-hour-drive-of-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 17fecf2cb] feat: Auto-post generative-ai-to-reshape-the-future-of-health-care.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-to-reshape-the-future-of-health-care.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   66d1ab0de..17fecf2cb  main -> main
+Created post: generative-ai-to-reshape-the-future-of-health-care.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 55d642fcb] feat: Auto-post usf-professors-students-share-how-they-navigate-ai.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/usf-professors-students-share-how-they-navigate-ai.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   a81998e6d..55d642fcb  main -> main
+Created post: usf-professors-students-share-how-they-navigate-ai.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b2d875fc7] feat: Auto-post gen-ai-penetrates-over-half-of-us-internet-househo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/gen-ai-penetrates-over-half-of-us-internet-househo.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   40c1fe10e..b2d875fc7  main -> main
+Created post: gen-ai-penetrates-over-half-of-us-internet-househo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 64e3b1bc9] feat: Auto-post united-states-generative-ai-cybersecurity-market-s.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/united-states-generative-ai-cybersecurity-market-s.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ebd2f8df5..64e3b1bc9  main -> main
+Created post: united-states-generative-ai-cybersecurity-market-s.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7cae60817] feat: Auto-post how-open-source-ideals-must-expand-for-ai---infowo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/how-open-source-ideals-must-expand-for-ai---infowo.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   08380196e..7cae60817  main -> main
+Created post: how-open-source-ideals-must-expand-for-ai---infowo.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cd582844d] feat: Auto-post the-end-of-one-size-fits-all-enterprise-software--.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-end-of-one-size-fits-all-enterprise-software--.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1e5825994..cd582844d  main -> main
+Created post: the-end-of-one-size-fits-all-enterprise-software--.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 3064a2051] feat: Auto-post beta-testing-childhood---tech-policy-press.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/beta-testing-childhood---tech-policy-press.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   34df66f96..3064a2051  main -> main
+Created post: beta-testing-childhood---tech-policy-press.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 0135c04bb] feat: Auto-post guest-commentary-responsible-ai-in-financial-compl.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/guest-commentary-responsible-ai-in-financial-compl.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   461f6a368..0135c04bb  main -> main
+Created post: guest-commentary-responsible-ai-in-financial-compl.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 89e67c222] feat: Auto-post generative-ai-dismantles-standard-enterprise-softw.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-dismantles-standard-enterprise-softw.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d85a01e00..89e67c222  main -> main
+Created post: generative-ai-dismantles-standard-enterprise-softw.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 14ab4c878] feat: Auto-post the-bbc-is-drawing-up-plans-to-use-ai-to-save-mone.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-bbc-is-drawing-up-plans-to-use-ai-to-save-mone.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 2a3378695b61709203dce2c8cbaa201bc7a0d98a but expected 89e67c222a1c777546e46365b4009d6e22cfbe86)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: the-bbc-is-drawing-up-plans-to-use-ai-to-save-mone.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e32eaebe4] feat: Auto-post unlocking-the-future-generative-ai-server-market-t.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/unlocking-the-future-generative-ai-server-market-t.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d655e88e7..e32eaebe4  main -> main
+Created post: unlocking-the-future-generative-ai-server-market-t.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main cf19abeb1] feat: Auto-post undisclosed-generative-ai-use-is-now-standard-acro.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/undisclosed-generative-ai-use-is-now-standard-acro.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   142af9041..cf19abeb1  main -> main
+Created post: undisclosed-generative-ai-use-is-now-standard-acro.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main fb6e3905d] feat: Auto-post llphant-a-php-generative-ai-framework-inspired-by-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/llphant-a-php-generative-ai-framework-inspired-by-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   e15032441..fb6e3905d  main -> main
+Created post: llphant-a-php-generative-ai-framework-inspired-by-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6b95ad3d4] feat: Auto-post when-using-ai-leads-to-brain-fry---harvard-busines.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/when-using-ai-leads-to-brain-fry---harvard-busines.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d86e47a8b..6b95ad3d4  main -> main
+Created post: when-using-ai-leads-to-brain-fry---harvard-busines.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 77b94f717] feat: Auto-post most-modern-games-are-already-using-generative-ai-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/most-modern-games-are-already-using-generative-ai-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   d3ad0b44b..77b94f717  main -> main
+Created post: most-modern-games-are-already-using-generative-ai-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 19a613cd4] feat: Auto-post microsoft-to-spend-18b-on-ai-infrastructure-in-aus.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/microsoft-to-spend-18b-on-ai-infrastructure-in-aus.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   80ba1982a..19a613cd4  main -> main
+Created post: microsoft-to-spend-18b-on-ai-infrastructure-in-aus.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 76a0c7ab9] feat: Auto-post the-first-hurdle-is-the-hardest-in-generative-ai-a.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-first-hurdle-is-the-hardest-in-generative-ai-a.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1eec85d4a..76a0c7ab9  main -> main
+Created post: the-first-hurdle-is-the-hardest-in-generative-ai-a.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4a37ddc19] feat: Auto-post utah-launches-pilot-program-for-ai-chatbot-to-rene.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/utah-launches-pilot-program-for-ai-chatbot-to-rene.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   412ff9554..4a37ddc19  main -> main
+Created post: utah-launches-pilot-program-for-ai-chatbot-to-rene.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 426251a9b] feat: Auto-post generative-ai-to-reshape-the-future-of-life-scienc.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-to-reshape-the-future-of-life-scienc.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   6c6f3c861..426251a9b  main -> main
+Created post: generative-ai-to-reshape-the-future-of-life-scienc.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 54f27f5cf] feat: Auto-post ai-tool-creates-designer-antibiotics---inside-prec.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-tool-creates-designer-antibiotics---inside-prec.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   040e6e598..54f27f5cf  main -> main
+Created post: ai-tool-creates-designer-antibiotics---inside-prec.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 956e91b2b] feat: Auto-post pentagon-uses-genaimil-to-create-100k-agents---def.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/pentagon-uses-genaimil-to-create-100k-agents---def.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   b1c5c4c91..956e91b2b  main -> main
+Created post: pentagon-uses-genaimil-to-create-100k-agents---def.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8a1994531] feat: Auto-post nicola-fusco-conditional-generative-ai-for-virtual.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/nicola-fusco-conditional-generative-ai-for-virtual.md
+To github.com:TheThinker0314/GenAI-news-site.git
+ ! [remote rejected]     main -> main (cannot lock ref 'refs/heads/main': is at 7f3ab36897af0af643eaea4045aa786238713976 but expected f182eba8be20cf1ad86d3d78ccb870e3b7618ad7)
+error: failed to push some refs to 'github.com:TheThinker0314/GenAI-news-site.git'
+Created post: nicola-fusco-conditional-generative-ai-for-virtual.md
+Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main f107267a8] feat: Auto-post winning-a-kaggle-competition-with-generative-aiass.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/winning-a-kaggle-competition-with-generative-aiass.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   7a2ee78f9..f107267a8  main -> main
+Created post: winning-a-kaggle-competition-with-generative-aiass.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 24d2dbcbc] feat: Auto-post gartner-global-it-spending-to-grow-by-135-this-yea.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/gartner-global-it-spending-to-grow-by-135-this-yea.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   546ba00fd..24d2dbcbc  main -> main
+Created post: gartner-global-it-spending-to-grow-by-135-this-yea.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5cd1087b4] feat: Auto-post springfield-film-festival-faces-backlash-over-ai-d.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/springfield-film-festival-faces-backlash-over-ai-d.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   2569494f9..5cd1087b4  main -> main
+Created post: springfield-film-festival-faces-backlash-over-ai-d.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8227e33bb] feat: Auto-post why-better-prompting-matters-more-as-ai-moves-into.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/why-better-prompting-matters-more-as-ai-moves-into.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   5cd1087b4..8227e33bb  main -> main
+Created post: why-better-prompting-matters-more-as-ai-moves-into.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 184b1ebf1] feat: Auto-post aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   c4b898ebc..184b1ebf1  main -> main
+Created post: aws-bets-on-frontier-agents-as-the-next-era-of-ent.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c515c5452] feat: Auto-post paradigm-backed-succinct-launches-iphone-camera-ap.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/paradigm-backed-succinct-launches-iphone-camera-ap.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   dee348cfb..c515c5452  main -> main
+Created post: paradigm-backed-succinct-launches-iphone-camera-ap.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4053450bc] feat: Auto-post japan-ruling-party-seeks-ai-penalties-over-deepfak.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/japan-ruling-party-seeks-ai-penalties-over-deepfak.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   1398f01d0..4053450bc  main -> main
+Created post: japan-ruling-party-seeks-ai-penalties-over-deepfak.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 7e421f21b] feat: Auto-post generative-ai-tariff-tools---trend-hunter.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-tariff-tools---trend-hunter.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   280f9f451..7e421f21b  main -> main
+Created post: generative-ai-tariff-tools---trend-hunter.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e67f4bcdf] feat: Auto-post vodafone-and-google-cloud-launch-ai-security-and-c.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/vodafone-and-google-cloud-launch-ai-security-and-c.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   aa4052911..e67f4bcdf  main -> main
+Created post: vodafone-and-google-cloud-launch-ai-security-and-c.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 07ac2b48c] feat: Auto-post tech-talk--ai-vs-ai-how-msps-can-defend-against-th.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/tech-talk--ai-vs-ai-how-msps-can-defend-against-th.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   e3600624d..07ac2b48c  main -> main
+Created post: tech-talk--ai-vs-ai-how-msps-can-defend-against-th.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 8d98e5211] feat: Auto-post our-view-pump-the-brakes-on-generative-ai---theonl.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/our-view-pump-the-brakes-on-generative-ai---theonl.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   be005c88e..8d98e5211  main -> main
+Created post: our-view-pump-the-brakes-on-generative-ai---theonl.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 89240fda2] feat: Auto-post youtube-offers-deepfake-detection-to-hollywood---f.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/youtube-offers-deepfake-detection-to-hollywood---f.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   82a9b8324..89240fda2  main -> main
+Created post: youtube-offers-deepfake-detection-to-hollywood---f.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6a1f0824f] feat: Auto-post viral-horror-aesthetic-tests-reveal-a-new-commerci.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/viral-horror-aesthetic-tests-reveal-a-new-commerci.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ba69d63c4..6a1f0824f  main -> main
+Created post: viral-horror-aesthetic-tests-reveal-a-new-commerci.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 777e40faa] feat: Auto-post meta-will-cut-10-of-workforce-as-company-pushes-de.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/meta-will-cut-10-of-workforce-as-company-pushes-de.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   bbebfb6e2..777e40faa  main -> main
+Created post: meta-will-cut-10-of-workforce-as-company-pushes-de.md

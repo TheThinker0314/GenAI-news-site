@@ -1,0 +1,9 @@
+---
+title: "Japan ruling party seeks AI penalties over deepfakes, piracy - upi.com"
+date: 2026-04-24T00:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYnM2bGgybFJfSjNZMXhnOW4wckFDLVFVOGxSVi0tTWhvVm9KTHNrbEY1eERRQ0h4V1N1NDVENUx1SW1vc28xS0Jubi1tdUVGU1BucEI5cXdZTmdNcFhZTDJnSGZQSXhYNXgtNV9JT0JSaFZSZ0RYeUdQaERrOFFXQTVoMzRLeVpLYTF6TFlvdUZrM0UyQ2xjM29TNDM3SEhfczI2cC1Fa2RRWUNBWEtDVjBBb2ZxWDFr0gG-AUFVX3lxTE1XcnhPb2JWOFN5RDhNT0hRRGJoMGRWUUM5N2hyYXBTaW5jRWJMNHQtY2ktallCSk1fTV8yMGhpZzUwT0hUZERYTUxNUjY4VjNjVnZrZWY4WVEyUWJscHJuQXhSakVROVkxdTVzSVRqUUxhQ29iV1c0endwekdJT3duczFFVWZXMV9EUy1fVVZ1REY2UnhnRFNvRm0xUVBMaWVpUmg0cHozQkhCdDIzODlBenNMN0t1YjVjY2FQcmc?oc=5)
