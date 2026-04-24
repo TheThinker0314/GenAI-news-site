@@ -4761,3 +4761,11 @@ Created post: japan-ruling-party-seeks-ai-penalties-over-deepfak.md
 To github.com:TheThinker0314/GenAI-news-site.git
    280f9f451..7e421f21b  main -> main
 Created post: generative-ai-tariff-tools---trend-hunter.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main e67f4bcdf] feat: Auto-post vodafone-and-google-cloud-launch-ai-security-and-c.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/vodafone-and-google-cloud-launch-ai-security-and-c.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   aa4052911..e67f4bcdf  main -> main
+Created post: vodafone-and-google-cloud-launch-ai-security-and-c.md
