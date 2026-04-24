@@ -5156,3 +5156,11 @@ Created post: protecting-consumers-from-deceptive-ai-act-to-esta.md
 To github.com:TheThinker0314/GenAI-news-site.git
    244aab3ac..5864c3466  main -> main
 Created post: former-openai-research-scientist-launches-new-ai-m.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 2436872c8] feat: Auto-post opinion--talking-buildings-and-pixar-like-avatars-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/opinion--talking-buildings-and-pixar-like-avatars-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   bfba0ff72..2436872c8  main -> main
+Created post: opinion--talking-buildings-and-pixar-like-avatars-.md
