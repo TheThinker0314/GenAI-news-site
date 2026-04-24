@@ -5164,3 +5164,11 @@ Created post: former-openai-research-scientist-launches-new-ai-m.md
 To github.com:TheThinker0314/GenAI-news-site.git
    bfba0ff72..2436872c8  main -> main
 Created post: opinion--talking-buildings-and-pixar-like-avatars-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b7c34e89c] feat: Auto-post the-sacramento-bees-use-of-ai-leads-to-protest-amo.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/the-sacramento-bees-use-of-ai-leads-to-protest-amo.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   9d8b0146f..b7c34e89c  main -> main
+Created post: the-sacramento-bees-use-of-ai-leads-to-protest-amo.md
