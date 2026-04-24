@@ -4785,3 +4785,11 @@ Created post: tech-talk--ai-vs-ai-how-msps-can-defend-against-th.md
 To github.com:TheThinker0314/GenAI-news-site.git
    be005c88e..8d98e5211  main -> main
 Created post: our-view-pump-the-brakes-on-generative-ai---theonl.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 89240fda2] feat: Auto-post youtube-offers-deepfake-detection-to-hollywood---f.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/youtube-offers-deepfake-detection-to-hollywood---f.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   82a9b8324..89240fda2  main -> main
+Created post: youtube-offers-deepfake-detection-to-hollywood---f.md
