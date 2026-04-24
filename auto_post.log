@@ -4942,3 +4942,11 @@ Created post: army-moves-to-develop-ai-agent-for-battlefield-dec.md
 To github.com:TheThinker0314/GenAI-news-site.git
    55cfc2583..572a515e4  main -> main
 Created post: artificial-intelligence-key-updates-and-developmen.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 704a2d5a8] feat: Auto-post generative-ai-fuels-deepfakes-and-online-disinform.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/generative-ai-fuels-deepfakes-and-online-disinform.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   c74b03a75..704a2d5a8  main -> main
+Created post: generative-ai-fuels-deepfakes-and-online-disinform.md
