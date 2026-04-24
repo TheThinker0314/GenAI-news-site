@@ -4793,3 +4793,11 @@ Created post: our-view-pump-the-brakes-on-generative-ai---theonl.md
 To github.com:TheThinker0314/GenAI-news-site.git
    82a9b8324..89240fda2  main -> main
 Created post: youtube-offers-deepfake-detection-to-hollywood---f.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 6a1f0824f] feat: Auto-post viral-horror-aesthetic-tests-reveal-a-new-commerci.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/viral-horror-aesthetic-tests-reveal-a-new-commerci.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   ba69d63c4..6a1f0824f  main -> main
+Created post: viral-horror-aesthetic-tests-reveal-a-new-commerci.md
