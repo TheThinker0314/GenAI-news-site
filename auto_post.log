@@ -5148,3 +5148,11 @@ Error: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status
 To github.com:TheThinker0314/GenAI-news-site.git
    3954b526b..244aab3ac  main -> main
 Created post: protecting-consumers-from-deceptive-ai-act-to-esta.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 5864c3466] feat: Auto-post former-openai-research-scientist-launches-new-ai-m.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/former-openai-research-scientist-launches-new-ai-m.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   244aab3ac..5864c3466  main -> main
+Created post: former-openai-research-scientist-launches-new-ai-m.md
