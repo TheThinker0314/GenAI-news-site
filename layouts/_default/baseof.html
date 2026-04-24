@@ -12,7 +12,7 @@
       body { font-family: 'Inter', sans-serif; }
       .glass-nav { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       .gradient-text { background: linear-gradient(to right, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-      .card-hover:hover { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); border-color: rgba(96, 165, 250, 0.5); transition: all 0.3s ease; }
+      .card-hover:hover, .card-hover:focus-within { transform: translateY(-4px); box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); border-color: rgba(96, 165, 250, 0.5); transition: all 0.3s ease; }
     </style>
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   </head>
