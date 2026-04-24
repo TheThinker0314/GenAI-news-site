@@ -5062,3 +5062,11 @@ Created post: from-algorithms-to-antimicrobials-ai-model-generat.md
 To github.com:TheThinker0314/GenAI-news-site.git
    ca6dd62c2..1b8592230  main -> main
 Created post: japan-to-protect-celebrity-voices-against-ai-use--.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 192eee2d8] feat: Auto-post ai-litigation-trends-rapid-growth-and-emerging-pat.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/ai-litigation-trends-rapid-growth-and-emerging-pat.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   2224b19f2..192eee2d8  main -> main
+Created post: ai-litigation-trends-rapid-growth-and-emerging-pat.md
