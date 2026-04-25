@@ -5238,3 +5238,11 @@ Created post: feature-south-korean-workers-learn-ai-after-work-o.md
 To github.com:TheThinker0314/GenAI-news-site.git
    266479d37..4d2f2bb04  main -> main
 Created post: google-cloud-next-2026-expanding-ai-agent-adoption.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main b818a530b] feat: Auto-post hippocratic-ai-expands-footprint-partners-with-lea.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/hippocratic-ai-expands-footprint-partners-with-lea.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   df9e0739a..b818a530b  main -> main
+Created post: hippocratic-ai-expands-footprint-partners-with-lea.md
