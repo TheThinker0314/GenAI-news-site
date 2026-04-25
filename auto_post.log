@@ -5214,3 +5214,11 @@ Created post: manchester-schools-revise-ai-policy-for-ethics-tra.md
 To github.com:TheThinker0314/GenAI-news-site.git
    aa46cd410..c36b108fd  main -> main
 Created post: oracle-1-on-spider-20-lite-with-soma-sql---oracle-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c846c6e2c] feat: Auto-post who-is-liable-for-ai-generated-customer-responses-.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/who-is-liable-for-ai-generated-customer-responses-.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   f1d3aadd1..c846c6e2c  main -> main
+Created post: who-is-liable-for-ai-generated-customer-responses-.md
