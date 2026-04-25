@@ -5222,3 +5222,11 @@ Created post: oracle-1-on-spider-20-lite-with-soma-sql---oracle-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    f1d3aadd1..c846c6e2c  main -> main
 Created post: who-is-liable-for-ai-generated-customer-responses-.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main fdbfea5ae] feat: Auto-post feature-south-korean-workers-learn-ai-after-work-o.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/feature-south-korean-workers-learn-ai-after-work-o.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   f695fa0c1..fdbfea5ae  main -> main
+Created post: feature-south-korean-workers-learn-ai-after-work-o.md
