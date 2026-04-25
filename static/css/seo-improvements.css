@@ -27,6 +27,17 @@ a {
 a:hover {
     color: #1d4ed8;
     text-decoration: underline;
+<<<<<<< Updated upstream
+}
+
+.nav-header {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #fff;
+=======
+>>>>>>> Stashed changes
 }
 
 .nav-header {
