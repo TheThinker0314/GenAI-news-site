@@ -5230,3 +5230,11 @@ Created post: who-is-liable-for-ai-generated-customer-responses-.md
 To github.com:TheThinker0314/GenAI-news-site.git
    f695fa0c1..fdbfea5ae  main -> main
 Created post: feature-south-korean-workers-learn-ai-after-work-o.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main 4d2f2bb04] feat: Auto-post google-cloud-next-2026-expanding-ai-agent-adoption.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/google-cloud-next-2026-expanding-ai-agent-adoption.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   266479d37..4d2f2bb04  main -> main
+Created post: google-cloud-next-2026-expanding-ai-agent-adoption.md
