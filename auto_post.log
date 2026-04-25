@@ -5254,3 +5254,11 @@ Created post: hippocratic-ai-expands-footprint-partners-with-lea.md
 To github.com:TheThinker0314/GenAI-news-site.git
    79d026d07..466b1d2e7  main -> main
 Created post: japan-protects-celebrity-voices-against-ai-use---l.md
+/home/ubuntu/.openclaw/workspace/GenAI-news-site/auto_post.py:39: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  date_str = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+[main c3dfabc98] feat: Auto-post interest-in-ai-music-declines-most-among-young-lis.md
+ 1 file changed, 9 insertions(+)
+ create mode 100644 content/posts/interest-in-ai-music-declines-most-among-young-lis.md
+To github.com:TheThinker0314/GenAI-news-site.git
+   77eb698ba..c3dfabc98  main -> main
+Created post: interest-in-ai-music-declines-most-among-young-lis.md
