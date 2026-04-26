@@ -1,0 +1,9 @@
+---
+title: "Buyers and brands keep an AI eye on each other in fast-changing dynamics - Business Standard"
+date: 2026-04-26T19:00:01Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUnl5RkVnRlU3SHlsWTRKenRVaGh0YjlzaVhPOTctbk00OEFWNGI4aFpReXBaSEpDTE9GSjJxYmNiNWtMLTZkR18wc2trYU1xUWdUUldIZ3JlQmEtUm1CdHdQLVFwQnRLSkowV3JoWklhRlFJeVk3RVQxT0FFQzhaZGticnZ5cm44dlpTUmJkREdqR1dpczRDVHY2WWJLZFV3LXJlem53TTIzaWFwV3hnYnZXaUxzeE5oWHdWR0sxVDhlX0hwT0ZhMVl3bzc3TUo4N1k5RHg0Yno1d9IB3wFBVV95cUxNZXZmeWNfM1BmNDZtS1VRMXJMdGdjcXpUVGVfekQ1QUs4SkU5dERmVlB1YWx2SGtiZ0M4OUxqcDFiYzlJN2lNQk1iOEJVWWdBb1llbEpvWTV3QUpNOUxSeFVBRmVQdXBxNEhYMkJRUC02R01WeXNSRmVuaTdmZ0Q0RDd6cV9lS0tpb3pnMnd1V2Q4eVJ3V1FsZWhrbzlWX0tvOWx2NTUwcTZxMHdPTnlkaTRoNllMNXcwdjQwZEpXNTh5aFhnc0M5YlRyVlQ2NnZfREFycEhxVFlWbVFNVndv?oc=5)
