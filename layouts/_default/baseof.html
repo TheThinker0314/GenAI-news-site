@@ -2,6 +2,8 @@
 <html lang="{{ site.LanguageCode }}" class="scroll-smooth">
   <head>
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Description | default .Summary }}{{ end }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ partial "head.html" . }}
     {{ partial "seo.html" . }}
     <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
