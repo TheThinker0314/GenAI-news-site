@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ubuntu/.openclaw/workspace/GenAI-news-site
+cd /home/ubuntu/GenAI-news-site
 
 # 1. Update CSS
 mkdir -p static/css
