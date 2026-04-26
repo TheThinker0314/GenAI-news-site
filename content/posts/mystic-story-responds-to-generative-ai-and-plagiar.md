@@ -1,0 +1,9 @@
+---
+title: "Mystic Story Responds To Generative AI And Plagiarism Allegations In Billlie’s New Album - Outlook India"
+date: 2026-04-26T11:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNS2txeWZxcDB6dzJqb19TeXY0aEpDUDBxWXdjQ1QwU0xjZzE5NzcxcjI2cWlQYVRKdlhRSk1OeklGSkVpWkFlVU55YW4xRzc3aldoU2JuWlpEYjRuM0RCUkdJRGFzZkEtd0Q0VlZZcDEtQmhpTEV2d0p3SGVWeFpCVGFNWEhtd3NaVDRCQlJhaEhDRVB1aTV2b1BDN1FiX0Q2Zzc2LUtEa1phblpLODNUYzR0QlpIblBxVktUOUo1RHZNVGRmT1Z6TUJNTkFFV3QxTXhXRUVBR0ZPZ9IB5wFBVV95cUxOaGdZMm1vb0w3QTFpY1NlX1Q2Wm85V0lrNVhMOEJMa21fMHZEN0taQTNoWmJfeVN1M3Y1X2VaN0V0SUhpZDBrRjVBQ1lZTlZlMkFxMkdRNWV5Q09faDlrdlI2ZXNVdTl2d19jTjkyVUVJWnA0YmZpdl9ncl9ocWlBRVBIWFcxVGxUMzFRcG1kczZIVmxPSktHcjFsVElBTU1hYWlqNFFwMXRsNnkydWhzeVBvallXME5tMExQZ2FIU2VzUVdyNEVOWWFFek1EZXRLbV82eE1HQzBERmliU1ZWV1RUdGRjVms?oc=5)
