@@ -1,6 +1,10 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
+<<<<<<< HEAD
 title = "GenAI News - Latest AI & LLM Updates"
+=======
+title = "GenAI News - Latest AI title = "GenAI News - Latest AI title = "GenAI News - Latest AI title = "GenAI News - Latest AI & LLM Updates" LLM Updates" LLM Updates" LLM Updates"
+>>>>>>> bb42b31ec (SEO & UX: Enhance typography, contrast, layout, and meta tags)
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications."
