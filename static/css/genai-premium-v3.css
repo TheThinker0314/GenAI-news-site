@@ -1,0 +1,40 @@
+/* GenAI Premium Design Enhancements v3 */
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f2937;
+  --bg-color: #f9fafb;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+.article-title {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--primary-color);
+}
+
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .article-title {
+    font-size: 1.5rem;
+  }
+}
