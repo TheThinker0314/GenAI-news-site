@@ -1,0 +1,46 @@
+/* 2026 GenAI SEO & Design Upgrade v5 */
+:root {
+  --primary-bg: #ffffff;
+  --text-main: #1a202c;
+  --accent-color: #2563eb;
+  --border-radius: 8px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-main);
+  line-height: 1.7;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.card {
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  article {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
