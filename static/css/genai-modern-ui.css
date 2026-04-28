@@ -1,0 +1,13 @@
+/* genai-modern-ui.css */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.article-title {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+.site-header {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
