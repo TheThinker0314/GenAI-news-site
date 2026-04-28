@@ -1,0 +1,9 @@
+---
+title: "IISER Pune allows default use of generative AI for assignments and research papers - The Indian Express"
+date: 2026-04-28T09:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbGdqcjhBa0d3NHAwcFlhbjcyMHNxVTlwWVZTMVVBdGV2Q0oxTTctOEVZZ1dxbUdmOWJZUmlVMDBQTWhjRm1GVnJJZl9Wenhqem12S05XM05NZllaQ0lLUUNqRmhSU0tya1VnaWEtclFWVlFlSjVVSUlsZ1pYS2VJYWhUdXJkajBfQU1nM3ZiaEpyQ3ZqM2VEVlYtdWpYRTNxX1p3Ql9GQk5tR3RLb3JMWHhnYWh2VXFwa0d6MC1kMFRvSEVZLW4wZtIBzwFBVV95cUxOWnBWTHB6dlRJSFZFNHhKdnZPSlplUlo2Rk41bTM2aHB1bEQ4TkdrNE1CbEpXWkZ2c28zMkxndkJFM1pIcWJNNXpoWUF4QXVEcW5UVHBmMEktdXY0WVNNM3VRVUEwS1dTM2dfYzRKNnladDZsVHRPcFJGd2RldGZwYWRFVFo0Wmk1MUJOd0ZCWVh1YXFpenhUS3ZjdGdDU1F3UWx6T1hGY1BaeXBnSDVmT015SEplU0ZkbFBTOFRVZ296MWszLXR3YVZFSlNSbEU?oc=5)
