@@ -1,5 +1,5 @@
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
-<meta name="keywords" content="{{ delimit site.Params.keywords ", " }}">
+<meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ delimit site.Params.keywords ", " }}{{ end }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}">
 <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
@@ -14,3 +14,32 @@
 <meta name="twitter:image" content="{{ index site.Params.seo.images 0 | absURL }}">
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if .IsPage }}Article{{ else }}WebSite{{ end }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}",
+  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ "images/logo.png" | absURL }}"
+    }
+  }{{ if .IsPage }},
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.Params.author | default site.Title }}"
+  },
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}"
+  {{ end }}
+}
+</script>
