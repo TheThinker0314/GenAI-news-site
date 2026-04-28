@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News - Premium AI & LLM Updates 2026"
+title = "GenAI News - Premium AI, LLM & Tech Updates 2026"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications."
