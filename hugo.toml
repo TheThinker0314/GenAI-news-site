@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News - Latest AI title = "GenAI News - Latest AI & LLM Updates" LLM Updates"
+title = "GenAI News - Latest AI & LLM Updates"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications."
@@ -18,7 +18,7 @@ summaryLength = 60
   site_logo = "/images/logo.png"
   favicon = "/images/favicon.ico"
   env = "production"
-  custom_css = ["css/custom.css", "css/seo-improvements.css", "css/nav.css", "css/design-upgrade.css", "css/genai-premium.css", "css/modern-ui.css"]
+  custom_css = ["css/custom.css", "css/seo-improvements.css", "css/nav.css", "css/design-upgrade.css", "css/genai-premium.css", "css/modern-ui.css", "css/genai-premium-v2.css"]
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
   rssLimit = 30
