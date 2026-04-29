@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* GenAI Premium Design Enhancements v3 */
 :root {
   --primary-color: #2563eb;
@@ -37,4 +38,42 @@ body {
   .article-title {
     font-size: 1.5rem;
   }
+=======
+/* Premium V3 Design Upgrade */
+:root {
+  --primary-color: #4f46e5;
+  --secondary-color: #10b981;
+  --bg-color: #fafafa;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+}
+
+.premium-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.premium-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+>>>>>>> dc7d869e9 (SEO & Design Improvements: Added premium V3 CSS and updated config)
 }
