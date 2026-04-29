@@ -1,0 +1,32 @@
+/* V19 Premium SEO & Design Enhancements */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.7;
+    color: #e2e8f0;
+    background-color: #0f172a;
+}
+h1, h2, h3 {
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    color: #f8fafc;
+}
+a {
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+.article-content {
+    max-width: 65ch;
+    margin: 0 auto;
+}
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.seo-breadcrumb {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    margin-bottom: 1rem;
+}
