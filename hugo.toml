@@ -4,7 +4,7 @@ title = "GenAI News - Premium AI & LLM Updates 2026"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications."
-keywords = ["Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic"]
+keywords = ["Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents"]
 
 enableRobotsTXT = true
 enableGitInfo = true
@@ -65,3 +65,4 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
+= "tags"
