@@ -1,0 +1,28 @@
+/* SEO & UI Improvements v16 */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;
+    letter-spacing: -0.02em;
+}
+.article-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.seo-optimized-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: #007bff;
+    color: white;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.meta-description-hint {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
