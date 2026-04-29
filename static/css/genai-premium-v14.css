@@ -1,0 +1,26 @@
+/* Modernized GenAI 2026 UI Update */
+:root {
+  --genai-primary: #1E293B;
+  --genai-accent: #3B82F6;
+  --genai-text: #F8FAFC;
+  --genai-bg: #0F172A;
+}
+body {
+  background-color: var(--genai-bg);
+  color: var(--genai-text);
+  font-family: 'system-ui', -apple-system, sans-serif;
+  line-height: 1.7;
+}
+h1, h2, h3 {
+  color: var(--genai-accent);
+  letter-spacing: -0.025em;
+}
+.article-card {
+  border-radius: 12px;
+  background: var(--genai-primary);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: transform 0.2s;
+}
+.article-card:hover {
+  transform: translateY(-4px);
+}
