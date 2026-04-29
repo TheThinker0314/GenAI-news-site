@@ -65,3 +65,4 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
+googleAnalytics = 'G-XXXXXXXXXX'
