@@ -1,0 +1,9 @@
+---
+title: "KAYAK Ask AI Launch Puts Booking Holdings Generative AI Plans In Focus - simplywall.st"
+date: 2026-04-29T21:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQzYyRkxZbW5mcVotSy02clBLM3U2MmJLWVY1UHlRX0pOTF91cmZpVjBvY3ZIT0JhWk9pdksxd2JZTWwtQWgtR2VtbFFBN1h0aXlueWJLLUNrb1VpaXZWZ3lhRUowMlp5cmtKamZOYmxleGdQdDZ5UjZoM0pJVDlLb24xWDJqMnhaTnI2TGlIZTNXbVBqTERFeUMtTkdUOXpXVGZqT3JvVDdSQnZQMS1WbFU3MnVpTUlRMjFmLXpZa21ISHlvTVFOaGlYZGNrWlRSSzB1c0xvajFSMzJs0gHiAUFVX3lxTE1EVjhuOWxhWC0xY3A2aEotZktUYlBqM2J1aXVJRUJiOXI0S09OTThDRmN6bF9Id3JQbUVuQUF3bDFJLUNrRkl0dXRuLUZnVVpGcE1UX1hJYTJEeTFSWGRQNk9MMDM3bi1lNm91bjFxRDhPdXpTcy1GclBHLVJuWGtQenhrd2p5bW9PQXlEN2pJZzRNNVZqWk9LRkdPV2laUUFBcXpCZld0eHIxQm9WR0txMEVkTmoySGVJOGhlNXRhMkk2R2lnRUJKdmEyb0FROF80OFljSWNPd2M0UGtfMkpsbGc?oc=5)
