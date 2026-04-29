@@ -1,0 +1,17 @@
+/* V15 SEO and Design Updates */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.7;
+}
+.premium-card {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+.premium-card:hover {
+  transform: translateY(-4px);
+}
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  color: #111827;
+}
