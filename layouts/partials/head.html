@@ -1,12 +1,4 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}Stay updated with the latest news, trends, and breakthroughs in Generative AI.{{ end }}">
-<meta name="keywords" content="Generative AI, AI News, Artificial Intelligence, Machine Learning, Deep Learning, ChatGPT, LLMs">
-<meta property="og:title" content="{{ .Title }} | GenAI News">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}Stay updated with the latest news, trends, and breakthroughs in Generative AI.{{ end }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ .Title }} | GenAI News">
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}Stay updated with the latest news, trends, and breakthroughs in Generative AI.{{ end }}">
-<title>{{ .Title }} | GenAI News</title>
+{{ partial "seo.html" . }}
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
