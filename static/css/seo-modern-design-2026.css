@@ -1,0 +1,50 @@
+/* 2026 Modern Design & SEO Enhancements */
+:root {
+  --primary: #2563eb;
+  --secondary: #1d4ed8;
+  --text-main: #1f2937;
+  --text-muted: #4b5563;
+  --bg-main: #ffffff;
+  --bg-offset: #f3f4f6;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Montserrat', var(--font-sans);
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-main);
+  background: var(--bg-main);
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #111827;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+article {
+  max-width: 65ch;
+  margin: 0 auto;
+  font-size: 1.125rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
