@@ -1,0 +1,19 @@
+/* SEO & Design Improvement for 2026 */
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #f4f4f5;
+    background-color: #09090b;
+}
+h1, h2, h3 {
+    letter-spacing: -0.02em;
+    font-weight: 700;
+}
+.article-content {
+    max-width: 65ch;
+    margin: 0 auto;
+}
+.seo-optimized-header {
+    padding: 2rem 0;
+    text-align: center;
+}
