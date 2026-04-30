@@ -1,0 +1,9 @@
+---
+title: "Teens forming deeper connections with generative AI, study finds - NBC Boston"
+date: 2026-04-30T04:00:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMivwFBVV95cUxNVTNEY3JpM1VXOG42aE1xdlU4NWxEeUlEWG5fZU91dnExbTFWOUVtSWRGaTNxRFpuNkhwWE5jTWxTckFCY193aEEyTERFX2JSbV8wSFBZazVTMFlYY09RQXdlTjVxQldvTWRrYm1TVFFzRmlTc0RJNWlrcGRSakNQam43OVBoV3dfeTlUd3pkcVFoSzROTVhNbHBZeHA1ejRNMHBHa3c0VWExT0pERFBhRzhFU1pnTGEwTmRaZWNPQdIBxwFBVV95cUxQZi1uOUk5a01TT2w5VXZCLUN1OGpTTTZPSmRhRnhxM2NjLTFJZTdiMk5yMHFlczY3dGNRdmw2T3g4clFHaHlKQ1hVcXlJcDhIQnlCenZwXzRBam1nNEl3RGEtWldOWXFncEExUUdXZkt3ZFJIcGxneGFHN1BDU01Ub2hvaXdHc3BMY2dRek5QalBxeUVRV1BxcDJRaklzdGlVMlFBSG1rMm5ZQUdVYVhJSFZjRnlJcDdoTXNCWDhYNmJqdTVndG8w?oc=5)
