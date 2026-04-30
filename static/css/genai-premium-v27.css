@@ -1,0 +1,25 @@
+/* GenAI Premium UI V27 */
+:root {
+  --primary: #2563eb;
+  --secondary: #10b981;
+  --bg-dark: #0f172a;
+  --text-main: #f8fafc;
+}
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+.article-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+.article-card:hover {
+  transform: translateY(-4px);
+}
