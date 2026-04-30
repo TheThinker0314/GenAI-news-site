@@ -1,0 +1,66 @@
+#!/bin/bash
+git pull origin main || true
+
+cat << 'INNER_EOF' > static/css/genai-premium-v102.css
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color: #111827;
+    color: white;
+    padding: 2.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+}
+article {
+    background: white;
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+article h2 {
+    color: #111827;
+    margin-top: 0;
+    font-size: 1.75rem;
+}
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+INNER_EOF
+
+sed -i 's/genai-premium-v101.css/genai-premium-v102.css/g' layouts/partials/head-additions.html
+
+# Ensure open graph and twitter cards are fully complete in head-additions
+# Already checked that they exist.
+
+git add static/css/genai-premium-v102.css layouts/partials/head-additions.html
+git commit -m "feat: GenAI Site Improvements - Update CSS to v102 with better typography and shadow transitions, SEO maintained"
+git push origin main
