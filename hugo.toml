@@ -4,13 +4,13 @@ title = "GenAI News - Premium AI & LLM Updates 2026"
 theme = 'ananke'
 
 description = "Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications. Get premium AI & LLM updates for 2026."
-keywords = ["Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News"]
 
 enableRobotsTXT = true
 enableGitInfo = true
 summaryLength = 60
 
 [params]
+  keywords = ["Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News"]
   author = "GenAI News Editorial Team"
   description = "Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations."
   theme_color = '#1b1b1b'
@@ -18,7 +18,7 @@ summaryLength = 60
   site_logo = "/images/logo.png"
   favicon = "/images/favicon.ico"
   env = "production"
-  custom_css = ["css/seo-modern-design-2026.css", "css/genai-premium-v22.css"]
+  custom_css = ["css/seo-modern-design-2026.css", "css/genai-premium-v23.css"]
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
   rssLimit = 30
