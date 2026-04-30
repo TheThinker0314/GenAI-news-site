@@ -1,0 +1,50 @@
+/* GenAI Premium Design v24 */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #f4f4f5;
+    background-color: #09090b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #fafafa;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+article {
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header {
+    border-bottom: 1px solid #27272a;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: #18181b;
+    border: 1px solid #27272a;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
