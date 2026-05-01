@@ -1,0 +1,7 @@
+body { font-family: 'Inter', -apple-system, sans-serif; background-color: #0d1117; color: #c9d1d9; }
+h1, h2, h3 { color: #58a6ff; font-weight: 700; }
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.post-title { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.post-summary { font-size: 1.125rem; color: #8b949e; line-height: 1.6; }
+.site-header { border-bottom: 1px solid #30363d; padding-bottom: 1rem; margin-bottom: 2rem; }
