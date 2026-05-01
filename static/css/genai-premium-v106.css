@@ -1,0 +1,5 @@
+body { font-family: 'Inter', sans-serif; background: #0a0a0a; color: #ffffff; }
+h1, h2, h3 { color: #f0f0f0; }
+a { color: #1e90ff; text-decoration: none; }
+a:hover { text-decoration: underline; color: #63b8ff; }
+.premium-card { background: #1a1a1a; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
