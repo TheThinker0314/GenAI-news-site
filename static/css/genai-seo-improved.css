@@ -1,19 +1,35 @@
-/* SEO & Design Improvement for 2026 */
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    color: #f4f4f5;
-    background-color: #09090b;
+    color: #333;
+    background-color: #f8f9fa;
 }
-h1, h2, h3 {
-    letter-spacing: -0.02em;
-    font-weight: 700;
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.article-content {
-    max-width: 65ch;
-    margin: 0 auto;
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-weight: 600;
 }
-.seo-optimized-header {
-    padding: 2rem 0;
-    text-align: center;
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+.content, .post {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
