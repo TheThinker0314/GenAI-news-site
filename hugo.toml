@@ -65,3 +65,9 @@ summaryLength = 60
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[params]
+  description = "The latest GenAI news and insights, updated automatically."
+  author = "GenAI Bot"
+  theme_color = "#2A2A2A"
+
