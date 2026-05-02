@@ -1,38 +1,13 @@
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="{{ if .IsHome }}{{ site.Params.description | default "Stay updated with the latest news, trends, and breakthroughs in Generative AI." }}{{ else }}{{ .Summary | default .Description | default site.Params.description | plainify | truncate 160 }}{{ end }}">
-    <meta name="keywords" content="Generative AI, AI News, Machine Learning, Artificial Intelligence, ChatGPT, Midjourney, LLM">
-    <meta name="author" content="{{ site.Title }}">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta property="og:description" content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Summary | default .Description | plainify | truncate 160 }}{{ end }}">
-    {{ if .Params.images }}
-    <meta property="og:image" content="{{ index .Params.images 0 | absURL }}">
-    {{ end }}
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ .Permalink }}">
-    <meta property="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
-    <meta property="twitter:description" content="{{ if .IsHome }}{{ site.Params.description }}{{ else }}{{ .Summary | default .Description | plainify | truncate 160 }}{{ end }}">
-    {{ if .Params.images }}
-    <meta property="twitter:image" content="{{ index .Params.images 0 | absURL }}">
-    {{ end }}
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="{{ .Permalink }}">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
-    
-    <!-- Tailwind CSS (Assuming it is used based on index.html classes) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Stay updated with the latest news, trends, and breakthroughs in Generative AI.">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3 { color: #2c3e50; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .post-meta { color: #7f8c8d; font-size: 0.9em; }
+    </style>
 </head>
