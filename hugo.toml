@@ -66,9 +66,4 @@ summaryLength = 60
   category = "categories"
   tag = "tags"
 
-googleAnalytics = "G-GENAINEWS2026"
 
-[params]
-  description = "The latest news and insights on Generative AI, LLMs, and Machine Learning."
-  author = "GenAI News Team"
-  keywords = ["GenAI", "AI", "LLM", "Machine Learning", "Artificial Intelligence", "News"]
