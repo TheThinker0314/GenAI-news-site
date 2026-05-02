@@ -10,7 +10,7 @@ enableGitInfo = true
 summaryLength = 60
 
 [params]
-  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics"]
+  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics", "Future AI 2026"]
   author = "GenAI News Editorial Team"
   description = "Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations."
   theme_color = '#121212'
