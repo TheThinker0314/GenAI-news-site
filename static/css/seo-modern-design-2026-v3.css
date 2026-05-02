@@ -1,0 +1,26 @@
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  line-height: 1.6;
+  color: #e5e7eb;
+  background-color: #0f172a;
+}
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #f8fafc;
+}
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #7dd3fc;
+}
+.premium-article {
+  border-radius: 12px;
+  background: #1e293b;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+}
