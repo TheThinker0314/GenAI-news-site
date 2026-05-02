@@ -1,0 +1,57 @@
+/* GenAI Premium Design - v31 */
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Merriweather', serif;
+    --background-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --accent-color: #4CAF50;
+    --heading-color: #ffffff;
+    --link-color: #81d4fa;
+    --link-hover-color: #b3e5fc;
+    --border-color: #333;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--secondary-font);
+    color: var(--heading-color);
+    font-weight: 700;
+}
+
+.article-title {
+    font-size: 3rem;
+    color: var(--heading-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.site-header {
+    background-color: #212121;
+    border-bottom: 1px solid var(--border-color);
+    padding: 1rem 0;
+}
+
+.article-content {
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.bg-near-black {
+    background-color: #111 !important;
+}
