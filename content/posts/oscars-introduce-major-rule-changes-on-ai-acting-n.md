@@ -1,0 +1,9 @@
+---
+title: "Oscars introduce major rule changes on AI, acting nominations and international films - The Express Tribune"
+date: 2026-05-03T02:30:02Z
+draft: false
+tags: ["GenAI", "News"]
+categories: ["News"]
+---
+
+[Read the full article here](https://news.google.com/rss/articles/CBMivgFBVV95cUxPdlFybnVNcEhMVGRhV3RRS1gyWk5WU3dVQy1qeENTVDVrWWx6QVp5MmlaWGVxSXlsc2w2cllGWnFkSVlFT0x4Zkt2ZXJ5WVR6T3VHUzlXSkRWd3pKOVJWeDVxYXhQM0VtTTM3WGhSNjNNcFNMYlFJZjh1Ri1YUDByMENicDZPUU12TFhySGN6WHBqWGJWTmxFSVBtdTZoOGVuMUdwNjRDWUQwUlRIU1pkb0hiVUZ5dTZici1Pc1pB0gHGAUFVX3lxTFB4MmNnVDdZTmZzQkI0Zms5Z2J1R2F2RWZ1ZmRyRFBVS1psTGF5VWtUZTNXcHkyaDZiSjlpWXd0aDlVaHNkZDhWclU1bkcwdTJ3OHhxODdxeTZCZTE2TnZxdWd6V0M3dVgtTUoxbmx5M1RjT0ZVR2dJbGJZMkpuVTEwdGVHbGdGSGVqUHQya2Myc0otVktlQVItSXI2Sm9vOUwtN2k4WDF1SlVSQWxyUS1QZkFEZ0gyMXNKUnlMWVNUQzgyRXVjUQ?oc=5)

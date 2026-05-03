@@ -1,0 +1,58 @@
+/* Modern GenAI Design System */
+:root {
+  --primary: #6366f1;
+  --secondary: #8b5cf6;
+  --background: #0f172a;
+  --surface: #1e293b;
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+  --spacing-unit: 8px;
+  --radius: 12px;
+  --transition: all 0.3s ease;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+.article-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: calc(var(--spacing-unit) * 3);
+  transition: var(--transition);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+  border-color: var(--primary);
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.tag {
+  background: rgba(99, 102, 241, 0.2);
+  color: var(--primary);
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}

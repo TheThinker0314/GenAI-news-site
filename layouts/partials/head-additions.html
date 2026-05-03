@@ -1,9 +1,8 @@
-<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}">
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}" />
-<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="{{ .Title }}"/>
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary | plainify | truncate 160 }}{{ end }}"/>
-<link rel="stylesheet" href="/css/genai-seo-improved.css">
+<meta name="description" content="GenAI News - The latest updates, trends, and breakthroughs in Artificial Intelligence and Generative AI.">
+<meta name="keywords" content="AI, Generative AI, ChatGPT, Machine Learning, Artificial Intelligence, News">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Summary | default "GenAI News - The latest updates in Artificial Intelligence." }}">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Summary | default "GenAI News - The latest updates in Artificial Intelligence." }}">

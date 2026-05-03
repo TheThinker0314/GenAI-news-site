@@ -1,24 +1,25 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News - The Latest in Artificial Intelligence & LLMs - Generative Tech 2026"
+title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents & LLMs"
 theme = 'ananke'
 
-description = "Discover the future: Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications. Get premium AI & LLM updates for 2026."
+description = "The latest GenAI news, trends, and tutorials for developers and enthusiasts."
 
 enableRobotsTXT = true
 enableGitInfo = true
 summaryLength = 60
 
 [params]
-  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics"]
+  customCSS = ["/css/custom.css"]
+  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "Autonomous Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics", "Future AI 2026", "AI Agents 2026", "Open Source AI", "AI in Business", "AI Regulation 2026", "Enterprise AI"]
   author = "GenAI News Editorial Team"
-  description = "Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations."
+  description = "The latest GenAI news, trends, and tutorials for developers and enthusiasts."
   theme_color = '#121212'
   background_color_class = "bg-near-black"
   site_logo = "/images/logo.png"
   favicon = "/images/favicon.ico"
   env = "production"
-  custom_css = ["css/seo-modern-design-2026.css", "css/genai-premium-v104.css", "css/genai-seo-improved.css", "css/seo-modern-design-v30.css", "css/genai-premium-v105.css"]
+  custom_css = ["css/styles-bundle.css"]
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
   rssLimit = 30
@@ -66,4 +67,4 @@ summaryLength = 60
   category = "categories"
   tag = "tags"
 
-  # SEO optimized on 2026-05-03
+
