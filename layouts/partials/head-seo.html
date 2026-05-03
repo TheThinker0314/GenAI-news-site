@@ -1,7 +1,5 @@
 <!-- Comprehensive SEO and UI/UX updates -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0f172a">
-<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ else }}{{ delimit .Site.Params.keywords ", " }}{{ end }}">
 <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
