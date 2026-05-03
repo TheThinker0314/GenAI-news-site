@@ -1,9 +1,9 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents & LLMs"
+title = "GenAI News 2026 - The Leading Source for AI, Agents title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents & LLMs" LLMs"
 theme = 'ananke'
 
-description = "Discover the future: Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications. Get premium AI & LLM updates for 2026."
+description = "The ultimate guide to Generative AI, LLMs, and AI Agents in 2026. Daily news, tutorials, and breakthroughs."
 
 enableRobotsTXT = true
 enableGitInfo = true
@@ -13,7 +13,7 @@ summaryLength = 60
   customCSS = ["/css/custom.css"]
   keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics", "Future AI 2026"]
   author = "GenAI News Editorial Team"
-  description = "Your daily source for the latest breakthroughs, deep-dive analysis, and emerging trends in the world of Generative Artificial Intelligence, Large Language Models (LLMs), ChatGPT updates, and AI innovations."
+  description = "The ultimate guide to Generative AI, LLMs, and AI Agents in 2026. Daily news, tutorials, and breakthroughs."
   theme_color = '#121212'
   background_color_class = "bg-near-black"
   site_logo = "/images/logo.png"
