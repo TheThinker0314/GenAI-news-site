@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News 2026 - The Leading Source for AI, Agents title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents & LLMs" LLMs"
+title = "GenAI News 2026 - The Leading Source for AI, Agents title = "GenAI News 2026 - The Leading Source for AI, Agents title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents & LLMs" LLMs" LLMs"
 theme = 'ananke'
 
 description = "The ultimate guide to Generative AI, LLMs, and AI Agents in 2026. Daily news, tutorials, and breakthroughs."
