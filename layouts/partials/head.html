@@ -1,17 +1,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#121212">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
-    <meta name="description" content="Stay updated with the latest news, trends, and breakthroughs in Generative AI.">
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
+    {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords "," }}">{{ else if site.Params.keywords }}<meta name="keywords" content="{{ delimit site.Params.keywords "," }}">{{ end }}
+    <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
+    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ site.Params.description }}{{ end }}">
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1, h2, h3 { color: #2c3e50; }
-        a { color: #3498db; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .post-meta { color: #7f8c8d; font-size: 0.9em; }
+        :root { --primary-color: #2c3e50; --link-color: #3498db; --text-color: #333; --bg-color: #fcfcfc; }
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; line-height: 1.6; color: var(--text-color); background-color: var(--bg-color); max-width: 900px; margin: 0 auto; padding: 20px 30px; }
+        h1, h2, h3 { color: var(--primary-color); letter-spacing: -0.02em; }
+        a { color: var(--link-color); text-decoration: none; border-bottom: 1px transparent solid; transition: border-bottom 0.2s ease-in-out; }
+        a:hover { border-bottom: 1px var(--link-color) solid; }
+        .post-meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 1rem; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        article { background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 2rem; }
     </style>
 </head>
-<!-- SEO Update -->
-<!-- SEO Update 2026 -->
-<meta name="description" content="Latest GenAI news, trends, and tutorials">
-<style>body { font-family: sans-serif; }</style>
