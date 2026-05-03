@@ -1,6 +1,6 @@
 baseURL = 'https://genai-news.com/'
 languageCode = 'en-us'
-title = "GenAI News - The Latest in Artificial Intelligence & LLMs"
+title = "GenAI News 2026 - The Latest in Artificial Intelligence, Agents title = "GenAI News - The Latest in Artificial Intelligence & LLMs" LLMs"
 theme = 'ananke'
 
 description = "Discover the future: Stay updated with the latest news, trends, and breakthroughs in Generative AI, LLMs, machine learning, and AI applications. Get premium AI & LLM updates for 2026."
@@ -18,7 +18,7 @@ summaryLength = 60
   site_logo = "/images/logo.png"
   favicon = "/images/favicon.ico"
   env = "production"
-  custom_css = ["css/seo-modern-design-2026.css", "css/genai-premium-v104.css", "css/genai-seo-improved.css", "css/seo-modern-design-v30.css", "css/genai-premium-v105.css", "css/seo-modern-design-2026-v2.css", "css/seo-modern-design-2026-v3.css", "css/seo-modern-design-2026-v4.css", "css/seo-modern-design-2026-vfinal.css"]
+  custom_css = ["css/seo-modern-design-2026-v21.css", "css/seo-modern-design-2026.css", "css/genai-premium-v104.css", "css/genai-seo-improved.css", "css/seo-modern-design-v30.css", "css/genai-premium-v105.css", "css/seo-modern-design-2026-v2.css", "css/seo-modern-design-2026-v3.css", "css/seo-modern-design-2026-v4.css", "css/seo-modern-design-2026-vfinal.css"]
   custom_js = ["js/custom.js"]
   googleAnalytics = "G-GENAINEWS123"
   rssLimit = 30
