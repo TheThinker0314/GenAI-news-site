@@ -11,7 +11,7 @@ summaryLength = 60
 
 [params]
   customCSS = ["/css/custom.css"]
-  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "Autonomous Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics", "Future AI 2026", "AI Agents 2026", "Open Source AI", "AI in Business"]
+  keywords = ["AI News 2026", "Generative Models", "Generative AI", "AI news", "LLM", "machine learning", "artificial intelligence", "ChatGPT", "Tech Trends", "Deep Learning", "Claude", "Gemini", "AI startups", "OpenAI", "Anthropic", "AGI", "AI Agents", "Autonomous Agents", "2026 Tech News", "AI Breakthroughs", "AI Future 2026", "Generative AI News", "Prompt Engineering", "Multimodal AI", "AI Ethics", "Future AI 2026", "AI Agents 2026", "Open Source AI", "AI in Business", "AI Regulation 2026", "Enterprise AI"]
   author = "GenAI News Editorial Team"
   description = "The ultimate guide to Generative AI, LLMs, and AI Agents in 2026. Daily news, tutorials, and breakthroughs."
   theme_color = '#121212'
